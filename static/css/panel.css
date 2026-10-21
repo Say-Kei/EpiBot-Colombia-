@@ -1,0 +1,57 @@
+/* Panel general — solo lo propio de esta página */
+
+/* Aviso de alerta crítica */
+.aviso {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 16px 20px;
+  padding: 20px 24px;
+  background: var(--critico-bg);
+  border-radius: var(--radio-m);
+  color: #6E1E3A;
+}
+.aviso__icono {
+  width: 52px; height: 52px; flex: none;
+  border-radius: 16px;
+  background: var(--blanco); color: var(--critico-pt);
+  display: flex; align-items: center; justify-content: center;
+}
+.aviso__textos { flex: 1 1 360px; }
+.aviso__etiqueta { font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.aviso__titulo {
+  font-family: var(--fuente-titulo); font-weight: 600;
+  font-size: 20px; line-height: 1.3; color: var(--rosa-oscuro);
+}
+.aviso__detalle { font-size: 15px; }
+
+.buscador--cabecera { flex: 0 1 360px; }
+
+/* Lista de alertas recientes */
+.alertas { display: flex; flex-direction: column; gap: 12px; }
+.alerta-item {
+  display: flex; align-items: center; gap: 16px;
+  padding: 16px;
+  border-radius: 16px;
+  background: #F8FBF9;
+  color: var(--tinta);
+  font-weight: 400;
+  text-decoration: none;
+}
+.alerta-item:hover { background: #EEF7F1; color: var(--tinta); }
+.alerta-item--critica { background: var(--rosa-fondo); }
+.alerta-item--critica:hover { background: var(--rosa-claro); }
+.alerta-item__textos { flex: 1; min-width: 0; }
+.alerta-item__titulo { font-weight: 700; font-size: 17px; }
+.alerta-item__fuente { font-size: 14px; color: var(--gris); }
+
+/* Mapa pequeño */
+.mapa--mini svg { max-width: 320px; }
+
+/* Lista de fuentes */
+.fuente-fila {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #E6F0EA;
+}
+.fuente-fila:last-child { border-bottom: 0; padding-bottom: 0; }
+.fuente-fila strong { font-weight: 700; }
+.estado-ok      { font-size: 14px; font-weight: 700; color: var(--verde-texto); }
+.estado-retraso { font-size: 14px; font-weight: 700; color: var(--alto-tx); }
