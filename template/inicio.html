@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panel general · Vigilancia de Patógenos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Lexend:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../static/base.css">
+  <link rel="stylesheet" href="../static/panel.css">
+</head>
+<body>
+<div class="app">
+
+  <!-- ===== MENÚ LATERAL (igual en todas las páginas) ===== -->
+  <nav class="sidebar" aria-label="Navegación principal">
+    <div class="logo">
+      <div class="logo__icono">
+        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="5"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg>
+      </div>
+      <div>
+        <div class="logo__nombre">Vigilancia de Patógenos</div>
+        <div class="logo__pais">Colombia</div>
+      </div>
+    </div>
+
+    <div class="menu">
+      <a class="menu__item" href="index.html" >
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-info-hexagon"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M19.875 6.27c.7 .398 1.13 1.143 1.125 1.948v7.284c0 .809 -.443 1.555 -1.158 1.948l-6.75 4.27a2.269 2.269 0 0 1 -2.184 0l-6.75 -4.27a2.225 2.225 0 0 1 -1.158 -1.948v-7.285c0 -.809 .443 -1.554 1.158 -1.947l6.75 -3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-.033" /><path d="M12 9h.01" /><path d="M11 12h1v4h1" /></svg>        Informacion
+      </a>
+      <a class="menu__item" href="inicio.html" aria-current="page">
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg>
+        Panel general
+      </a>
+      <a class="menu__item" href="busqueda.html">
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+        Búsqueda y mapa
+      </a>
+      <a class="menu__item" href="alerta.html">
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16v-5a6 6 0 0 1 12 0v5l2 2H4z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg>
+        <span class="menu__texto">Alertas</span>
+        <span class="contador">14</span>
+      </a>
+      <a class="menu__item" href="fuentes.html">
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+        Fuentes de información
+      </a>
+    </div>
+
+    <div class="estado">
+      <div class="estado__titulo"><span class="punto punto--bajo"></span>Sistema activo</div>
+      La IA está leyendo 6 fuentes. Última revisión hace 12 min.
+    </div>
+  </nav>
+
+  <!-- ===== CONTENIDO ===== -->
+  <main class="contenido">
+
+    <header class="encabezado">
+      <div class="encabezado__textos">
+        <h1>Panel general</h1>
+        <p>Martes 20 de octubre de 2026 · Datos ilustrativos para el prototipo</p>
+      </div>
+      <label class="buscador buscador--cabecera">
+        <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+        <span class="solo-lector">Buscar</span>
+        <input type="search" placeholder="Buscar patógeno o municipio">
+      </label>
+      <button class="boton-icono" type="button" aria-label="Notificaciones">
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16v-5a6 6 0 0 1 12 0v5l2 2H4z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg>
+      </button>
+      <div class="avatar" aria-label="Perfil">MJ</div>
+    </header>
+
+    <section class="aviso" aria-label="Alerta crítica">
+      <div class="aviso__icono">
+        <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18v.5"/></svg>
+      </div>
+      <div class="aviso__textos">
+        <div class="aviso__etiqueta">Alerta crítica · nueva</div>
+        <div class="aviso__titulo">Aumento inusual de casos de dengue en Valle del Cauca</div>
+        <div class="aviso__detalle">Confirmado por 4 fuentes en las últimas 72 horas.</div>
+      </div>
+      <a class="boton boton--peligro" href="alerta.html">Ver detalle →</a>
+    </section>
+
+    <section class="indicadores" aria-label="Indicadores">
+      <div class="indicador indicador--alerta">
+        <div class="indicador__nombre">Alertas activas</div>
+        <div class="indicador__valor">14</div>
+        <div class="indicador__extra"><strong>▲ 3 más que la semana pasada</strong></div>
+      </div>
+      <div class="indicador">
+        <div class="indicador__nombre">Patógenos vigilados</div>
+        <div class="indicador__valor">38</div>
+        <div class="indicador__extra">Virus, bacterias y parásitos</div>
+      </div>
+      <div class="indicador">
+        <div class="indicador__nombre">Reportes leídos hoy</div>
+        <div class="indicador__valor">126</div>
+        <div class="indicador__extra ok">De 6 fuentes oficiales y de prensa</div>
+      </div>
+      <div class="indicador">
+        <div class="indicador__nombre">Departamentos en alerta</div>
+        <div class="indicador__valor">9 <small>/ 32</small></div>
+        <div class="indicador__extra">2 críticos · 4 altos · 3 moderados</div>
+      </div>
+    </section>
+
+    <div class="fila">
+      <section class="tarjeta" aria-labelledby="mapa-t">
+        <div class="tarjeta__cabecera">
+          <h2 id="mapa-t">Mapa de riesgo</h2>
+          <a href="busqueda.html">Abrir mapa completo →</a>
+        </div>
+        <div class="mapa mapa--mini">
+          <svg role="img" aria-label="Mapa de Colombia con focos de alerta" viewBox="0 0 400 520">
+            <path class="mapa__pais" d="M234,4 L246,24 L219,45 L210,78 L198,105 L195,129 L213,156 L225,168 L282,168 L303,195 L360,192 L351,222 L366,255 L351,294 L369,318 L363,342 L291,330 L297,360 L288,411 L285,504 L264,492 L228,450 L180,414 L141,384 L120,381 L75,366 L21,336 L27,300 L63,258 L66,204 L48,162 L69,120 L81,120 L117,96 L120,66 L141,48 L159,39 L198,33 L219,21 Z"/>
+            <circle class="foco--critico halo" cx="89" cy="274" r="30"/><circle class="foco--critico" cx="89" cy="274" r="11"/>
+            <circle class="foco--critico halo" cx="210" cy="141" r="24"/><circle class="foco--critico" cx="210" cy="141" r="9"/>
+            <circle class="foco--alto halo" cx="118" cy="190" r="20"/><circle class="foco--alto" cx="118" cy="190" r="8"/>
+            <circle class="foco--alto halo" cx="192" cy="168" r="16"/><circle class="foco--alto" cx="192" cy="168" r="7"/>
+            <circle class="foco--alto halo" cx="129" cy="246" r="16"/><circle class="foco--alto" cx="129" cy="246" r="7"/>
+            <circle class="foco--moderado halo" cx="177" cy="253" r="14"/><circle class="foco--moderado" cx="177" cy="253" r="6"/>
+            <circle class="foco--moderado halo" cx="141" cy="48" r="14"/><circle class="foco--moderado" cx="141" cy="48" r="6"/>
+            <circle class="foco--bajo" cx="285" cy="490" r="6"/>
+            <circle cx="163" cy="237" r="4" fill="#173F2A"/>
+            <text class="mapa__etiqueta" x="170" y="232">Bogotá</text>
+          </svg>
+        </div>
+        <div class="leyenda">
+          <span><span class="punto punto--critico"></span>Crítico</span>
+          <span><span class="punto punto--alto"></span>Alto</span>
+          <span><span class="punto punto--moderado"></span>Moderado</span>
+          <span><span class="punto punto--bajo"></span>Bajo</span>
+        </div>
+      </section>
+
+      <section class="tarjeta ancha" aria-labelledby="rec-t">
+        <div class="tarjeta__cabecera">
+          <h2 id="rec-t">Alertas recientes</h2>
+          <a href="alerta.html">Ver todas →</a>
+        </div>
+        <div class="alertas">
+          <a class="alerta-item alerta-item--critica" href="alerta.html">
+            <div class="alerta-item__textos">
+              <div class="alerta-item__titulo">Dengue · Valle del Cauca</div>
+              <div class="alerta-item__fuente">Virus · INS, OPS y 2 medios locales · hace 2 h</div>
+            </div>
+            <span class="insignia nivel-critico"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18v.5"/></svg>Crítico</span>
+          </a>
+          <a class="alerta-item alerta-item--critica" href="alerta.html">
+            <div class="alerta-item__textos">
+              <div class="alerta-item__titulo">Tosferina · Norte de Santander</div>
+              <div class="alerta-item__fuente">Bacteria · INS y Secretaría de Salud · hace 5 h</div>
+            </div>
+            <span class="insignia nivel-critico"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18v.5"/></svg>Crítico</span>
+          </a>
+          <a class="alerta-item" href="alerta.html">
+            <div class="alerta-item__textos">
+              <div class="alerta-item__titulo">Oropouche · Antioquia</div>
+              <div class="alerta-item__fuente">Virus · ProMED y prensa regional · hace 9 h</div>
+            </div>
+            <span class="insignia nivel-alto"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v6M12 16.5v.5"/></svg>Alto</span>
+          </a>
+          <a class="alerta-item" href="alerta.html">
+            <div class="alerta-item__textos">
+              <div class="alerta-item__titulo">Malaria · Meta</div>
+              <div class="alerta-item__fuente">Parásito · Boletín INS · ayer</div>
+            </div>
+            <span class="insignia nivel-moderado"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M8 12h8"/></svg>Moderado</span>
+          </a>
+          <a class="alerta-item" href="alerta.html">
+            <div class="alerta-item__textos">
+              <div class="alerta-item__titulo">Fiebre amarilla · Amazonas</div>
+              <div class="alerta-item__fuente">Virus · OPS · hace 2 días</div>
+            </div>
+            <span class="insignia nivel-bajo"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>Bajo</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <div class="fila">
+      <section class="tarjeta ancha" aria-labelledby="tend-t">
+        <div>
+          <h2 id="tend-t">Reportes detectados por semana</h2>
+          <p class="nota">Semanas epidemiológicas 35 a 42 · la última semana supera el umbral</p>
+        </div>
+        <div class="barras">
+          <div class="barras__linea" style="bottom: 130px"></div>
+          <div class="barras__rotulo" style="right: 0; bottom: 134px; color: var(--critico-tx)">Umbral de alerta</div>
+          <div class="barra" style="height: 62px"></div>
+          <div class="barra" style="height: 70px"></div>
+          <div class="barra" style="height: 66px"></div>
+          <div class="barra" style="height: 84px"></div>
+          <div class="barra" style="height: 96px"></div>
+          <div class="barra" style="height: 118px"></div>
+          <div class="barra barra--sube" style="height: 150px"></div>
+          <div class="barra barra--alerta" style="height: 182px"></div>
+        </div>
+        <div class="semanas">
+          <span>S35</span><span>S36</span><span>S37</span><span>S38</span><span>S39</span><span>S40</span><span>S41</span><span class="actual">S42</span>
+        </div>
+      </section>
+
+      <section class="tarjeta" aria-labelledby="fu-t">
+        <div class="tarjeta__cabecera">
+          <h2 id="fu-t">Fuentes que lee la IA</h2>
+          <a href="fuentes.html">Ver fuentes →</a>
+        </div>
+        <div class="fuente-fila"><strong>INS · SIVIGILA</strong><span class="estado-ok">● Al día</span></div>
+        <div class="fuente-fila"><strong>OPS / OMS</strong><span class="estado-ok">● Al día</span></div>
+        <div class="fuente-fila"><strong>ProMED</strong><span class="estado-ok">● Al día</span></div>
+        <div class="fuente-fila"><strong>HealthMap</strong><span class="estado-ok">● Al día</span></div>
+        <div class="fuente-fila"><strong>Secretarías de Salud</strong><span class="estado-retraso">● Hace 6 h</span></div>
+        <div class="fuente-fila"><strong>Prensa regional</strong><span class="estado-ok">● Al día</span></div>
+      </section>
+    </div>
+
+  </main>
+</div>
+</body>
+</html>
