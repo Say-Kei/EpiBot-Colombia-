@@ -1,0 +1,368 @@
+/* =========================================================
+   PLANTILLA GENERAL — Vigilancia de Patógenos Colombia
+   Todas las páginas cargan este archivo primero.
+   Aquí viven: colores, tipografía, menú lateral, tarjetas,
+   insignias de alerta, botones, mapa y gráficas.
+   ========================================================= */
+
+/* ---------- 1. Variables (cambia aquí y cambia todo) ---------- */
+:root {
+  /* Verdes */
+  --verde-menta: #DFF2E6;      /* menú lateral */
+  --verde-claro: #D7F0DF;
+  --verde-suave: #BFE3CB;      /* barras normales */
+  --verde-borde: #CFE3D6;
+  --verde-borde-2: #DCEBE1;
+  --verde-medio: #6FA884;
+  --verde-ok: #4FA36F;
+  --verde-texto: #1E5C3A;
+  --verde-bosque: #173F2A;     /* títulos */
+  --verde-nav: #244935;
+
+  /* Rosas */
+  --rosa-pastel: #F4C6D3;      /* botón principal, acentos */
+  --rosa-claro: #FDEAF0;
+  --rosa-fondo: #FFF6F8;
+  --rosa-mapa: #FDF0F3;
+  --rosa-borde: #F2C2CF;
+  --rosa-barra: #EFA3B8;
+  --rosa-fuerte: #D8577C;
+  --rosa-oscuro: #5A1530;
+
+  /* Niveles de alerta: fondo / texto / punto */
+  --critico-bg: #FBD5DC;  --critico-tx: #8E1F3D;  --critico-pt: #C2335B;
+  --alto-bg: #FDE2CC;     --alto-tx: #7A3309;     --alto-pt: #E07B39;
+  --moderado-bg: #FBF0C4; --moderado-tx: #5E4800; --moderado-pt: #D4A72C;
+  --bajo-bg: #D7F0DF;     --bajo-tx: #1E5C3A;     --bajo-pt: #4FA36F;
+
+  /* Neutros */
+  --fondo: #F6FBF7;
+  --blanco: #FFFFFF;
+  --tinta: #1E2B25;
+  --gris: #4F6158;
+  --gris-2: #3F5A4B;
+
+  /* Tipografía */
+  --fuente-texto: 'Atkinson Hyperlegible', system-ui, sans-serif;
+  --fuente-titulo: 'Lexend', system-ui, sans-serif;
+
+  /* Formas */
+  --radio-s: 14px;
+  --radio-m: 20px;
+  --radio-l: 24px;
+  --sombra: 0 1px 2px rgba(23, 63, 42, .08);
+}
+
+/* ---------- 2. Reset y base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--tinta);
+  font-family: var(--fuente-texto);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-family: var(--fuente-titulo);
+  color: var(--verde-bosque);
+  line-height: 1.2;
+}
+h1 { font-size: 32px; font-weight: 700; }
+h2 { font-size: 20px; font-weight: 600; }
+h3 { font-size: 18px; font-weight: 600; }
+p  { margin: 0; }
+
+a { color: var(--verde-texto); font-weight: 700; }
+a:hover { color: #123D26; }
+
+button, input { font: inherit; }
+button { cursor: pointer; }
+
+.texto-suave { color: var(--gris); }
+.nota { font-size: 14px; color: var(--gris); }
+.solo-lector {
+  position: absolute; width: 1px; height: 1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+/* ---------- 3. Estructura: menú lateral + contenido ---------- */
+.app {
+  display: flex;
+  flex-wrap: wrap;          /* en celular el menú pasa arriba */
+  min-height: 100vh;
+}
+
+.sidebar {
+  flex: 1 1 248px;
+  background: var(--verde-menta);
+  padding: 28px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.contenido {
+  flex: 999 1 560px;
+  min-width: 0;
+  padding: 32px 40px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Logo */
+.logo { display: flex; align-items: center; gap: 12px; padding: 0 6px; }
+.logo__icono {
+  width: 44px; height: 44px; flex: none;
+  border-radius: var(--radio-s);
+  background: var(--rosa-pastel);
+  color: #6E1E3A;
+  display: flex; align-items: center; justify-content: center;
+}
+.logo__nombre {
+  font-family: var(--fuente-titulo);
+  font-weight: 700; font-size: 17px; line-height: 1.2;
+  color: var(--verde-bosque);
+}
+.logo__pais { font-size: 13px; color: var(--gris-2); }
+
+/* Menú */
+.menu { display: flex; flex-direction: column; gap: 4px; }
+.menu__item {
+  display: flex; align-items: center; gap: 12px;
+  min-height: 48px; padding: 0 14px;
+  border-radius: var(--radio-s);
+  color: var(--verde-nav);
+  font-weight: 400;
+  text-decoration: none;
+}
+.menu__item:hover { background: rgba(255, 255, 255, .55); color: var(--verde-bosque); }
+.menu__item svg { flex: none; }
+.menu__item[aria-current="page"] {
+  background: var(--blanco);
+  color: var(--verde-bosque);
+  font-weight: 700;
+  box-shadow: var(--sombra);
+}
+.menu__item[aria-current="page"] svg { stroke: var(--critico-pt); }
+.menu__texto { flex: 1; }
+.contador {
+  min-width: 26px; height: 26px; padding: 0 8px;
+  border-radius: 999px;
+  background: var(--critico-pt); color: var(--blanco);
+  font-size: 13px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/* Estado del sistema */
+.estado {
+  margin-top: auto;
+  background: var(--blanco);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex; flex-direction: column; gap: 6px;
+  font-size: 14px; color: var(--gris-2);
+}
+.estado__titulo {
+  display: flex; align-items: center; gap: 8px;
+  font-weight: 700; color: var(--verde-texto);
+}
+
+/* Encabezado de página */
+.encabezado { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
+.encabezado__textos { flex: 1 1 320px; }
+.encabezado__textos p { margin-top: 4px; color: var(--gris); }
+
+/* ---------- 4. Componentes reutilizables ---------- */
+
+/* Tarjeta */
+.tarjeta {
+  background: var(--blanco);
+  border: 1.5px solid var(--verde-borde-2);
+  border-radius: var(--radio-l);
+  padding: 24px;
+  display: flex; flex-direction: column; gap: 14px;
+  min-width: 0;
+}
+.tarjeta__cabecera {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; flex-wrap: wrap;
+}
+.tarjeta__cabecera a { font-size: 15px; }
+
+/* Filas de tarjetas que se acomodan solas */
+.fila { display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start; }
+.fila > * { flex: 1 1 420px; }
+.fila > .ancha { flex: 1.4 1 480px; }
+
+/* Rejilla de indicadores (KPIs) */
+.indicadores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 18px;
+}
+.indicador {
+  background: var(--blanco);
+  border: 1.5px solid var(--verde-borde-2);
+  border-radius: var(--radio-m);
+  padding: 20px 22px;
+  display: flex; flex-direction: column; gap: 6px;
+}
+.indicador__nombre { font-size: 15px; color: var(--gris); }
+.indicador__valor {
+  font-family: var(--fuente-titulo);
+  font-weight: 700; font-size: 40px; line-height: 1.1;
+  color: var(--verde-bosque);
+}
+.indicador__valor small { font-size: 20px; color: var(--gris); }
+.indicador__extra { font-size: 14px; color: var(--gris); }
+.indicador--alerta .indicador__valor,
+.indicador--alerta .indicador__extra { color: var(--critico-tx); }
+.indicador__extra.ok { color: var(--verde-texto); font-weight: 700; }
+
+/* Insignias de nivel de alerta (color + ícono + palabra) */
+.insignia {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 14px; font-weight: 700;
+  flex: none;
+  white-space: nowrap;
+}
+.insignia svg { width: 15px; height: 15px; }
+.nivel-critico  { background: var(--critico-bg);  color: var(--critico-tx); }
+.nivel-alto     { background: var(--alto-bg);     color: var(--alto-tx); }
+.nivel-moderado { background: var(--moderado-bg); color: var(--moderado-tx); }
+.nivel-bajo     { background: var(--bajo-bg);     color: var(--bajo-tx); }
+
+/* Punto de color */
+.punto { width: 12px; height: 12px; border-radius: 50%; flex: none; display: inline-block; }
+.punto--critico  { background: var(--critico-pt); }
+.punto--alto     { background: var(--alto-pt); }
+.punto--moderado { background: var(--moderado-pt); }
+.punto--bajo     { background: var(--bajo-pt); }
+
+/* Botones */
+.boton {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 48px; padding: 0 22px;
+  border-radius: var(--radio-s);
+  border: 0;
+  font-weight: 700;
+  text-decoration: none;
+}
+.boton--principal  { background: var(--rosa-pastel); color: var(--rosa-oscuro); }
+.boton--principal:hover { background: #EFB3C4; color: var(--rosa-oscuro); }
+.boton--secundario { background: var(--verde-menta); color: var(--verde-bosque); border: 1.5px solid #9FCFB0; }
+.boton--peligro    { background: var(--critico-tx); color: var(--blanco); }
+.boton--peligro:hover { background: #7A1A34; color: var(--blanco); }
+.boton--borde      { background: var(--blanco); color: var(--critico-tx); border: 1.5px solid var(--critico-tx); }
+.boton-icono {
+  width: 48px; height: 48px;
+  border-radius: var(--radio-s);
+  border: 1.5px solid var(--verde-borde);
+  background: var(--blanco); color: var(--verde-nav);
+  display: flex; align-items: center; justify-content: center;
+}
+
+/* Chips de filtro */
+.filtros { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.filtros__label { font-size: 15px; font-weight: 700; color: var(--gris-2); margin-right: 4px; }
+.chip {
+  min-height: 44px; padding: 0 18px;
+  border-radius: 999px;
+  border: 1.5px solid var(--verde-borde);
+  background: var(--blanco); color: var(--verde-nav);
+  font-size: 15px;
+}
+.chip[aria-pressed="true"] {
+  background: var(--verde-texto); border-color: var(--verde-texto);
+  color: var(--blanco); font-weight: 700;
+}
+.separador { width: 1px; height: 28px; background: var(--verde-borde); margin: 0 6px; }
+
+/* Campo de búsqueda */
+.buscador {
+  display: flex; align-items: center; gap: 10px;
+  height: 48px; padding: 0 16px;
+  background: var(--blanco);
+  border: 1.5px solid var(--verde-borde);
+  border-radius: var(--radio-s);
+  color: var(--gris);
+}
+.buscador:focus-within { border-color: var(--verde-medio); }
+.buscador input {
+  border: 0; outline: none; background: transparent;
+  color: var(--tinta); flex: 1; min-width: 0;
+}
+
+/* Avatar */
+.avatar {
+  width: 48px; height: 48px; border-radius: 50%;
+  background: var(--rosa-pastel); color: #6E1E3A;
+  font-family: var(--fuente-titulo); font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/* ---------- 5. Mapa de Colombia ---------- */
+.mapa {
+  position: relative;
+  background: var(--rosa-mapa);
+  border-radius: 18px;
+  padding: 16px;
+  display: flex; justify-content: center;
+  overflow: hidden;
+}
+.mapa > svg { width: 100%; height: auto; }
+.mapa__pais { fill: #DDF1E4; stroke: var(--verde-medio); stroke-width: 2.5; stroke-linejoin: round; }
+.mapa__etiqueta { font-family: var(--fuente-texto); font-size: 12px; font-weight: 700; fill: var(--verde-bosque); }
+.mapa__mar { font-family: var(--fuente-texto); font-size: 12px; font-style: italic; fill: #B07A8A; }
+.foco--critico  { fill: var(--critico-pt); }
+.foco--alto     { fill: var(--alto-pt); }
+.foco--moderado { fill: var(--moderado-pt); }
+.foco--bajo     { fill: var(--bajo-pt); }
+.halo { opacity: .22; }
+
+.leyenda { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 14px; color: var(--gris-2); }
+.leyenda span { display: inline-flex; align-items: center; gap: 6px; }
+
+/* ---------- 6. Gráfica de barras simple ---------- */
+.barras {
+  position: relative;
+  height: 200px;
+  display: flex; align-items: flex-end; gap: 14px;
+  padding: 0 4px;
+  border-bottom: 1.5px solid var(--verde-borde);
+}
+.barra { flex: 1; background: var(--verde-suave); border-radius: 8px 8px 0 0; }
+.barra--sube { background: var(--rosa-barra); }
+.barra--alerta { background: var(--rosa-fuerte); }
+.barras__linea {
+  position: absolute; left: 0; right: 0;
+  border-top: 2px dashed var(--critico-pt);
+}
+.barras__linea--verde { border-top-color: var(--verde-medio); }
+.barras__rotulo {
+  position: absolute;
+  font-size: 13px; font-weight: 700;
+  background: var(--blanco); padding: 0 4px;
+}
+.semanas {
+  display: flex; gap: 14px; padding: 0 4px;
+  font-size: 13px; color: var(--gris); text-align: center;
+}
+.semanas span { flex: 1; }
+.semanas .actual { font-weight: 700; color: var(--critico-tx); }
+
+/* ---------- 7. Celular ---------- */
+@media (max-width: 720px) {
+  .contenido { padding: 24px 16px 40px; }
+  .sidebar { padding: 20px 16px; gap: 16px; }
+  .estado { display: none; }
+  h1 { font-size: 26px; }
+  .indicador__valor { font-size: 32px; }
+}

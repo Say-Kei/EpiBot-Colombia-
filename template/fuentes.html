@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fuentes de información · Vigilancia de Patógenos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Lexend:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../static/base.css">
+  <link rel="stylesheet" href="../static/fuentes.css">
+</head>
+<body>
+<div class="app">
+
+  <!-- ===== MENÚ LATERAL ===== -->
+  <nav class="sidebar" aria-label="Navegación principal">
+    <div class="logo">
+      <div class="logo__icono">
+        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="5"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg>
+      </div>
+      <div>
+        <div class="logo__nombre">Vigilancia de Patógenos</div>
+        <div class="logo__pais">Colombia</div>
+      </div>
+    </div>
+
+    <div class="menu">
+      <a class="menu__item" href="index.html">
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg>
+        Panel general
+      </a>
+      <a class="menu__item" href="busqueda.html">
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+        Búsqueda y mapa
+      </a>
+      <a class="menu__item" href="alerta.html">
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16v-5a6 6 0 0 1 12 0v5l2 2H4z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg>
+        <span class="menu__texto">Alertas</span>
+        <span class="contador">14</span>
+      </a>
+      <a class="menu__item" href="fuentes.html" aria-current="page">
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+        Fuentes de información
+      </a>
+    </div>
+
+    <div class="estado">
+      <div class="estado__titulo"><span class="punto punto--bajo"></span>Sistema activo</div>
+      La IA está leyendo 6 fuentes. Última revisión hace 12 min.
+    </div>
+  </nav>
+
+  <!-- ===== CONTENIDO ===== -->
+  <main class="contenido">
+
+    <header class="encabezado">
+      <div class="encabezado__textos">
+        <h1>Fuentes de información</h1>
+        <p>De dónde saca la IA los datos y cuánto confía en cada fuente.</p>
+      </div>
+      <button class="boton boton--principal" type="button">+ Agregar fuente</button>
+    </header>
+
+    <section class="tarjeta" aria-labelledby="conf-t">
+      <h2 id="conf-t">Cómo pesa la IA cada tipo de fuente</h2>
+      <div class="pesos">
+        <div class="peso peso--oficial">
+          <div class="peso__titulo"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>Oficial · peso alto</div>
+          Datos confirmados por laboratorio o entidades de salud. Pueden tardar días.
+        </div>
+        <div class="peso peso--internacional">
+          <div class="peso__titulo"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg>Internacional · peso medio</div>
+          Redes de expertos que detectan brotes en la región y el mundo.
+        </div>
+        <div class="peso peso--temprana">
+          <div class="peso__titulo"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3L5 14h6l-1 7 8-11h-6z"/></svg>Señal temprana · peso bajo</div>
+          Prensa y redes: llegan primero, pero la IA pide confirmación oficial.
+        </div>
+      </div>
+    </section>
+
+    <div class="filtros" role="group" aria-label="Filtrar fuentes" data-grupo>
+      <button class="chip" type="button" aria-pressed="true">Todas (8)</button>
+      <button class="chip" type="button" aria-pressed="false">Oficiales</button>
+      <button class="chip" type="button" aria-pressed="false">Internacionales</button>
+      <button class="chip" type="button" aria-pressed="false">Señales tempranas</button>
+    </div>
+
+    <section class="fuentes" aria-label="Lista de fuentes">
+
+      <article class="fuente">
+        <div class="fuente__cabecera"><div><h3>INS · SIVIGILA</h3><div class="fuente__org">Instituto Nacional de Salud de Colombia</div></div><span class="tipo tipo--oficial">Oficial</span></div>
+        <p class="fuente__desc">Casos notificados por evento y municipio, cada semana epidemiológica.</p>
+        <div class="fuente__meta"><span>Actualiza: semanal</span><span>Última lectura: hace 12 min</span></div>
+        <div class="fuente__pie"><span class="estado-ok">● Conectada</span><button class="interruptor" type="button" aria-pressed="true" aria-label="Activar INS · SIVIGILA"></button></div>
+      </article>
+
+      <article class="fuente">
+        <div class="fuente__cabecera"><div><h3>Boletín Epidemiológico Semanal</h3><div class="fuente__org">INS · documento PDF</div></div><span class="tipo tipo--oficial">Oficial</span></div>
+        <p class="fuente__desc">La IA lee el boletín y extrae los eventos que superan lo esperado.</p>
+        <div class="fuente__meta"><span>Actualiza: semanal</span><span>Última lectura: ayer</span></div>
+        <div class="fuente__pie"><span class="estado-ok">● Conectada</span><button class="interruptor" type="button" aria-pressed="true" aria-label="Activar Boletín Epidemiológico"></button></div>
+      </article>
+
+      <article class="fuente">
+        <div class="fuente__cabecera"><div><h3>Secretarías de Salud</h3><div class="fuente__org">Departamentales y municipales</div></div><span class="tipo tipo--oficial">Oficial</span></div>
+        <p class="fuente__desc">Comunicados y alertas locales publicados en sus sitios y redes.</p>
+        <div class="fuente__meta"><span>Actualiza: diario</span><span>Última lectura: hace 6 h</span></div>
+        <div class="fuente__pie"><span class="estado-retraso">● Con retraso</span><button class="interruptor" type="button" aria-pressed="true" aria-label="Activar Secretarías de Salud"></button></div>
+      </article>
+
+      <article class="fuente">
+        <div class="fuente__cabecera"><div><h3>OPS / OMS</h3><div class="fuente__org">Alertas epidemiológicas y noticias de brotes</div></div><span class="tipo tipo--internacional">Internacional</span></div>
+        <p class="fuente__desc">Avisos regionales que pueden llegar a Colombia desde países vecinos.</p>
+        <div class="fuente__meta"><span>Actualiza: cuando hay brote</span><span>Última lectura: hace 1 h</span></div>
+        <div class="fuente__pie"><span class="estado-ok">● Conectada</span><button class="interruptor" type="button" aria-pressed="true" aria-label="Activar OPS / OMS"></button></div>
+      </article>
+
+      <article class="fuente">
+        <div class="fuente__cabecera"><div><h3>ProMED</h3><div class="fuente__org">Red mundial de reportes de enfermedades emergentes</div></div><span class="tipo tipo--internacional">Internacional</span></div>
+        <p class="fuente__desc">Reportes revisados por expertos, a menudo antes que los oficiales.</p>
+        <div class="fuente__meta"><span>Actualiza: diario</span><span>Última lectura: hace 40 min</span></div>
+        <div class="fuente__pie"><span class="estado-ok">● Conectada</span><button class="interruptor" type="button" aria-pressed="true" aria-label="Activar ProMED"></button></div>
+      </article>
+
+      <article class="fuente">
+        <div class="fuente__cabecera"><div><h3>HealthMap</h3><div class="fuente__org">Mapa mundial de brotes a partir de noticias</div></div><span class="tipo tipo--internacional">Internacional</span></div>
+        <p class="fuente__desc">Agrupa noticias de salud por lugar y enfermedad.</p>
+        <div class="fuente__meta"><span>Actualiza: cada hora</span><span>Última lectura: hace 12 min</span></div>
+        <div class="fuente__pie"><span class="estado-ok">● Conectada</span><button class="interruptor" type="button" aria-pressed="true" aria-label="Activar HealthMap"></button></div>
+      </article>
+
+      <article class="fuente">
+        <div class="fuente__cabecera"><div><h3>Prensa regional</h3><div class="fuente__org">Periódicos y emisoras de Colombia</div></div><span class="tipo tipo--temprana">Señal temprana</span></div>
+        <p class="fuente__desc">Noticias sobre hospitales llenos, brotes en colegios o muertes inusuales.</p>
+        <div class="fuente__meta"><span>Actualiza: cada hora</span><span>Última lectura: hace 12 min</span></div>
+        <div class="fuente__pie"><span class="estado-ok">● Conectada</span><button class="interruptor" type="button" aria-pressed="true" aria-label="Activar Prensa regional"></button></div>
+      </article>
+
+      <article class="fuente fuente--pausada">
+        <div class="fuente__cabecera"><div><h3>Redes sociales</h3><div class="fuente__org">Menciones públicas de síntomas por ciudad</div></div><span class="tipo tipo--temprana">Señal temprana</span></div>
+        <p class="fuente__desc">Desactivada en el MVP. Se puede encender en una siguiente versión.</p>
+        <div class="fuente__meta"><span>Actualiza: en tiempo real</span></div>
+        <div class="fuente__pie"><span class="estado-pausa">○ Pausada</span><button class="interruptor" type="button" aria-pressed="false" aria-label="Activar Redes sociales"></button></div>
+      </article>
+    </section>
+
+    <p class="nota">Tiempos de lectura ilustrativos para el prototipo.</p>
+  </main>
+</div>
+<script src="../js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* Detalle de alerta — solo lo propio de esta página */
+
+.migas { font-size: 15px; color: var(--gris); }
+.migas strong { color: var(--tinta); }
+
+/* Cabecera rosa */
+.alerta-hero {
+  background: var(--critico-bg);
+  border-radius: var(--radio-l);
+  padding: 28px;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 20px;
+}
+.alerta-hero__icono {
+  width: 64px; height: 64px; flex: none;
+  border-radius: 20px;
+  background: var(--blanco); color: var(--critico-pt);
+  display: flex; align-items: center; justify-content: center;
+}
+.alerta-hero__textos { flex: 1 1 360px; }
+.alerta-hero__nivel {
+  display: inline-block;
+  padding: 4px 12px; border-radius: 999px;
+  background: var(--critico-tx); color: var(--blanco);
+  font-size: 14px; font-weight: 700;
+}
+.alerta-hero h1 { margin: 8px 0 4px; font-size: 34px; color: var(--rosa-oscuro); }
+.alerta-hero p { color: #6E1E3A; }
+.alerta-hero__acciones { display: flex; flex-wrap: wrap; gap: 10px; }
+
+/* Datos clave */
+.datos-clave {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 16px;
+}
+.dato-clave {
+  background: var(--blanco);
+  border: 1.5px solid var(--verde-borde-2);
+  border-radius: 18px;
+  padding: 18px;
+}
+.dato-clave small { display: block; font-size: 14px; color: var(--gris); }
+.dato-clave strong { font-size: 19px; }
+.confianza { margin-top: 8px; height: 8px; border-radius: 999px; background: #E6F0EA; }
+.confianza span { display: block; height: 8px; border-radius: 999px; background: var(--verde-ok); }
+
+.columna { display: flex; flex-direction: column; gap: 24px; }
+
+/* Resumen IA */
+.resumen-ia { border-color: var(--rosa-borde); }
+.resumen-ia__titulo { display: flex; align-items: center; gap: 10px; }
+.resumen-ia__icono {
+  width: 36px; height: 36px; border-radius: 12px;
+  background: var(--rosa-claro); color: var(--critico-tx);
+  display: flex; align-items: center; justify-content: center;
+}
+.resumen-ia__texto { font-size: 17px; line-height: 1.65; }
+
+/* Recomendaciones */
+.recomendaciones { background: var(--verde-menta); border: 0; }
+.paso { display: flex; gap: 12px; align-items: flex-start; }
+.paso__num {
+  flex: none; width: 28px; height: 28px; border-radius: 50%;
+  background: var(--blanco); color: var(--verde-texto); font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/* Línea de tiempo */
+.linea { display: flex; flex-direction: column; }
+.linea__item { display: flex; gap: 14px; }
+.linea__eje { display: flex; flex-direction: column; align-items: center; }
+.linea__punto { width: 14px; height: 14px; border-radius: 50%; margin-top: 5px; background: var(--verde-medio); }
+.linea__punto--critico { background: var(--critico-pt); }
+.linea__punto--inicio { background: var(--moderado-pt); }
+.linea__trazo { flex: 1; width: 2px; background: var(--verde-borde-2); }
+.linea__trazo--rosa { background: var(--rosa-borde); }
+.linea__contenido { padding-bottom: 20px; }
+.linea__fecha { font-size: 13px; color: var(--gris); }
+.linea__titulo { font-weight: 700; }
+.linea__texto { font-size: 14px; color: var(--gris); }
+.linea__contenido a { font-size: 14px; }

@@ -1,0 +1,97 @@
+/* Búsqueda y mapa — solo lo propio de esta página */
+
+/* Buscador grande */
+.busqueda-grande { display: flex; flex-wrap: wrap; gap: 12px; }
+.busqueda-grande .buscador {
+  flex: 1 1 420px;
+  min-width: 0;
+  height: 60px; padding: 0 20px;
+  border: 2px solid #9FCFB0;
+  border-radius: 18px;
+}
+.busqueda-grande .buscador input { font-size: 19px; }
+.busqueda-grande .boton { min-height: 60px; border-radius: 18px; font-size: 17px; padding: 0 28px; }
+
+/* Columnas: mapa + resultados */
+.fila > .mapa-col { flex: 1.6 1 520px; padding: 20px; }
+.fila > .resultados-col { flex: 1 1 340px; display: flex; flex-direction: column; gap: 20px; }
+
+/* Selector de capas */
+.capas { display: flex; gap: 6px; background: #EEF7F1; padding: 4px; border-radius: 12px; }
+.capas button {
+  min-height: 40px; padding: 0 14px;
+  border: 0; border-radius: 9px;
+  background: transparent; color: var(--gris-2);
+  font-size: 14px;
+}
+.capas button[aria-pressed="true"] { background: var(--blanco); color: var(--verde-bosque); font-weight: 700; }
+
+/* Elementos encima del mapa */
+.mapa--grande > svg { max-height: 640px; }
+
+.mapa__ficha {
+  position: absolute; left: 24px; bottom: 24px;
+  width: 250px;
+  background: var(--blanco);
+  border-radius: 16px;
+  padding: 14px 16px;
+  box-shadow: 0 8px 24px rgba(110, 30, 58, .14);
+  display: flex; flex-direction: column; gap: 6px;
+}
+.mapa__ficha .insignia { align-self: flex-start; font-size: 13px; padding: 3px 10px; }
+.mapa__ficha-titulo { font-weight: 700; font-size: 17px; }
+.mapa__ficha-texto { font-size: 14px; color: var(--gris); }
+
+.mapa__zoom { position: absolute; right: 24px; top: 24px; display: flex; flex-direction: column; gap: 8px; }
+.mapa__zoom button {
+  width: 44px; height: 44px;
+  border-radius: 12px; border: 1.5px solid var(--verde-borde);
+  background: var(--blanco); color: var(--verde-bosque);
+  font-size: 22px; font-weight: 700;
+}
+
+.mapa__leyenda {
+  position: absolute; right: 24px; bottom: 24px;
+  background: var(--blanco);
+  border-radius: 14px; padding: 12px 14px;
+  display: flex; flex-direction: column; gap: 6px;
+  font-size: 14px; color: var(--gris-2);
+}
+.mapa__leyenda strong { color: var(--verde-bosque); }
+.mapa__leyenda span { display: flex; align-items: center; gap: 8px; }
+
+/* Ficha del patógeno */
+.patogeno { display: flex; align-items: center; gap: 12px; }
+.patogeno__icono {
+  width: 44px; height: 44px; flex: none;
+  border-radius: var(--radio-s);
+  background: var(--rosa-pastel); color: #6E1E3A;
+  display: flex; align-items: center; justify-content: center;
+}
+.patogeno__nombre { font-family: var(--fuente-titulo); font-weight: 600; font-size: 20px; color: var(--verde-bosque); }
+.datos-dos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.dato { border-radius: 14px; padding: 12px; }
+.dato small { display: block; font-size: 13px; }
+.dato strong { font-size: 18px; }
+.dato--rosa  { background: var(--rosa-fondo); color: var(--critico-tx); }
+.dato--verde { background: #F1F9F4; color: var(--verde-bosque); }
+
+/* Resultados por departamento */
+.resultado {
+  display: flex; align-items: center; gap: 12px;
+  min-height: 56px; padding: 8px 12px;
+  border-radius: 14px;
+  color: var(--tinta); text-decoration: none;
+}
+.resultado:hover { background: #F1F9F4; color: var(--tinta); }
+.resultado--critico { background: var(--rosa-fondo); }
+.resultado__nombre { flex: 1; font-weight: 700; }
+.resultado__nivel { font-size: 14px; font-weight: 700; }
+
+/* En celular, la ficha y la leyenda salen del mapa */
+@media (max-width: 720px) {
+  .busqueda-grande .buscador { flex-basis: 100%; }
+  .mapa { flex-direction: column; gap: 12px; }
+  .mapa__ficha, .mapa__leyenda { position: static; width: auto; }
+  .mapa__zoom { top: 12px; right: 12px; }
+}
