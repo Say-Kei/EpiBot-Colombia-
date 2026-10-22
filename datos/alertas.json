@@ -1,50 +1,189 @@
 [
   {
-    "id": "dengue-valle-del-cauca-ejemplo",
+    "id": "dengue-córdoba-2026-10-22",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Córdoba",
+    "municipios": [],
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": 127,
+    "resumen": "1 fuente(s) reportan dengue en Córdoba. Lo normal para esta semana son unos 127 casos (INS).",
+    "fecha_deteccion": "2026-10-22",
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbXI5U3BOTjRtM2pxUF85QmhTaTBLUHMzT29TcFJLNkhqLWw2VlU0a3M5N2NUVlNhYmZrSmtJMEwtR0kyc21HRUFHSGczaFhFQTkzTzB3X2VXVWtuRlN4MjRXTUN2T1ByMEptb0MzaVdvaGw5Uy1xcVhQdnY1eHJhMFE0czdfLTdBMDZLSnVQMU12Q216aEF2eFRXeElZYXFsXy1mTVJfb0swcmNPRVJOVEo4RWt6TWtLMWdYZVpTS1RHdlRQ0gHKAUFVX3lxTE1wVVllTGNITXYzajdNZGt4Z2ViYzE1ZGhJTVZDX1JXZzVMTVQ5ME1MZzYtbWgtZjc3eTBXa1VIcGtWRkJqRWFpU3phckRrVWJNUmduZTVSU0pKRkdTaEk3dFo4UERsclRFZ09xRWpyR0RyM3k0MkZ0Mi1vQ2FnNXFKVWtsbUlfVXdKT0pMSHZGM3l0LUd2RnRnQ3lHY3NHMncwSzU4cEpIN1dlZWs2Mzd2eWkzVVB0YjlGaXlaejV1U3VLREdhUG1aQlE?oc=5",
+        "fecha": "2026-10-21"
+      }
+    ]
+  },
+  {
+    "id": "dengue-atlántico-2026-10-22",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Atlántico",
+    "municipios": [
+      "Barranquilla",
+      "Palmar de Varela",
+      "Ponedera",
+      "Puerto Colombia"
+    ],
+    "nivel": "critico",
+    "casos": null,
+    "esperado": 139,
+    "resumen": "4 fuente(s) reportan dengue en Atlántico. Lo normal para esta semana son unos 139 casos (INS).",
+    "fecha_deteccion": "2026-10-22",
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SWl9aSEJQRy02cW5SR0laRFZmemVVOHE1SnZJYWJuWFAyRmdLelpMRXlCMDUwNWhReXg2LTN0Y0E3aDM2MEIxd1dOSjNyQnp2OTlydGF0MndGLTDSAVtBVV95cUxOUlpfWkhCUEctNnFuUkdJWkRWZnplVThxNUp2SWFiblhQMkZnS3paTEV5QjA1MDVoUXl4Ni0zdGNBN2gzNjBCMXdXTkozckJ6djk5cnRhdDJ3Ri0w?oc=5",
+        "fecha": "2026-10-15"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYkFkZHRweWxmcWpUWTlucDBob3B5a1I4WjdjQWl2dDRUalJ1LXowSThCVF9ZbEtpYXZjbHNoMUN1LV9ZbGZ0RVE4UWROcDQ0bFFrcTRyMTdjWm1XU0NCdlR6bXpXY2xwbVJZellpUFdCeW0ySFliWmZER0tUbUsxZ1VjdlFPdWs?oc=5",
+        "fecha": "2026-10-21"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LeE5nNUQ5a1BCVjBvWmpJcVd6UkI5bnRyWDZKVm5SNy1Zc2RSMEg0Vmx5TjgwdUVUV1JnSENBWlhmV3NIQjNaZk93WVRNLWFhTzB5c1lNRlNqVmY2R0xlU2luMTZ3SlFQU1N5U1d1TV9XMlFzZGZNV3hiSQ?oc=5",
+        "fecha": "2026-10-14"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVXE1UDBwNG9LN25vYzRjRi1lWkEzUTZOZHRDQUo4UHgwYzg1UHR0OFZYYXJueG10N0NOM2NTcHhvR1BwdG5EVWMtcU5BZjRuOUxHcVJWUURkMElldDFuWHFjNDhTTlNBS2psOW5jSHBlUmpaQlpuYkplNy10WGV3Rjk1M2NadVhJSWxaSm9YVWhpQUw3UnlmUWxscXl0TFJPckdzSnlHOFlra1RQcEtKWWpkTlhuR0l4LWZncUhxWVN1bjdjak4zUW42ZXVpUHlZM2c?oc=5",
+        "fecha": "2026-09-29"
+      }
+    ]
+  },
+  {
+    "id": "tosferina-antioquia-2026-10-22",
+    "patogeno": "Tosferina",
+    "tipo": "bacteria",
+    "departamento": "Antioquia",
+    "municipios": [
+      "Necoclí"
+    ],
+    "nivel": "critico",
+    "casos": 4,
+    "esperado": 1,
+    "resumen": "3 fuente(s) reportan tosferina en Antioquia. Lo normal para esta semana son unos 1 casos (INS).",
+    "fecha_deteccion": "2026-10-22",
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX2hRRHFxTTdwRGRmM2VqeWF1VzhycW9RRTZKbS1SNjNfbzNTeWVvTTVtRFA1T2F0ME1oTzJtOGlvRFJPT0Mzb0NlekpDTzBYZFRnQkhleG9rUVpHdE1lcTVsZ0ZWbFg0Y3JzcVZSWHAyVGdfeWVaTTEwRW1NRW80enpIQndhMlhjdHR0UmNNTUdSNC1jMFpLOHYtMk1zRjhQSDQ4Y9IBqgFBVV95cUxObTE2M2dkb094cV91M3RRQ2NBMkp0cC00LVFkYkluUDdWTmVsRE9pajVZalU4TkhQMXgtN2hxWnFUbVJKQmNGUUhPSlgzNm5nY1Q3eGZob1ZfeEx2OGs3N18yR0JZU3lhRFQwZmtjcm1zZ1RCUHNwMU5ZZ0E1MTVQcTUyN0RyUm0wRnZsSThYQVdKdVFtU3d6OGExUzRUZDNxeXlzMEQ1cDRYdw?oc=5",
+        "fecha": "2026-10-16"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWERnNzNhbDVXZGVHcWI4X3B0cEswMUdnSGpLNXlQTkIySGwtZTVOeU5jOU1qZkRELTYzb0FxbFd0WFZoVlR6S08xWU1xdGxPUXl0ckJFcEFFb1VXUk9sQ3BqVUNMTmdKYVVKUC1kcUhLMGJUankyNUZnTk9EWmpRNEJWM0VQSUo2b1dBMmZKVlU2SnZ4V05QVmg0eUJEZzU2bmJJb3NzaXRycnFoWERnOVNCQjUtYkU1enF0d3BGSUtxQdIBwgFBVV95cUxPWERnNzNhbDVXZGVHcWI4X3B0cEswMUdnSGpLNXlQTkIySGwtZTVOeU5jOU1qZkRELTYzb0FxbFd0WFZoVlR6S08xWU1xdGxPUXl0ckJFcEFFb1VXUk9sQ3BqVUNMTmdKYVVKUC1kcUhLMGJUankyNUZnTk9EWmpRNEJWM0VQSUo2b1dBMmZKVlU2SnZ4V05QVmg0eUJEZzU2bmJJb3NzaXRycnFoWERnOVNCQjUtYkU1enF0d3BGSUtxQQ?oc=5",
+        "fecha": "2026-10-19"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1KSU1WTklMX3k3NjE3MHZDenRJZ3VUN09TaFlmeUs1dlEwcWkxb3NVcFNnS2pNOTBOMXpCXy1TamttbDgzZEdOWUJPQVo1ZnZBdHV2UEYtMjVoNndhTXY0MjQ0SU1vOWpmVWkyZFRpQlppLVN1eUhKbmtDRQ?oc=5",
+        "fecha": "2026-10-19"
+      }
+    ]
+  },
+  {
+    "id": "dengue-bolívar-2026-10-22",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Bolívar",
+    "municipios": [
+      "Cartagena"
+    ],
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": 255,
+    "resumen": "1 fuente(s) reportan dengue en Bolívar. Lo normal para esta semana son unos 255 casos (INS).",
+    "fecha_deteccion": "2026-10-22",
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOT1VYU3U1ZXV5T29ZbE5jU19yMUpZN2dsUml6amtkNVdFNUJOWVdrTHVWZEg2d2RYVEdDSzBrWTVQdUFyMzlDUE5YdFRGeDNkUWIxRzAxcEUtalpySkhyRk9ieEg2NUpuLWxrOXlGZHloemxXNGVmQURlb0hIdHlabTYzbTJKclVPMkpOVm45QVRWSy1UT0x1eVYtYnlMVDgzVEludHVpOTFUR0w5YW1pQzV4Tlk5YjR2VjdyMzMwQzBMQdIB1gFBVV95cUxNUVFtRzVRbkJ1dWJEVlZKbEtZUFJMYmg0N0IyczdvTUJ3aFh5d09UX1UxT0VMclBfSV9Od25WNFJVQzdYVnpTakRaME9IdzRRdTZ2N0JiSWIweEJzd2FabGs5aGF1SUI1U2hDYmV3a2JieU1YQzBIdEVabjNNdUxBZ1V6TENEblV1ck9oS1pRaVM3enViTkhYbDJxSzNPMUNrRll1Q3lpZEliTmpXcExhTGJiQXJkSXZMZlVXNlJMRVRLejhDZy1KUVo2SDlucC00MUF2bXRB?oc=5",
+        "fecha": "2026-08-26"
+      }
+    ]
+  },
+  {
+    "id": "dengue-meta-2026-10-22",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Meta",
+    "municipios": [],
+    "nivel": "alto",
+    "casos": null,
+    "esperado": 125,
+    "resumen": "2 fuente(s) reportan dengue en Meta. Lo normal para esta semana son unos 125 casos (INS).",
+    "fecha_deteccion": "2026-10-22",
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYk5mOVVqU2FEZmxDY2Q1N0hkYkQzMTY2ZkhnamRXWlJkeTFfMjYzZlNxQ0sxOV9BOW8wYmNub2VVOWt3bUVfZ1RIZ1hjNTJYV3d1MlEtZFplUFlNb05pMjVDVUNSdmNFSEEwUGtmU3NKNVdUWXRpSnVJeUpkSEIxMS1EUExidzk2ZlFUNmFaYmpuVEQza0RNRGZKSXZhcnFTWUxsUnVXQjN4MG81QjRlZkc5elB1Z21qTmtWaGd3bEJUY3YwSHNHUHVtN0ZXWW8yNExBRno3MTEtcUtDMXfSAfgBQVVfeXFMTTI0Qm9jVVNwaS13U0RpcmpaZkMyUUxYMC1GVmtGMkVFTEk3aTN0RlQzT21WSG5SOXdnQ0FuZ2t3RWNUcVhGRHkzQXp5blBKV2NYZlN6WGZOYkhuemVmWjA2LVdlVWJXLTM4UzNGV1BlajRlcjhjRS1qSDlpLVpmcVBLYVdhYkJ4ZDExdHI5RU1fZWtzb2V3Nmd5WkRNUjBjUXVNdTdLbmZGaEZILVdTWFQwMEJSOGVQMkRQMHh2YUx0bXRha0g3OFdZRkdqY1lRM3VuUUJfVFE1NzNtdkdvSElBN19mbWEzVkVJVVFmNzRFMTc3Wm5MTlk?oc=5",
+        "fecha": "2026-10-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQR2Z4NVFFVnZsOG5ueDBTbUFxcHRFWDRDcU55Y3N6c1ZvZ2d2QllRaEhDbWtGY3FXQnRGTzN5MDVXZVdJTUxFWUt6RENfdmUwazFkdlphYXlhdld6TWhCV3cyeHljcGFpQWVMcU9Fc3J5V1ZZTjNNbTlZdlpYM1IwZGVQTExtbk93RW5FcEhjdzFHNXUxYVB30gGXAUFVX3lxTE83MGNJdXg1R2RIcnZubEk3M0QzTnF1Z0hqd3dQMG5manBURTJFdEhGM1c5R016WUdJS2lFOHhBdV96d1BqVHVwNmpXckhPYy1VOU5SLU5kaFNkX2R4RUowamp4bnY5OVNHbHFxUWpiQzlnWWM4QWdJc3I5VGFiVXlPMEVZVkdpNUJmZHhld185WFBPUUdpTFE?oc=5",
+        "fecha": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "dengue-magdalena-2026-10-22",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Magdalena",
+    "municipios": [],
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": 71,
+    "resumen": "1 fuente(s) reportan dengue en Magdalena. Lo normal para esta semana son unos 71 casos (INS).",
+    "fecha_deteccion": "2026-10-22",
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQajllWDI5UF92MTF2S3pKM2J0Q2VNOU5mWW81SlJVMHllV3BKeldGeFlrSGNsM1dadkhKSUZqNUJTTlUxQm5UWTIxYWhkbmFPRmFQUkNXQ0p5N2NkSlhjdDhPdEZ5UXpTNzYxU1cyaVloUVZyNWxaYWhNSXNlMFQzVWgwcktfQlZUTlFyOG5fQnV6bnF3UkJLUGdLV0drcWc3TnphMTBkY0RqWDQ1UHRyUXJJME8wYnZEVEMtX092SHh1RG5UMFZLZXNZOVBCM044QTB5U2tQdDg4eEU?oc=5",
+        "fecha": "2026-08-26"
+      }
+    ]
+  },
+  {
+    "id": "dengue-valle-del-cauca-2026-10-22",
     "patogeno": "Dengue",
     "tipo": "virus",
     "departamento": "Valle del Cauca",
-    "municipios": ["Cali", "Palmira"],
-    "nivel": "critico",
-    "casos": 1240,
-    "esperado": 610,
-    "resumen": "DATO DE EJEMPLO. Los casos duplican lo esperado para esta época.",
-    "fecha_deteccion": "2026-10-18",
-    "fuentes": [
-      {"nombre": "INS", "tipo": "oficial", "url": "https://www.ins.gov.co", "fecha": "2026-10-18"},
-      {"nombre": "OPS", "tipo": "internacional", "url": "https://www.paho.org", "fecha": "2026-10-19"},
-      {"nombre": "Prensa regional", "tipo": "temprana", "url": "https://news.google.com", "fecha": "2026-10-20"}
-    ]
-  },
-  {
-    "id": "tosferina-norte-de-santander-ejemplo",
-    "patogeno": "Tosferina",
-    "tipo": "bacteria",
-    "departamento": "Norte de Santander",
-    "municipios": ["Cúcuta"],
-    "nivel": "alto",
-    "casos": 48,
-    "esperado": 30,
-    "resumen": "DATO DE EJEMPLO. Aumento de casos en menores de un año.",
-    "fecha_deteccion": "2026-10-17",
-    "fuentes": [
-      {"nombre": "INS", "tipo": "oficial", "url": "https://www.ins.gov.co", "fecha": "2026-10-17"},
-      {"nombre": "Secretaría de Salud", "tipo": "oficial", "url": "https://www.minsalud.gov.co", "fecha": "2026-10-17"}
-    ]
-  },
-  {
-    "id": "malaria-meta-ejemplo",
-    "patogeno": "Malaria",
-    "tipo": "parasito",
-    "departamento": "Meta",
-    "municipios": [],
-    "nivel": "moderado",
+    "municipios": [
+      "Cali"
+    ],
+    "nivel": "bajo",
     "casos": null,
-    "esperado": null,
-    "resumen": "DATO DE EJEMPLO. Reporte en el boletín semanal, sin cifras confirmadas.",
-    "fecha_deteccion": "2026-10-15",
+    "esperado": 477,
+    "resumen": "1 fuente(s) reportan dengue en Valle del Cauca. Lo normal para esta semana son unos 477 casos (INS).",
+    "fecha_deteccion": "2026-10-22",
     "fuentes": [
-      {"nombre": "INS", "tipo": "oficial", "url": "https://www.ins.gov.co", "fecha": "2026-10-15"}
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNEEzem9aNDJMcVhXeDM1dW5kNXRaZ2VHVk92VUNKZS1Rc3BzN3gzM2VfQ19LYmM4ZFRQaWQ5cWhzTEUtc2pHcm9ENUZIRERtZWttZDBlUnVYck1taFNtdndVUFpBdVhZZ3dOLXFfZWdKcjlKT1hRWjJoZHR5WFVEdmY5aHp1RWN3YjM5Y0J6YXB1b0FsTjJQQWpUTlVBaWNXNGkxdm9saGN5dmczNlRQUEpFUGs5UkRRUnpzanBScE5pREk5a2Q4aFdCM2dCNnpWMXFoUnRtbElMc2vSAeABQVVfeXFMT2U0VE9GRDdHSzNJX2s3UV83eEdrZFI2SXdHRGpiTHhyU24tSG9lQW5tajJqVTc4RVdrSFRScXRlS3d5QzNYZVBkSlpIQUk0V0FkdnRoZHdSVVlsV0s1cDlEU1ZSR3E4QUFNeldwVm96NjNhZHJySS1pNVk0cS1jZFFBTUxMcnlYU0lESHBod1g3NUpBNFJaaW1pZ0ZqYmFfUkl2dFF1M1dPQWdwdWJWSk0xNlY1a054UHpwM0lzRkMtYUVKVWJTaTNmU0VNR3p6ZU01enI4YV9QWm9kOThGUGU?oc=5",
+        "fecha": "2026-09-15"
+      }
     ]
   }
 ]
