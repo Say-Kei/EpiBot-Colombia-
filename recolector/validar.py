@@ -37,7 +37,12 @@ CODIGOS = {"05": "Antioquia", "08": "Atlántico", "11": "Bogotá D.C.", "13": "B
 
 # Patógenos del proyecto y su tipo
 PATOGENOS = {"dengue": "virus", "malaria": "parasito", "tosferina": "bacteria",
-             "fiebre amarilla": "virus", "oropouche": "virus"}
+             "fiebre amarilla": "virus", "oropouche": "virus", "chikungunya": "virus"}
+
+# Formas en que se puede escribir un patógeno -> nombre de PATOGENOS
+ALIAS_PATOGENO = {"chikunguna": "chikungunya", "chicungunya": "chikungunya",
+                  "chikungunia": "chikungunya", "chikungunya": "chikungunya",
+                  "tos ferina": "tosferina"}
 
 
 def nombre_depto(valor):
@@ -57,6 +62,7 @@ def validar(d):
     if not d:
         return None
     pat = normalizar(d.get("patogeno"))
+    pat = ALIAS_PATOGENO.get(pat, pat)
     depto = nombre_depto(d.get("departamento"))
     if pat not in PATOGENOS or depto is None:
         return None

@@ -20,13 +20,16 @@ LOTE = 50000
 
 # Patógeno (como lo usa validar.py) -> texto que aparece en el nombre del evento.
 # "DENGUE" también trae DENGUE GRAVE; "MALARIA" trae las formas mixtas y complicada.
-EVENTOS = {"Dengue": "DENGUE", "Malaria": "MALARIA", "Tosferina": "TOSFERINA",
-           "Fiebre amarilla": "FIEBRE AMARILLA", "Oropouche": "OROPOUCHE"}
+EVENTOS = {"Dengue": "DENGUE", "Malaria": "MALARIA", "Tosferina": "TOS FERINA",
+           "Fiebre amarilla": "FIEBRE AMARILLA", "Oropouche": "OROPOUCHE",
+           "Chikungunya": "CHIKUNGUNYA"}
 
 # Eventos que NO se cuentan (la persona ya puede estar contada como caso)
 EXCLUIR = "MORTALIDAD"
+# Años en que un patógeno solo tiene parte de sus eventos (no sirven para el total)
+INCOMPLETOS = {"Malaria": {2023, 2024, 2025}}  # en SIVIGILA solo hay malaria complicada
 
-# Nombres de las columnas en los XLSX de SIVIGILA
+# Nombres de laFs columnas en los XLSX de SIVIGILA
 COLUMNAS_XLSX = {"evento": "nombre_evento", "ano": "ano", "semana": "semana",
                  "departamento": "departamento_ocurrencia"}
 
@@ -147,12 +150,16 @@ def esperado(hist, patogeno, departamento, semana, evento=None, anos=3):
 
     Sin `evento` suma todo el patógeno (ej. dengue + dengue grave).
     Con `evento` cuenta solo ese (ej. evento="DENGUE GRAVE").
+    Sin `evento` se saltan los años de INCOMPLETOS.
     """
     g = hist[(hist["patogeno"] == patogeno) & (hist["departamento"] == departamento)]
     if evento:
         g = g[g["evento"] == evento.upper()]
+    else:
+        g = g[~g["ano"].isin(INCOMPLETOS.get(patogeno, set()))]
     if g.empty:
         return None
     ultimos = sorted(g["ano"].unique())[-anos:]
     total = g[(g["ano"].isin(ultimos)) & (g["semana"] == semana)]["casos"].sum()
     return round(total / len(ultimos))  # los años sin casos esa semana cuentan como 0
+ 
