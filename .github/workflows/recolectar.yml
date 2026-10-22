@@ -1,0 +1,27 @@
+name: Recolectar alertas
+on:
+  #schedule:
+   # - cron: "0 */6 * * *"
+  workflow_dispatch:
+jobs:
+  recolectar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install -r requirements.txt
+      - run: python -m recolector.main
+        env:
+          IA_URL: ${{ secrets.IA_URL }}
+          IA_KEY: ${{ secrets.IA_KEY }}
+          IA_MODELO: ${{ secrets.IA_MODELO }}
+      - run: |
+          git config user.name "Say-Key"
+          git config user.email "mariajosegomezjimenez@gmail.com"
+          git add datos/alertas.json
+          git commit -m "Actualiza alertas" || echo "Sin cambios"
+          git push
