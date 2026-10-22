@@ -1,4 +1,5 @@
 """Limpia las noticias antes de mandarlas a la IA."""
+import html
 import pandas as pd
 
 # Solo pasan textos que mencionen alguno de estos patógenos
@@ -12,6 +13,7 @@ def limpiar(filas):
         return df
     df["texto"] = df["titulo"].fillna("") + ". " + df["texto"].fillna("")
     df["texto"] = df["texto"].str.replace(r"<[^>]+>", " ", regex=True)        # quita HTML
+    df["texto"] = df["texto"].map(html.unescape)                               
     df["texto"] = df["texto"].str.replace(r"\s+", " ", regex=True).str.strip()
     df = df.drop_duplicates(subset=["url"]).drop_duplicates(subset=["titulo"])
     df["fecha"] = pd.to_datetime(df["fecha"], errors="coerce", utc=True)
