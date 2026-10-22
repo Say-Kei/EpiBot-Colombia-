@@ -1,0 +1,50 @@
+[
+  {
+    "id": "dengue-valle-del-cauca-ejemplo",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Valle del Cauca",
+    "municipios": ["Cali", "Palmira"],
+    "nivel": "critico",
+    "casos": 1240,
+    "esperado": 610,
+    "resumen": "DATO DE EJEMPLO. Los casos duplican lo esperado para esta época.",
+    "fecha_deteccion": "2026-10-18",
+    "fuentes": [
+      {"nombre": "INS", "tipo": "oficial", "url": "https://www.ins.gov.co", "fecha": "2026-10-18"},
+      {"nombre": "OPS", "tipo": "internacional", "url": "https://www.paho.org", "fecha": "2026-10-19"},
+      {"nombre": "Prensa regional", "tipo": "temprana", "url": "https://news.google.com", "fecha": "2026-10-20"}
+    ]
+  },
+  {
+    "id": "tosferina-norte-de-santander-ejemplo",
+    "patogeno": "Tosferina",
+    "tipo": "bacteria",
+    "departamento": "Norte de Santander",
+    "municipios": ["Cúcuta"],
+    "nivel": "alto",
+    "casos": 48,
+    "esperado": 30,
+    "resumen": "DATO DE EJEMPLO. Aumento de casos en menores de un año.",
+    "fecha_deteccion": "2026-10-17",
+    "fuentes": [
+      {"nombre": "INS", "tipo": "oficial", "url": "https://www.ins.gov.co", "fecha": "2026-10-17"},
+      {"nombre": "Secretaría de Salud", "tipo": "oficial", "url": "https://www.minsalud.gov.co", "fecha": "2026-10-17"}
+    ]
+  },
+  {
+    "id": "malaria-meta-ejemplo",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Meta",
+    "municipios": [],
+    "nivel": "moderado",
+    "casos": null,
+    "esperado": null,
+    "resumen": "DATO DE EJEMPLO. Reporte en el boletín semanal, sin cifras confirmadas.",
+    "fecha_deteccion": "2026-10-15",
+    "fuentes": [
+      {"nombre": "INS", "tipo": "oficial", "url": "https://www.ins.gov.co", "fecha": "2026-10-15"}
+    ]
+  }
+]
