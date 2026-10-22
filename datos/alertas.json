@@ -97,28 +97,6 @@
     ]
   },
   {
-    "id": "dengue-bolívar-2026-10-22",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Bolívar",
-    "municipios": [
-      "Cartagena"
-    ],
-    "nivel": "bajo",
-    "casos": null,
-    "esperado": 255,
-    "resumen": "1 fuente(s) reportan dengue en Bolívar. Lo normal para esta semana son unos 255 casos (INS).",
-    "fecha_deteccion": "2026-10-22",
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOT1VYU3U1ZXV5T29ZbE5jU19yMUpZN2dsUml6amtkNVdFNUJOWVdrTHVWZEg2d2RYVEdDSzBrWTVQdUFyMzlDUE5YdFRGeDNkUWIxRzAxcEUtalpySkhyRk9ieEg2NUpuLWxrOXlGZHloemxXNGVmQURlb0hIdHlabTYzbTJKclVPMkpOVm45QVRWSy1UT0x1eVYtYnlMVDgzVEludHVpOTFUR0w5YW1pQzV4Tlk5YjR2VjdyMzMwQzBMQdIB1gFBVV95cUxNUVFtRzVRbkJ1dWJEVlZKbEtZUFJMYmg0N0IyczdvTUJ3aFh5d09UX1UxT0VMclBfSV9Od25WNFJVQzdYVnpTakRaME9IdzRRdTZ2N0JiSWIweEJzd2FabGs5aGF1SUI1U2hDYmV3a2JieU1YQzBIdEVabjNNdUxBZ1V6TENEblV1ck9oS1pRaVM3enViTkhYbDJxSzNPMUNrRll1Q3lpZEliTmpXcExhTGJiQXJkSXZMZlVXNlJMRVRLejhDZy1KUVo2SDlucC00MUF2bXRB?oc=5",
-        "fecha": "2026-08-26"
-      }
-    ]
-  },
-  {
     "id": "dengue-meta-2026-10-22",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -149,7 +127,9 @@
     "patogeno": "Dengue",
     "tipo": "virus",
     "departamento": "Magdalena",
-    "municipios": [],
+    "municipios": [
+      "Santa Marta"
+    ],
     "nivel": "bajo",
     "casos": null,
     "esperado": 71,
@@ -161,28 +141,6 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQajllWDI5UF92MTF2S3pKM2J0Q2VNOU5mWW81SlJVMHllV3BKeldGeFlrSGNsM1dadkhKSUZqNUJTTlUxQm5UWTIxYWhkbmFPRmFQUkNXQ0p5N2NkSlhjdDhPdEZ5UXpTNzYxU1cyaVloUVZyNWxaYWhNSXNlMFQzVWgwcktfQlZUTlFyOG5fQnV6bnF3UkJLUGdLV0drcWc3TnphMTBkY0RqWDQ1UHRyUXJJME8wYnZEVEMtX092SHh1RG5UMFZLZXNZOVBCM044QTB5U2tQdDg4eEU?oc=5",
         "fecha": "2026-08-26"
-      }
-    ]
-  },
-  {
-    "id": "dengue-valle-del-cauca-2026-10-22",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Valle del Cauca",
-    "municipios": [
-      "Cali"
-    ],
-    "nivel": "bajo",
-    "casos": null,
-    "esperado": 477,
-    "resumen": "1 fuente(s) reportan dengue en Valle del Cauca. Lo normal para esta semana son unos 477 casos (INS).",
-    "fecha_deteccion": "2026-10-22",
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNEEzem9aNDJMcVhXeDM1dW5kNXRaZ2VHVk92VUNKZS1Rc3BzN3gzM2VfQ19LYmM4ZFRQaWQ5cWhzTEUtc2pHcm9ENUZIRERtZWttZDBlUnVYck1taFNtdndVUFpBdVhZZ3dOLXFfZWdKcjlKT1hRWjJoZHR5WFVEdmY5aHp1RWN3YjM5Y0J6YXB1b0FsTjJQQWpUTlVBaWNXNGkxdm9saGN5dmczNlRQUEpFUGs5UkRRUnpzanBScE5pREk5a2Q4aFdCM2dCNnpWMXFoUnRtbElMc2vSAeABQVVfeXFMT2U0VE9GRDdHSzNJX2s3UV83eEdrZFI2SXdHRGpiTHhyU24tSG9lQW5tajJqVTc4RVdrSFRScXRlS3d5QzNYZVBkSlpIQUk0V0FkdnRoZHdSVVlsV0s1cDlEU1ZSR3E4QUFNeldwVm96NjNhZHJySS1pNVk0cS1jZFFBTUxMcnlYU0lESHBod1g3NUpBNFJaaW1pZ0ZqYmFfUkl2dFF1M1dPQWdwdWJWSk0xNlY1a054UHpwM0lzRkMtYUVKVWJTaTNmU0VNR3p6ZU01enI4YV9QWm9kOThGUGU?oc=5",
-        "fecha": "2026-09-15"
       }
     ]
   }

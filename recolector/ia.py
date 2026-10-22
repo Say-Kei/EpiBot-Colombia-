@@ -20,7 +20,9 @@ patogeno, departamento, municipios (lista), casos (número), fecha (AAAA-MM-DD).
 Si un dato no aparece, escribe null. No adivines ni calcules.
 Si el texto menciona una ciudad, escribe también su departamento (ej. Cali -> Valle del Cauca).
 Patógenos válidos: dengue, malaria, tosferina, fiebre amarilla, oropouche, chikungunya.
-Si el patógeno no es uno de esos, escribe null en patogeno."""
+Si el patógeno no es uno de esos, escribe null en patogeno.
+Si el texto NO informa casos, contagios, muertes o un brote en un lugar concreto
+(por ejemplo: congresos, campañas de vacunación, consejos de prevención), responde todo null."""
 
 EJEMPLOS = [
     {"role": "user", "content": "Cali reporta 340 casos de dengue en la última semana, dijo la Secretaría de Salud del Valle."},
@@ -29,6 +31,8 @@ EJEMPLOS = [
     {"role": "assistant", "content": '{"patogeno": null, "departamento": null, "municipios": [], "casos": null, "fecha": null}'},
     {"role": "user", "content": "El 3 de octubre de 2026 la gobernación de Córdoba confirmó 12 casos de chikunguña en Montería y Lorica."},
     {"role": "assistant", "content": '{"patogeno": "chikungunya", "departamento": "Córdoba", "municipios": ["Montería", "Lorica"], "casos": 12, "fecha": "2026-10-03"}'},
+    {"role": "user", "content": "Bogotá será sede de un congreso internacional sobre malaria y fiebre amarilla."},
+    {"role": "assistant", "content": '{"patogeno": null, "departamento": null, "municipios": [], "casos": null, "fecha": null}'},
 ]
 
 
