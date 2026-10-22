@@ -21,5 +21,5 @@ def limpiar(filas):
     df = df[df["fecha"] >= hace_60]                                            # últimos 60 días
     df = df[df["texto"].str.contains(PATOGENOS, case=False)]
     df = df[df["texto"].str.contains("colombia", case=False)]
-    df["texto"] = df["texto"].str.slice(0, 6000)
+    df["texto"] = df["texto"].str.slice(0, 1500)
     return df.reset_index(drop=True)

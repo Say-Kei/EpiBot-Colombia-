@@ -1,11 +1,12 @@
 """Une todo: noticias + OMS -> limpieza -> IA -> validación -> alertas, comparadas con el INS."""
 import json
+import os
 from datetime import date
 from pathlib import Path
 
+from recolector.ia import extraer, LimiteAgotado
 from recolector.fuentes import noticias, oms, ins
 from recolector.limpieza import limpiar
-from recolector.ia import extraer
 from recolector.validar import validar
 from recolector.niveles import calcular_nivel
 
@@ -19,16 +20,20 @@ def main():
 
     # 2. Noticias y OMS: limpiar y pasar cada texto por la IA
     df = limpiar(noticias.recolectar() + oms.recolectar())
-    print(len(df), "textos después de limpiar")
+    df = df.head(int(os.getenv("MAX_TEXTOS", "50")))
+    print(len(df), "textos para la IA")
 
     grupos = {}
-    for i, fila in enumerate(df.to_dict("records"), start=1):
-        ok = validar(extraer(fila["texto"]))
-        print(f"  {i}/{len(df)}", "->", f"{ok['patogeno']} en {ok['departamento']}" if ok else "descartado")
-        if ok:
-            fuente = {"nombre": fila["fuente"], "tipo": fila["tipo"], "url": fila["url"],
-                      "fecha": str(fila["fecha"].date())}
-            grupos.setdefault((ok["patogeno"], ok["departamento"]), []).append((ok, fuente))
+    try:
+        for i, fila in enumerate(df.to_dict("records"), start=1):
+            ok = validar(extraer(fila["texto"]))
+            print(f"  {i}/{len(df)}", "->", f"{ok['patogeno']} en {ok['departamento']}" if ok else "descartado")
+            if ok:
+                fuente = {"nombre": fila["fuente"], "tipo": fila["tipo"], "url": fila["url"],
+                          "fecha": str(fila["fecha"].date())}
+                grupos.setdefault((ok["patogeno"], ok["departamento"]), []).append((ok, fuente))
+    except LimiteAgotado as e:
+        print("Paro la recolección:", e, "- guardo las alertas que ya tengo")
 
     # 3. Una alerta por patógeno + departamento, comparada con lo esperado
     alertas = []
@@ -52,6 +57,9 @@ def main():
             "fecha_deteccion": str(date.today()), "fuentes": fuentes})
 
     SALIDA.parent.mkdir(parents=True, exist_ok=True)
+    if not alertas:
+        print("No se generaron alertas nuevas; dejo el alertas.json anterior")
+        return
     SALIDA.write_text(json.dumps(alertas, ensure_ascii=False, indent=2), encoding="utf-8")
     print(len(alertas), "alertas guardadas en", SALIDA)
 
