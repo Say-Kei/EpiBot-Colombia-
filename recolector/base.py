@@ -3,9 +3,12 @@
 Dos tablas:
 - casos_semanales: histórico oficial del INS desde 2020 (casos por departamento y semana).
 - alertas: todas las alertas que genera EpiBot. Nunca se borran, así quedan para el historial.
+  Hay una por patógeno + departamento + semana; si llegan noticias nuevas esa semana, se unen.
+- procesadas: enlaces de noticias que la IA ya leyó, para no gastar tokens leyéndolas otra vez.
 """
 import json
 import sqlite3
+from datetime import date
 from contextlib import contextmanager
 from pathlib import Path
 
@@ -39,6 +42,11 @@ CREATE TABLE IF NOT EXISTS alertas (
 );
 CREATE INDEX IF NOT EXISTS idx_alertas_fecha ON alertas (fecha_deteccion);
 CREATE INDEX IF NOT EXISTS idx_alertas_depto ON alertas (departamento);
+
+CREATE TABLE IF NOT EXISTS procesadas (
+    url   TEXT PRIMARY KEY,
+    fecha TEXT NOT NULL
+);
 """
 
 
@@ -85,6 +93,20 @@ def guardar_alertas(alertas):
         con.executemany("INSERT OR REPLACE INTO alertas VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                         filas)
     return len(filas)
+
+
+def marcar_procesadas(urls):
+    """Anota los enlaces que la IA ya leyó (hoy)."""
+    hoy = date.today().isoformat()
+    with conectar() as con:
+        con.executemany("INSERT OR IGNORE INTO procesadas VALUES (?, ?)",
+                        [(u, hoy) for u in urls if u])
+
+
+def urls_procesadas():
+    """Conjunto con todos los enlaces que la IA ya leyó."""
+    with conectar() as con:
+        return {f[0] for f in con.execute("SELECT url FROM procesadas")}
 
 
 # ---------- Leer (lo usan el recolector y la página) ----------

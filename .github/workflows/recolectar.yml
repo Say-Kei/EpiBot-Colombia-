@@ -1,12 +1,13 @@
 name: Recolectar alertas
 on:
   schedule:
-  - cron: "0 12 * * *"  
-  - cron: "0 0 * * *" 
-  workflow_dispatch:
+    - cron: "0 12 * * *"   # 7:00 a. m. Colombia (GitHub usa hora UTC = Colombia + 5)
+    - cron: "0 0 * * *"    # 7:00 p. m. Colombia
+  workflow_dispatch:        # botón "Run workflow" para correrlo a mano
 jobs:
   recolectar:
     runs-on: ubuntu-latest
+    timeout-minutes: 60     # si algo se queda pegado, se corta a la hora
     permissions:
       contents: write
     steps:
@@ -20,6 +21,8 @@ jobs:
           IA_URL: ${{ secrets.IA_URL }}
           IA_KEY: ${{ secrets.IA_KEY }}
           IA_MODELO: ${{ secrets.IA_MODELO }}
+          MAX_TEXTOS: "50"
+          PRESUPUESTO_TOKENS: "45000"
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
