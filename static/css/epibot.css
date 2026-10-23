@@ -1,0 +1,163 @@
+body{margin:0}
+a{color:inherit;text-decoration:none}
+*{box-sizing:border-box;font-family:'Bricolage Grotesque',sans-serif}
+.m{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.w{max-width:1240px;margin:0 auto;padding:0 28px}
+.g{display:grid;gap:48px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.btn{display:inline-block;padding:15px 26px;font-weight:600;border-radius:2px}
+.row{padding:18px 0;border-top:1px solid rgba(15,42,36,.3);display:grid;grid-template-columns:56px 1fr;gap:12px}
+.num{font-size:clamp(40px,5.5vw,72px);font-weight:800;line-height:1;letter-spacing:-.03em}
+h2{font-size:clamp(36px,5vw,64px);line-height:1.02;letter-spacing:-.03em;font-weight:800;margin:0}
+html{scroll-behavior:smooth}a:hover{opacity:.8}input:focus,select:focus{outline:2px solid #c63a1f;outline-offset:2px}@media(max-width:600px){.w{padding:0 18px}}
+
+.epibot-footer {
+    --footer-green: #16836b;
+    --footer-dark: #123b32;
+    --footer-text: #d3e5dd;
+
+    margin-top: 64px;
+    padding: 48px 6% 0;
+    background: linear-gradient(135deg, #123b32, #0d2d27);
+    color: #fff;
+    font-family: inherit;
+}
+
+.epibot-footer__container {
+    display: grid;
+    grid-template-columns: 1.4fr 0.8fr 1.2fr;
+    gap: 42px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 38px;
+}
+
+.epibot-footer__brand,
+.epibot-footer__links,
+.epibot-footer__info {
+    min-width: 0;
+}
+
+.epibot-footer__logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 11px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.epibot-footer__logo strong {
+    color: #76d9ad;
+}
+
+.epibot-footer__icon {
+    display: grid;
+    place-items: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 12px;
+    background: #16836b;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.epibot-footer p {
+    color: var(--footer-text);
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.epibot-footer__tag {
+    display: inline-block;
+    margin-top: 8px;
+    color: #8de0b8;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+}
+
+.epibot-footer h3 {
+    margin: 5px 0 18px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.epibot-footer__links a {
+    display: block;
+    width: fit-content;
+    margin: 12px 0;
+    color: var(--footer-text);
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.epibot-footer__links a:hover {
+    color: #8de0b8;
+}
+
+.epibot-footer__button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+    padding: 11px 15px;
+    border: 1px solid #4b9e7c;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.epibot-footer__button:hover {
+    background: #16836b;
+}
+
+.epibot-footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 17px 0;
+    border-top: 1px solid rgb(255 255 255 / 14%);
+}
+
+.epibot-footer__bottom p {
+    margin: 0;
+    font-size: 12px;
+}
+
+@media (max-width: 800px) {
+    .epibot-footer__container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 30px;
+    }
+
+    .epibot-footer__brand {
+        grid-column: 1 / -1;
+    }
+
+    .epibot-footer__bottom {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .epibot-footer {
+        padding: 35px 22px 0;
+    }
+
+    .epibot-footer__container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .epibot-footer__brand {
+        grid-column: auto;
+    }
+}

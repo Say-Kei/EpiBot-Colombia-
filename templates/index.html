@@ -1,163 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="EpiBot Colombia: información clara sobre dengue, síntomas, prevención y centros de diagnóstico.">
-  <title>EpiBot Colombia | Infórmate · Cuídate · Previene</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../static/styles.css">
-  <script src="../js/script.js" defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inicio · EpiBot Colombia</title>
+<meta name="description" content="Información de salud pública sobre dengue en Colombia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/epibot.css') }}">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#inicio" aria-label="EpiBot Colombia, inicio">
-      <span class="brand-mark" aria-hidden="true">✳</span>
-      <span><strong>EpiBot Colombia</strong><small>Infórmate · Cuídate · Previene</small></span>
-    </a>
-    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
-    <nav class="main-nav" aria-label="Navegación principal">
-      <a class="active" href="#inicio">Inicio</a>
-      <a href="#que-es">¿Qué es el dengue?</a>
-      <a href="#sintomas">Síntomas</a>
-      <a href="#tratamiento">Tratamiento</a>
-      <a href="#prevencion">Prevención</a>
-      <a href="#diagnostico">Centros de diagnóstico</a>
-      <a href="inicio.html">Panel epidemiológico</a>
-    </nav>
-  </header>
+<div style="background:#eef2ee;color:#0f2a24;min-height:780px">
+<div class="m" style="background:#0f2a24;color:#eef2ee;padding:8px 28px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+<span>Boletín de vigilancia · Semana 32 · 2026</span>
+<span>Fuente: INS</span>
+</div>
+<header class="w" style="display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;padding-top:20px;padding-bottom:20px">
+<a href="/" style="font-size:22px;font-weight:800;letter-spacing:-.02em">EpiBot<span style="color:#c63a1f">.</span>co</a>
+<nav style="display:flex;flex-wrap:wrap;gap:20px;font-size:15px">
+<a href="/" style="font-weight:800;border-bottom:2px solid #c63a1f">Inicio</a>
+<a href="/que-es" style="">Qué es</a>
+<a href="/sintomas" style="">Síntomas</a>
+<a href="/tratamiento" style="">Tratamiento</a>
+<a href="/prevencion" style="">Prevención</a>
+<a href="/panel" style="">Panel</a>
+<a href="/centros" style="">Diagnóstico</a>
+</nav>
+</header>
+<section class="w g" style="padding-top:32px;align-items:center">
+<div>
+<div class="m" style="margin-bottom:20px;color:#c63a1f">● Salud pública · Colombia</div>
+<h1 style="font-size:clamp(48px,8vw,100px);line-height:.95;letter-spacing:-.04em;font-weight:800;margin:0 0 28px">El dengue se puede <span style="text-decoration:underline;text-decoration-color:#c63a1f;text-decoration-thickness:.08em;text-underline-offset:.08em">prevenir.</span>
+</h1>
+<p style="font-size:19px;line-height:1.5;max-width:520px;margin:0 0 28px">Conocer sus síntomas, tratamiento y prevención puede salvar vidas.</p>
+<a class="btn" href="/panel" style="background:#0f2a24;color:#fff;margin-right:10px">Ver el mapa →</a>
+<a class="btn" href="/que-es" style="border:1.5px solid #0f2a24">Conocer el dengue</a>
+</div>
+<div>
+<svg viewBox="0 0 300 365" role="img" aria-label="Mapa ilustrativo de Colombia con municipios priorizados por dengue" style="width:100%;max-height:560px;display:block">
+<path d="M192 4L170 15L125 28L102 34L87 47L70 71L55 86L40 84L27 116L40 142L42 174L12 219L2 230L37 254L75 262L95 273L132 297L225 361L227 294L240 247L297 232L290 198L280 174L287 137L277 135L240 140L207 120L175 120L165 90L150 73L155 34L177 19Z" fill="#dfe8e2" stroke="#0f2a24" stroke-width="1.2" stroke-linejoin="round"/>
+<g fill="#c63a1f" opacity=".22">
+<circle cx="120" cy="30" r="13"/>
+<circle cx="105" cy="34" r="13"/>
+<circle cx="87" cy="47" r="13"/>
+<circle cx="144" cy="45" r="13"/>
+<circle cx="162" cy="101" r="13"/>
+<circle cx="147" cy="118" r="13"/>
+<circle cx="135" cy="181" r="13"/>
+</g>
+<g fill="#c63a1f">
+<circle cx="120" cy="30" r="5"/>
+<circle cx="105" cy="34" r="5"/>
+<circle cx="87" cy="47" r="5"/>
+<circle cx="144" cy="45" r="5"/>
+<circle cx="162" cy="101" r="5"/>
+<circle cx="147" cy="118" r="5"/>
+<circle cx="135" cy="181" r="5"/>
+</g>
+<g fill="none" stroke="#0f2a24" stroke-width="1.6">
+<circle cx="62" cy="197" r="4"/>
+<circle cx="92" cy="208" r="4"/>
+<circle cx="95" cy="176" r="4"/>
+</g>
+<g font-size="9" font-family="IBM Plex Mono,monospace" fill="#0f2a24">
+<text x="128" y="20">Santa Marta</text>
+<text x="97" y="24" text-anchor="end">Barranquilla</text>
+<text x="75" y="56" text-anchor="end">Cartagena</text>
+<text x="153" y="52">Valledupar</text>
+<text x="171" y="105">Cúcuta</text>
+<text x="156" y="124">Bucaramanga</text>
+<text x="144" y="185">Villavicencio</text>
+<text x="86" y="175" text-anchor="end">Ibagué</text>
+<text x="83" y="212" text-anchor="end">Neiva</text>
+<text x="54" y="201" text-anchor="end">Cali</text>
+</g>
+</svg>
+</div>
+</section>
+<section class="w" style="margin-top:32px">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));border-top:2px solid #0f2a24">
+<div style="padding:24px 24px 0 0">
+<div class="num" style="color:#0f2a24">70.452</div>
+<div class="m" style="margin-top:10px">casos · semana 32</div>
+</div>
+<div style="padding:24px 24px 0 0">
+<div class="num" style="color:#0f2a24">61,1%</div>
+<div class="m" style="margin-top:10px">en 8 territorios · corte 20 jun</div>
+</div>
+<div style="padding:24px 24px 0 0">
+<div class="num" style="color:#c63a1f">+234%</div>
+<div class="m" style="margin-top:10px">Magdalena vs. referencia</div>
+</div>
+<div style="padding:24px 24px 0 0">
+<div class="num" style="color:#c63a1f">+165%</div>
+<div class="m" style="margin-top:10px">Cesar vs. referencia</div>
+</div>
+</div>
+</section>
 
-  <main>
-    <section class="hero" id="inicio">
-      <div class="hero-copy">
-        <span class="eyebrow">Salud pública</span>
-        <h1>El dengue<br><em>se puede prevenir</em></h1>
-        <p>Es una enfermedad viral transmitida principalmente por la picadura del mosquito <i>Aedes aegypti</i>. Conocer sus síntomas, tratamiento y medidas de prevención puede salvar vidas.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#que-es">Conoce más sobre el dengue <span>→</span></a>
-          <a class="button button-outline" href="inicio.html">▥ Consultar el panel</a>
-        </div>
-      </div>
-      <div class="hero-art" role="img" aria-label="Imagen ilustrativa de un mosquito transmisor del dengue">
-        <img src="../assets/hero-mosquito.jpg" alt="Mosquito Aedes aegypti, transmisor del dengue">
-        <div class="hero-note">Pequeñas acciones<br>grandes cambios <span>♡</span></div>
-        <span class="leaf leaf-one"></span><span class="leaf leaf-two"></span>
-      </div>
-    </section>
+<section class="w sec"><div class="m" style="margin-bottom:14px">Explora</div><h2 style="font-size:clamp(30px,4vw,48px);max-width:820px">Todo lo que necesitas saber, en siete ventanas.</h2><div style="margin-top:28px"><a class="row row--wide" href="/que-es"><span class="m">01</span><div><strong>¿Qué es el dengue?</strong><p>El virus, el mosquito y cómo se transmite.</p></div></a><a class="row row--wide" href="/sintomas"><span class="m">02</span><div><strong>Síntomas</strong><p>Las tres fases de la enfermedad y las señales de alarma.</p></div></a><a class="row row--wide" href="/tratamiento"><span class="m">03</span><div><strong>Tratamiento</strong><p>Qué hacer en casa y qué evitar.</p></div></a><a class="row row--wide" href="/prevencion"><span class="m">04</span><div><strong>Prevención</strong><p>Una ruta por tu casa para eliminar criaderos.</p></div></a><a class="row row--wide" href="/panel"><span class="m">05</span><div><strong>Panel</strong><p>Dónde se concentran los casos en 2026.</p></div></a><a class="row row--wide" href="/centros"><span class="m">06</span><div><strong>Diagnóstico</strong><p>Cómo prepararte para consultar y qué pruebas existen.</p></div></a></div></section><section class="w sec"><figure style="margin:0"><div class="photo"><span class="m">Tu foto aquí · static/img/inicio.jpg</span><img src="{{ url_for('static', filename='img/inicio.jpg') }}" alt="Prevenir empieza en casa: revisar y vaciar recipientes con agua" onerror="this.style.display='none'"></div><figcaption class="m cap">Prevenir empieza en casa: revisar y vaciar recipientes con agua</figcaption></figure></section>
+<div class="m" style="padding:28px;text-align:center;opacity:.7;margin-top:24px">EpiBot Colombia · No reemplaza la consulta médica</div>
+</div>
+<script src="{{ url_for('static', filename='js/epibot.js') }}" defer></script>
 
-    <section class="info-grid section-wrap" aria-label="Información esencial">
-      <article class="info-card green-card" id="que-es">
-        <span class="round-icon">✺</span>
-        <h2>¿Qué es el dengue?</h2>
-        <p>Es una infección viral que puede ser leve o grave. Se transmite por la picadura de mosquitos infectados, principalmente <i>Aedes aegypti</i>.</p>
-        <a href="#fuentes">Conoce más <span>→</span></a>
-      </article>
-      <article class="info-card pink-card" id="sintomas">
-        <span class="round-icon">🌡</span>
-        <h2>Síntomas</h2>
-        <p>Puede iniciar con fiebre, dolor de cabeza y muscular. También puede causar dolor detrás de los ojos, náuseas o sarpullido.</p>
-        <a href="#alarmas">Ver síntomas <span>→</span></a>
-      </article>
-      <article class="info-card green-card" id="tratamiento">
-        <span class="round-icon">♧</span>
-        <h2>Tratamiento</h2>
-        <p>No existe un medicamento específico contra el dengue. Se recomienda hidratación, reposo y valoración de un profesional de salud.</p>
-        <a href="#alarmas">Ver tratamiento <span>→</span></a>
-      </article>
-      <article class="info-card pink-card" id="prevencion">
-        <span class="round-icon">♡</span>
-        <h2>Prevención</h2>
-        <p>Evita la acumulación de agua estancada, tapa los recipientes, usa repelente y protege puertas y ventanas con mallas.</p>
-        <a href="#prevencion-lista">Ver consejos <span>→</span></a>
-      </article>
-    </section>
+<footer class="epibot-footer">
+    <div class="epibot-footer__container">
 
-    <section class="alarm-section" id="alarmas">
-      <div class="alarm-card">
-        <div class="alarm-title"><span class="warning-icon">!</span><h2>Señales de alarma</h2></div>
-        <p>Busca atención médica urgente si presentas alguno de estos síntomas:</p>
-        <ul>
-          <li>Dolor abdominal intenso y continuo.</li>
-          <li>Vómitos persistentes.</li>
-          <li>Sangrado en encías, nariz o heces.</li>
-          <li>Mareos, desmayo, somnolencia o dificultad para respirar.</li>
-        </ul>
-        <div class="medicine-warning"><strong>Importante:</strong> evita la aspirina, el ibuprofeno y otros antiinflamatorios si sospechas dengue, salvo indicación médica, por el riesgo de sangrado.</div>
-      </div>
-      <div class="health-illustration">
-        <img src="../assets/symptom-illustration.jpg" alt="Ilustración de una persona con fiebre">
-        <p>Si tienes síntomas,<br>no te automediques.<br>Consulta a un profesional de salud.</p>
-      </div>
-    </section>
+        <section class="epibot-footer__brand">
+            <a href="/" class="epibot-footer__logo">
+                <span class="epibot-footer__icon">+</span>
+                <span>EpiBot <strong>Colombia</strong></span>
+            </a>
 
-    <section class="prevention-strip section-wrap" id="prevencion-lista">
-      <h2>Pequeñas acciones que ayudan a prevenir</h2>
-      <div class="prevention-items">
-        <div><span>◉</span><strong>Elimina criaderos</strong><p>Vacía y cepilla recipientes que acumulen agua.</p></div>
-        <div><span>✳</span><strong>Protégete de picaduras</strong><p>Usa repelente siguiendo las instrucciones del producto.</p></div>
-        <div><span>⌂</span><strong>Cuida tu entorno</strong><p>Mantén patios limpios y usa mallas en puertas y ventanas.</p></div>
-      </div>
-    </section>
+            <p>
+                Conocimiento y prevención para construir
+                comunidades más informadas frente al dengue.
+            </p>
 
-    <section class="diagnostics section-wrap" id="diagnostico">
-      <div class="diagnostics-heading">
-        <span class="pin-icon">●</span>
-        <div><h2>Centros de diagnóstico</h2><p>Busca centros de salud y laboratorios autorizados para consultar por pruebas de detección del dengue en tu ciudad o municipio.</p></div>
-      </div>
-      <div class="diagnostics-layout">
-        <div class="clinic-finder">
-          <label class="search-clinic"><span>⌕</span><input id="clinicSearch" type="search" placeholder="Busca tu ciudad o municipio..."></label>
-          <div class="filters">
-            <label>Departamento
-              <select id="departmentFilter">
-                <option value="">Todos</option><option>Chocó</option><option>Cundinamarca</option><option>Antioquia</option><option>Valle del Cauca</option>
-              </select>
-            </label>
-            <label>Tipo de servicio
-              <select id="serviceFilter"><option value="">Todos</option><option value="hospital">Hospital</option><option value="laboratorio">Laboratorio</option><option value="clinica">Clínica</option></select>
-            </label>
-          </div>
-          <div class="clinic-list" id="clinicList" aria-live="polite">
-            <article class="clinic" data-city="bogota cundinamarca" data-department="Cundinamarca" data-type="hospital">
-              <span class="clinic-pin">●</span><div><strong>Hospital o centro de salud de tu municipio</strong><small>Consulta disponibilidad de pruebas y atención.</small></div><span class="clinic-tag">Verificar servicio</span>
-            </article>
-            <article class="clinic" data-city="quibdo chocó" data-department="Chocó" data-type="hospital">
-              <span class="clinic-pin">●</span><div><strong>Centro de salud en Quibdó</strong><small>Chocó · Confirma dirección y servicio antes de acudir.</small></div><span class="clinic-tag">Verificar servicio</span>
-            </article>
-            <article class="clinic" data-city="medellin antioquia" data-department="Antioquia" data-type="laboratorio">
-              <span class="clinic-pin">●</span><div><strong>Laboratorio clínico autorizado</strong><small>Consulta si realiza pruebas para dengue.</small></div><span class="clinic-tag">Verificar servicio</span>
-            </article>
-          </div>
-          <p class="disclaimer">Los centros de esta maqueta son referencias ilustrativas, no un directorio verificado. Confirma con tu Secretaría de Salud o el prestador antes de desplazarte.</p>
-        </div>
-        <div class="map-card">
-          <img src="../assets/diagnostic-map.jpg" alt="Mapa ilustrativo para localizar servicios de salud">
-          <div class="map-label">Mapa ilustrativo</div>
-        </div>
-        <aside class="test-info">
-          <h3>¿Qué pruebas se realizan?</h3>
-          <ul><li><strong>Antígeno NS1:</strong> puede ayudar a detectar infección en los primeros días.</li><li><strong>Pruebas serológicas IgM/IgG:</strong> detectan anticuerpos; su interpretación depende del momento de la enfermedad.</li></ul>
-          <p>El personal de salud define qué prueba es apropiada según los síntomas y el tiempo de evolución.</p>
-          <div class="soft-warning">Verifica que el centro esté habilitado y consulta si requiere orden médica.</div>
-        </aside>
-      </div>
-    </section>
+            <span class="epibot-footer__tag">
+                Información · Prevención · Bienestar
+            </span>
+        </section>
 
-    <section class="sources-news section-wrap" id="fuentes">
-      <div class="footer-brand">
-        <span class="brand-mark">✳</span><div><strong>EpiBot Colombia</strong><small>Infórmate · Cuídate · Previene</small></div>
-      </div>
-      <div class="trusted-sources"><h3>Fuentes confiables</h3><a href="https://www.ins.gov.co/" target="_blank" rel="noopener">Instituto Nacional de Salud ↗</a><a href="https://www.minsalud.gov.co/" target="_blank" rel="noopener">Ministerio de Salud y Protección Social ↗</a><a href="https://www.paho.org/es/temas/dengue" target="_blank" rel="noopener">OPS: información sobre dengue ↗</a></div>
-      <form class="newsletter" id="newsletterForm"><h3>Mantente informado</h3><p>Este formulario es demostrativo; todavía no envía correos.</p><label><span class="visually-hidden">Correo electrónico</span><input type="email" placeholder="Tu correo electrónico" required><button type="submit" aria-label="Enviar correo">→</button></label><small id="newsletterMessage" aria-live="polite"></small></form>
-    </section>
-  </main>
+        <nav class="epibot-footer__links"
+             aria-label="Enlaces del pie de página">
+            <h3>Explora</h3>
+            <a href="/">Inicio</a>
+            <a href="/que-es">¿Qué es el dengue?</a>
+            <a href="/sintomas">Síntomas</a>
+            <a href="/tratamiento">Tratamiento</a>
+            <a href="/prevencion">Prevención</a>
+        </nav>
 
-  <footer class="site-footer">
-    <nav aria-label="Navegación del pie"><a href="#inicio">Inicio</a><a href="#que-es">¿Qué es el dengue?</a><a href="#sintomas">Síntomas</a><a href="#tratamiento">Tratamiento</a><a href="#prevencion">Prevención</a><a href="#diagnostico">Centros de diagnóstico</a><a href="inicio.html">Panel epidemiológico</a></nav>
-    <span>EpiBot Colombia · Proyecto informativo</span>
-  </footer>
-  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+        <section class="epibot-footer__info">
+            <h3>Compromiso con la salud</h3>
+            <p>
+                Aprende a reconocer los síntomas y conoce
+                medidas para prevenir el dengue.
+            </p>
+            <a href="/centros" class="epibot-footer__button">
+                Consultar centros de atención
+                <span aria-hidden="true">→</span>
+            </a>
+        </section>
+
+    </div>
+
+    <div class="epibot-footer__bottom">
+        <p>© 2026 EpiBot Colombia</p>
+        <p>Proyecto informativo y educativo sobre el dengue.</p>
+    </div>
+</footer>
+
 </body>
 </html>
