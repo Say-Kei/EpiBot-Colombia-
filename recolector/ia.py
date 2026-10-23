@@ -34,7 +34,7 @@ Del texto, extrae SOLO lo que dice explícitamente. Responde únicamente un JSON
 patogeno, departamento, municipios (lista), casos (número), fecha (AAAA-MM-DD).
 Si un dato no aparece, escribe null (y [] en municipios). No adivines ni calcules.
 Si el texto menciona una ciudad, escribe también su departamento (ej. Cali -> Valle del Cauca).
-Patógenos válidos: dengue, malaria, tosferina, fiebre amarilla, oropouche, chikungunya.
+Patógenos válidos: dengue, malaria, fiebre amarilla, oropouche, chikungunya.
 Si el patógeno no es uno de esos, escribe null en patogeno.
 Si el texto informa casos, muertes o brotes en todo el país sin un departamento concreto,
 escribe el patógeno y deja departamento en null.

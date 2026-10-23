@@ -36,13 +36,13 @@ CODIGOS = {"05": "Antioquia", "08": "Atlántico", "11": "Bogotá D.C.", "13": "B
            "91": "Amazonas", "94": "Guainía", "95": "Guaviare", "97": "Vaupés", "99": "Vichada"}
 
 # Patógenos del proyecto y su tipo
-PATOGENOS = {"dengue": "virus", "malaria": "parasito", "tosferina": "bacteria",
+PATOGENOS = {"dengue": "virus", "malaria": "parasito",
              "fiebre amarilla": "virus", "oropouche": "virus", "chikungunya": "virus"}
 
 # Formas en que se puede escribir un patógeno -> nombre de PATOGENOS
 ALIAS_PATOGENO = {"chikunguna": "chikungunya", "chicungunya": "chikungunya",
                   "chikungunia": "chikungunya", "chikungunya": "chikungunya",
-                  "tos ferina": "tosferina", "paludismo": "malaria"}
+                   "paludismo": "malaria"}
 
 
 def nombre_depto(valor):

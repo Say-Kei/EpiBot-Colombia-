@@ -3,7 +3,7 @@ import html
 import pandas as pd
 
 # Solo pasan textos que mencionen alguno de estos patógenos
-PATOGENOS = ("dengue|malaria|paludismo|tosferina|tos ferina|fiebre amarilla|oropouche"
+PATOGENOS = ("dengue|malaria|paludismo|fiebre amarilla|oropouche"
              "|chikungunya|chikunguña|chicungunya")
 
 
