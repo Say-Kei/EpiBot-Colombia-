@@ -4,5 +4,5 @@ __pycache__/
 *.pyc
 .env
 .DS_Store
-datos/crudos/
+datos/crudos
 .vscode/

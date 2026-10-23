@@ -4,6 +4,9 @@ on:
     - cron: "0 12 * * *"   # 7:00 a. m. Colombia (GitHub usa hora UTC = Colombia + 5)
     - cron: "0 0 * * *"    # 7:00 p. m. Colombia
   workflow_dispatch:        # botón "Run workflow" para correrlo a mano
+concurrency:
+  group: recolectar         # si una ejecución sigue corriendo, la siguiente espera
+  cancel-in-progress: false
 jobs:
   recolectar:
     runs-on: ubuntu-latest
@@ -28,4 +31,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add datos/alertas.json datos/epibot.db
           git commit -m "Actualiza alertas" || echo "Sin cambios"
+          git pull --rebase
           git push

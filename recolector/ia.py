@@ -10,7 +10,8 @@ from openai import OpenAI, RateLimitError, APIError
  
 load_dotenv()  # primero, para que las variables del .env ya existan abajo
  
-LIMITE_TPM = 1000             
+# Tokens por minuto que nos permitimos usar. Groq da 8.000; usamos 6.000 para dejar margen.
+LIMITE_TPM = int(os.getenv("LIMITE_TPM", "6000"))
 PRESUPUESTO_EJECUCION = int(os.getenv("PRESUPUESTO_TOKENS", "45000"))
 MAX_TOKENS_SALIDA = 700
 MAX_REINTENTOS = 3
@@ -22,6 +23,8 @@ cliente = OpenAI(base_url=os.getenv("IA_URL"), api_key=os.getenv("IA_KEY"),
                  http_client=httpx.Client(verify=truststore.SSLContext(ssl.PROTOCOL_TLS_CLIENT)),
                  max_retries=0)  # los reintentos los controlamos nosotros
 MODELO = os.getenv("IA_MODELO")
+
+
 class LimiteAgotado(Exception):
     """Se acabó la cuota de Groq: hay que parar y guardar lo que se tenga."""
 
@@ -33,17 +36,11 @@ Si un dato no aparece, escribe null (y [] en municipios). No adivines ni calcule
 Si el texto menciona una ciudad, escribe también su departamento (ej. Cali -> Valle del Cauca).
 Patógenos válidos: dengue, malaria, tosferina, fiebre amarilla, oropouche, chikungunya.
 Si el patógeno no es uno de esos, escribe null en patogeno.
-Si el Si el texto informa casos, muertes o brotes en todo el país sin un departamento concreto,
-escribe el patógeno y deja departamento en null.
-Si destaca un departamento o ciudad (por ejemplo, "el más afectado"), escribe ese departamento.
-Si el texto informa casos, muertes o brotes en todo el país sin un departamento concreto,
-escribe el patógeno y deja departamento en null.
-Si destaca un departamento o ciudad (por ejemplo, "el más afectado"), escribe ese departamento.
 Si el texto informa casos, muertes o brotes en todo el país sin un departamento concreto,
 escribe el patógeno y deja departamento en null.
 Si destaca un departamento o ciudad (por ejemplo, "el más afectado"), escribe ese departamento.
 Si el texto NO informa casos, contagios, muertes ni brotes (congresos, campañas de vacunación,
-consejos de prevención o solo riesgo futuro), responde todo null.."""
+consejos de prevención o solo riesgo futuro), responde todo null."""
 
 EJEMPLOS = [
     {"role": "user", "content": "Cali reporta 340 casos de dengue en la última semana, dijo la Secretaría de Salud del Valle."},

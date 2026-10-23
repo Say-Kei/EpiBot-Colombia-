@@ -1,5 +1,96 @@
 [
   {
+    "id": "dengue-meta-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Meta",
+    "nivel": "alto",
+    "casos": null,
+    "esperado": 39,
+    "resumen": "2 fuente(s) reportan dengue en Meta esta semana. Lo normal para esta semana son unos 39 casos (INS).",
+    "fecha_deteccion": "2026-10-23",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYk5mOVVqU2FEZmxDY2Q1N0hkYkQzMTY2ZkhnamRXWlJkeTFfMjYzZlNxQ0sxOV9BOW8wYmNub2VVOWt3bUVfZ1RIZ1hjNTJYV3d1MlEtZFplUFlNb05pMjVDVUNSdmNFSEEwUGtmU3NKNVdUWXRpSnVJeUpkSEIxMS1EUExidzk2ZlFUNmFaYmpuVEQza0RNRGZKSXZhcnFTWUxsUnVXQjN4MG81QjRlZkc5elB1Z21qTmtWaGd3bEJUY3YwSHNHUHVtN0ZXWW8yNExBRno3MTEtcUtDMXfSAfgBQVVfeXFMTTI0Qm9jVVNwaS13U0RpcmpaZkMyUUxYMC1GVmtGMkVFTEk3aTN0RlQzT21WSG5SOXdnQ0FuZ2t3RWNUcVhGRHkzQXp5blBKV2NYZlN6WGZOYkhuemVmWjA2LVdlVWJXLTM4UzNGV1BlajRlcjhjRS1qSDlpLVpmcVBLYVdhYkJ4ZDExdHI5RU1fZWtzb2V3Nmd5WkRNUjBjUXVNdTdLbmZGaEZILVdTWFQwMEJSOGVQMkRQMHh2YUx0bXRha0g3OFdZRkdqY1lRM3VuUUJfVFE1NzNtdkdvSElBN19mbWEzVkVJVVFmNzRFMTc3Wm5MTlk?oc=5",
+        "fecha": "2026-10-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQR2Z4NVFFVnZsOG5ueDBTbUFxcHRFWDRDcU55Y3N6c1ZvZ2d2QllRaEhDbWtGY3FXQnRGTzN5MDVXZVdJTUxFWUt6RENfdmUwazFkdlphYXlhdld6TWhCV3cyeHljcGFpQWVMcU9Fc3J5V1ZZTjNNbTlZdlpYM1IwZGVQTExtbk93RW5FcEhjdzFHNXUxYVB30gGXAUFVX3lxTE83MGNJdXg1R2RIcnZubEk3M0QzTnF1Z0hqd3dQMG5manBURTJFdEhGM1c5R016WUdJS2lFOHhBdV96d1BqVHVwNmpXckhPYy1VOU5SLU5kaFNkX2R4RUowamp4bnY5OVNHbHFxUWpiQzlnWWM4QWdJc3I5VGFiVXlPMEVZVkdpNUJmZHhld185WFBPUUdpTFE?oc=5",
+        "fecha": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "id": "tosferina-antioquia-2026-s43",
+    "patogeno": "Tosferina",
+    "tipo": "bacteria",
+    "departamento": "Antioquia",
+    "nivel": "critico",
+    "casos": 4,
+    "esperado": 1,
+    "resumen": "1 fuente(s) reportan tosferina en Antioquia esta semana. Lo normal para esta semana son unos 1 casos (INS).",
+    "fecha_deteccion": "2026-10-23",
+    "municipios": [
+      "Necoclí"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX2hRRHFxTTdwRGRmM2VqeWF1VzhycW9RRTZKbS1SNjNfbzNTeWVvTTVtRFA1T2F0ME1oTzJtOGlvRFJPT0Mzb0NlekpDTzBYZFRnQkhleG9rUVpHdE1lcTVsZ0ZWbFg0Y3JzcVZSWHAyVGdfeWVaTTEwRW1NRW80enpIQndhMlhjdHR0UmNNTUdSNC1jMFpLOHYtMk1zRjhQSDQ4Y9IBqgFBVV95cUxObTE2M2dkb094cV91M3RRQ2NBMkp0cC00LVFkYkluUDdWTmVsRE9pajVZalU4TkhQMXgtN2hxWnFUbVJKQmNGUUhPSlgzNm5nY1Q3eGZob1ZfeEx2OGs3N18yR0JZU3lhRFQwZmtjcm1zZ1RCUHNwMU5ZZ0E1MTVQcTUyN0RyUm0wRnZsSThYQVdKdVFtU3d6OGExUzRUZDNxeXlzMEQ1cDRYdw?oc=5",
+        "fecha": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "dengue-atlantico-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Atlántico",
+    "nivel": "critico",
+    "casos": null,
+    "esperado": 226,
+    "resumen": "4 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 226 casos (INS).",
+    "fecha_deteccion": "2026-10-23",
+    "municipios": [
+      "Barranquilla",
+      "Palmar de Varela",
+      "Ponedera",
+      "Puerto Colombia"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYkFkZHRweWxmcWpUWTlucDBob3B5a1I4WjdjQWl2dDRUalJ1LXowSThCVF9ZbEtpYXZjbHNoMUN1LV9ZbGZ0RVE4UWROcDQ0bFFrcTRyMTdjWm1XU0NCdlR6bXpXY2xwbVJZellpUFdCeW0ySFliWmZER0tUbUsxZ1VjdlFPdWs?oc=5",
+        "fecha": "2026-10-21"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SWl9aSEJQRy02cW5SR0laRFZmemVVOHE1SnZJYWJuWFAyRmdLelpMRXlCMDUwNWhReXg2LTN0Y0E3aDM2MEIxd1dOSjNyQnp2OTlydGF0MndGLTDSAVtBVV95cUxOUlpfWkhCUEctNnFuUkdJWkRWZnplVThxNUp2SWFiblhQMkZnS3paTEV5QjA1MDVoUXl4Ni0zdGNBN2gzNjBCMXdXTkozckJ6djk5cnRhdDJ3Ri0w?oc=5",
+        "fecha": "2026-10-15"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LeE5nNUQ5a1BCVjBvWmpJcVd6UkI5bnRyWDZKVm5SNy1Zc2RSMEg0Vmx5TjgwdUVUV1JnSENBWlhmV3NIQjNaZk93WVRNLWFhTzB5c1lNRlNqVmY2R0xlU2luMTZ3SlFQU1N5U1d1TV9XMlFzZGZNV3hiSQ?oc=5",
+        "fecha": "2026-10-14"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVXE1UDBwNG9LN25vYzRjRi1lWkEzUTZOZHRDQUo4UHgwYzg1UHR0OFZYYXJueG10N0NOM2NTcHhvR1BwdG5EVWMtcU5BZjRuOUxHcVJWUURkMElldDFuWHFjNDhTTlNBS2psOW5jSHBlUmpaQlpuYkplNy10WGV3Rjk1M2NadVhJSWxaSm9YVWhpQUw3UnlmUWxscXl0TFJPckdzSnlHOFlra1RQcEtKWWpkTlhuR0l4LWZncUhxWVN1bjdjak4zUW42ZXVpUHlZM2c?oc=5",
+        "fecha": "2026-09-29"
+      }
+    ]
+  },
+  {
     "id": "dengue-cordoba-2026-s43",
     "patogeno": "Dengue",
     "tipo": "virus",
