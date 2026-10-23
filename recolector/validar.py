@@ -42,7 +42,7 @@ PATOGENOS = {"dengue": "virus", "malaria": "parasito", "tosferina": "bacteria",
 # Formas en que se puede escribir un patógeno -> nombre de PATOGENOS
 ALIAS_PATOGENO = {"chikunguna": "chikungunya", "chicungunya": "chikungunya",
                   "chikungunia": "chikungunya", "chikungunya": "chikungunya",
-                  "tos ferina": "tosferina"}
+                  "tos ferina": "tosferina", "paludismo": "malaria"}
 
 
 def nombre_depto(valor):

@@ -1,4 +1,3 @@
-
 import json
 import os
 from datetime import date
@@ -29,9 +28,11 @@ EXCLUIR = "MORTALIDAD"
 # Años en que un patógeno solo tiene parte de sus eventos (no sirven para el total)
 INCOMPLETOS = {"Malaria": {2023, 2024, 2025}}  # en SIVIGILA solo hay malaria complicada
 
-# Nombres de laFs columnas en los XLSX de SIVIGILA
+# Nombres de las columnas en los XLSX de SIVIGILA
 COLUMNAS_XLSX = {"evento": "nombre_evento", "ano": "ano", "semana": "semana",
                  "departamento": "departamento_ocurrencia"}
+
+NECESARIAS = set(COLUMNAS_XLSX.values()) | {"ajuste"}
 
 VACIO = pd.DataFrame(columns=["evento", "ano", "semana", "departamento", "conteo"])
 
@@ -42,7 +43,8 @@ def leer_xlsx():
     tablas = []
     for a in sorted(CARPETA_XLSX.glob("*.xlsx")):
         print("Leyendo", a.name)
-        df = pd.read_excel(a)
+        # usecols: solo carga las columnas que se usan (ahorra mucha RAM)
+        df = pd.read_excel(a, usecols=lambda c: str(c).strip().lower() in NECESARIAS)
         df.columns = [str(c).strip().lower() for c in df.columns]
         faltan = [c for c in COLUMNAS_XLSX.values() if c not in df.columns]
         if faltan:
@@ -162,4 +164,3 @@ def esperado(hist, patogeno, departamento, semana, evento=None, anos=3):
     ultimos = sorted(g["ano"].unique())[-anos:]
     total = g[(g["ano"].isin(ultimos)) & (g["semana"] == semana)]["casos"].sum()
     return round(total / len(ultimos))  # los años sin casos esa semana cuentan como 0
- 

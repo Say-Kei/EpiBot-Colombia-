@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 from openai import OpenAI, RateLimitError, APIError
 
 LIMITE_TPM = 1000               # tokens por minuto de la cuenta de Groq
-PRESUPUESTO_EJECUCION = 45000   # 200.000 al día / 4 ejecuciones, con margen
+PRESUPUESTO_EJECUCION = 45000 
 MAX_TOKENS_SALIDA = 300
 MAX_REINTENTOS = 3
 ESPERA_MAXIMA = 90              # si Groq pide esperar más, es el límite del día
@@ -54,6 +54,9 @@ def segundos_de_espera(error, intento):
 
 def extraer(texto):
     global tokens_usados
+    # Se revisa ANTES de llamar: así nunca se bota una respuesta que ya se pagó
+    if tokens_usados >= PRESUPUESTO_EJECUCION:
+        raise LimiteAgotado("Se alcanzó el presupuesto de tokens de esta ejecución")
     for intento in range(MAX_REINTENTOS):
         try:
             r = cliente.chat.completions.create(
@@ -67,8 +70,6 @@ def extraer(texto):
             gastados = r.usage.total_tokens if r.usage else LIMITE_TPM
             tokens_usados += gastados
             print(f"  tokens: {gastados} | en esta ejecución: {tokens_usados}")
-            if tokens_usados >= PRESUPUESTO_EJECUCION:
-                raise LimiteAgotado("Se alcanzó el presupuesto de tokens de esta ejecución")
             time.sleep(gastados / LIMITE_TPM * 60 + 1)   # pausa proporcional a lo gastado
 
             return json.loads(r.choices[0].message.content or "")
@@ -90,4 +91,3 @@ def extraer(texto):
 
     print("  Se agotaron los reintentos; salto este texto")
     return None
-
