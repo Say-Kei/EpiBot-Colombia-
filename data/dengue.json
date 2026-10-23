@@ -1,0 +1,115 @@
+{
+  "anio": 2026,
+  "semana": 32,
+  "fecha_carga": "2026-10-22",
+  "fuente": "Instituto Nacional de Salud (INS), boletín epidemiológico semanal",
+  "casos_total": "70.452",
+  "concentracion": {
+    "porcentaje": "61,1",
+    "corte": "20 jun"
+  },
+  "incrementos": {
+    "Magdalena": "+234%",
+    "Cesar": "+165%"
+  },
+  "alerta": {
+    "municipios_sobre_esperado": "142",
+    "municipios_riesgo": "825",
+    "entidades_sobre_esperado": "14",
+    "entidades_alerta": "13"
+  },
+  "atlantico_brote": "12",
+  "mapa": [
+    {
+      "nombre": "Santa Marta",
+      "x": 120,
+      "y": 30,
+      "nivel": "alto",
+      "lx": 128,
+      "ly": 20,
+      "anchor": "start"
+    },
+    {
+      "nombre": "Barranquilla",
+      "x": 105,
+      "y": 34,
+      "nivel": "alto",
+      "lx": 97,
+      "ly": 24,
+      "anchor": "end"
+    },
+    {
+      "nombre": "Cartagena",
+      "x": 87,
+      "y": 47,
+      "nivel": "alto",
+      "lx": 75,
+      "ly": 56,
+      "anchor": "end"
+    },
+    {
+      "nombre": "Valledupar",
+      "x": 144,
+      "y": 45,
+      "nivel": "alto",
+      "lx": 153,
+      "ly": 52,
+      "anchor": "start"
+    },
+    {
+      "nombre": "Cúcuta",
+      "x": 162,
+      "y": 101,
+      "nivel": "alto",
+      "lx": 171,
+      "ly": 105,
+      "anchor": "start"
+    },
+    {
+      "nombre": "Bucaramanga",
+      "x": 147,
+      "y": 118,
+      "nivel": "alto",
+      "lx": 156,
+      "ly": 124,
+      "anchor": "start"
+    },
+    {
+      "nombre": "Villavicencio",
+      "x": 135,
+      "y": 181,
+      "nivel": "alto",
+      "lx": 144,
+      "ly": 185,
+      "anchor": "start"
+    },
+    {
+      "nombre": "Cali",
+      "x": 62,
+      "y": 197,
+      "nivel": "medio",
+      "lx": 54,
+      "ly": 201,
+      "anchor": "end"
+    },
+    {
+      "nombre": "Neiva",
+      "x": 92,
+      "y": 208,
+      "nivel": "medio",
+      "lx": 83,
+      "ly": 212,
+      "anchor": "end"
+    },
+    {
+      "nombre": "Ibagué",
+      "x": 95,
+      "y": 176,
+      "nivel": "medio",
+      "lx": 86,
+      "ly": 175,
+      "anchor": "end"
+    }
+  ],
+  "ranking": []
+}

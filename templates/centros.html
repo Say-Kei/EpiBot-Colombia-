@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Centros de diagnóstico · EpiBot Colombia</title>
+<meta name="description" content="Información de salud pública sobre dengue en Colombia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/epibot.css') }}">
+</head>
+<body>
+<div style="background:#eef2ee;color:#0f2a24;min-height:780px">
+<div class="m" style="background:#0f2a24;color:#eef2ee;padding:8px 28px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+<span>Boletín de vigilancia · Semana 32 · 2026</span>
+<span>Fuente: INS</span>
+</div>
+<header class="w" style="display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;padding-top:20px;padding-bottom:20px">
+<a href="/" style="font-size:22px;font-weight:800;letter-spacing:-.02em">EpiBot<span style="color:#c63a1f">.</span>co</a>
+<nav style="display:flex;flex-wrap:wrap;gap:20px;font-size:15px">
+<a href="/" style="">Inicio</a>
+<a href="/que-es" style="">Qué es</a>
+<a href="/sintomas" style="">Síntomas</a>
+<a href="/tratamiento" style="">Tratamiento</a>
+<a href="/prevencion" style="">Prevención</a>
+<a href="/panel" style="">Panel</a>
+<a href="/centros" style="font-weight:800;border-bottom:2px solid #c63a1f">Diagnóstico</a>
+</nav>
+</header>
+<section class="w g" style="padding-top:40px;grid-template-columns:repeat(auto-fit,minmax(300px,1.4fr) minmax(260px,1fr))">
+<div>
+<div class="m" style="margin-bottom:14px">Diagnóstico</div>
+<h2>Centros de diagnóstico.</h2>
+<label class="m" for="q" style="display:block;margin:24px 0 6px">Ciudad o municipio</label>
+<input id="q" placeholder="Ej. Quibdó" style="width:100%;padding:12px 0;border:0;border-bottom:2px solid #0f2a24;background:transparent;font-size:22px">
+<div style="margin-top:16px">
+<div class="row" style="grid-template-columns:1fr auto">
+<div>
+<strong style="font-size:18px">Hospital o centro de salud de tu municipio</strong>
+<div style="font-size:14px">Consulta disponibilidad de pruebas y atención.</div>
+</div>
+<a href="#" class="m" style="text-decoration:underline">Verificar</a>
+</div>
+<div class="row" style="grid-template-columns:1fr auto">
+<div>
+<strong style="font-size:18px">Centro de salud en Quibdó</strong>
+<div style="font-size:14px">Chocó · Confirma dirección y servicio antes de acudir.</div>
+</div>
+<a href="#" class="m" style="text-decoration:underline">Verificar</a>
+</div>
+<div class="row" style="grid-template-columns:1fr auto">
+<div>
+<strong style="font-size:18px">Laboratorio clínico autorizado</strong>
+<div style="font-size:14px">Consulta si realiza pruebas para dengue.</div>
+</div>
+<a href="#" class="m" style="text-decoration:underline">Verificar</a>
+</div>
+</div>
+<p style="font-size:12px;margin:10px 0 0">Referencias ilustrativas, no un directorio verificado. Confirma con tu Secretaría de Salud.</p>
+</div>
+<div style="border-left:2px solid #0f2a24;padding-left:28px">
+<div class="m" style="margin-bottom:14px">¿Qué pruebas se realizan?</div>
+<p style="font-size:18px;line-height:1.45">
+<strong>Antígeno NS1:</strong> puede ayudar a detectar infección en los primeros días.</p>
+<p style="font-size:18px;line-height:1.45">
+<strong>IgM/IgG:</strong> detectan anticuerpos; su interpretación depende del momento de la enfermedad.</p>
+<p style="font-size:14px">Verifica que el centro esté habilitado y consulta si requiere orden médica.</p>
+</div>
+</section>
+<section class="w sec"><div class="m" style="margin-bottom:14px">Antes de ir</div><h2 style="font-size:clamp(30px,4vw,48px);max-width:820px">Prepárate para la consulta.</h2><div style="margin-top:28px"><div class="row row--wide"><span class="m">Lleva</span><div><strong>Documento y carné</strong><p>Tu documento de identidad y el carné de tu EPS o seguro.</p></div></div><div class="row row--wide"><span class="m">Anota</span><div><strong>Cuándo empezó todo</strong><p>Fecha de inicio de la fiebre y de cada síntoma.</p></div></div><div class="row row--wide"><span class="m">Cuenta</span><div><strong>Qué has tomado</strong><p>Medicamentos que usaste y enfermedades que ya tengas.</p></div></div><div class="row row--wide"><span class="m">Confirma</span><div><strong>Servicio habilitado</strong><p>Llama antes para confirmar atención y si necesitas orden médica.</p></div></div></div></section><section class="w sec"><div class="m" style="margin-bottom:14px">Qué esperar</div><h2 style="font-size:clamp(30px,4vw,48px);max-width:820px">Valoración y pruebas según los días de evolución.</h2><div style="margin-top:28px"><div class="g"><p class="text">El personal de salud te examinará y decidirá qué prueba corresponde. El antígeno NS1 sirve en los primeros días; las pruebas IgM/IgG detectan anticuerpos y se interpretan según el momento de la enfermedad.</p><figure style="margin:0"><div class="photo"><span class="m">Tu foto aquí · static/img/centros.jpg</span><img src="{{ url_for('static', filename='img/centros.jpg') }}" alt="Atención y toma de muestras en un centro de salud" onerror="this.style.display='none'"></div><figcaption class="m cap">Atención y toma de muestras en un centro de salud</figcaption></figure></div></div></section><section class="w sec"><div class="m" style="margin-bottom:14px">Dónde buscar</div><h2 style="font-size:clamp(30px,4vw,48px);max-width:820px">Fuentes para ubicar un servicio.</h2><div style="margin-top:28px"><div class="row row--wide"><span class="m">Tu EPS</span><div><strong>Red de atención</strong><p>Pregunta por los puntos habilitados de tu red.</p></div></div><div class="row row--wide"><span class="m">Secretaría de Salud</span><div><strong>Municipal o departamental</strong><p>Tiene el listado de prestadores habilitados.</p></div></div><div class="row row--wide"><span class="m">INS</span><div><strong>Información oficial</strong><p>Boletines y orientación de vigilancia.</p></div></div></div></section><section class="w" style="padding-bottom:24px"><p class="nota">Información basada en material de la OMS, la OPS y el INS. Verifica siempre en las fuentes oficiales y con tu médico.</p></section>
+<div class="m" style="padding:28px;text-align:center;opacity:.7;margin-top:24px">EpiBot Colombia · No reemplaza la consulta médica</div>
+</div>
+<script src="{{ url_for('static', filename='js/epibot.js') }}" defer></script>
+
+<footer class="epibot-footer">
+    <div class="epibot-footer__container">
+
+        <section class="epibot-footer__brand">
+            <a href="/" class="epibot-footer__logo">
+                <span class="epibot-footer__icon">+</span>
+                <span>EpiBot <strong>Colombia</strong></span>
+            </a>
+
+            <p>
+                Conocimiento y prevención para construir
+                comunidades más informadas frente al dengue.
+            </p>
+
+            <span class="epibot-footer__tag">
+                Información · Prevención · Bienestar
+            </span>
+        </section>
+
+        <nav class="epibot-footer__links"
+             aria-label="Enlaces del pie de página">
+            <h3>Explora</h3>
+            <a href="/">Inicio</a>
+            <a href="/que-es">¿Qué es el dengue?</a>
+            <a href="/sintomas">Síntomas</a>
+            <a href="/tratamiento">Tratamiento</a>
+            <a href="/prevencion">Prevención</a>
+        </nav>
+
+        <section class="epibot-footer__info">
+            <h3>Compromiso con la salud</h3>
+            <p>
+                Aprende a reconocer los síntomas y conoce
+                medidas para prevenir el dengue.
+            </p>
+            <a href="/centros" class="epibot-footer__button">
+                Consultar centros de atención
+                <span aria-hidden="true">→</span>
+            </a>
+        </section>
+
+    </div>
+
+    <div class="epibot-footer__bottom">
+        <p>© 2026 EpiBot Colombia</p>
+        <p>Proyecto informativo y educativo sobre el dengue.</p>
+    </div>
+</footer>
+
+</body>
+</html>

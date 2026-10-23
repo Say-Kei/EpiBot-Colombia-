@@ -1,26 +1,15 @@
-# EpiBot Colombia — One-page + panel de demostración
+# EpiBot Colombia
+
+Sitio estático (HTML + CSS + JS), sin dependencias. Abre `index.html` en el navegador o usa Live Server en VS Code.
 
 ## Estructura
-- `index.html`: página educativa de dengue.
-- `panel.html`: panel epidemiológico de ejemplo, accesible sin registro.
-- `css/styles.css`: estilos compartidos y responsive.
-- `js/script.js`: menú móvil, búsqueda local, filtros del directorio y formulario demostrativo.
-- `assets/`: imágenes locales usadas por la página.
+- `index.html`, `que-es.html`, `sintomas.html`, `tratamiento.html`, `prevencion.html`, `panel.html`, `centros.html`
+- `css/styles.css`: clases compartidas (.m, .w, .g, .btn, .row, .num)
+- `js/main.js`: filtro del buscador de centros
+- `assets/img/`: pon aquí el mosquito y las ilustraciones
 
-## Cómo abrir
-1. Descomprime la carpeta.
-2. Abre `index.html` en un navegador.
-3. Pulsa **Panel epidemiológico** o **Consultar el panel** para abrir `panel.html`.
-
-También puedes usar VS Code con la extensión Live Server para probarlo localmente.
-
-## Importante antes de publicar
-- El panel contiene datos ilustrativos, no alertas reales ni datos en tiempo real.
-- El directorio de centros de diagnóstico es una maqueta; no publiques centros, direcciones ni servicios sin verificarlos con fuentes oficiales.
-- El formulario de correo es solo visual y no almacena ni envía direcciones.
-- La búsqueda y los filtros funcionan localmente; no hay backend, base de datos, IA ni conexión a SIVIGILA en esta versión.
-- La información sanitaria es educativa y no sustituye la valoración profesional.
-- Los enlaces a fuentes oficiales están incluidos para consulta; verifica su contenido y actualización antes de publicar.
-
-## Personalización
-Edita los textos y colores en `css/styles.css`. Cambia las imágenes dentro de `assets/` conservando los nombres usados por `index.html`.
+## Pendiente
+- Mapa de `panel.html` e `index.html`: puntos ilustrativos. Conectar a datos del INS por municipio.
+- Centros de diagnóstico: referencias de ejemplo, falta un directorio verificado.
+- Formularios y filtros: solo maqueta.
+- Los estilos de cada página siguen en línea (atributo style); conviene moverlos a clases en `styles.css`.
