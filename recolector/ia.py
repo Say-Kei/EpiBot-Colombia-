@@ -35,12 +35,25 @@ Si un dato no aparece, escribe null (y [] en municipios). No adivines ni calcule
 Si el texto menciona una ciudad, escribe también su departamento (ej. Cali -> Valle del Cauca).
 Patógenos válidos: dengue, malaria, tosferina, fiebre amarilla, oropouche, chikungunya.
 Si el patógeno no es uno de esos, escribe null en patogeno.
-Si el texto NO informa casos, contagios, muertes o un brote en un lugar concreto
-(por ejemplo: congresos, campañas de vacunación, consejos de prevención), responde todo null."""
+Si el Si el texto informa casos, muertes o brotes en todo el país sin un departamento concreto,
+escribe el patógeno y deja departamento en null.
+Si destaca un departamento o ciudad (por ejemplo, "el más afectado"), escribe ese departamento.
+Si el texto informa casos, muertes o brotes en todo el país sin un departamento concreto,
+escribe el patógeno y deja departamento en null.
+Si destaca un departamento o ciudad (por ejemplo, "el más afectado"), escribe ese departamento.
+Si el texto informa casos, muertes o brotes en todo el país sin un departamento concreto,
+escribe el patógeno y deja departamento en null.
+Si destaca un departamento o ciudad (por ejemplo, "el más afectado"), escribe ese departamento.
+Si el texto NO informa casos, contagios, muertes ni brotes (congresos, campañas de vacunación,
+consejos de prevención o solo riesgo futuro), responde todo null.."""
 
 EJEMPLOS = [
     {"role": "user", "content": "Cali reporta 340 casos de dengue en la última semana, dijo la Secretaría de Salud del Valle."},
     {"role": "assistant", "content": '{"patogeno": "dengue", "departamento": "Valle del Cauca", "municipios": ["Cali"], "casos": 340, "fecha": null}'},
+    {"role": "user", "content": "El país supera los 40.000 casos de malaria en lo que va del año, informó el INS."},
+    {"role": "assistant", "content": '{"patogeno": "malaria", "departamento": null, "municipios": [], "casos": 40000, "fecha": null}'},
+    {"role": "user", "content": "Casanare encabeza la lista de departamentos con más casos de chikungunya."},
+    {"role": "assistant", "content": '{"patogeno": "chikungunya", "departamento": "Casanare", "municipios": [], "casos": null, "fecha": null}'},
 ]
 
 

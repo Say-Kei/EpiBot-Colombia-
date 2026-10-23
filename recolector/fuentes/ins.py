@@ -15,7 +15,7 @@ load_dotenv()
 URL = "https://www.datos.gov.co/resource/4hyg-wa9d.json"
 CRUDOS = Path(__file__).resolve().parents[2] / "datos" / "crudos"
 CARPETA_XLSX = CRUDOS / "ins"
-HISTORICO = CRUDOS / "historico_ins.csv"
+HISTORICO = CRUDOS.parent / "historico_ins.csv"
 LOTE = 50000
 
 # Patógeno (como lo usa validar.py) -> texto que aparece en el nombre del evento.

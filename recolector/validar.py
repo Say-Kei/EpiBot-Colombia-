@@ -66,9 +66,13 @@ def validar(d):
     depto = nombre_depto(d.get("departamento"))
     if pat not in PATOGENOS or depto is None:
         return None
-
     casos = d.get("casos")
-    if not isinstance(casos, int) or casos < 0:
+    if isinstance(casos, str):                           # "1.200" o "1,200" -> 1200
+        casos = casos.replace(".", "").replace(",", "").strip()
+        casos = int(casos) if casos.isdigit() else None
+    elif isinstance(casos, float) and casos.is_integer():  # 340.0 -> 340
+        casos = int(casos)
+    if not isinstance(casos, int) or isinstance(casos, bool) or casos < 0:
         casos = None
 
     fecha = d.get("fecha")
