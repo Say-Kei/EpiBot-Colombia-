@@ -11,6 +11,7 @@ import json
 import os
 from datetime import date, timedelta
 from pathlib import Path
+from recolector import base
 
 from recolector import base
 from recolector.ia import extraer, LimiteAgotado
@@ -107,6 +108,13 @@ def main():
         print(len(alertas), "alertas nuevas o actualizadas en", base.RUTA)
     else:
         print("No se generaron alertas nuevas")
+
+    hace_30 = str(hoy - timedelta(days=30))
+    recientes = base.buscar_alertas(desde=hace_30, limite=500, solo_lectura=False)
+    if recientes:
+        SALIDA.parent.mkdir(parents=True, exist_ok=True)
+        SALIDA.write_text(json.dumps(recientes, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(len(recientes), "alertas de los últimos 30 días en", SALIDA)
 
     hace_30 = str(hoy - timedelta(days=30))
     recientes = base.buscar_alertas(desde=hace_30, limite=500, solo_lectura=False)
