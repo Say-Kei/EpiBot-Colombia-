@@ -6,6 +6,9 @@ Reglas para no duplicar:
 - Una alerta por patógeno + departamento + SEMANA (id: dengue-cordoba-2026-s43).
 - Si esa alerta ya existe, se UNE con lo nuevo (fuentes, municipios, casos) en vez de reemplazarla.
 - La IA no vuelve a leer noticias que ya leyó (tabla procesadas), así no se gastan tokens dos veces.
+- NUEVO: antes de las noticias se carga el Boletín Epidemiológico Semanal (BES) del INS más reciente
+  (recolector/oficial.py). Es la fuente oficial: si un departamento ya tiene cifra oficial esta
+  semana, las noticias se suman como fuentes, pero la cifra y el nivel siguen siendo los oficiales.
 """
 import json
 import os
@@ -13,6 +16,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from recolector import base
+from recolector import oficial as datos_oficiales   # NUEVO (se llama así porque abajo "oficial" es otra variable)
 from recolector.ia import extraer, LimiteAgotado
 from recolector.fuentes import noticias, oms, ins
 from recolector.limpieza import limpiar
@@ -52,6 +56,14 @@ def main():
         print("La base no tiene histórico; lo armo desde el INS (ejecuta recolector.importar_historico)")
         hist = ins.historico()
 
+    # NUEVO · 1b. Datos OFICIALES: el boletín semanal del INS más reciente (sin IA, sin tokens).
+    #    Va antes de las noticias para que estas se sumen a la cifra oficial y no al revés.
+    #    Si algo falla (sin internet, INS caído...), se avisa y las noticias se recogen igual.
+    try:
+        datos_oficiales.recolectar_bes(hoy, hist)
+    except Exception as e:
+        print("BES del INS: error inesperado, sigo con las noticias:", e)
+
     # 2. Noticias y OMS: limpiar, quitar las que la IA ya leyó y priorizar oficiales y recientes
     df = limpiar(noticias.recolectar() + oms.recolectar())
     if not df.empty:
@@ -90,7 +102,15 @@ def main():
             "municipios": sorted({m for d, _ in items for m in d["municipios"]}),
             "casos": max((d["casos"] for d, _ in items if d["casos"]), default=None),
             "fecha_deteccion": str(hoy), "fuentes": [f for _, f in items]}
-        a = unir(base.una_alerta(nueva["id"], solo_lectura=False), nueva)
+        vieja = base.una_alerta(nueva["id"], solo_lectura=False)
+        a = unir(vieja, nueva)
+
+        # NUEVO: si esta semana ya hay cifra OFICIAL (del BES o de cargar_oficial.py), las noticias
+        # se suman como fuentes, pero la cifra, lo esperado y el nivel siguen siendo los oficiales
+        if vieja and any(f.get("tipo") == "oficial" for f in vieja["fuentes"]):
+            a.update({k: vieja[k] for k in ("casos", "esperado", "nivel", "resumen")})
+            alertas.append(a)
+            continue
 
         # El nivel y el resumen se calculan con TODAS las fuentes de la semana
         esperado = ins.esperado(hist, pat, depto, semana_hoy)
