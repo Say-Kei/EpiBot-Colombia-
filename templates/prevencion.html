@@ -1,106 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Prevención · EpiBot Colombia</title>
-<meta name="description" content="Información de salud pública sobre dengue en Colombia.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/epibot.css') }}">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Prevención · EpiBot Colombia</title>
+  <meta name="description" content="Acciones simples para proteger a tu familia del mosquito.">
+  <meta name="theme-color" content="#0F6B57">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Lexend:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="static/css/epibot.css">
 </head>
-<body>
-<div style="background:#eef2ee;color:#0f2a24;min-height:780px">
-<div class="m" style="background:#0f2a24;color:#eef2ee;padding:8px 28px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
-<span>Boletín de vigilancia · Semana 32 · 2026</span>
-<span>Fuente: INS</span>
-</div>
-<header class="w" style="display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;padding-top:20px;padding-bottom:20px">
-<a href="/" style="font-size:22px;font-weight:800;letter-spacing:-.02em">EpiBot<span style="color:#c63a1f">.</span>co</a>
-<nav style="display:flex;flex-wrap:wrap;gap:20px;font-size:15px">
-<a href="/" style="">Inicio</a>
-<a href="/que-es" style="">Qué es</a>
-<a href="/sintomas" style="">Síntomas</a>
-<a href="/tratamiento" style="">Tratamiento</a>
-<a href="/prevencion" style="font-weight:800;border-bottom:2px solid #c63a1f">Prevención</a>
-<a href="/panel" style="">Panel</a>
-<a href="/centros" style="">Diagnóstico</a>
-</nav>
-</header>
-<section class="w" style="padding-top:48px">
-<div class="m" style="margin-bottom:14px">Prevención</div>
-<h2 style="max-width:800px">Pequeñas acciones, grandes cambios.</h2>
-<div class="g" style="margin-top:48px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
-<div style="border-top:2px solid #0f2a24;padding-top:20px">
-<div class="num" style="color:#c63a1f">01</div>
-<h3 style="font-size:26px;margin:14px 0 8px">Elimina criaderos</h3>
-<p style="margin:0;line-height:1.5">Vacía y cepilla recipientes que acumulen agua. Tapa los depósitos.</p>
-</div>
-<div style="border-top:2px solid #0f2a24;padding-top:20px">
-<div class="num" style="color:#c63a1f">02</div>
-<h3 style="font-size:26px;margin:14px 0 8px">Protégete de picaduras</h3>
-<p style="margin:0;line-height:1.5">Usa repelente siguiendo las instrucciones del producto.</p>
-</div>
-<div style="border-top:2px solid #0f2a24;padding-top:20px">
-<div class="num" style="color:#c63a1f">03</div>
-<h3 style="font-size:26px;margin:14px 0 8px">Cuida tu entorno</h3>
-<p style="margin:0;line-height:1.5">Mantén patios limpios y usa mallas en puertas y ventanas.</p>
-</div>
-</div>
-</section>
-<section class="w sec"><div class="m" style="margin-bottom:14px">Ruta por tu casa</div><h2 style="font-size:clamp(30px,4vw,48px);max-width:820px">Revisa rincón por rincón, cada semana.</h2><div style="margin-top:28px"><div class="row row--wide"><span class="m">Tanques</span><div><strong>Lava, cepilla y tapa</strong><p>Los depósitos de agua de uso diario deben mantenerse tapados.</p></div></div><div class="row row--wide"><span class="m">Llantas</span><div><strong>Sin agua acumulada</strong><p>Guárdalas bajo techo o elimínalas.</p></div></div><div class="row row--wide"><span class="m">Floreros y macetas</span><div><strong>Cambia el agua</strong><p>Vacía los platos de las macetas y cambia el agua de los floreros.</p></div></div><div class="row row--wide"><span class="m">Botellas y latas</span><div><strong>Dales vuelta o deséchalas</strong><p>Cualquier recipiente con agua puede ser un criadero.</p></div></div><div class="row row--wide"><span class="m">Canaletas y patios</span><div><strong>Mantén el desagüe libre</strong><p>Retira hojas y basura que retengan agua.</p></div></div></div></section><section class="w sec"><div class="g"><figure style="margin:0"><div class="photo"><span class="m">Tu foto aquí · static/img/prevencion.jpg</span><img src="{{ url_for('static', filename='img/prevencion.jpg') }}" alt="Vaciar y cepillar recipientes que acumulan agua" onerror="this.style.display='none'"></div><figcaption class="m cap">Vaciar y cepillar recipientes que acumulan agua</figcaption></figure><figure style="margin:0"><div class="photo"><span class="m">Tu foto aquí · static/img/prevencion2.jpg</span><img src="{{ url_for('static', filename='img/prevencion2.jpg') }}" alt="Mallas en puertas y ventanas" onerror="this.style.display='none'"></div><figcaption class="m cap">Mallas en puertas y ventanas</figcaption></figure></div></section><section class="w sec"><div class="m" style="margin-bottom:14px">Protégete</div><h2 style="font-size:clamp(30px,4vw,48px);max-width:820px">El mosquito pica principalmente de día.</h2><div style="margin-top:28px"><div class="row row--wide"><span class="m">Repelente</span><div><strong>Úsalo bien</strong><p>Sigue las instrucciones del producto.</p></div></div><div class="row row--wide"><span class="m">Ropa</span><div><strong>Cubre la piel</strong><p>Manga larga y pantalón en zonas con mosquitos.</p></div></div><div class="row row--wide"><span class="m">Toldillo</span><div><strong>Para dormir o descansar</strong><p>Sobre todo si hay una persona enferma en casa.</p></div></div><div class="row row--wide"><span class="m">Mallas</span><div><strong>Puertas y ventanas</strong><p>Revisa que no tengan huecos.</p></div></div></div></section><section class="w sec"><div class="m" style="margin-bottom:14px">En comunidad</div><h2 style="font-size:clamp(30px,4vw,48px);max-width:820px">Un solo patio con criaderos afecta a toda la cuadra.</h2><div style="margin-top:28px"><div class="g"><p class="text">Organiza jornadas de limpieza con tus vecinos, reporta criaderos a la Secretaría de Salud de tu municipio y permite que las brigadas de salud revisen tu vivienda.</p><figure style="margin:0"><div class="photo"><span class="m">Tu foto aquí · static/img/comunidad.jpg</span><img src="{{ url_for('static', filename='img/comunidad.jpg') }}" alt="Jornada de limpieza comunitaria" onerror="this.style.display='none'"></div><figcaption class="m cap">Jornada de limpieza comunitaria</figcaption></figure></div></div></section><section class="w" style="padding-bottom:24px"><p class="nota">Información basada en material de la OMS, la OPS y el INS. Verifica siempre en las fuentes oficiales y con tu médico.</p></section>
-<div class="m" style="padding:28px;text-align:center;opacity:.7;margin-top:24px">EpiBot Colombia · No reemplaza la consulta médica</div>
-</div>
-<script src="{{ url_for('static', filename='js/epibot.js') }}" defer></script>
+<body data-pagina="prevencion">
 
-<footer class="epibot-footer">
-    <div class="epibot-footer__container">
+<header class="barra"><div class="wrap barra-in">
+  <a class="marca" href="index.html" aria-label="EpiBot Colombia, inicio">
+    <svg viewBox="0 0 40 48" aria-hidden="true"><path d="M20 47C20 47 3 30 3 19a17 17 0 0 1 34 0c0 11-17 28-17 28z" fill="var(--marca)"/><path d="M20 5V1" stroke="var(--marca)" stroke-width="2"/><circle cx="20" cy="4" r="3" fill="var(--antena)"/><rect x="10" y="11" width="20" height="15" rx="5" fill="#fff"/><circle cx="15.5" cy="17.5" r="2" fill="var(--marca)"/><circle cx="24.5" cy="17.5" r="2" fill="var(--marca)"/><path d="M16.5 21.5q3.5 2.6 7 0" stroke="var(--marca)" stroke-width="1.6" fill="none" stroke-linecap="round"/><path d="M6 31h7l2-3 3 5 2-2h14" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.4" fill="none"/></svg>
+    <span class="palabra"><span class="epi">Epi</span><span class="bot">Bot</span><small>COLOMBIA</small></span>
+  </a>
+  <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="nav">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>Menú</button>
+  <nav class="nav" id="nav" aria-label="Principal">
+    <a href="enfermedades.html" data-pag="enfermedades">Enfermedades</a>
+    <a href="mapa.html" data-pag="mapa">Mapa</a>
+    <a href="prevencion.html" data-pag="prevencion">Prevención</a>
+    <a href="como-funciona.html" data-pag="como">Cómo funciona</a>
+    <a class="btn btn-1" href="index.html#consulta">Consultar mi zona</a>
+  </nav>
+</div></header>
 
-        <section class="epibot-footer__brand">
-            <a href="/" class="epibot-footer__logo">
-                <span class="epibot-footer__icon">+</span>
-                <span>EpiBot <strong>Colombia</strong></span>
-            </a>
+<div class="recorrido" id="recorrido" hidden><div class="wrap recorrido-in">
+  <ol aria-label="Pasos del recorrido"></ol>
+  <button class="salir" id="salir">Salir</button>
+</div></div>
 
-            <p>
-                Conocimiento y prevención para construir
-                comunidades más informadas frente al dengue.
-            </p>
+<main id="app"></main>
 
-            <span class="epibot-footer__tag">
-                Información · Prevención · Bienestar
-            </span>
-        </section>
-
-        <nav class="epibot-footer__links"
-             aria-label="Enlaces del pie de página">
-            <h3>Explora</h3>
-            <a href="/">Inicio</a>
-            <a href="/que-es">¿Qué es el dengue?</a>
-            <a href="/sintomas">Síntomas</a>
-            <a href="/tratamiento">Tratamiento</a>
-            <a href="/prevencion">Prevención</a>
-        </nav>
-
-        <section class="epibot-footer__info">
-            <h3>Compromiso con la salud</h3>
-            <p>
-                Aprende a reconocer los síntomas y conoce
-                medidas para prevenir el dengue.
-            </p>
-            <a href="/centros" class="epibot-footer__button">
-                Consultar centros de atención
-                <span aria-hidden="true">→</span>
-            </a>
-        </section>
-
+<footer class="pie"><div class="wrap">
+  <div class="pie-grid">
+    <div class="pila-s">
+      <span class="palabra"><span class="epi">Epi</span><span class="bot">Bot</span><small>COLOMBIA</small></span>
+      <p style="max-width:42ch">Conoce tu riesgo de dengue, malaria y chikungunya, y qué hacer esta semana para proteger a tu familia.</p>
     </div>
+    <div><h3>Explora</h3><ul>
+      <li><a href="index.html#consulta">Consultar mi zona</a></li>
+      <li><a href="enfermedades.html">Enfermedades</a></li>
+      <li><a href="mapa.html">Mapa del país</a></li>
+      <li><a href="prevencion.html">Prevención</a></li>
+    </ul></div>
+    <div><h3>Información</h3><ul>
+      <li><a href="como-funciona.html">Cómo funciona</a></li>
+      <li><a href="fuentes.html">Fuentes y evidencia</a></li>
+      <li><a href="centros.html">Centros de salud</a></li>
+    </ul></div>
+  </div>
+  <div class="pie-legal">
+    <p>Esta información no reemplaza la consulta médica. Datos agregados y públicos (Ley 1581 de 2012).</p>
+    <p>© <span id="anio">2026</span> EpiBot Colombia</p>
+  </div>
+</div></footer>
+<div class="toast" id="toast" hidden></div>
 
-    <div class="epibot-footer__bottom">
-        <p>© 2026 EpiBot Colombia</p>
-        <p>Proyecto informativo y educativo sobre el dengue.</p>
-    </div>
-</footer>
-
+<!-- El orden importa: datos → ilustraciones → mapa → app -->
+<script src="static/js/datos.js"></script>
+<script src="static/js/ilustraciones.js"></script>
+<script src="static/js/mapa.js"></script>
+<script src="static/js/app.js"></script>
 </body>
 </html>

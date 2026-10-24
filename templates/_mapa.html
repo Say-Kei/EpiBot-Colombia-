@@ -1,6 +1,0 @@
-{# Variables: fill, stroke, txt, alto. Los puntos salen de data/dengue.json #}
-<svg viewBox="0 0 300 365" role="img" aria-label="Mapa ilustrativo de Colombia con municipios priorizados por dengue" style="width:100%;max-height:560px;display:block">
-<path d="M192 4L170 15L125 28L102 34L87 47L70 71L55 86L40 84L27 116L40 142L42 174L12 219L2 230L37 254L75 262L95 273L132 297L225 361L227 294L240 247L297 232L290 198L280 174L287 137L277 135L240 140L207 120L175 120L165 90L150 73L155 34L177 19Z" fill="{{ fill }}" stroke="{{ stroke }}" stroke-width="1.2" stroke-linejoin="round"/>
-{% for m in datos.mapa %}{% if m.nivel == 'alto' %}<circle cx="{{ m.x }}" cy="{{ m.y }}" r="13" fill="{{ alto }}" opacity=".22"/><circle cx="{{ m.x }}" cy="{{ m.y }}" r="5" fill="{{ alto }}"/>{% else %}<circle cx="{{ m.x }}" cy="{{ m.y }}" r="4" fill="none" stroke="{{ txt }}" stroke-width="1.6"/>{% endif %}
-<text x="{{ m.lx }}" y="{{ m.ly }}" text-anchor="{{ m.anchor }}" font-size="9" font-family="IBM Plex Mono,monospace" fill="{{ txt }}">{{ m.nombre }}</text>
-{% endfor %}</svg>
