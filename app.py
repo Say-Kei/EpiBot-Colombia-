@@ -1,16 +1,16 @@
-"""EpiBot Colombia: página web (Flask) y API de alertas, histórico e información del dengue."""
+"""EpiBot Colombia: páginas web (Flask) y API de alertas, histórico e información del dengue."""
 import json
+import re
 import sqlite3
 from pathlib import Path
 
-from flask import Flask, render_template, jsonify, abort, request
+from flask import Flask, render_template, jsonify, abort, request, redirect, url_for
 from jinja2 import ChainableUndefined
 
 from recolector import base
 
 app = Flask(__name__)
-# Si a una plantilla le falta un dato (ej. datos.concentracion.porcentaje), sale vacío
-# en vez de romper toda la página con UndefinedError
+
 app.jinja_env.undefined = ChainableUndefined
 
 DATOS = Path(__file__).parent / "datos"
@@ -18,8 +18,15 @@ DATOS = Path(__file__).parent / "datos"
 RUTA_DENGUE = next((r for r in (DATOS / "dengue.json", Path(__file__).parent / "data" / "dengue.json")
                     if r.exists()), DATOS / "dengue.json")
 
-# Páginas informativas sobre el dengue: /que-es, /sintomas, ... (cada una con su .html)
-PAGINAS = ["que-es", "sintomas", "tratamiento", "prevencion", "centros"]
+# Páginas: cada archivo de templates/ es una página. /zona muestra zona.html, /mapa muestra mapa.html...
+# No hay que agregar nada aquí cuando se crea una página nueva: basta con guardar el .html.
+PLANTILLAS = Path(__file__).parent / "templates"
+
+# Direcciones viejas (de antes del rediseño) -> página nueva que cumple ese papel,
+# para que ningún enlace antiguo termine en error. Si se vuelve a crear la página vieja, se usa esa.
+REDIRIGIR = {"index": "index", "inicio": "zona", "panel": "zona", "alerta": "zona", "centros": "zona",
+             "busqueda": "mapa", "que-es": "enfermedades", "sintomas": "enfermedades",
+             "tratamiento": "enfermedades", "fuentes": "como-funciona"}
 _cache = {"mtime": 0, "datos": {}}
 
 
@@ -112,39 +119,24 @@ def filtros_de_la_url():
 # ---------- Páginas ----------
 @app.route("/")
 def index():
-    return render_template("index.html")
-
-
-@app.route("/panel")
-def inicio():
-    return render_template("panel.html", activo="panel")   # el panel nuevo (rama frone)
-
-
-@app.route("/busqueda")
-def busqueda():
-    return render_template("busqueda.html", activo="busqueda")
-
-
-@app.route("/fuentes")
-def fuentes():
-    return render_template("fuentes.html", activo="fuentes")
-
-
-@app.route("/alerta")
-@app.route("/alerta/<alerta_id>")
-def alerta(alerta_id=None):
-    a = buscar_una(alerta_id) if alerta_id else next(iter(buscar(limite=1)), None)
-    if a is None:
-        abort(404)
-    return render_template("alerta.html", activo="alerta", alerta=a)
+    return render_template("index.html", activo="index")
 
 
 @app.route("/<nombre>")
 def pagina(nombre):
-    """Las páginas informativas. Va de última: Flask prueba primero las rutas fijas de arriba."""
-    if nombre not in PAGINAS:
+    """Muestra templates/<nombre>.html. Acepta /mapa y /mapa.html (esta última redirige a /mapa)."""
+    limpio = nombre.removesuffix(".html")
+    # Solo letras minúsculas, números y guiones: nadie puede pedir archivos fuera de templates/
+    if not re.fullmatch(r"[a-z0-9-]+", limpio):
         abort(404)
-    return render_template(f"{nombre}.html", activo=nombre)
+    if limpio != nombre:
+        return redirect(url_for("pagina", nombre=limpio))
+    if limpio != "index" and (PLANTILLAS / f"{limpio}.html").exists():
+        return render_template(f"{limpio}.html", activo=limpio)
+    if limpio in REDIRIGIR:
+        destino = REDIRIGIR[limpio]
+        return redirect(url_for("index") if destino == "index" else url_for("pagina", nombre=destino))
+    abort(404)
 
 
 # ---------- API (datos en JSON para el JavaScript) ----------
