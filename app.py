@@ -14,9 +14,14 @@ app = Flask(__name__)
 app.jinja_env.undefined = ChainableUndefined
 
 DATOS = Path(__file__).parent / "datos"
-# dengue.json va en datos/; si alguien lo dejó en la carpeta vieja data/, también lo encuentra
-RUTA_DENGUE = next((r for r in (DATOS / "dengue.json", Path(__file__).parent / "data" / "dengue.json")
-                    if r.exists()), DATOS / "dengue.json")
+# dengue.json puede estar en datos/ o en data/ (la carpeta de la rama frone).
+# Si está en las dos, se usa el que se modificó más recientemente.
+OPCIONES_DENGUE = (DATOS / "dengue.json", Path(__file__).parent / "data" / "dengue.json")
+
+
+def ruta_dengue():
+    existentes = [r for r in OPCIONES_DENGUE if r.exists()]
+    return max(existentes, key=lambda r: r.stat().st_mtime) if existentes else OPCIONES_DENGUE[0]
 
 # Páginas: cada archivo de templates/ es una página. /zona muestra zona.html, /mapa muestra mapa.html...
 # No hay que agregar nada aquí cuando se crea una página nueva: basta con guardar el .html.
@@ -34,9 +39,10 @@ _cache = {"mtime": 0, "datos": {}}
 def cargar_dengue():
     """Relee datos/dengue.json solo cuando el archivo cambia. Si falta o está dañado, {}."""
     try:
-        m = RUTA_DENGUE.stat().st_mtime
+        ruta = ruta_dengue()
+        m = ruta.stat().st_mtime
         if m != _cache["mtime"]:
-            with open(RUTA_DENGUE, encoding="utf-8") as f:
+            with open(ruta, encoding="utf-8") as f:
                 _cache["datos"] = json.load(f)
             _cache["mtime"] = m
     except (FileNotFoundError, json.JSONDecodeError):
@@ -124,18 +130,21 @@ def index():
 
 @app.route("/<nombre>")
 def pagina(nombre):
-    """Muestra templates/<nombre>.html. Acepta /mapa y /mapa.html (esta última redirige a /mapa)."""
+    """Muestra templates/<nombre>.html. Acepta /mapa y /mapa.html, con o sin ?parámetros."""
     limpio = nombre.removesuffix(".html")
     # Solo letras minúsculas, números y guiones: nadie puede pedir archivos fuera de templates/
     if not re.fullmatch(r"[a-z0-9-]+", limpio):
         abort(404)
-    if limpio != nombre:
-        return redirect(url_for("pagina", nombre=limpio))
-    if limpio != "index" and (PLANTILLAS / f"{limpio}.html").exists():
+    if limpio == "index":
+        return index()
+    if (PLANTILLAS / f"{limpio}.html").exists():
+        # Se muestra directo (sin redirigir), así se conservan ?departamento=... y #secciones
         return render_template(f"{limpio}.html", activo=limpio)
     if limpio in REDIRIGIR:
         destino = REDIRIGIR[limpio]
-        return redirect(url_for("index") if destino == "index" else url_for("pagina", nombre=destino))
+        url = url_for("index") if destino == "index" else url_for("pagina", nombre=destino)
+        consulta = request.query_string.decode()
+        return redirect(f"{url}?{consulta}" if consulta else url)
     abort(404)
 
 
