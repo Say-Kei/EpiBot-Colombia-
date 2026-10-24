@@ -19,7 +19,7 @@ LOTE = 50000
 
 # Patógeno (como lo usa validar.py) -> texto que aparece en el nombre del evento.
 # "DENGUE" también trae DENGUE GRAVE; "MALARIA" trae las formas mixtas y complicada.
-EVENTOS = {"Dengue": "DENGUE", "Malaria": "MALARIA", "Tosferina": "TOS FERINA",
+EVENTOS = {"Dengue": "DENGUE", "Malaria": "MALARIA",
            "Fiebre amarilla": "FIEBRE AMARILLA", "Oropouche": "OROPOUCHE",
            "Chikungunya": "CHIKUNGUNYA"}
 
