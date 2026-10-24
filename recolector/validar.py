@@ -1,3 +1,4 @@
+import re
 import unicodedata
 from datetime import date, timedelta
 
@@ -45,6 +46,30 @@ ALIAS_PATOGENO = {"chikunguna": "chikungunya", "chicungunya": "chikungunya",
                    "paludismo": "malaria"}
 
 
+# Seguridad: los municipios los escribe la IA a partir de noticias de internet. Un texto armado
+# a propósito (prompt injection) podría traer código HTML. Solo se aceptan nombres que parezcan
+# nombres de municipio: letras (con tildes), espacios, puntos, comas, guiones y apóstrofos.
+MAX_MUNICIPIOS = 15
+NOMBRE_MUNICIPIO = re.compile(r"[A-Za-zÁÉÍÓÚÜÑáéíóúüñ .,'\-]{2,60}")
+
+
+def limpiar_municipios(valor):
+    """Lista de municipios segura: solo textos con forma de nombre, sin repetir, máximo 15.
+
+    Cualquier otra cosa (un texto suelto, null, números, objetos, HTML) se descarta.
+    """
+    if not isinstance(valor, list):
+        return []
+    limpios = []
+    for m in valor:
+        if not isinstance(m, str):
+            continue
+        m = " ".join(m.split())          # quita espacios de más y saltos de línea
+        if NOMBRE_MUNICIPIO.fullmatch(m) and m not in limpios:
+            limpios.append(m)
+    return limpios[:MAX_MUNICIPIOS]
+
+
 def nombre_depto(valor):
     """Convierte nombre, abreviatura o código del INS al nombre oficial. None si no lo reconoce."""
     if valor is None:
@@ -84,4 +109,4 @@ def validar(d):
         fecha = None
 
     return {"patogeno": pat.capitalize(), "tipo": PATOGENOS[pat], "departamento": depto,
-            "municipios": d.get("municipios") or [], "casos": casos, "fecha": fecha}
+            "municipios": limpiar_municipios(d.get("municipios")), "casos": casos, "fecha": fecha}

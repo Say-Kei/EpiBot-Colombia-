@@ -13,6 +13,7 @@
   --alto-pt:#E07B39;    --alto-bg:#FDE2CC;    --alto-tx:#7A3309;
   --moderado-pt:#D4A72C;--moderado-bg:#FBF0C4;--moderado-tx:#5E4800;
   --bajo-pt:#4FA36F;    --bajo-bg:#D7F0DF;    --bajo-tx:#1E5C3A;
+  --sin-pt:#9AA5A0;     --sin-bg:#E4E9E6;     --sin-tx:#3F4A45;   /* sin alertas reportadas: gris */
   --aviso-bg:#FFF7E6; --aviso-tx:#5E4800; --ok-tx:#1E5C3A;
   --sombra:0 1px 2px rgba(18,51,43,.06), 0 8px 24px rgba(18,51,43,.06);
   --f-titulo:"Lexend", "Segoe UI", system-ui, sans-serif;
@@ -173,6 +174,7 @@ h1 em, h2 em{font-style:normal;color:var(--marca)}
 .tarjeta{background:var(--superficie);border:1px solid var(--borde);border-radius:16px;padding:18px 20px;display:flex;flex-direction:column;gap:10px;border-left-width:6px}
 .tarjeta.l-critico{border-left-color:var(--critico-pt)} .tarjeta.l-alto{border-left-color:var(--alto-pt)}
 .tarjeta.l-moderado{border-left-color:var(--moderado-pt)} .tarjeta.l-bajo{border-left-color:var(--bajo-pt)}
+.tarjeta.l-sin{border-left-color:var(--sin-pt)}
 .tarjeta-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
 .cifras{display:flex;gap:24px;font-variant-numeric:tabular-nums}
 .cifras b{font-family:var(--f-titulo);font-size:1.4rem;color:var(--titulos);display:block}
@@ -186,6 +188,7 @@ h1 em, h2 em{font-style:normal;color:var(--marca)}
 .n-alto{background:var(--alto-bg);color:var(--alto-tx)}
 .n-moderado{background:var(--moderado-bg);color:var(--moderado-tx)}
 .n-bajo{background:var(--bajo-bg);color:var(--bajo-tx)}
+.n-sin{background:var(--sin-bg);color:var(--sin-tx)}
 
 .mapa{background:var(--superficie);border:1px solid var(--borde);border-radius:18px;padding:14px}
 .mapa svg{width:100%;max-width:440px;height:auto;display:block;margin:0 auto}

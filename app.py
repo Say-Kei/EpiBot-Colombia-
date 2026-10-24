@@ -1,17 +1,43 @@
 """EpiBot Colombia: páginas web (Flask) y API de alertas, histórico e información del dengue."""
 import json
+import os
 import re
 import sqlite3
+from datetime import date, timedelta
 from pathlib import Path
 
 from flask import Flask, render_template, jsonify, abort, request, redirect, url_for
 from jinja2 import ChainableUndefined
 
 from recolector import base
+from recolector.validar import DEPARTAMENTOS, normalizar, limpiar_municipios
+from recolector.niveles import CRITICO_SOLO_CON_OFICIAL
 
 app = Flask(__name__)
 
 app.jinja_env.undefined = ChainableUndefined
+
+
+# ---------- Seguridad: cabeceras que protegen a quien visita la página ----------
+# Content-Security-Policy: el navegador solo ejecuta scripts de este mismo sitio. Si algún texto
+# con código lograra colarse en los datos, no se ejecuta. Permite las fuentes de Google Fonts y los
+# estilos que el JavaScript pone en línea (style="...").
+CSP = ("default-src 'self'; script-src 'self'; "
+       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; "
+       "font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob:; "
+       "connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; "
+       "frame-ancestors 'none'")
+
+
+@app.after_request
+def cabeceras_seguridad(respuesta):
+    respuesta.headers.setdefault("Content-Security-Policy", CSP)
+    respuesta.headers.setdefault("X-Content-Type-Options", "nosniff")      # no adivinar tipos de archivo
+    respuesta.headers.setdefault("X-Frame-Options", "DENY")               # nadie puede meter la página en un marco
+    respuesta.headers.setdefault("Referrer-Policy", "strict-origin-when-cross-origin")
+    # La ubicación solo la puede pedir esta página; cámara y micrófono, nadie
+    respuesta.headers.setdefault("Permissions-Policy", "geolocation=(self), camera=(), microphone=()")
+    return respuesta
 
 DATOS = Path(__file__).parent / "datos"
 # dengue.json puede estar en datos/ o en data/ (la carpeta de la rama frone).
@@ -113,6 +139,18 @@ def buscar_una(alerta_id):
     return next((a for a in cargar_json() if a.get("id") == alerta_id), None)
 
 
+def alerta_segura(a):
+    """Copia de la alerta lista para enviar al navegador: municipios limpios y nivel conocido.
+
+    Protege también las alertas que ya estaban guardadas antes de agregar los filtros.
+    """
+    a = dict(a)
+    a["municipios"] = limpiar_municipios(a.get("municipios"))
+    if a.get("nivel") not in ORDEN_NIVEL:
+        a["nivel"] = "bajo"
+    return a
+
+
 def filtros_de_la_url():
     """Lee ?departamento=...&patogeno=...&nivel=...&desde=...&hasta=... de la dirección."""
     return {"departamento": request.args.get("departamento") or None,
@@ -120,6 +158,81 @@ def filtros_de_la_url():
             "nivel": request.args.get("nivel") or None,
             "desde": request.args.get("desde") or None,   # AAAA-MM-DD
             "hasta": request.args.get("hasta") or None}   # AAAA-MM-DD
+
+
+# ---------- Zonas: el riesgo de cada departamento, con datos reales ----------
+# Lo que antes estaba inventado en static/js/datos.js (ZONAS) ahora sale de la base:
+# las alertas que genera el recolector con la IA (tabla alertas) en los últimos 30 días.
+PATOGENOS_WEB = ("dengue", "chikungunya", "malaria")
+# "sin" = no hay ninguna alerta; "bajo" = hay reportes, pero dentro de lo normal
+ORDEN_NIVEL = ("sin", "bajo", "moderado", "alto", "critico")
+DIAS_VIGENCIA = 30
+
+# Capital de cada departamento (lat, lon): sirve para "Mi zona" (capital más cercana) y el mapa
+CAPITALES = {
+    "Amazonas": (-4.21, -69.94), "Antioquia": (6.25, -75.56), "Arauca": (7.08, -70.76),
+    "Atlántico": (10.96, -74.80), "Bogotá D.C.": (4.71, -74.07), "Bolívar": (10.39, -75.51),
+    "Boyacá": (5.54, -73.36), "Caldas": (5.07, -75.52), "Caquetá": (1.61, -75.61),
+    "Casanare": (5.34, -72.40), "Cauca": (2.44, -76.61), "Cesar": (10.46, -73.25),
+    "Chocó": (5.69, -76.66), "Córdoba": (8.75, -75.88), "Cundinamarca": (5.03, -74.03),
+    "Guainía": (3.87, -67.92), "Guaviare": (2.57, -72.64), "Huila": (2.93, -75.28),
+    "La Guajira": (11.54, -72.91), "Magdalena": (11.24, -74.21), "Meta": (4.14, -73.63),
+    "Nariño": (1.21, -77.28), "Norte de Santander": (7.89, -72.50), "Putumayo": (1.15, -76.65),
+    "Quindío": (4.53, -75.68), "Risaralda": (4.81, -75.69), "San Andrés y Providencia": (12.58, -81.70),
+    "Santander": (7.12, -73.12), "Sucre": (9.30, -75.40), "Tolima": (4.44, -75.23),
+    "Valle del Cauca": (3.45, -76.53), "Vaupés": (1.25, -70.23), "Vichada": (6.19, -67.49),
+}
+# Los mismos identificadores que usaban los datos de ejemplo (zona.html?zona=valle)
+ID_ESPECIAL = {"Valle del Cauca": "valle", "Bogotá D.C.": "bogota", "San Andrés y Providencia": "san-andres"}
+
+
+def id_zona(depto):
+    return ID_ESPECIAL.get(depto) or normalizar(depto).replace(" ", "-")
+
+
+def resumen_fuentes(fuentes):
+    """'Prensa regional · 3 fuentes' o 'INS + Prensa'."""
+    nombres = list(dict.fromkeys(f.get("nombre") or "Fuente" for f in fuentes))
+    texto = " + ".join(nombres[:2]) + (" y otras" if len(nombres) > 2 else "")
+    return f"{texto} · {len(fuentes)} fuentes" if len(fuentes) > 1 else texto
+
+
+def armar_zonas():
+    """Una fila por departamento con el formato que espera el JavaScript (el mismo de ZONAS):
+
+    [id, nombre, lat, lon, municipios, {patogeno: [nivel, casos, esperado, fuente, oficial, fecha]},
+     nivel de dengue antes de esta semana]
+    """
+    hoy = date.today()
+    inicio_semana = str(hoy - timedelta(days=hoy.weekday()))
+    alertas = buscar(desde=str(hoy - timedelta(days=DIAS_VIGENCIA)), limite=1000)  # base o JSON de respaldo
+
+    zonas = []
+    for depto in DEPARTAMENTOS:
+        lat, lon = CAPITALES[depto]
+        propias = [a for a in alertas if a.get("departamento") == depto]
+        por_patogeno, municipios = {}, set()
+        for pat in PATOGENOS_WEB:
+            # buscar() las trae de la más reciente a la más antigua: la primera es la situación actual
+            a = next((x for x in propias if normalizar(x.get("patogeno")) == pat), None)
+            if a is None:
+                por_patogeno[pat] = ["sin", 0, 0, "", False, ""]
+                continue
+            a = alerta_segura(a)
+            fuentes = [f for f in (a.get("fuentes") or []) if isinstance(f, dict)]
+            oficial = any(f.get("tipo") == "oficial" for f in fuentes)
+            nivel = a["nivel"]
+            # Mismo filtro de niveles.py, aplicado también a alertas guardadas antes del cambio
+            if nivel == "critico" and CRITICO_SOLO_CON_OFICIAL and not oficial:
+                nivel = "alto"
+            municipios.update(a["municipios"])
+            por_patogeno[pat] = [nivel, a.get("casos"), a.get("esperado"),
+                                 resumen_fuentes(fuentes), oficial, a.get("fecha_deteccion", "")]
+        anteriores = [x for x in propias if normalizar(x.get("patogeno")) == "dengue"
+                      and x.get("fecha_deteccion", "") < inicio_semana]
+        nivel_antes = alerta_segura(anteriores[0])["nivel"] if anteriores else "sin"
+        zonas.append([id_zona(depto), depto, lat, lon, sorted(municipios), por_patogeno, nivel_antes])
+    return zonas
 
 
 # ---------- Páginas ----------
@@ -151,13 +264,19 @@ def pagina(nombre):
 # ---------- API (datos en JSON para el JavaScript) ----------
 @app.route("/api/alertas")
 def api_alertas():
-    return jsonify(buscar(**filtros_de_la_url()))
+    return jsonify([alerta_segura(a) for a in buscar(**filtros_de_la_url())])
 
 
 @app.route("/api/alertas/<alerta_id>")
 def api_alerta(alerta_id):
     a = buscar_una(alerta_id)
-    return jsonify(a) if a else (jsonify({"error": "no existe"}), 404)
+    return jsonify(alerta_segura(a)) if a else (jsonify({"error": "no existe"}), 404)
+
+
+@app.route("/api/zonas")
+def api_zonas():
+    """Riesgo de los 33 departamentos con datos reales (lo usa static/js/app.js)."""
+    return jsonify({"actualizado": str(date.today()), "dias": DIAS_VIGENCIA, "zonas": armar_zonas()})
 
 
 @app.route("/api/dengue")
@@ -179,4 +298,6 @@ def api_historico():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # Modo debug solo si se pide a propósito ($env:FLASK_DEBUG="1"): con debug, un error muestra
+    # una consola que permite ejecutar código. En Render se usa gunicorn, que no pasa por aquí.
+    app.run(debug=os.getenv("FLASK_DEBUG") == "1")
