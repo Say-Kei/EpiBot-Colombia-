@@ -16,10 +16,14 @@ function fondoMapa(sel){
   if(!GEO) return `<path d="${anillo(CONTORNO)}" fill="var(--ilus-fondo)" stroke="var(--marca)" stroke-width="1.6" stroke-linejoin="round"/>`;
   const nz=sel?norm(zonaPor(sel)[1]):"";
   return GEO.features.map(f=>{
-    const nombre=f.properties.NOMBRE_DPT||f.properties.DPTO_CNMBR||f.properties.name||f.properties.NOMBRE||"";
-    const g=f.geometry, polis=g.type==="Polygon"?[g.coordinates]:g.coordinates;
+    // Distintos archivos usan distintos nombres de campo: DANE (DPTO_CNMBR), geoBoundaries (shapeName)...
+    const pr=f.properties||{};
+    const nombre=pr.NOMBRE_DPT||pr.DPTO_CNMBR||pr.shapeName||pr.name||pr.NOMBRE||pr.NAME_1||"";
+    const g=f.geometry; if(!g) return "";
+    const polis=g.type==="Polygon"?[g.coordinates]:g.coordinates;
     const d=polis.map(p=>p.map(anillo).join("")).join("");
-    const on=nz && norm(nombre).startsWith(nz.slice(0,6));
+    // Compara sin tildes ni espacios; "Bogotá D.C." también coincide con "Santafé de Bogotá" y "San Andrés" con "Archipiélago de San Andrés"
+    const nn=norm(nombre), on=nz && (nn.startsWith(nz.slice(0,6)) || nn.includes(nz.slice(0,6)));
     return `<path d="${d}" fill="${on?"var(--boton-2)":"var(--ilus-fondo)"}" stroke="var(--marca)" stroke-width="${on?1.8:.6}" stroke-linejoin="round"><title>${esc(nombre)}</title></path>`;
   }).join("");
 }
@@ -34,17 +38,25 @@ function mapa(sel){
   const W=MAPA.W,H=MAPA.H;
   // Con 33 departamentos los nombres se encimaban: solo se escribe el nombre de los que tienen alguna alerta (también "bajo")
   // y el de la zona elegida; los demás muestran su nombre al pasar el mouse (title).
-  const pts=ZONAS.map(z=>{const [p,d]=peor(z), n=d[0], r=n==="sin"?5:6+Math.min(9,(d[1]||0)/100);
+  // Tamaño del punto: crece con la raíz cuadrada de los casos y tiene tope, para que un número
+  // grande (a veces un acumulado del año) no tape a los vecinos. Va de 5 (sin casos) a 10.
+  const radio=(n,casos)=> n==="sin" ? 4.5 : 5+Math.min(5, Math.sqrt(casos||0)/8);
+  const datos=ZONAS.map(z=>{const [p,d]=peor(z), n=d[0], r=radio(n,d[1]);
     const s=z[0]===sel, c=CENTRO[z[0]]||[z[2],z[3]], X=mx(c[1]), Y=my(c[0]);
-    const borde=n==="moderado"?"#5E4800":"#FFFFFF";
     const izq = X>W*0.62 || ["valle","antioquia","choco","narino"].includes(z[0]); // etiquetas a la izquierda en el oriente para que no se salgan
-    return `<g><circle cx="${X}" cy="${Y}" r="${r}" fill="var(--${n}-pt)" stroke="${borde}" stroke-width="1.5"/>
-      ${s?`<circle cx="${X}" cy="${Y}" r="${r+5}" fill="none" stroke="var(--titulos)" stroke-width="2"/>`:""}
-      ${(n!=="sin"||s)?`<text x="${izq?X-r-4:X+r+4}" y="${Y+4}" text-anchor="${izq?"end":"start"}" font-size="${s?12:9.5}" font-weight="${s?700:400}" fill="var(--${s?"titulos":"suave"})" paint-order="stroke" stroke="var(--superficie)" stroke-width="3" font-family="Atkinson Hyperlegible, sans-serif">${esc(z[1])}</text>`:""}<title>${esc(z[1])}: ${PATOGENOS[p].nombre}, ${NIVEL[n].txt}</title></g>`;}).join("");
+    return {z,p,n,r,s,X,Y,izq};});
+  // 1.º los puntos (los grandes primero, así los pequeños quedan encima y se ven); 2.º todos los nombres encima de los puntos
+  const puntos=datos.slice().sort((a,b)=>b.r-a.r).map(({z,p,n,r,s,X,Y})=>{
+    const borde=n==="moderado"?"#5E4800":"#FFFFFF";
+    return `<g><circle cx="${X}" cy="${Y}" r="${r}" fill="var(--${n}-pt)" fill-opacity="${n==="sin"?1:.92}" stroke="${borde}" stroke-width="1.5"/>
+      ${s?`<circle cx="${X}" cy="${Y}" r="${r+4}" fill="none" stroke="var(--titulos)" stroke-width="2"/>`:""}<title>${esc(z[1])}: ${PATOGENOS[p].nombre}, ${NIVEL[n].txt}</title></g>`;}).join("");
+  const nombres=datos.filter(d=>d.n!=="sin"||d.s).map(({z,r,s,X,Y,izq})=>
+    `<text x="${izq?X-r-4:X+r+4}" y="${Y+4}" text-anchor="${izq?"end":"start"}" font-size="${s?12:9.5}" font-weight="${s?700:400}" fill="var(--${s?"titulos":"suave"})" paint-order="stroke" stroke="var(--superficie)" stroke-width="3" font-family="Atkinson Hyperlegible, sans-serif" pointer-events="none">${esc(z[1])}</text>`).join("");
+  const pts=puntos+nombres;
   setTimeout(cargarGeo,0);
   return `<div class="mapa"><svg viewBox="-34 -6 ${W+40} ${H+12}" role="img" aria-label="Mapa de Colombia con el nivel más alto de alerta por departamento">
     <g class="fondo" data-sel="${sel||""}">${fondoMapa(sel)}</g>
     ${pts}</svg>
     <div class="leyenda">${ORDEN.slice().reverse().map(chip).join("")}</div>
-    <p class="nota" style="margin-top:6px">Cada punto muestra la enfermedad con el nivel más alto en ese departamento. El punto es más grande si hay más casos.</p></div>`;
+    <p class="nota" style="margin-top:6px">Cada punto muestra la enfermedad con el nivel más alto en ese departamento. El punto es un poco más grande si hay más casos.</p></div>`;
 }
