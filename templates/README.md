@@ -1,26 +1,53 @@
-# EpiBot Colombia — One-page + panel de demostración
+# EpiBot Colombia · página web (MVP)
 
-## Estructura
-- `index.html`: página educativa de dengue.
-- `panel.html`: panel epidemiológico de ejemplo, accesible sin registro.
-- `css/styles.css`: estilos compartidos y responsive.
-- `js/script.js`: menú móvil, búsqueda local, filtros del directorio y formulario demostrativo.
-- `assets/`: imágenes locales usadas por la página.
+Página para celular con el recorrido de 5 pasos: Mi zona → resultado → revisión de fiebre → práctica → plan de la semana. Incluye además las fichas de dengue, chikungunya y malaria y el mapa de Colombia.
 
-## Cómo abrir
-1. Descomprime la carpeta.
-2. Abre `index.html` en un navegador.
-3. Pulsa **Panel epidemiológico** o **Consultar el panel** para abrir `panel.html`.
+## Carpetas
 
-También puedes usar VS Code con la extensión Live Server para probarlo localmente.
+```
+epibot-web/
+├── index.html            Inicio: consulta de tu zona y las enfermedades
+├── zona.html             El recorrido: resultado → revisión → práctica → plan (zona.html?zona=cordoba)
+├── enfermedades.html     Fichas con pestañas (enfermedades.html?p=malaria)
+├── mapa.html             Mapa del país y lista de departamentos
+├── prevencion.html       Acciones de prevención y qué hacer si hay fiebre
+├── como-funciona.html    Cómo funciona EpiBot y por qué importa
+└── static/
+    ├── css/epibot.css         Un solo sistema de diseño para todas las páginas
+    ├── js/datos.js            Datos de ejemplo, fichas, práctica y plan semanal
+    ├── js/ilustraciones.js    Dibujos SVG
+    ├── js/mapa.js             Mapa de Colombia
+    ├── js/app.js              Secciones y páginas (cada HTML dice cuál es con data-pagina)
+    └── data/                  Aquí va colombia.geojson
+```
 
-## Importante antes de publicar
-- El panel contiene datos ilustrativos, no alertas reales ni datos en tiempo real.
-- El directorio de centros de diagnóstico es una maqueta; no publiques centros, direcciones ni servicios sin verificarlos con fuentes oficiales.
-- El formulario de correo es solo visual y no almacena ni envía direcciones.
-- La búsqueda y los filtros funcionan localmente; no hay backend, base de datos, IA ni conexión a SIVIGILA en esta versión.
-- La información sanitaria es educativa y no sustituye la valoración profesional.
-- Los enlaces a fuentes oficiales están incluidos para consulta; verifica su contenido y actualización antes de publicar.
+Todas las páginas comparten el menú, el pie y los mismos 4 scripts. Cada una tiene `<body data-pagina="...">` y `app.js` dibuja lo que le corresponde.
 
-## Personalización
-Edita los textos y colores en `css/styles.css`. Cambia las imágenes dentro de `assets/` conservando los nombres usados por `index.html`.
+## Cómo probarla
+
+Lo más fácil: doble clic en `index.html`. Se abre en el navegador.
+
+Si quieren probar también la ubicación, ábranla con un servidor desde la carpeta `epibot-web`:
+
+```
+python -m http.server 8000
+```
+
+Luego abran `http://localhost:8000` y `http://localhost:8000/?zona=cordoba`. Usen F12 → vista de celular.
+
+## Cómo unirla al proyecto Flask
+
+- Si `index.html` se sirve como plantilla, muévanlo a `templates/index.html`. Las rutas `/static/...` ya funcionan con la carpeta `static` por defecto de Flask.
+- Copien `static/css` y `static/js` dentro de la carpeta `static` del proyecto.
+
+## Qué falta conectar
+
+1. **API de alertas.** En `app.js`, la función `cargarAlertas()` ya llama a `/api/alertas?departamento=...&desde=...`. Hay que convertir la respuesta al formato de `ZONAS` (en `datos.js`). Mientras no responda, la página usa los datos de ejemplo.
+2. **Mi zona con el GeoJSON.** En `app.js`, `miZona()` hoy busca la capital más cercana. Cámbienlo por la búsqueda de punto en polígono con `static/data/colombia.geojson`.
+3. **Mapa.** `mapa.js` intenta cargar `/static/data/colombia.geojson`. Si no está, dibuja un contorno aproximado del país.
+4. **Páginas enlazadas.** Los botones apuntan a `panel.html`, `fuentes.html` y `centros.html`, que vienen de la rama frone.
+5. **Contenido médico.** La persona 4 debe revisar `FICHAS` y `PRACTICA_*` en `datos.js` contra MinSalud, INS y OPS.
+
+## Privacidad
+
+No hay cuentas ni base de datos de usuarios. La ubicación se usa solo en el celular. El progreso del plan se guarda en el propio navegador (`localStorage`) y no sube a ningún servidor.

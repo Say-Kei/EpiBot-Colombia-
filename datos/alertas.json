@@ -1,0 +1,1357 @@
+[
+  {
+    "id": "chikungunya-caldas-2026-s43",
+    "patogeno": "Chikungunya",
+    "tipo": "virus",
+    "departamento": "Caldas",
+    "nivel": "moderado",
+    "casos": 1,
+    "esperado": 0,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 1 casos en el año frente a 0 esperados.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "chikungunya-valle-del-cauca-2026-s43",
+    "patogeno": "Chikungunya",
+    "tipo": "virus",
+    "departamento": "Valle del Cauca",
+    "nivel": "moderado",
+    "casos": 1,
+    "esperado": 0,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 1 casos en el año frente a 0 esperados.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "chikungunya-antioquia-2026-s43",
+    "patogeno": "Chikungunya",
+    "tipo": "virus",
+    "departamento": "Antioquia",
+    "nivel": "moderado",
+    "casos": 2,
+    "esperado": 0,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 2 casos en el año frente a 0 esperados.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-vichada-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Vichada",
+    "nivel": "bajo",
+    "casos": 86,
+    "esperado": 131,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 86 casos en las últimas 4 semanas frente a 131 esperados; 1576 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-vaupes-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Vaupés",
+    "nivel": "bajo",
+    "casos": 192,
+    "esperado": 229,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 192 casos en las últimas 4 semanas frente a 229 esperados; 1125 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-tolima-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Tolima",
+    "nivel": "moderado",
+    "casos": 2,
+    "esperado": 0,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 2 casos en las últimas 4 semanas frente a 0 esperados; 20 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-sucre-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Sucre",
+    "nivel": "moderado",
+    "casos": 9,
+    "esperado": 7,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 9 casos en las últimas 4 semanas frente a 7 esperados; 57 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-santander-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Santander",
+    "nivel": "moderado",
+    "casos": 3,
+    "esperado": 1,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 3 casos en las últimas 4 semanas frente a 1 esperados; 15 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-risaralda-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Risaralda",
+    "nivel": "bajo",
+    "casos": 222,
+    "esperado": 338,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 222 casos en las últimas 4 semanas frente a 338 esperados; 2627 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-quindio-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Quindío",
+    "nivel": "bajo",
+    "casos": 0,
+    "esperado": 2,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 0 casos en las últimas 4 semanas frente a 2 esperados; 2 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-putumayo-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Putumayo",
+    "nivel": "bajo",
+    "casos": 2,
+    "esperado": 4,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 2 casos en las últimas 4 semanas frente a 4 esperados; 62 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-norte-de-santander-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Norte de Santander",
+    "nivel": "bajo",
+    "casos": 89,
+    "esperado": 99,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 89 casos en las últimas 4 semanas frente a 99 esperados; 933 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-narino-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Nariño",
+    "nivel": "bajo",
+    "casos": 240,
+    "esperado": 698,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 240 casos en las últimas 4 semanas frente a 698 esperados; 3143 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-meta-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Meta",
+    "nivel": "critico",
+    "casos": 158,
+    "esperado": 43,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 158 casos en las últimas 4 semanas frente a 43 esperados; 1510 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-magdalena-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Magdalena",
+    "nivel": "bajo",
+    "casos": 0,
+    "esperado": 1,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 0 casos en las últimas 4 semanas frente a 1 esperados; 13 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-la-guajira-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "La Guajira",
+    "nivel": "moderado",
+    "casos": 2,
+    "esperado": 2,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 2 casos en las últimas 4 semanas frente a 2 esperados; 16 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-guaviare-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Guaviare",
+    "nivel": "alto",
+    "casos": 156,
+    "esperado": 98,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 156 casos en las últimas 4 semanas frente a 98 esperados; 1307 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-guainia-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Guainía",
+    "nivel": "bajo",
+    "casos": 326,
+    "esperado": 344,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 326 casos en las últimas 4 semanas frente a 344 esperados; 3132 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-cordoba-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Córdoba",
+    "nivel": "bajo",
+    "casos": 493,
+    "esperado": 762,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 493 casos en las últimas 4 semanas frente a 762 esperados; 4482 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-choco-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Chocó",
+    "nivel": "alto",
+    "casos": 3633,
+    "esperado": 2143,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 3633 casos en las últimas 4 semanas frente a 2143 esperados; 27379 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOWUM1NldWZXVoMWUxTTdMdWxIWE42LUJUbVpzNFVoc0JzSEhtVnVhUWJXM3NxdE5NbTFEbENHWC1Pd1pnbDBfLXJTU3BaSmtIdEZZcUtCaFpjdnMxWGxoMHJRQUR1TWVFZEFoNEl0YTRIS185WHMtb1pEaG5oMHRTME5GZkIzNmRkQVZwX09NZUx4aWRCTnM5U1J0a3F4MEVMQ1l2cWdaWE9XSWYzTFFfTGdabmhoSlh3d3NKLUhPTFdRTTNLZEx1c3hIcVloZkdIYUF4OWMwaGF4bWh6bkhnSjF4TXA0QVQ0RkZuRDhiQ1NONW8yeHFF?oc=5",
+        "fecha": "2026-09-26"
+      },
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-cesar-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Cesar",
+    "nivel": "moderado",
+    "casos": 2,
+    "esperado": 2,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 2 casos en las últimas 4 semanas frente a 2 esperados; 13 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-cauca-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Cauca",
+    "nivel": "bajo",
+    "casos": 145,
+    "esperado": 238,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 145 casos en las últimas 4 semanas frente a 238 esperados; 2086 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-casanare-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Casanare",
+    "nivel": "bajo",
+    "casos": 0,
+    "esperado": 1,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 0 casos en las últimas 4 semanas frente a 1 esperados; 25 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-caqueta-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Caquetá",
+    "nivel": "moderado",
+    "casos": 23,
+    "esperado": 16,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 23 casos en las últimas 4 semanas frente a 16 esperados; 339 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-caldas-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Caldas",
+    "nivel": "bajo",
+    "casos": 0,
+    "esperado": 2,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 0 casos en las últimas 4 semanas frente a 2 esperados; 8 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-valle-del-cauca-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Valle del Cauca",
+    "nivel": "moderado",
+    "casos": 191,
+    "esperado": 166,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 191 casos en las últimas 4 semanas frente a 166 esperados; 1673 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-boyaca-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Boyacá",
+    "nivel": "moderado",
+    "casos": 7,
+    "esperado": 0,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 7 casos en las últimas 4 semanas frente a 0 esperados; 184 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-bolivar-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Bolívar",
+    "nivel": "critico",
+    "casos": 218,
+    "esperado": 105,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 218 casos en las últimas 4 semanas frente a 105 esperados; 1854 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-atlantico-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Atlántico",
+    "nivel": "bajo",
+    "casos": 0,
+    "esperado": 0,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 0 casos en las últimas 4 semanas frente a 0 esperados; 2 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-arauca-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Arauca",
+    "nivel": "moderado",
+    "casos": 9,
+    "esperado": 6,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 9 casos en las últimas 4 semanas frente a 6 esperados; 188 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-antioquia-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Antioquia",
+    "nivel": "moderado",
+    "casos": 869,
+    "esperado": 774,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 869 casos en las últimas 4 semanas frente a 774 esperados; 8121 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "malaria-amazonas-2026-s43",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Amazonas",
+    "nivel": "bajo",
+    "casos": 155,
+    "esperado": 284,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 155 casos en las últimas 4 semanas frente a 284 esperados; 1989 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-vichada-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Vichada",
+    "nivel": "moderado",
+    "casos": 23,
+    "esperado": 17,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 23 casos en las últimas 4 semanas frente a 17 esperados; 124 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-vaupes-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Vaupés",
+    "nivel": "critico",
+    "casos": 22,
+    "esperado": 1,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 22 casos en las últimas 4 semanas frente a 1 esperados; 90 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-tolima-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Tolima",
+    "nivel": "alto",
+    "casos": 600,
+    "esperado": 386,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 600 casos en las últimas 4 semanas frente a 386 esperados; 3024 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-sucre-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Sucre",
+    "nivel": "critico",
+    "casos": 492,
+    "esperado": 204,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 492 casos en las últimas 4 semanas frente a 204 esperados; 2203 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-santander-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Santander",
+    "nivel": "critico",
+    "casos": 1139,
+    "esperado": 464,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 1139 casos en las últimas 4 semanas frente a 464 esperados; 6786 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-san-andres-y-providencia-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "San Andrés y Providencia",
+    "nivel": "bajo",
+    "casos": 5,
+    "esperado": 9,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 5 casos en las últimas 4 semanas frente a 9 esperados; 36 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-risaralda-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Risaralda",
+    "nivel": "critico",
+    "casos": 56,
+    "esperado": 20,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 56 casos en las últimas 4 semanas frente a 20 esperados; 206 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-quindio-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Quindío",
+    "nivel": "critico",
+    "casos": 92,
+    "esperado": 24,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 92 casos en las últimas 4 semanas frente a 24 esperados; 375 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-putumayo-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Putumayo",
+    "nivel": "alto",
+    "casos": 80,
+    "esperado": 44,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 80 casos en las últimas 4 semanas frente a 44 esperados; 388 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-norte-de-santander-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Norte de Santander",
+    "nivel": "critico",
+    "casos": 704,
+    "esperado": 318,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 704 casos en las últimas 4 semanas frente a 318 esperados; 5770 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-narino-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Nariño",
+    "nivel": "bajo",
+    "casos": 65,
+    "esperado": 78,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 65 casos en las últimas 4 semanas frente a 78 esperados; 661 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-magdalena-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Magdalena",
+    "nivel": "critico",
+    "casos": 637,
+    "esperado": 193,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 637 casos en las últimas 4 semanas frente a 193 esperados; 7543 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-la-guajira-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "La Guajira",
+    "nivel": "bajo",
+    "casos": 63,
+    "esperado": 131,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 63 casos en las últimas 4 semanas frente a 131 esperados; 3148 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-huila-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Huila",
+    "nivel": "bajo",
+    "casos": 113,
+    "esperado": 139,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 113 casos en las últimas 4 semanas frente a 139 esperados; 1044 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-guaviare-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Guaviare",
+    "nivel": "critico",
+    "casos": 155,
+    "esperado": 29,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 155 casos en las últimas 4 semanas frente a 29 esperados; 609 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-guainia-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Guainía",
+    "nivel": "bajo",
+    "casos": 1,
+    "esperado": 4,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 1 casos en las últimas 4 semanas frente a 4 esperados; 10 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-cundinamarca-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Cundinamarca",
+    "nivel": "critico",
+    "casos": 447,
+    "esperado": 149,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 447 casos en las últimas 4 semanas frente a 149 esperados; 1835 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-choco-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Chocó",
+    "nivel": "alto",
+    "casos": 170,
+    "esperado": 86,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 170 casos en las últimas 4 semanas frente a 86 esperados; 1058 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-cesar-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Cesar",
+    "nivel": "moderado",
+    "casos": 338,
+    "esperado": 251,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 338 casos en las últimas 4 semanas frente a 251 esperados; 6452 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-cauca-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Cauca",
+    "nivel": "bajo",
+    "casos": 45,
+    "esperado": 58,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 45 casos en las últimas 4 semanas frente a 58 esperados; 218 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-casanare-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Casanare",
+    "nivel": "critico",
+    "casos": 249,
+    "esperado": 73,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 249 casos en las últimas 4 semanas frente a 73 esperados; 3546 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-caqueta-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Caquetá",
+    "nivel": "bajo",
+    "casos": 21,
+    "esperado": 37,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 21 casos en las últimas 4 semanas frente a 37 esperados; 432 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-caldas-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Caldas",
+    "nivel": "alto",
+    "casos": 23,
+    "esperado": 13,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 23 casos en las últimas 4 semanas frente a 13 esperados; 162 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-valle-del-cauca-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Valle del Cauca",
+    "nivel": "bajo",
+    "casos": 649,
+    "esperado": 971,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 649 casos en las últimas 4 semanas frente a 971 esperados; 3362 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-boyaca-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Boyacá",
+    "nivel": "critico",
+    "casos": 46,
+    "esperado": 20,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 46 casos en las últimas 4 semanas frente a 20 esperados; 271 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-bolivar-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Bolívar",
+    "nivel": "critico",
+    "casos": 1735,
+    "esperado": 771,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 1735 casos en las últimas 4 semanas frente a 771 esperados; 12024 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-arauca-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Arauca",
+    "nivel": "critico",
+    "casos": 284,
+    "esperado": 88,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 284 casos en las últimas 4 semanas frente a 88 esperados; 2533 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-antioquia-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Antioquia",
+    "nivel": "alto",
+    "casos": 509,
+    "esperado": 260,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 509 casos en las últimas 4 semanas frente a 260 esperados; 3559 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-amazonas-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Amazonas",
+    "nivel": "critico",
+    "casos": 129,
+    "esperado": 20,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 129 casos en las últimas 4 semanas frente a 20 esperados; 814 en lo que va del año.",
+    "fecha_deteccion": "2026-10-24",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-meta-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Meta",
+    "nivel": "critico",
+    "casos": 975,
+    "esperado": 324,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 975 casos en las últimas 4 semanas frente a 324 esperados; 13746 en lo que va del año.",
+    "fecha_deteccion": "2026-10-23",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYk5mOVVqU2FEZmxDY2Q1N0hkYkQzMTY2ZkhnamRXWlJkeTFfMjYzZlNxQ0sxOV9BOW8wYmNub2VVOWt3bUVfZ1RIZ1hjNTJYV3d1MlEtZFplUFlNb05pMjVDVUNSdmNFSEEwUGtmU3NKNVdUWXRpSnVJeUpkSEIxMS1EUExidzk2ZlFUNmFaYmpuVEQza0RNRGZKSXZhcnFTWUxsUnVXQjN4MG81QjRlZkc5elB1Z21qTmtWaGd3bEJUY3YwSHNHUHVtN0ZXWW8yNExBRno3MTEtcUtDMXfSAfgBQVVfeXFMTTI0Qm9jVVNwaS13U0RpcmpaZkMyUUxYMC1GVmtGMkVFTEk3aTN0RlQzT21WSG5SOXdnQ0FuZ2t3RWNUcVhGRHkzQXp5blBKV2NYZlN6WGZOYkhuemVmWjA2LVdlVWJXLTM4UzNGV1BlajRlcjhjRS1qSDlpLVpmcVBLYVdhYkJ4ZDExdHI5RU1fZWtzb2V3Nmd5WkRNUjBjUXVNdTdLbmZGaEZILVdTWFQwMEJSOGVQMkRQMHh2YUx0bXRha0g3OFdZRkdqY1lRM3VuUUJfVFE1NzNtdkdvSElBN19mbWEzVkVJVVFmNzRFMTc3Wm5MTlk?oc=5",
+        "fecha": "2026-10-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQR2Z4NVFFVnZsOG5ueDBTbUFxcHRFWDRDcU55Y3N6c1ZvZ2d2QllRaEhDbWtGY3FXQnRGTzN5MDVXZVdJTUxFWUt6RENfdmUwazFkdlphYXlhdld6TWhCV3cyeHljcGFpQWVMcU9Fc3J5V1ZZTjNNbTlZdlpYM1IwZGVQTExtbk93RW5FcEhjdzFHNXUxYVB30gGXAUFVX3lxTE83MGNJdXg1R2RIcnZubEk3M0QzTnF1Z0hqd3dQMG5manBURTJFdEhGM1c5R016WUdJS2lFOHhBdV96d1BqVHVwNmpXckhPYy1VOU5SLU5kaFNkX2R4RUowamp4bnY5OVNHbHFxUWpiQzlnWWM4QWdJc3I5VGFiVXlPMEVZVkdpNUJmZHhld185WFBPUUdpTFE?oc=5",
+        "fecha": "2026-09-14"
+      },
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "dengue-atlantico-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Atlántico",
+    "nivel": "alto",
+    "casos": 831,
+    "esperado": 543,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 831 casos en las últimas 4 semanas frente a 543 esperados; 6261 en lo que va del año.",
+    "fecha_deteccion": "2026-10-23",
+    "municipios": [
+      "Barranquilla",
+      "Palmar de Varela",
+      "Ponedera",
+      "Puerto Colombia"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYkFkZHRweWxmcWpUWTlucDBob3B5a1I4WjdjQWl2dDRUalJ1LXowSThCVF9ZbEtpYXZjbHNoMUN1LV9ZbGZ0RVE4UWROcDQ0bFFrcTRyMTdjWm1XU0NCdlR6bXpXY2xwbVJZellpUFdCeW0ySFliWmZER0tUbUsxZ1VjdlFPdWs?oc=5",
+        "fecha": "2026-10-21"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SWl9aSEJQRy02cW5SR0laRFZmemVVOHE1SnZJYWJuWFAyRmdLelpMRXlCMDUwNWhReXg2LTN0Y0E3aDM2MEIxd1dOSjNyQnp2OTlydGF0MndGLTDSAVtBVV95cUxOUlpfWkhCUEctNnFuUkdJWkRWZnplVThxNUp2SWFiblhQMkZnS3paTEV5QjA1MDVoUXl4Ni0zdGNBN2gzNjBCMXdXTkozckJ6djk5cnRhdDJ3Ri0w?oc=5",
+        "fecha": "2026-10-15"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LeE5nNUQ5a1BCVjBvWmpJcVd6UkI5bnRyWDZKVm5SNy1Zc2RSMEg0Vmx5TjgwdUVUV1JnSENBWlhmV3NIQjNaZk93WVRNLWFhTzB5c1lNRlNqVmY2R0xlU2luMTZ3SlFQU1N5U1d1TV9XMlFzZGZNV3hiSQ?oc=5",
+        "fecha": "2026-10-14"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVXE1UDBwNG9LN25vYzRjRi1lWkEzUTZOZHRDQUo4UHgwYzg1UHR0OFZYYXJueG10N0NOM2NTcHhvR1BwdG5EVWMtcU5BZjRuOUxHcVJWUURkMElldDFuWHFjNDhTTlNBS2psOW5jSHBlUmpaQlpuYkplNy10WGV3Rjk1M2NadVhJSWxaSm9YVWhpQUw3UnlmUWxscXl0TFJPckdzSnlHOFlra1RQcEtKWWpkTlhuR0l4LWZncUhxWVN1bjdjak4zUW42ZXVpUHlZM2c?oc=5",
+        "fecha": "2026-09-29"
+      },
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  },
+  {
+    "id": "tosferina-antioquia-2026-s43",
+    "patogeno": "Tosferina",
+    "tipo": "bacteria",
+    "departamento": "Antioquia",
+    "nivel": "critico",
+    "casos": 4,
+    "esperado": 1,
+    "resumen": "1 fuente(s) reportan tosferina en Antioquia esta semana. Lo normal para esta semana son unos 1 casos (INS).",
+    "fecha_deteccion": "2026-10-23",
+    "municipios": [
+      "Necoclí"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX2hRRHFxTTdwRGRmM2VqeWF1VzhycW9RRTZKbS1SNjNfbzNTeWVvTTVtRFA1T2F0ME1oTzJtOGlvRFJPT0Mzb0NlekpDTzBYZFRnQkhleG9rUVpHdE1lcTVsZ0ZWbFg0Y3JzcVZSWHAyVGdfeWVaTTEwRW1NRW80enpIQndhMlhjdHR0UmNNTUdSNC1jMFpLOHYtMk1zRjhQSDQ4Y9IBqgFBVV95cUxObTE2M2dkb094cV91M3RRQ2NBMkp0cC00LVFkYkluUDdWTmVsRE9pajVZalU4TkhQMXgtN2hxWnFUbVJKQmNGUUhPSlgzNm5nY1Q3eGZob1ZfeEx2OGs3N18yR0JZU3lhRFQwZmtjcm1zZ1RCUHNwMU5ZZ0E1MTVQcTUyN0RyUm0wRnZsSThYQVdKdVFtU3d6OGExUzRUZDNxeXlzMEQ1cDRYdw?oc=5",
+        "fecha": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "dengue-cordoba-2026-s43",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Córdoba",
+    "nivel": "bajo",
+    "casos": 285,
+    "esperado": 367,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 285 casos en las últimas 4 semanas frente a 367 esperados; 2938 en lo que va del año.",
+    "fecha_deteccion": "2026-10-22",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbXI5U3BOTjRtM2pxUF85QmhTaTBLUHMzT29TcFJLNkhqLWw2VlU0a3M5N2NUVlNhYmZrSmtJMEwtR0kyc21HRUFHSGczaFhFQTkzTzB3X2VXVWtuRlN4MjRXTUN2T1ByMEptb0MzaVdvaGw5Uy1xcVhQdnY1eHJhMFE0czdfLTdBMDZLSnVQMU12Q216aEF2eFRXeElZYXFsXy1mTVJfb0swcmNPRVJOVEo4RWt6TWtLMWdYZVpTS1RHdlRQ0gHKAUFVX3lxTE1wVVllTGNITXYzajdNZGt4Z2ViYzE1ZGhJTVZDX1JXZzVMTVQ5ME1MZzYtbWgtZjc3eTBXa1VIcGtWRkJqRWFpU3phckRrVWJNUmduZTVSU0pKRkdTaEk3dFo4UERsclRFZ09xRWpyR0RyM3k0MkZ0Mi1vQ2FnNXFKVWtsbUlfVXdKT0pMSHZGM3l0LUd2RnRnQ3lHY3NHMncwSzU4cEpIN1dlZWs2Mzd2eWkzVVB0YjlGaXlaejV1U3VLREdhUG1aQlE?oc=5",
+        "fecha": "2026-10-21"
+      },
+      {
+        "nombre": "INS · BES semana 41",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
+        "fecha": "2026-10-17"
+      }
+    ]
+  }
+]

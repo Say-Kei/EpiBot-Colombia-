@@ -1,0 +1,1 @@
+Pongan aquí colombia.geojson (departamentos de Colombia). El mapa lo usa si existe.

@@ -1,0 +1,35 @@
+name: Recolectar alertas
+on:
+  schedule:
+    - cron: "0 12 * * *"   # 7:00 a. m. Colombia (GitHub usa hora UTC = Colombia + 5)
+    - cron: "0 0 * * *"    # 7:00 p. m. Colombia
+  workflow_dispatch:        # botón "Run workflow" para correrlo a mano
+concurrency:
+  group: recolectar         # si una ejecución sigue corriendo, la siguiente espera
+  cancel-in-progress: false
+jobs:
+  recolectar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60     # si algo se queda pegado, se corta a la hora
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install -r requirements-lock.txt
+      - run: python -m recolector.main
+        env:
+          IA_URL: ${{ secrets.IA_URL }}
+          IA_KEY: ${{ secrets.IA_KEY }}
+          IA_MODELO: ${{ secrets.IA_MODELO }}
+          MAX_TEXTOS: "50"
+          PRESUPUESTO_TOKENS: "45000"
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add datos/alertas.json datos/epibot.db
+          git commit -m "Actualiza alertas" || echo "Sin cambios"
+          git pull --rebase
+          git push

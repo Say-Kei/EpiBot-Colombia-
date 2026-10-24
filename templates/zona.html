@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mi zona · EpiBot Colombia</title>
+  <meta name="description" content="Tu situación en palabras simples, una práctica corta y tu plan de la semana.">
+  <meta name="theme-color" content="#0F6B57">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Lexend:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="static/css/epibot.css">
+</head>
+<body data-pagina="zona">
+
+<header class="barra"><div class="wrap barra-in">
+  <a class="marca" href="index.html" aria-label="EpiBot Colombia, inicio">
+    <svg viewBox="0 0 40 48" aria-hidden="true"><path d="M20 47C20 47 3 30 3 19a17 17 0 0 1 34 0c0 11-17 28-17 28z" fill="var(--marca)"/><path d="M20 5V1" stroke="var(--marca)" stroke-width="2"/><circle cx="20" cy="4" r="3" fill="var(--antena)"/><rect x="10" y="11" width="20" height="15" rx="5" fill="#fff"/><circle cx="15.5" cy="17.5" r="2" fill="var(--marca)"/><circle cx="24.5" cy="17.5" r="2" fill="var(--marca)"/><path d="M16.5 21.5q3.5 2.6 7 0" stroke="var(--marca)" stroke-width="1.6" fill="none" stroke-linecap="round"/><path d="M6 31h7l2-3 3 5 2-2h14" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.4" fill="none"/></svg>
+    <span class="palabra"><span class="epi">Epi</span><span class="bot">Bot</span><small>COLOMBIA</small></span>
+  </a>
+  <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="nav">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>Menú</button>
+  <nav class="nav" id="nav" aria-label="Principal">
+    <a href="enfermedades.html" data-pag="enfermedades">Enfermedades</a>
+    <a href="mapa.html" data-pag="mapa">Mapa</a>
+    <a href="prevencion.html" data-pag="prevencion">Prevención</a>
+    <a href="como-funciona.html" data-pag="como">Cómo funciona</a>
+    <a class="btn btn-1" href="index.html#consulta">Consultar mi zona</a>
+  </nav>
+</div></header>
+
+<div class="recorrido" id="recorrido" hidden><div class="wrap recorrido-in">
+  <ol aria-label="Pasos del recorrido"></ol>
+  <button class="salir" id="salir">Salir</button>
+</div></div>
+
+<main id="app"></main>
+
+<footer class="pie"><div class="wrap">
+  <div class="pie-grid">
+    <div class="pila-s">
+      <span class="palabra"><span class="epi">Epi</span><span class="bot">Bot</span><small>COLOMBIA</small></span>
+      <p style="max-width:42ch">Conoce tu riesgo de dengue, malaria y chikungunya, y qué hacer esta semana para proteger a tu familia.</p>
+    </div>
+    <div><h3>Explora</h3><ul>
+      <li><a href="index.html#consulta">Consultar mi zona</a></li>
+      <li><a href="enfermedades.html">Enfermedades</a></li>
+      <li><a href="mapa.html">Mapa del país</a></li>
+      <li><a href="prevencion.html">Prevención</a></li>
+    </ul></div>
+    <div><h3>Información</h3><ul>
+      <li><a href="como-funciona.html">Cómo funciona</a></li>
+      <li><a href="fuentes.html">Fuentes y evidencia</a></li>
+      <li><a href="centros.html">Centros de salud</a></li>
+    </ul></div>
+  </div>
+  <div class="pie-legal">
+    <p>Esta información no reemplaza la consulta médica. Datos agregados y públicos (Ley 1581 de 2012).</p>
+    <p>© <span id="anio">2026</span> EpiBot Colombia</p>
+  </div>
+</div></footer>
+<div class="toast" id="toast" hidden></div>
+
+<!-- El orden importa: datos → ilustraciones → mapa → app -->
+<script src="static/js/datos.js"></script>
+<script src="static/js/ilustraciones.js"></script>
+<script src="static/js/mapa.js"></script>
+<script src="static/js/app.js"></script>
+</body>
+</html>
