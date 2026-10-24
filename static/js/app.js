@@ -6,6 +6,9 @@ const zonaPor = id => ZONAS.find(z=>z[0]===id);
 const peor = z => Object.entries(z[5]).sort((a,b)=>ORDEN.indexOf(b[1][0])-ORDEN.indexOf(a[1][0]))[0];
 const store = {get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
 const agente = k => k==="malaria"?"parasito":"virus";
+/* Seguridad: todo texto que venga del servidor (nombres, municipios, fuentes) pasa por esc()
+   antes de entrar al HTML. Así, si un dato trae código, se muestra como texto y no se ejecuta. */
+function esc(v){return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
 const AVISO = `<p class="aviso-pie">Esta información no reemplaza la consulta médica. Fuentes: MinSalud, INS y OPS.</p>`;
 
 function toast(t){const el=document.getElementById("toast");el.textContent=t;el.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>el.hidden=true,3400);}
@@ -71,7 +74,7 @@ const SEC={
         Usar mi ubicación</button>
       <div class="separador">o elige de la lista</div>
       <div class="campo"><label for="dep">Departamento</label>
-        <select id="dep"><option value="">Selecciona tu departamento</option>${ZONAS.map(z=>`<option value="${z[0]}">${z[1]}</option>`).join("")}</select></div>
+        <select id="dep"><option value="">Selecciona tu departamento</option>${ZONAS.map(z=>`<option value="${esc(z[0])}">${esc(z[1])}</option>`).join("")}</select></div>
       <button class="btn btn-2 btn-full" id="ver">Ver mi zona</button>
       <p class="nota" id="geo-msg" hidden></p>
     </div>
@@ -97,7 +100,7 @@ const SEC={
  mapa:(banda=false)=>{
   const ranking=ZONAS.slice().sort((a,b)=>ORDEN.indexOf(peor(b)[1][0])-ORDEN.indexOf(peor(a)[1][0])).map(z=>{
     const [p,d]=peor(z);
-    return `<a href="zona.html?zona=${z[0]}"><b>${z[1]}</b>${chip(d[0])}<span class="nota">${d[0]==="sin"?"Sin reportes recientes":PATOGENOS[p].nombre+(d[1]==null?"":" · "+num(d[1])+" casos")}</span></a>`;}).join("");
+    return `<a href="zona.html?zona=${encodeURIComponent(z[0])}"><b>${esc(z[1])}</b>${chip(d[0])}<span class="nota">${d[0]==="sin"?"Sin reportes recientes":PATOGENOS[p].nombre+(d[1]==null?"":" · "+num(d[1])+" casos")}</span></a>`;}).join("");
   return `<section class="seccion ${banda?"banda":""}"><div class="wrap">
     <div class="seccion-cab"><p class="eyebrow">El mapa de esta semana ${ETIQUETA_EJEMPLO()}</p>
       <h2>¿Dónde hay más casos de lo normal?</h2>
@@ -219,9 +222,10 @@ function elegir(id){ location.href="zona.html?zona="+encodeURIComponent(id); }
 function resultado(){
   pasos(2);
   const z=S.zona, [p,d]=peor(z), n=d[0];
-  const msg = n==="sin" ? `En ${z[1]} no hay alertas reportadas este mes.`
-    : n==="bajo" ? `En ${z[1]} hay reportes de ${PATOGENOS[p].nombre.toLowerCase()}, pero dentro de lo normal para esta época.`
-    : `En ${z[1]} hay ${NIVEL[n].frase} de ${PATOGENOS[p].nombre.toLowerCase()} para esta época.`;
+  const nom=esc(z[1]);
+  const msg = n==="sin" ? `En ${nom} no hay alertas reportadas este mes.`
+    : n==="bajo" ? `En ${nom} hay reportes de ${PATOGENOS[p].nombre.toLowerCase()}, pero dentro de lo normal para esta época.`
+    : `En ${nom} hay ${NIVEL[n].frase} de ${PATOGENOS[p].nombre.toLowerCase()} para esta época.`;
   const guardado=store.get("epibot-ultimo-"+z[0]), visto=NIVEL[guardado]?guardado:(NIVEL[z[6]]?z[6]:"sin");
   const cambio = visto!==n ? `Desde tu última visita el nivel pasó de <b>${NIVEL[visto].txt}</b> a <b>${NIVEL[n].txt}</b>.` : `El nivel sigue igual que en tu última visita.`;
   store.set("epibot-ultimo-"+z[0], n);
@@ -232,12 +236,12 @@ function resultado(){
       ${nv==="sin"?`<p class="nota">${NIVEL.sin.que}</p>`:`
       <div class="cifras"><div><b>${num(c)}</b><span>casos</span></div><div><b>${num(e)}</b><span>esperados</span></div></div>
       <p>${NIVEL[nv].que}</p>
-      <div class="fuente"><span class="conf ${of?"ok":""}">${of?"Confirmado por el INS":"Solo noticias, pendiente de confirmación"}</span><span>${f}${fe?" · "+new Date(fe+"T12:00").toLocaleDateString("es-CO",{day:"numeric",month:"short"}):""}</span></div>`}
+      <div class="fuente"><span class="conf ${of?"ok":""}">${of?"Confirmado por el INS":"Solo noticias, pendiente de confirmación"}</span><span>${esc(f)}${fe?" · "+new Date(fe+"T12:00").toLocaleDateString("es-CO",{day:"numeric",month:"short"}):""}</span></div>`}
       <button class="mini-enlace" data-f="${k}">Síntomas y cuidados de ${PATOGENOS[k].nombre.toLowerCase()}</button>
     </article>`;}).join("");
   app.append($(`<section class="vista"><div class="wrap">
     <div class="vista-cab">
-      <p class="eyebrow">Tu zona · ${z[1]} ${ETIQUETA_EJEMPLO()}</p>
+      <p class="eyebrow">Tu zona · ${nom} ${ETIQUETA_EJEMPLO()}</p>
       <p class="mensaje">${msg}</p>
       <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">${chip(n)}<span class="nota">${NIVEL[n].que}</span></div>
     </div>
@@ -245,7 +249,7 @@ function resultado(){
       <div class="pila">
         <div class="cambio">${cambio}</div>
         ${tarjetas}
-        ${z[4].length?`<p class="nota">Municipios mencionados en las alertas: ${z[4].join(", ")}. El nivel es del departamento.</p>`:""}
+        ${z[4].length?`<p class="nota">Municipios mencionados en las alertas: ${z[4].map(esc).join(", ")}. El nivel es del departamento.</p>`:""}
         <button class="btn btn-1" id="seguir">Seguir: revisión rápida →</button>
       </div>
       <aside class="lateral">
@@ -338,9 +342,9 @@ function plan(){
   const z=S.zona, n=peor(z)[1][0], acc=PLAN[n];
   const key=`epibot-plan-${z[0]}-${lunes()}`;
   const hecho=store.get(key)||[];
-  const enlace=`${location.origin}${location.pathname}?zona=${z[0]}`;
+  const enlace=`${location.origin}${location.pathname}?zona=${encodeURIComponent(z[0])}`;
   app.append($(`<section class="vista"><div class="wrap">
-    <div class="vista-cab"><p class="eyebrow">Tu plan de la semana · ${z[1]}</p>
+    <div class="vista-cab"><p class="eyebrow">Tu plan de la semana · ${esc(z[1])}</p>
       <h1 style="font-size:clamp(1.8rem,3.4vw,2.5rem)">3 acciones para esta semana</h1>
       <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">${chip(n)}<span class="nota">Elegidas según el nivel de tu zona.</span></div></div>
     <div class="res-grid">
@@ -358,7 +362,7 @@ function plan(){
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Recordarme cada semana</button>
         </div>
         <div class="carta"><h3>Vuelve la próxima semana</h3><p class="nota">Guarda este enlace para ver si el nivel de tu zona cambió.</p>
-          <p class="enlace" id="enlace">${enlace}</p><button class="btn btn-2" id="copiar">Copiar enlace</button></div>
+          <p class="enlace" id="enlace">${esc(enlace)}</p><button class="btn btn-2" id="copiar">Copiar enlace</button></div>
         <button class="mini-enlace" id="otra">Empezar de nuevo</button>
       </aside>
     </div>

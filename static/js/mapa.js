@@ -20,7 +20,7 @@ function fondoMapa(sel){
     const g=f.geometry, polis=g.type==="Polygon"?[g.coordinates]:g.coordinates;
     const d=polis.map(p=>p.map(anillo).join("")).join("");
     const on=nz && norm(nombre).startsWith(nz.slice(0,6));
-    return `<path d="${d}" fill="${on?"var(--boton-2)":"var(--ilus-fondo)"}" stroke="var(--marca)" stroke-width="${on?1.8:.6}" stroke-linejoin="round"><title>${nombre}</title></path>`;
+    return `<path d="${d}" fill="${on?"var(--boton-2)":"var(--ilus-fondo)"}" stroke="var(--marca)" stroke-width="${on?1.8:.6}" stroke-linejoin="round"><title>${esc(nombre)}</title></path>`;
   }).join("");
 }
 function cargarGeo(){
@@ -29,6 +29,7 @@ function cargarGeo(){
     GEO=j; document.querySelectorAll(".mapa svg .fondo").forEach(g=>g.innerHTML=fondoMapa(g.dataset.sel));
   }).catch(()=>{});
 }
+// esc() (escapar texto) está en app.js; se usa cuando ya cargaron todos los scripts
 function mapa(sel){
   const W=MAPA.W,H=MAPA.H;
   // Con 33 departamentos los nombres se encimaban: solo se escribe el nombre de los que tienen alguna alerta (también "bajo")
@@ -39,7 +40,7 @@ function mapa(sel){
     const izq = X>W*0.62 || ["valle","antioquia","choco","narino"].includes(z[0]); // etiquetas a la izquierda en el oriente para que no se salgan
     return `<g><circle cx="${X}" cy="${Y}" r="${r}" fill="var(--${n}-pt)" stroke="${borde}" stroke-width="1.5"/>
       ${s?`<circle cx="${X}" cy="${Y}" r="${r+5}" fill="none" stroke="var(--titulos)" stroke-width="2"/>`:""}
-      ${(n!=="sin"||s)?`<text x="${izq?X-r-4:X+r+4}" y="${Y+4}" text-anchor="${izq?"end":"start"}" font-size="${s?12:9.5}" font-weight="${s?700:400}" fill="var(--${s?"titulos":"suave"})" paint-order="stroke" stroke="var(--superficie)" stroke-width="3" font-family="Atkinson Hyperlegible, sans-serif">${z[1]}</text>`:""}<title>${z[1]}: ${PATOGENOS[p].nombre}, ${NIVEL[n].txt}</title></g>`;}).join("");
+      ${(n!=="sin"||s)?`<text x="${izq?X-r-4:X+r+4}" y="${Y+4}" text-anchor="${izq?"end":"start"}" font-size="${s?12:9.5}" font-weight="${s?700:400}" fill="var(--${s?"titulos":"suave"})" paint-order="stroke" stroke="var(--superficie)" stroke-width="3" font-family="Atkinson Hyperlegible, sans-serif">${esc(z[1])}</text>`:""}<title>${esc(z[1])}: ${PATOGENOS[p].nombre}, ${NIVEL[n].txt}</title></g>`;}).join("");
   setTimeout(cargarGeo,0);
   return `<div class="mapa"><svg viewBox="-34 -6 ${W+40} ${H+12}" role="img" aria-label="Mapa de Colombia con el nivel más alto de alerta por departamento">
     <g class="fondo" data-sel="${sel||""}">${fondoMapa(sel)}</g>

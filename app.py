@@ -1,5 +1,6 @@
 """EpiBot Colombia: páginas web (Flask) y API de alertas, histórico e información del dengue."""
 import json
+import os
 import re
 import sqlite3
 from datetime import date, timedelta
@@ -9,11 +10,34 @@ from flask import Flask, render_template, jsonify, abort, request, redirect, url
 from jinja2 import ChainableUndefined
 
 from recolector import base
-from recolector.validar import DEPARTAMENTOS, normalizar
+from recolector.validar import DEPARTAMENTOS, normalizar, limpiar_municipios
+from recolector.niveles import CRITICO_SOLO_CON_OFICIAL
 
 app = Flask(__name__)
 
 app.jinja_env.undefined = ChainableUndefined
+
+
+# ---------- Seguridad: cabeceras que protegen a quien visita la página ----------
+# Content-Security-Policy: el navegador solo ejecuta scripts de este mismo sitio. Si algún texto
+# con código lograra colarse en los datos, no se ejecuta. Permite las fuentes de Google Fonts y los
+# estilos que el JavaScript pone en línea (style="...").
+CSP = ("default-src 'self'; script-src 'self'; "
+       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; "
+       "font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob:; "
+       "connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; "
+       "frame-ancestors 'none'")
+
+
+@app.after_request
+def cabeceras_seguridad(respuesta):
+    respuesta.headers.setdefault("Content-Security-Policy", CSP)
+    respuesta.headers.setdefault("X-Content-Type-Options", "nosniff")      # no adivinar tipos de archivo
+    respuesta.headers.setdefault("X-Frame-Options", "DENY")               # nadie puede meter la página en un marco
+    respuesta.headers.setdefault("Referrer-Policy", "strict-origin-when-cross-origin")
+    # La ubicación solo la puede pedir esta página; cámara y micrófono, nadie
+    respuesta.headers.setdefault("Permissions-Policy", "geolocation=(self), camera=(), microphone=()")
+    return respuesta
 
 DATOS = Path(__file__).parent / "datos"
 # dengue.json puede estar en datos/ o en data/ (la carpeta de la rama frone).
@@ -115,6 +139,18 @@ def buscar_una(alerta_id):
     return next((a for a in cargar_json() if a.get("id") == alerta_id), None)
 
 
+def alerta_segura(a):
+    """Copia de la alerta lista para enviar al navegador: municipios limpios y nivel conocido.
+
+    Protege también las alertas que ya estaban guardadas antes de agregar los filtros.
+    """
+    a = dict(a)
+    a["municipios"] = limpiar_municipios(a.get("municipios"))
+    if a.get("nivel") not in ORDEN_NIVEL:
+        a["nivel"] = "bajo"
+    return a
+
+
 def filtros_de_la_url():
     """Lee ?departamento=...&patogeno=...&nivel=...&desde=...&hasta=... de la dirección."""
     return {"departamento": request.args.get("departamento") or None,
@@ -182,14 +218,19 @@ def armar_zonas():
             if a is None:
                 por_patogeno[pat] = ["sin", 0, 0, "", False, ""]
                 continue
-            fuentes = a.get("fuentes") or []
-            municipios.update(a.get("municipios") or [])
-            por_patogeno[pat] = [a.get("nivel", "bajo"), a.get("casos"), a.get("esperado"),
-                                 resumen_fuentes(fuentes), any(f.get("tipo") == "oficial" for f in fuentes),
-                                 a.get("fecha_deteccion", "")]
+            a = alerta_segura(a)
+            fuentes = [f for f in (a.get("fuentes") or []) if isinstance(f, dict)]
+            oficial = any(f.get("tipo") == "oficial" for f in fuentes)
+            nivel = a["nivel"]
+            # Mismo filtro de niveles.py, aplicado también a alertas guardadas antes del cambio
+            if nivel == "critico" and CRITICO_SOLO_CON_OFICIAL and not oficial:
+                nivel = "alto"
+            municipios.update(a["municipios"])
+            por_patogeno[pat] = [nivel, a.get("casos"), a.get("esperado"),
+                                 resumen_fuentes(fuentes), oficial, a.get("fecha_deteccion", "")]
         anteriores = [x for x in propias if normalizar(x.get("patogeno")) == "dengue"
                       and x.get("fecha_deteccion", "") < inicio_semana]
-        nivel_antes = anteriores[0].get("nivel", "bajo") if anteriores else "sin"
+        nivel_antes = alerta_segura(anteriores[0])["nivel"] if anteriores else "sin"
         zonas.append([id_zona(depto), depto, lat, lon, sorted(municipios), por_patogeno, nivel_antes])
     return zonas
 
@@ -223,13 +264,13 @@ def pagina(nombre):
 # ---------- API (datos en JSON para el JavaScript) ----------
 @app.route("/api/alertas")
 def api_alertas():
-    return jsonify(buscar(**filtros_de_la_url()))
+    return jsonify([alerta_segura(a) for a in buscar(**filtros_de_la_url())])
 
 
 @app.route("/api/alertas/<alerta_id>")
 def api_alerta(alerta_id):
     a = buscar_una(alerta_id)
-    return jsonify(a) if a else (jsonify({"error": "no existe"}), 404)
+    return jsonify(alerta_segura(a)) if a else (jsonify({"error": "no existe"}), 404)
 
 
 @app.route("/api/zonas")
@@ -257,4 +298,6 @@ def api_historico():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # Modo debug solo si se pide a propósito ($env:FLASK_DEBUG="1"): con debug, un error muestra
+    # una consola que permite ejecutar código. En Render se usa gunicorn, que no pasa por aquí.
+    app.run(debug=os.getenv("FLASK_DEBUG") == "1")

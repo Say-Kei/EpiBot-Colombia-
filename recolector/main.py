@@ -16,7 +16,7 @@ from recolector import base
 from recolector.ia import extraer, LimiteAgotado
 from recolector.fuentes import noticias, oms, ins
 from recolector.limpieza import limpiar
-from recolector.validar import validar, normalizar
+from recolector.validar import validar, normalizar, limpiar_municipios
 from recolector.niveles import calcular_nivel
 
 SALIDA = Path(__file__).resolve().parents[1] / "datos" / "alertas.json"
@@ -37,7 +37,8 @@ def unir(vieja, nueva):
     casos = [c for c in (vieja["casos"], nueva["casos"]) if c is not None]
     return {**nueva,
             "fuentes": fuentes,
-            "municipios": sorted(set(vieja["municipios"]) | set(nueva["municipios"])),
+            # limpiar_municipios: también filtra lo que ya estaba guardado antes de los filtros
+            "municipios": sorted(set(limpiar_municipios(vieja["municipios"])) | set(nueva["municipios"])),
             "casos": max(casos) if casos else None,
             "fecha_deteccion": vieja["fecha_deteccion"]}   # se conserva el día en que apareció
 
