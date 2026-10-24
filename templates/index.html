@@ -1,156 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Inicio · EpiBot Colombia</title>
-<meta name="description" content="Información de salud pública sobre dengue en Colombia.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/epibot.css') }}">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>EpiBot Colombia</title>
+  <meta name="description" content="Cómo está el dengue, la malaria y el chikungunya en tu zona, y qué hacer esta semana.">
+  <meta name="theme-color" content="#0F6B57">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Lexend:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="static/css/epibot.css">
 </head>
-<body>
-<div style="background:#eef2ee;color:#0f2a24;min-height:780px">
-<div class="m" style="background:#0f2a24;color:#eef2ee;padding:8px 28px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
-<span>Boletín de vigilancia · Semana 32 · 2026</span>
-<span>Fuente: INS</span>
-</div>
-<header class="w" style="display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;padding-top:20px;padding-bottom:20px">
-<a href="/" style="font-size:22px;font-weight:800;letter-spacing:-.02em">EpiBot<span style="color:#c63a1f">.</span>co</a>
-<nav style="display:flex;flex-wrap:wrap;gap:20px;font-size:15px">
-<a href="/" style="font-weight:800;border-bottom:2px solid #c63a1f">Inicio</a>
-<a href="/que-es" style="">Qué es</a>
-<a href="/sintomas" style="">Síntomas</a>
-<a href="/tratamiento" style="">Tratamiento</a>
-<a href="/prevencion" style="">Prevención</a>
-<a href="/panel" style="">Panel</a>
-<a href="/centros" style="">Diagnóstico</a>
-</nav>
-</header>
-<section class="w g" style="padding-top:32px;align-items:center">
-<div>
-<div class="m" style="margin-bottom:20px;color:#c63a1f">● Salud pública · Colombia</div>
-<h1 style="font-size:clamp(48px,8vw,100px);line-height:.95;letter-spacing:-.04em;font-weight:800;margin:0 0 28px">El dengue se puede <span style="text-decoration:underline;text-decoration-color:#c63a1f;text-decoration-thickness:.08em;text-underline-offset:.08em">prevenir.</span>
-</h1>
-<p style="font-size:19px;line-height:1.5;max-width:520px;margin:0 0 28px">Conocer sus síntomas, tratamiento y prevención puede salvar vidas.</p>
-<a class="btn" href="/panel" style="background:#0f2a24;color:#fff;margin-right:10px">Ver el mapa →</a>
-<a class="btn" href="/que-es" style="border:1.5px solid #0f2a24">Conocer el dengue</a>
-</div>
-<div>
-<svg viewBox="0 0 300 365" role="img" aria-label="Mapa ilustrativo de Colombia con municipios priorizados por dengue" style="width:100%;max-height:560px;display:block">
-<path d="M192 4L170 15L125 28L102 34L87 47L70 71L55 86L40 84L27 116L40 142L42 174L12 219L2 230L37 254L75 262L95 273L132 297L225 361L227 294L240 247L297 232L290 198L280 174L287 137L277 135L240 140L207 120L175 120L165 90L150 73L155 34L177 19Z" fill="#dfe8e2" stroke="#0f2a24" stroke-width="1.2" stroke-linejoin="round"/>
-<g fill="#c63a1f" opacity=".22">
-<circle cx="120" cy="30" r="13"/>
-<circle cx="105" cy="34" r="13"/>
-<circle cx="87" cy="47" r="13"/>
-<circle cx="144" cy="45" r="13"/>
-<circle cx="162" cy="101" r="13"/>
-<circle cx="147" cy="118" r="13"/>
-<circle cx="135" cy="181" r="13"/>
-</g>
-<g fill="#c63a1f">
-<circle cx="120" cy="30" r="5"/>
-<circle cx="105" cy="34" r="5"/>
-<circle cx="87" cy="47" r="5"/>
-<circle cx="144" cy="45" r="5"/>
-<circle cx="162" cy="101" r="5"/>
-<circle cx="147" cy="118" r="5"/>
-<circle cx="135" cy="181" r="5"/>
-</g>
-<g fill="none" stroke="#0f2a24" stroke-width="1.6">
-<circle cx="62" cy="197" r="4"/>
-<circle cx="92" cy="208" r="4"/>
-<circle cx="95" cy="176" r="4"/>
-</g>
-<g font-size="9" font-family="IBM Plex Mono,monospace" fill="#0f2a24">
-<text x="128" y="20">Santa Marta</text>
-<text x="97" y="24" text-anchor="end">Barranquilla</text>
-<text x="75" y="56" text-anchor="end">Cartagena</text>
-<text x="153" y="52">Valledupar</text>
-<text x="171" y="105">Cúcuta</text>
-<text x="156" y="124">Bucaramanga</text>
-<text x="144" y="185">Villavicencio</text>
-<text x="86" y="175" text-anchor="end">Ibagué</text>
-<text x="83" y="212" text-anchor="end">Neiva</text>
-<text x="54" y="201" text-anchor="end">Cali</text>
-</g>
-</svg>
-</div>
-</section>
-<section class="w" style="margin-top:32px">
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));border-top:2px solid #0f2a24">
-<div style="padding:24px 24px 0 0">
-<div class="num" style="color:#0f2a24">70.452</div>
-<div class="m" style="margin-top:10px">casos · semana 32</div>
-</div>
-<div style="padding:24px 24px 0 0">
-<div class="num" style="color:#0f2a24">61,1%</div>
-<div class="m" style="margin-top:10px">en 8 territorios · corte 20 jun</div>
-</div>
-<div style="padding:24px 24px 0 0">
-<div class="num" style="color:#c63a1f">+234%</div>
-<div class="m" style="margin-top:10px">Magdalena vs. referencia</div>
-</div>
-<div style="padding:24px 24px 0 0">
-<div class="num" style="color:#c63a1f">+165%</div>
-<div class="m" style="margin-top:10px">Cesar vs. referencia</div>
-</div>
-</div>
-</section>
+<body data-pagina="inicio">
 
-<section class="w sec"><div class="m" style="margin-bottom:14px">Explora</div><h2 style="font-size:clamp(30px,4vw,48px);max-width:820px">Todo lo que necesitas saber, en siete ventanas.</h2><div style="margin-top:28px"><a class="row row--wide" href="/que-es"><span class="m">01</span><div><strong>¿Qué es el dengue?</strong><p>El virus, el mosquito y cómo se transmite.</p></div></a><a class="row row--wide" href="/sintomas"><span class="m">02</span><div><strong>Síntomas</strong><p>Las tres fases de la enfermedad y las señales de alarma.</p></div></a><a class="row row--wide" href="/tratamiento"><span class="m">03</span><div><strong>Tratamiento</strong><p>Qué hacer en casa y qué evitar.</p></div></a><a class="row row--wide" href="/prevencion"><span class="m">04</span><div><strong>Prevención</strong><p>Una ruta por tu casa para eliminar criaderos.</p></div></a><a class="row row--wide" href="/panel"><span class="m">05</span><div><strong>Panel</strong><p>Dónde se concentran los casos en 2026.</p></div></a><a class="row row--wide" href="/centros"><span class="m">06</span><div><strong>Diagnóstico</strong><p>Cómo prepararte para consultar y qué pruebas existen.</p></div></a></div></section><section class="w sec"><figure style="margin:0"><div class="photo"><span class="m">Tu foto aquí · static/img/inicio.jpg</span><img src="{{ url_for('static', filename='img/inicio.jpg') }}" alt="Prevenir empieza en casa: revisar y vaciar recipientes con agua" onerror="this.style.display='none'"></div><figcaption class="m cap">Prevenir empieza en casa: revisar y vaciar recipientes con agua</figcaption></figure></section>
-<div class="m" style="padding:28px;text-align:center;opacity:.7;margin-top:24px">EpiBot Colombia · No reemplaza la consulta médica</div>
-</div>
-<script src="{{ url_for('static', filename='js/epibot.js') }}" defer></script>
+<header class="barra"><div class="wrap barra-in">
+  <a class="marca" href="index.html" aria-label="EpiBot Colombia, inicio">
+    <svg viewBox="0 0 40 48" aria-hidden="true"><path d="M20 47C20 47 3 30 3 19a17 17 0 0 1 34 0c0 11-17 28-17 28z" fill="var(--marca)"/><path d="M20 5V1" stroke="var(--marca)" stroke-width="2"/><circle cx="20" cy="4" r="3" fill="var(--antena)"/><rect x="10" y="11" width="20" height="15" rx="5" fill="#fff"/><circle cx="15.5" cy="17.5" r="2" fill="var(--marca)"/><circle cx="24.5" cy="17.5" r="2" fill="var(--marca)"/><path d="M16.5 21.5q3.5 2.6 7 0" stroke="var(--marca)" stroke-width="1.6" fill="none" stroke-linecap="round"/><path d="M6 31h7l2-3 3 5 2-2h14" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.4" fill="none"/></svg>
+    <span class="palabra"><span class="epi">Epi</span><span class="bot">Bot</span><small>COLOMBIA</small></span>
+  </a>
+  <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="nav">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>Menú</button>
+  <nav class="nav" id="nav" aria-label="Principal">
+    <a href="enfermedades.html" data-pag="enfermedades">Enfermedades</a>
+    <a href="mapa.html" data-pag="mapa">Mapa</a>
+    <a href="prevencion.html" data-pag="prevencion">Prevención</a>
+    <a href="como-funciona.html" data-pag="como">Cómo funciona</a>
+    <a class="btn btn-1" href="index.html#consulta">Consultar mi zona</a>
+  </nav>
+</div></header>
 
-<footer class="epibot-footer">
-    <div class="epibot-footer__container">
+<div class="recorrido" id="recorrido" hidden><div class="wrap recorrido-in">
+  <ol aria-label="Pasos del recorrido"></ol>
+  <button class="salir" id="salir">Salir</button>
+</div></div>
 
-        <section class="epibot-footer__brand">
-            <a href="/" class="epibot-footer__logo">
-                <span class="epibot-footer__icon">+</span>
-                <span>EpiBot <strong>Colombia</strong></span>
-            </a>
+<main id="app"></main>
 
-            <p>
-                Conocimiento y prevención para construir
-                comunidades más informadas frente al dengue.
-            </p>
-
-            <span class="epibot-footer__tag">
-                Información · Prevención · Bienestar
-            </span>
-        </section>
-
-        <nav class="epibot-footer__links"
-             aria-label="Enlaces del pie de página">
-            <h3>Explora</h3>
-            <a href="/">Inicio</a>
-            <a href="/que-es">¿Qué es el dengue?</a>
-            <a href="/sintomas">Síntomas</a>
-            <a href="/tratamiento">Tratamiento</a>
-            <a href="/prevencion">Prevención</a>
-        </nav>
-
-        <section class="epibot-footer__info">
-            <h3>Compromiso con la salud</h3>
-            <p>
-                Aprende a reconocer los síntomas y conoce
-                medidas para prevenir el dengue.
-            </p>
-            <a href="/centros" class="epibot-footer__button">
-                Consultar centros de atención
-                <span aria-hidden="true">→</span>
-            </a>
-        </section>
-
+<footer class="pie"><div class="wrap">
+  <div class="pie-grid">
+    <div class="pila-s">
+      <span class="palabra"><span class="epi">Epi</span><span class="bot">Bot</span><small>COLOMBIA</small></span>
+      <p style="max-width:42ch">Conoce tu riesgo de dengue, malaria y chikungunya, y qué hacer esta semana para proteger a tu familia.</p>
     </div>
+    <div><h3>Explora</h3><ul>
+      <li><a href="index.html#consulta">Consultar mi zona</a></li>
+      <li><a href="enfermedades.html">Enfermedades</a></li>
+      <li><a href="mapa.html">Mapa del país</a></li>
+      <li><a href="prevencion.html">Prevención</a></li>
+    </ul></div>
+    <div><h3>Información</h3><ul>
+      <li><a href="como-funciona.html">Cómo funciona</a></li>
+      <li><a href="fuentes.html">Fuentes y evidencia</a></li>
+      <li><a href="centros.html">Centros de salud</a></li>
+    </ul></div>
+  </div>
+  <div class="pie-legal">
+    <p>Esta información no reemplaza la consulta médica. Datos agregados y públicos (Ley 1581 de 2012).</p>
+    <p>© <span id="anio">2026</span> EpiBot Colombia</p>
+  </div>
+</div></footer>
+<div class="toast" id="toast" hidden></div>
 
-    <div class="epibot-footer__bottom">
-        <p>© 2026 EpiBot Colombia</p>
-        <p>Proyecto informativo y educativo sobre el dengue.</p>
-    </div>
-</footer>
-
+<!-- El orden importa: datos → ilustraciones → mapa → app -->
+<script src="static/js/datos.js"></script>
+<script src="static/js/ilustraciones.js"></script>
+<script src="static/js/mapa.js"></script>
+<script src="static/js/app.js"></script>
 </body>
 </html>

@@ -3,7 +3,12 @@ from flask import Flask, render_template, abort, jsonify
 
 app = Flask(__name__)
 RUTA = os.path.join(os.path.dirname(__file__), "data", "dengue.json")
-PAGINAS = ["que-es", "sintomas", "tratamiento", "prevencion", "panel", "centros"]
+PAGINAS = [
+    # Páginas de la rama frone
+    "que-es", "sintomas", "tratamiento", "prevencion", "panel", "centros",
+    # Páginas nuevas de EpiBot
+    "zona", "enfermedades", "mapa", "como-funciona",
+]
 _cache = {"mtime": 0, "datos": {}}
 
 
@@ -34,6 +39,9 @@ def api_dengue():
 
 @app.route("/<pagina>")
 def pagina(pagina):
+    pagina = pagina.removesuffix(".html")   # acepta /mapa y /mapa.html
+    if pagina == "index":
+        return index()
     if pagina not in PAGINAS:
         abort(404)
     return render_template(f"{pagina}.html")
