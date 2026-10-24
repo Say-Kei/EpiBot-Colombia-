@@ -1,6 +1,6 @@
-/* ============ DATOS DE EJEMPLO ============
-   En el proyecto real, la página intenta primero /api/alertas y /api/historico.
-   Si la API no responde (como aquí), usa estos datos de ejemplo. */
+/* ============ DATOS ============
+   La página pide primero /api/zonas (datos reales de epibot.db).
+   Si la API no responde, usa estos datos de ejemplo. */
 const PATOGENOS = {
   dengue:{nombre:"Dengue",tipo:"Virus",mosquito:"Aedes aegypti"},
   chikungunya:{nombre:"Chikungunya",tipo:"Virus",mosquito:"Aedes aegypti"},
@@ -10,22 +10,26 @@ const NIVEL = {
   critico:{txt:"Crítico",frase:"muchos más casos de lo normal",que:"Extrema las precauciones y consulta ante fiebre."},
   alto:{txt:"Alto",frase:"más casos de lo normal",que:"Refuerza la prevención esta semana."},
   moderado:{txt:"Moderado",frase:"reportes oficiales de casos",que:"Mantén las medidas básicas."},
-  bajo:{txt:"Sin alertas reportadas",frase:"",que:"No hay señales recientes. Que no haya reportes no significa que no haya casos."}
+  bajo:{txt:"Bajo",frase:"algunos reportes, pero dentro de lo normal",que:"Hay pocos casos. Mantén las medidas básicas para que no aumenten."},
+  sin:{txt:"Sin alertas reportadas",frase:"",que:"No hay señales recientes. Que no haya reportes no significa que no haya casos."}
 };
 // [id, nombre, lat, lon, municipios mencionados, {patogeno:[nivel, casos, esperado, fuente, oficial, fecha]}, nivel semana anterior de dengue]
-const ZONAS = [
- ["cordoba","Córdoba",8.75,-75.88,["Montería","Lorica"],{dengue:["alto",412,290,"Boletín INS",true,"2026-10-20"],chikungunya:["bajo",0,0,"",false,""],malaria:["moderado",38,35,"Boletín INS",true,"2026-10-20"]},"moderado"],
- ["meta","Meta",4.14,-73.63,["Villavicencio","Granada"],{dengue:["critico",655,340,"Boletín INS + prensa regional",true,"2026-10-20"],chikungunya:["moderado",12,9,"Boletín INS",true,"2026-10-20"],malaria:["bajo",0,0,"",false,""]},"alto"],
- ["choco","Chocó",5.69,-76.66,["Quibdó","Tadó"],{dengue:["moderado",96,88,"Boletín INS",true,"2026-10-20"],chikungunya:["bajo",0,0,"",false,""],malaria:["critico",1240,700,"Boletín INS",true,"2026-10-20"]},"moderado"],
- ["antioquia","Antioquia",6.25,-75.56,["Medellín","Apartadó"],{dengue:["moderado",380,360,"Boletín INS",true,"2026-10-20"],chikungunya:["bajo",0,0,"",false,""],malaria:["alto",310,220,"Boletín INS",true,"2026-10-20"]},"moderado"],
- ["valle","Valle del Cauca",3.45,-76.53,["Cali","Buenaventura"],{dengue:["alto",520,400,"Prensa local",false,"2026-10-21"],chikungunya:["bajo",0,0,"",false,""],malaria:["moderado",44,40,"Boletín INS",true,"2026-10-20"]},"alto"],
- ["atlantico","Atlántico",10.96,-74.80,["Barranquilla","Soledad"],{dengue:["moderado",140,130,"Boletín INS",true,"2026-10-20"],chikungunya:["bajo",0,0,"",false,""],malaria:["bajo",0,0,"",false,""]},"moderado"],
- ["santander","Santander",7.12,-73.12,["Bucaramanga"],{dengue:["alto",290,200,"Boletín INS",true,"2026-10-20"],chikungunya:["bajo",0,0,"",false,""],malaria:["bajo",0,0,"",false,""]},"alto"],
- ["tolima","Tolima",4.44,-75.23,["Ibagué"],{dengue:["moderado",160,150,"Boletín INS",true,"2026-10-20"],chikungunya:["bajo",0,0,"",false,""],malaria:["bajo",0,0,"",false,""]},"bajo"],
- ["narino","Nariño",1.21,-77.28,["Tumaco"],{dengue:["bajo",0,0,"",false,""],chikungunya:["bajo",0,0,"",false,""],malaria:["alto",260,180,"Boletín INS",true,"2026-10-20"]},"bajo"],
- ["bogota","Bogotá D.C.",4.71,-74.07,[],{dengue:["bajo",0,0,"",false,""],chikungunya:["bajo",0,0,"",false,""],malaria:["bajo",0,0,"",false,""]},"bajo"]
+// Estos son DATOS DE EJEMPLO: solo se usan si /api/zonas no responde. Con el servidor Flask, app.js los cambia por los reales.
+let DATOS_REALES = false;
+let ZONAS = [
+ ["cordoba","Córdoba",8.75,-75.88,["Montería","Lorica"],{dengue:["alto",412,290,"Boletín INS",true,"2026-10-20"],chikungunya:["sin",0,0,"",false,""],malaria:["moderado",38,35,"Boletín INS",true,"2026-10-20"]},"moderado"],
+ ["meta","Meta",4.14,-73.63,["Villavicencio","Granada"],{dengue:["critico",655,340,"Boletín INS + prensa regional",true,"2026-10-20"],chikungunya:["moderado",12,9,"Boletín INS",true,"2026-10-20"],malaria:["sin",0,0,"",false,""]},"alto"],
+ ["choco","Chocó",5.69,-76.66,["Quibdó","Tadó"],{dengue:["moderado",96,88,"Boletín INS",true,"2026-10-20"],chikungunya:["sin",0,0,"",false,""],malaria:["critico",1240,700,"Boletín INS",true,"2026-10-20"]},"moderado"],
+ ["antioquia","Antioquia",6.25,-75.56,["Medellín","Apartadó"],{dengue:["moderado",380,360,"Boletín INS",true,"2026-10-20"],chikungunya:["sin",0,0,"",false,""],malaria:["alto",310,220,"Boletín INS",true,"2026-10-20"]},"moderado"],
+ ["valle","Valle del Cauca",3.45,-76.53,["Cali","Buenaventura"],{dengue:["alto",520,400,"Prensa local",false,"2026-10-21"],chikungunya:["sin",0,0,"",false,""],malaria:["moderado",44,40,"Boletín INS",true,"2026-10-20"]},"alto"],
+ ["atlantico","Atlántico",10.96,-74.80,["Barranquilla","Soledad"],{dengue:["moderado",140,130,"Boletín INS",true,"2026-10-20"],chikungunya:["sin",0,0,"",false,""],malaria:["sin",0,0,"",false,""]},"moderado"],
+ ["santander","Santander",7.12,-73.12,["Bucaramanga"],{dengue:["alto",290,200,"Boletín INS",true,"2026-10-20"],chikungunya:["sin",0,0,"",false,""],malaria:["sin",0,0,"",false,""]},"alto"],
+ ["tolima","Tolima",4.44,-75.23,["Ibagué"],{dengue:["moderado",160,150,"Boletín INS",true,"2026-10-20"],chikungunya:["sin",0,0,"",false,""],malaria:["sin",0,0,"",false,""]},"sin"],
+ ["narino","Nariño",1.21,-77.28,["Tumaco"],{dengue:["sin",0,0,"",false,""],chikungunya:["sin",0,0,"",false,""],malaria:["alto",260,180,"Boletín INS",true,"2026-10-20"]},"sin"],
+ ["bogota","Bogotá D.C.",4.71,-74.07,[],{dengue:["sin",0,0,"",false,""],chikungunya:["sin",0,0,"",false,""],malaria:["sin",0,0,"",false,""]},"sin"]
 ];
-const ORDEN = ["bajo","moderado","alto","critico"];
+// De menor a mayor. "sin" = ninguna alerta; "bajo" = hay reportes, pero dentro de lo normal
+const ORDEN = ["sin","bajo","moderado","alto","critico"];
 
 const FICHAS = {
  dengue:{aparecen:"entre 4 y 10 días",transmite:"Aedes aegypti", pica:"De día, sobre todo al amanecer y al atardecer",
@@ -53,7 +57,8 @@ const PLAN = {
   critico:[["Lava y cepilla el tanque","Restriega las paredes: los huevos del mosquito se pegan ahí.","tanque"],["Tapa todo recipiente con agua","Baldes, botellas, llantas y floreros. Revisa el patio dos veces.","tapar"],["Repelente y toldillo","Repelente al amanecer y al atardecer. Toldillo para dormir, sobre todo niños.","toldillo"]],
   alto:[["Lava el tanque","Una vez esta semana, restregando las paredes.","tanque"],["Tapa los recipientes con agua","Baldes, botellas y floreros, dentro y fuera de la casa.","tapar"],["Usa repelente al atardecer","Es una de las horas en que más pica el mosquito.","repelente"]],
   moderado:[["Revisa el agua quieta","Vacía floreros, llantas y tapas que junten agua.","llanta"],["Tapa el tanque","Mantenlo cerrado toda la semana.","tanque"],["Ten repelente a mano","Úsalo si sales al atardecer.","repelente"]],
-  bajo:[["Revisa el agua quieta","Una revisión rápida del patio y la casa.","agua"],["Tapa el tanque","Es la medida más simple y la más útil.","tanque"],["Si viajas, infórmate","Consulta tu destino en EpiBot antes de salir.","viaje"]]
+  bajo:[["Revisa el agua quieta una vez esta semana","Floreros, llantas, baldes y tapas: vacíalos o tápalos.","agua"],["Tapa el tanque","Así el mosquito no pone huevos en el agua que guardas.","tanque"],["Ten repelente a mano","Úsalo si sales al amanecer o al atardecer.","repelente"]],
+  sin:[["Revisa el agua quieta","Una revisión rápida del patio y la casa.","agua"],["Tapa el tanque","Es la medida más simple y la más útil.","tanque"],["Si viajas, infórmate","Consulta tu destino en EpiBot antes de salir.","viaje"]]
 };
 
 const VIAJE={q:"Vas de viaje a Villavicencio la próxima semana con tus hijos. ¿Qué haces?",

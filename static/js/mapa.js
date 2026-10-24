@@ -9,7 +9,8 @@ const anillo=r=>"M"+r.map(([x,y])=>mx(x).toFixed(1)+" "+my(y).toFixed(1)).join("
 const norm=t=>(t||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[^a-z]/g,"");
 let GEO=null, geoPedido=false;
 // Punto en el centro aproximado del departamento (no en la capital) para que no se encimen
-const CENTRO={cordoba:[8.35,-75.8],meta:[3.3,-72.9],choco:[5.9,-76.75],antioquia:[7.0,-75.45],valle:[3.85,-76.45],atlantico:[10.7,-74.95],santander:[6.75,-73.35],tolima:[3.9,-75.25],narino:[1.6,-77.9],bogota:[4.65,-74.1]};
+const CENTRO={cordoba:[8.35,-75.8],meta:[3.3,-72.9],choco:[5.9,-76.75],antioquia:[7.0,-75.45],valle:[3.85,-76.45],atlantico:[10.7,-74.95],santander:[6.75,-73.35],tolima:[3.9,-75.25],narino:[1.6,-77.9],bogota:[4.65,-74.1],
+  "san-andres":[12.2,-79.1]}; // San Andrés está fuera del recuadro del mapa: se dibuja en la esquina
 
 function fondoMapa(sel){
   if(!GEO) return `<path d="${anillo(CONTORNO)}" fill="var(--ilus-fondo)" stroke="var(--marca)" stroke-width="1.6" stroke-linejoin="round"/>`;
@@ -24,19 +25,21 @@ function fondoMapa(sel){
 }
 function cargarGeo(){
   if(geoPedido) return; geoPedido=true;
-  fetch("static/data/colombia.geojson").then(r=>r.ok?r.json():Promise.reject()).then(j=>{
+  fetch("/static/data/colombia.geojson").then(r=>r.ok?r.json():Promise.reject()).then(j=>{
     GEO=j; document.querySelectorAll(".mapa svg .fondo").forEach(g=>g.innerHTML=fondoMapa(g.dataset.sel));
   }).catch(()=>{});
 }
 function mapa(sel){
   const W=MAPA.W,H=MAPA.H;
-  const pts=ZONAS.map(z=>{const [p,d]=peor(z), n=d[0], r=n==="bajo"?5:6+Math.min(9,d[1]/100);
+  // Con 33 departamentos los nombres se encimaban: solo se escribe el nombre de los que tienen alguna alerta (también "bajo")
+  // y el de la zona elegida; los demás muestran su nombre al pasar el mouse (title).
+  const pts=ZONAS.map(z=>{const [p,d]=peor(z), n=d[0], r=n==="sin"?5:6+Math.min(9,(d[1]||0)/100);
     const s=z[0]===sel, c=CENTRO[z[0]]||[z[2],z[3]], X=mx(c[1]), Y=my(c[0]);
     const borde=n==="moderado"?"#5E4800":"#FFFFFF";
     const izq = X>W*0.62 || ["valle","antioquia","choco","narino"].includes(z[0]); // etiquetas a la izquierda en el oriente para que no se salgan
     return `<g><circle cx="${X}" cy="${Y}" r="${r}" fill="var(--${n}-pt)" stroke="${borde}" stroke-width="1.5"/>
       ${s?`<circle cx="${X}" cy="${Y}" r="${r+5}" fill="none" stroke="var(--titulos)" stroke-width="2"/>`:""}
-      <text x="${izq?X-r-4:X+r+4}" y="${Y+4}" text-anchor="${izq?"end":"start"}" font-size="${s?12:9.5}" font-weight="${s?700:400}" fill="var(--${s?"titulos":"suave"})" paint-order="stroke" stroke="var(--superficie)" stroke-width="3" font-family="Atkinson Hyperlegible, sans-serif">${z[1]}</text><title>${z[1]}: ${PATOGENOS[p].nombre}, ${NIVEL[n].txt}</title></g>`;}).join("");
+      ${(n!=="sin"||s)?`<text x="${izq?X-r-4:X+r+4}" y="${Y+4}" text-anchor="${izq?"end":"start"}" font-size="${s?12:9.5}" font-weight="${s?700:400}" fill="var(--${s?"titulos":"suave"})" paint-order="stroke" stroke="var(--superficie)" stroke-width="3" font-family="Atkinson Hyperlegible, sans-serif">${z[1]}</text>`:""}<title>${z[1]}: ${PATOGENOS[p].nombre}, ${NIVEL[n].txt}</title></g>`;}).join("");
   setTimeout(cargarGeo,0);
   return `<div class="mapa"><svg viewBox="-34 -6 ${W+40} ${H+12}" role="img" aria-label="Mapa de Colombia con el nivel más alto de alerta por departamento">
     <g class="fondo" data-sel="${sel||""}">${fondoMapa(sel)}</g>

@@ -25,6 +25,19 @@ function ir(fn, ancla){
   window.scrollTo(0,0);
 }
 
+/* Datos reales: /api/zonas arma las zonas desde la base de datos (alertas de la IA).
+   Si el servidor no responde, se quedan los datos de ejemplo de datos.js */
+async function cargarZonas(){
+  try{
+    const r=await fetch("/api/zonas");
+    if(!r.ok) throw 0;
+    const j=await r.json();
+    if(Array.isArray(j.zonas) && j.zonas.length){ ZONAS=j.zonas; DATOS_REALES=true; }
+  }catch(e){}
+}
+const num = v => (v===null || v===undefined) ? "Sin dato" : Number(v).toLocaleString("es-CO");
+const ETIQUETA_EJEMPLO = () => DATOS_REALES ? "" : `<span class="ejemplo">Datos de ejemplo</span>`;
+
 /* Intenta la API real; si falla, usa los datos de ejemplo */
 async function cargarAlertas(z){
   try{
@@ -84,9 +97,9 @@ const SEC={
  mapa:(banda=false)=>{
   const ranking=ZONAS.slice().sort((a,b)=>ORDEN.indexOf(peor(b)[1][0])-ORDEN.indexOf(peor(a)[1][0])).map(z=>{
     const [p,d]=peor(z);
-    return `<a href="zona.html?zona=${z[0]}"><b>${z[1]}</b>${chip(d[0])}<span class="nota">${d[0]==="bajo"?"Sin reportes recientes":PATOGENOS[p].nombre+" · "+d[1].toLocaleString("es-CO")+" casos"}</span></a>`;}).join("");
+    return `<a href="zona.html?zona=${z[0]}"><b>${z[1]}</b>${chip(d[0])}<span class="nota">${d[0]==="sin"?"Sin reportes recientes":PATOGENOS[p].nombre+(d[1]==null?"":" · "+num(d[1])+" casos")}</span></a>`;}).join("");
   return `<section class="seccion ${banda?"banda":""}"><div class="wrap">
-    <div class="seccion-cab"><p class="eyebrow">El mapa de esta semana <span class="ejemplo">Datos de ejemplo</span></p>
+    <div class="seccion-cab"><p class="eyebrow">El mapa de esta semana ${ETIQUETA_EJEMPLO()}</p>
       <h2>¿Dónde hay más casos de lo normal?</h2>
       <p class="lead">Cada punto muestra la enfermedad con el nivel más alto en el departamento. Toca un departamento para ver el detalle.</p></div>
     <div class="grid-2">${mapa()}<div class="ranking">${ranking}</div></div>
@@ -134,7 +147,7 @@ const SEC={
  niveles:()=>`
   <section class="seccion banda"><div class="wrap">
     <div class="seccion-cab"><p class="eyebrow">Los niveles</p><h2>Qué significa cada color</h2></div>
-    <div class="grid-2">${ORDEN.slice().reverse().map(n=>`<div class="carta" style="flex-direction:row;align-items:center;gap:14px">${chip(n)}<p>${n==="bajo"?NIVEL.bajo.que:"Hay "+NIVEL[n].frase+". "+NIVEL[n].que}</p></div>`).join("")}</div>
+    <div class="grid-2">${ORDEN.slice().reverse().map(n=>`<div class="carta" style="flex-direction:row;align-items:center;gap:14px">${chip(n)}<p>${n==="sin"?NIVEL.sin.que:"Hay "+NIVEL[n].frase+". "+NIVEL[n].que}</p></div>`).join("")}</div>
     <p class="nota" style="margin-top:16px">Nunca decimos "libre de dengue": que no haya reportes no significa que no haya casos.</p>
   </div></section>`,
 
@@ -206,24 +219,25 @@ function elegir(id){ location.href="zona.html?zona="+encodeURIComponent(id); }
 function resultado(){
   pasos(2);
   const z=S.zona, [p,d]=peor(z), n=d[0];
-  const msg = n==="bajo" ? `En ${z[1]} no hay alertas reportadas este mes.`
+  const msg = n==="sin" ? `En ${z[1]} no hay alertas reportadas este mes.`
+    : n==="bajo" ? `En ${z[1]} hay reportes de ${PATOGENOS[p].nombre.toLowerCase()}, pero dentro de lo normal para esta época.`
     : `En ${z[1]} hay ${NIVEL[n].frase} de ${PATOGENOS[p].nombre.toLowerCase()} para esta época.`;
-  const visto=store.get("epibot-ultimo-"+z[0]) || z[6];
+  const guardado=store.get("epibot-ultimo-"+z[0]), visto=NIVEL[guardado]?guardado:(NIVEL[z[6]]?z[6]:"sin");
   const cambio = visto!==n ? `Desde tu última visita el nivel pasó de <b>${NIVEL[visto].txt}</b> a <b>${NIVEL[n].txt}</b>.` : `El nivel sigue igual que en tu última visita.`;
   store.set("epibot-ultimo-"+z[0], n);
   const tarjetas=Object.entries(z[5]).sort((a,b)=>ORDEN.indexOf(b[1][0])-ORDEN.indexOf(a[1][0])).map(([k,v])=>{
     const [nv,c,e,f,of,fe]=v;
     return `<article class="tarjeta l-${nv}">
       <div class="tarjeta-top"><h3 style="display:flex;align-items:center;gap:10px">${ico(agente(k))}${PATOGENOS[k].nombre}</h3>${chip(nv)}</div>
-      ${nv==="bajo"?`<p class="nota">${NIVEL.bajo.que}</p>`:`
-      <div class="cifras"><div><b>${c.toLocaleString("es-CO")}</b><span>casos</span></div><div><b>${e.toLocaleString("es-CO")}</b><span>esperados</span></div></div>
+      ${nv==="sin"?`<p class="nota">${NIVEL.sin.que}</p>`:`
+      <div class="cifras"><div><b>${num(c)}</b><span>casos</span></div><div><b>${num(e)}</b><span>esperados</span></div></div>
       <p>${NIVEL[nv].que}</p>
-      <div class="fuente"><span class="conf ${of?"ok":""}">${of?"Confirmado por el INS":"Solo noticias, pendiente de confirmación"}</span><span>${f} · ${new Date(fe+"T12:00").toLocaleDateString("es-CO",{day:"numeric",month:"short"})}</span></div>`}
+      <div class="fuente"><span class="conf ${of?"ok":""}">${of?"Confirmado por el INS":"Solo noticias, pendiente de confirmación"}</span><span>${f}${fe?" · "+new Date(fe+"T12:00").toLocaleDateString("es-CO",{day:"numeric",month:"short"}):""}</span></div>`}
       <button class="mini-enlace" data-f="${k}">Síntomas y cuidados de ${PATOGENOS[k].nombre.toLowerCase()}</button>
     </article>`;}).join("");
   app.append($(`<section class="vista"><div class="wrap">
     <div class="vista-cab">
-      <p class="eyebrow">Tu zona · ${z[1]} <span class="ejemplo">Datos de ejemplo</span></p>
+      <p class="eyebrow">Tu zona · ${z[1]} ${ETIQUETA_EJEMPLO()}</p>
       <p class="mensaje">${msg}</p>
       <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">${chip(n)}<span class="nota">${NIVEL[n].que}</span></div>
     </div>
@@ -417,5 +431,8 @@ nav.querySelectorAll("a[data-pag]").forEach(a=>{ if(a.dataset.pag===PAGINA) a.se
 document.getElementById("salir").onclick=()=>{location.href="index.html";};
 document.getElementById("anio").textContent=new Date().getFullYear();
 /* ============ ARRANQUE ============ */
-({inicio, zona:paginaZona, enfermedades:paginaEnfermedades, mapa:paginaMapa, prevencion:paginaPrevencion, como:paginaComo}[PAGINA]||inicio)();
-if(PAGINA==="inicio" && location.hash==="#consulta") setTimeout(()=>document.getElementById("dep")?.focus(),300);
+// Primero se piden los datos reales; después se dibuja la página
+cargarZonas().then(()=>{
+  ({inicio, zona:paginaZona, enfermedades:paginaEnfermedades, mapa:paginaMapa, prevencion:paginaPrevencion, como:paginaComo}[PAGINA]||inicio)();
+  if(PAGINA==="inicio" && location.hash==="#consulta") setTimeout(()=>document.getElementById("dep")?.focus(),300);
+});
