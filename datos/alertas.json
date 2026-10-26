@@ -1,5 +1,74 @@
 [
   {
+    "id": "dengue-tolima-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Tolima",
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": 197,
+    "resumen": "1 fuente(s) reportan dengue en Tolima esta semana. Lo normal para esta semana son unos 197 casos (INS).",
+    "fecha_deteccion": "2026-10-26",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQlNaeGVKV3BEM1lDX0lMUFZuQnJWeVNkemYwVWc5Y1U0enR0VnhyZWxrWWxpcTlmTkJJUmhNR3hXVnEwVXZXaGo1TUU3VHRQZlNFZGFEUUp4Mng1S2luMjJuVWpVMHlCTTlsdzVqdmFzT0wxME5Sem5JbE1SUExVQ2xTbw?oc=5",
+        "fecha": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "dengue-santander-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Santander",
+    "nivel": "alto",
+    "casos": 6802,
+    "esperado": 268,
+    "resumen": "2 fuente(s) reportan dengue en Santander esta semana. Lo normal para esta semana son unos 268 casos (INS).",
+    "fecha_deteccion": "2026-10-26",
+    "municipios": [
+      "Bucaramanga",
+      "San Andrés"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTzF6TUtGQ25rOWltOHVmUWpjNkVUaWt2blgtNFVWdF9rbHJrY0JHS1lreFkwdTlBdGFXRTNtVzNwOUpFalJsWXRyV2d6ckFBSEhtSm9DRGFtOUE2dXJuLUhyTVVSbXBnOGZoS3NUNEE2SFk4a01HcXV4VFJoM3NJOXVHdmFlRnYxQWJYYWNyXzZ2eENlNF8yZ1kxVDdUdDFqeXZiSGNGc0ZHX1FLd0ROX2ZKRkwtaEJ2YXlRZy1DbE9wUGV1TE5aZTAtTzFxejRocGfSAd8BQVVfeXFMTmRRTlI0aUNOSmNiQVFDZE5lQ2hsNUU3ZHdzN3dKYWRyeUY2WkxjNk5VOHJFaUJLdnIydzZ3Q3J6dWRpaFBrd2dzZS1nSS0tVGFHc0NWRU5ONHFtdzBvREpLWjBkWkd2Y2xzZFFSbmJVanhEbFo1aUtxMjNQdjVuQWdsZnU1YjNlbE15bW8xQjFIMTNuQVpXWEpmeThNQjl0SHUzTHZzV0s4alF1eGJjQ0VLZ05saTI1ZFV3ZGxxUmpCMXRYVGxHX3J4TUR4SUFPN0dEejJuMEFTX0taMTIxVQ?oc=5",
+        "fecha": "2026-10-25"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNS1lZT1JaR3RUdVBBZXNsSW9QVmtoaXJsT1ZLUXhwWDM4SlA2MGpiVUJ6dWpVOFZobWpKMGN5OTBFWkdIOUx2N3RLLXhhWXBzeEp5RGpFc3pKSzlqSHNBMVJGRDRwSlpxZlFIb2FnbHVfbnVVUy1paFZBU2tkN2gxRkF0a0dneHRPd1VfQkk5TzJmaWxUd1VDZlpabjZnc1lxT09ETHZNUFhmSkNQdTk2alp1bE1fNjgzMng4M1g3R003cnB5TnVTcFZ5TklabjRLYnZIUG9kZ1XSAeYBQVVfeXFMTjBGU3pLODJ4MDRyeTN6TjNmMEp0X3JLZjc2SGZIWG93M1ZOZmVRVFg4UnZMZzREelBiallDc2NkMks4MXVaSmZrMWhVb1VSbWFJQ3JwYThfSmJ6d3JDRVZMYlNyYzM0SUQ0ZlliMjhDOVZ6WXEwQVdZeGJUSzZxbThpckhPSjhuYzBfcFliMjYzSUlzMEV0RXhDVUl5MDhOczB0RVlEbzdZb0pDU3psZFZVS09JQ0Z5MkRHV3VZQkdicUVxdDFCU2tMVGI5NHUtaUZXZXFKZWVMcG1hMGp4RWJueFRwUmc?oc=5",
+        "fecha": "2026-10-25"
+      }
+    ]
+  },
+  {
+    "id": "dengue-cesar-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Cesar",
+    "nivel": "bajo",
+    "casos": 6390,
+    "esperado": 86,
+    "resumen": "1 fuente(s) reportan dengue en Cesar esta semana. Lo normal para esta semana son unos 86 casos (INS).",
+    "fecha_deteccion": "2026-10-26",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05aEplakExcV9XanNBRlU2dDU3Z2QyWkRWZnN0amRLWGx0X2ZHN0JHTVhDQno2elg5U3Q0V1gxR0xQamRzdTU2d2pXc1R5dlRpcHBSVVMzS3lKLUZBd3VZLXhPV2ZSM1RsZ0ZhbVk4SmhWYTVzR1Y4?oc=5",
+        "fecha": "2026-10-25"
+      }
+    ]
+  },
+  {
     "id": "dengue-bolivar-2026-s43",
     "patogeno": "Dengue",
     "tipo": "virus",
