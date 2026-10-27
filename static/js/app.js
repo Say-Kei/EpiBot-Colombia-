@@ -293,7 +293,6 @@ function fiebre(){
       <div class="pila">
         <div class="carta"><div style="display:flex;align-items:center;gap:12px">${ico("consultar","ico ico-g")}<h3>Dónde consultar</h3></div>
           <p>Acude al centro de salud más cercano y cuenta desde cuándo empezó la fiebre.</p>
-          <a class="btn btn-2" href="centros.html">Ver centros de salud</a></div>
         <div class="carta"><h3>¿Dengue, chikungunya o malaria?</h3><p class="nota">Al inicio se parecen. Compara sus síntomas.</p>
           <div class="pila-s">${Object.entries(PATOGENOS).map(([k,v])=>`<button class="btn btn-2" data-f="${k}" style="justify-content:flex-start">${ico(agente(k))}${v.nombre}</button>`).join("")}</div></div>
       </div>
