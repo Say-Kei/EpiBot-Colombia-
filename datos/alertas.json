@@ -7,7 +7,7 @@
     "nivel": "alto",
     "casos": 6390,
     "esperado": 86,
-    "resumen": "2 fuente(s) reportan dengue en Cesar esta semana. Lo normal para esta semana son unos 86 casos (INS).",
+    "resumen": "3 fuente(s) reportan dengue en Cesar esta semana. Lo normal para esta semana son unos 86 casos (INS).",
     "fecha_deteccion": "2026-10-26",
     "municipios": [],
     "fuentes": [
@@ -22,6 +22,12 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQekZBN0tlM0lObGVWNXpVNWwyOVdUdV93bnpGWnVlbVN4YWdPTHMyRzBqN21RVW5RTWdQZ2pXamFFekVmMkt3eG13WXhUaGRLVVdPQUJvVWVEV0kxa2pobFVFUDNFd3Q4Vy1pU1FQREkzNkdWRl9KOTFWcWwwSjVWTjBHemw?oc=5",
         "fecha": "2026-10-22"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xa3JrWTd1bEt2OTZQQ0dBeWUtVFhPbHpvaVd6ZnZtc0hyMkdaNHMxcVFveDlyOEFOcmxRcUJEYm1tVmh6OXRMU3lCR2t6cDQ5S2hkQmFFNDRaZGc2ajd4YTF4Ynh6a0Q0S0VKWl9ja2RZb0k0?oc=5",
+        "fecha": "2026-10-26"
       }
     ]
   },
@@ -31,9 +37,9 @@
     "tipo": "virus",
     "departamento": "Atlántico",
     "nivel": "alto",
-    "casos": null,
+    "casos": 3085,
     "esperado": 142,
-    "resumen": "6 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 142 casos (INS).",
+    "resumen": "8 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 142 casos (INS).",
     "fecha_deteccion": "2026-10-26",
     "municipios": [
       "Barranquilla",
@@ -75,6 +81,76 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOT0JpeC1Ba1QzZ3pyNVdqWktPenRZMFYwdzNqUi1lbGJBVWRIWUd5Znd0UHFweXU4eUUtT0N5RFd4SWl4WG9wdlU4N1dGZEpBQTBBZkpObUJfRFVhdUg3OVYxTVpjVXZvRXhzVlhIdHZjYk1SSGJQbWlWNTJDS2xsMFhvT1R6Y3BKWkpPWmN2X3lKR3BZamZXVjBBb3NjaGxkYmJzQ1VpbENlVUJkbTdOX2VCMGZWTERyYjRrV2tFZUJoc0JZTGpyMHNTaFE0MEVjbkE?oc=5",
         "fecha": "2026-10-20"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVXVZTnVESzU1bFhlVndnSEFzcVdMeHVIZVRHTWtKZDBSb0ZJV2Y2RXZoc1ROcTliTHYwNUFrVW1Yb1VoZVltUTE4RGNwVUZ0SW9NYnI1a2VRMllac1BZQTFaZUJaeEg3VHhMZ0RMbGxOTm9EeF9SdDI3OHdtdXJFZVZucy05NHVTWmZLZnRsRlhwVVhRR1MwSWVEcWw2ai1HNWVCM0NpTklRaG0xWmpZLTFaZEx5NWZxeDl5bncxS0xNSUJmY211aGM4T1hPVnF6bWVMVHR3?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQTMwYllZNGJGZjFuNi13bHJhNGM1eFVpMldvRlhPbzA3b05VOHBQMlRCUC1Ja2Y2WjZlaWpJZjVqRlQtZXAySUZfb29mV3Zza1prU0ZaUExveDFCM3NfMm9JU3FXdENsbzF5VUVGUmNHODZRR2pERUVyREJXQ0JrZ0haaldDTE01Q0RYTjQtT192V0pzVkM5Tkx0OXVqOVd1T0JxRGhrOEtsQ1M3NlREUUxxVFN1NXN6cnBlN1A0cEhhU2k2OGxad9IB0AFBVV95cUxPZVQ0ZDJlODFINHNGVmVUUW9laVFWS0lDaWNUeDh5ZnBlaTVQUXdMSjI3dU1vUGE0SklVaTdVbVBfZXcwR1VnNTBWRGs4ZkdyTElTNG40OUNzWEsxWFNreWF3MmZ5aFlCQlNfcTExbF92UnBoN0VGZVVxX2ZSVHl3WXJ6V3lMRlRoYkM5SlU2YVNuVzdtbFZxV3gyODlLeVFzZTg4TERjYkcwX3UzdFlWX3hUVm9CNjJUNjdwVGhRVDMtOUJGWHVoUXNrZzJYTmly?oc=5",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-tolima-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Tolima",
+    "nivel": "alto",
+    "casos": 3149,
+    "esperado": 197,
+    "resumen": "7 fuente(s) reportan dengue en Tolima esta semana. Lo normal para esta semana son unos 197 casos (INS).",
+    "fecha_deteccion": "2026-10-26",
+    "municipios": [
+      "Ibagué"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQlNaeGVKV3BEM1lDX0lMUFZuQnJWeVNkemYwVWc5Y1U0enR0VnhyZWxrWWxpcTlmTkJJUmhNR3hXVnEwVXZXaGo1TUU3VHRQZlNFZGFEUUp4Mng1S2luMjJuVWpVMHlCTTlsdzVqdmFzT0wxME5Sem5JbE1SUExVQ2xTbw?oc=5",
+        "fecha": "2026-10-13"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZEpGTEtNRzJXcnRiMFZTMFVLZjNmVGt2LThhN3NnUnI2TlloNVFDRnJSV2REbUFNX1F3R0hxZENaOTlETmRfcURMVmNsVVdZMGw4RFhpdVR3WmppU3hEbmJ5Yi1tZUNKREZqbkpucEEwRVhfajEtbHpKQ3I3cmkwX3pFT2hsUDBNUzFTQXdkV08wbHlGd0tHdVBKR0dZZ0Y2MEIyMURTaTBFenpNNWxIVURWbGJ2djJBVm5BYzhjb25KSTFpMVNRWQ?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOWhBSGRaTTYySFRiYU10dVN5dGRULTlKdE1ha25qUm15ZUc0VC1RdmRWRS1fZUNOQk15QjF5c05mY3N6cC1DMERtNmQ3NkpyRmh0OVBzOHk0eFZ1U2wzU3ZKTWI5Q0RzdmtzcEZQS2hEMUY4aTBLMUpDc2VfNVItZU9pNlk3T2pEdy1vYkpSbzVrTVJ2RUhRZWVpcEI0M3U3SGUwV3R3UlIwMGtDWkJ0djdYbEZCX19GeUpFVEhR?oc=5",
+        "fecha": "2026-10-27"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMHpRT2Rrb1VSVGdGSVhEWXlCMEtlOUVNTEY4WmY3OU1rRUxNWkQwZ0lkamFyYmNIZHU1SkdoakpMZ1dsQk02ZWo4dDRyWWp6RFFZOE84N1Q0T1Bmb1oyS0x4WFJVYnFJOTZSQ1E5VHRnSWQ5QVpnNEwwSGZkQ29MVHRVZ2VUYkc2N2FsX1BlSlpETEJfNHd6TnM4QVg4cmdYR25QY3NSTGRYSUEtMThaSEZFWXVhS3pyQjlfYWRuWklRUQ?oc=5",
+        "fecha": "2026-10-27"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUkprbzUwN3Y1QjRFRjIwQ3o3RkVzSGRHSThQeVVUU1RQaUJhWWxJc0VJVTNWQ3ZJVFFQaEtQdkxpYmRMeWs0ZDFKSjVkVC1MekNQX1BJdFdLaVhMV0pQMTRlU0dnZC02a2dPTzhQTHJwNlJHRW82dzltbW05NjdBUEVhQmZoX3g3OXdqMl9uV0Zzc28xQ0t5dFRUTy1zLXBCRHh5TVBNTEpVcDdCanUtbWY1TllaLS1k0gG-AUFVX3lxTE5SREk2SGdMdlF0SXZnVXBvRTJ5Qjl6M3QydXBqbGZpalBNRTY4SmczTTNONzI2YUpGT29VSVB2ejNfVmtQMks1RGpuR3prM1RCamRYYktwMGRlbXNURXZOQXJpeGtwSG9sVkVDbjZUY1FoYlNpMFJCU2twTDd5M3BWcV9iZ3Y3YlJEcHBPM3ZpeXhFS0pMZU5OOWtXZ0tsLUVjYTNoU3lsWTQ2M2Q4SU5uaGpYZWh3cENqenNiT3c?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRnp4VkstNHJiLTBhRGUwaXk1WW85YXhENmtJVU0yZ3NSeGktanBxTHBsNE5HTW9raG14dkxxY1NVV29xM2hWMk92QktoRHBudGJ4aTZmaGVwVWpyNWFjbXhSbTNTelZIYlpnR0xmcDEtcWhvUW5MT2ZmODIyRUI2V0F0NlpvaThEMWV0TVM0SlpzOVlOdDlGZHZmNNIBoAFBVV95cUxPMzNVeHV3dGM1Ri1Mc3RoczZNTnhJM2ctVVJ3RGFsbGk1d1FldHBCTFJESXE4ei05YjNUVlB6dmJ0Zm42Q05CS0VNUlpaM2NpREc2YW00MWVNYU9fUm5rTUtyZTExSF9fWTU1WVp0dEF4eGU4NkFnMThDclpiNGFfbnBxNEdZX1NDZGk0V0JKbE54S19PRDRJZG1laTZianda?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VT1paQzEtNFY1Wk1KU3d1a2lHNkZLLXVjZWo3RlV5WmstSGpETjdDal93VEFjTlN5TkJaWHA5WHpxaHRHVDJ0QTRDcTd6MDVpWkJRM2JqTGtCM3UwbjRKcVR3X0xmQ2dVd19MVlBOQUhYNkszOFE?oc=5",
+        "fecha": "2026-10-26"
       }
     ]
   },
@@ -115,32 +191,6 @@
         "nombre": "Prensa",
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZkxfOXFJV1BwMTNUVkFOMnIzSllCbzFrbFJYMGFybDczWmlZZlRwNHRzbXNIei1WN09xX29RQnRKOWdoRFowTjJxWWEtYkpsTHhFYWZsZDZGYXZpRFZHTkRTTUdXVlhZYkxxbWo4SmxTLXgxRDRDbGhHMXBCbjZZbkdMajFkWXV5clFSX1ctU3hISUZVa0pMSFNBS1FZbWxOaFlRT3RqOUVoT1JjVWVaUHF1OUNTeXdzclpzSFB5VWNobFBqQkZVZDRmRlNxV0VJOVVGeFNxd2ROY2JO?oc=5",
-        "fecha": "2026-10-26"
-      }
-    ]
-  },
-  {
-    "id": "dengue-tolima-2026-s44",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Tolima",
-    "nivel": "alto",
-    "casos": null,
-    "esperado": 197,
-    "resumen": "2 fuente(s) reportan dengue en Tolima esta semana. Lo normal para esta semana son unos 197 casos (INS).",
-    "fecha_deteccion": "2026-10-26",
-    "municipios": [],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQlNaeGVKV3BEM1lDX0lMUFZuQnJWeVNkemYwVWc5Y1U0enR0VnhyZWxrWWxpcTlmTkJJUmhNR3hXVnEwVXZXaGo1TUU3VHRQZlNFZGFEUUp4Mng1S2luMjJuVWpVMHlCTTlsdzVqdmFzT0wxME5Sem5JbE1SUExVQ2xTbw?oc=5",
-        "fecha": "2026-10-13"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZEpGTEtNRzJXcnRiMFZTMFVLZjNmVGt2LThhN3NnUnI2TlloNVFDRnJSV2REbUFNX1F3R0hxZENaOTlETmRfcURMVmNsVVdZMGw4RFhpdVR3WmppU3hEbmJ5Yi1tZUNKREZqbkpucEEwRVhfajEtbHpKQ3I3cmkwX3pFT2hsUDBNUzFTQXdkV08wbHlGd0tHdVBKR0dZZ0Y2MEIyMURTaTBFenpNNWxIVURWbGJ2djJBVm5BYzhjb25KSTFpMVNRWQ?oc=5",
         "fecha": "2026-10-26"
       }
     ]
