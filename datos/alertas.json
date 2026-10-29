@@ -1,5 +1,25 @@
 [
   {
+    "id": "dengue-norte-de-santander-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Norte de Santander",
+    "nivel": "bajo",
+    "casos": 5700,
+    "esperado": 122,
+    "resumen": "1 fuente(s) reportan dengue en Norte de Santander esta semana. Lo normal para esta semana son unos 122 casos (INS).",
+    "fecha_deteccion": "2026-10-29",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd0JjelJkT0lYRG9IZmVUNGJvaV90ei1SU2ZncDJ0UkF4NGREMTBDMW1jWlk2VW5WOWJTMzhIQXU5ekNmQml1ZHhrOTQ3Wk5tMDRCb1VHSHpuSG5fRjVpd3ViTkx5c0poN3Y4NjdKZDJnVFIwMVltZl9vWWJCRE5rd2xWZ2ZPZ2k1bWU0eHU5Y2FDREIxS0pyYWpPMEFBZE42ZzVFY2hUcUN6SEJrU3FJU1RxZGk3QQ?oc=5",
+        "fecha": "2026-10-29"
+      }
+    ]
+  },
+  {
     "id": "dengue-meta-2026-s44",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -77,7 +97,7 @@
     "nivel": "alto",
     "casos": 5000,
     "esperado": 142,
-    "resumen": "14 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 142 casos (INS).",
+    "resumen": "15 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 142 casos (INS).",
     "fecha_deteccion": "2026-10-26",
     "municipios": [
       "Barranquilla",
@@ -169,6 +189,12 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUXpONWFOY1plUVNFRVdFUFpTR01JX3VyUUhXeTNoMFJYMzBxZXIwY1I0c0FUcTE1LWozYkVWV0I5b2JrUDNkQUpWWHlKM3VxUkdtMmllX2RfUU94Rk1PbzFibGM4ZTduWVA0cEJ4WWtraWI2YkpDRng0VC1mSklPcHlTbmxrZjk4aU45U2ZROUZ2UXRUSkhRSmF4azVnNUVhTVMxS2F30gGuAUFVX3lxTE9KUXZwWlZwSE11dERCdTA3Z1psT1JxYUdlbDJGZFdYX1BORHRKWVdyTjZJdnAzZkFQMENiR2hJdEtzSlprc1hxVHp5WEhGN2diUzBpNm9SR2dNbi1MSFhpT3lNQzRpRVFMT3NibmtMNVctN3YxdnBwMWp2SVpmemIwek9wUkxMbU55S1BWSS1WYUwwVDA5WmVIQXNmVTJyQ0kyQWNGWjYzMTd5c29PQQ?oc=5",
         "fecha": "2026-10-06"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdVBwWEd6VHRCanNkQlNEYmZWS1JJempSNXhwdmRLdE9Ed21UWEFCZlZEVzVoNG9xS1ppRkY4SXNMdElESTcwSi1yV21SV0JyNmJIeHlvV3ZJQ3hUY0xtcjFYdHRiRWpOUEJXRlg4WXN5R2d4c1VmdG9KNFg0czlwX2FwVGVRNS1XNHlkaGFxSTJmUks1YW1WeTNSQTBSQ1dWZUMwQjJ1UEY0OXZPbGpjUEMzSFZWX01sVVFnVHhKTE9FNkI5NHllajh1eUl5NnNjMUNZ?oc=5",
+        "fecha": "2026-10-27"
       }
     ]
   },
