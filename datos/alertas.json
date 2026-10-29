@@ -1,5 +1,25 @@
 [
   {
+    "id": "dengue-cundinamarca-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Cundinamarca",
+    "nivel": "alto",
+    "casos": 1390,
+    "esperado": 102,
+    "resumen": "1 fuente(s) reportan dengue en Cundinamarca esta semana. Lo normal para esta semana son unos 102 casos (INS).",
+    "fecha_deteccion": "2026-10-29",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYmVoZGI3cTgyUnZpNGx0b1ZtYWk2WmEyRXhvYy02Qi1TcmxHQ0NrOUlkb3JpS3ZoUVNDTlU0bFlIRHRNVWFmQVkzZ1ZCc2VPOHA0M2c5TXFNZ1pyaWF5VjdwMEtuX3dpUkVCbXdubHFLb3ZmWmJCejc0UXB3R3lIWi05WUxLSTY4MVIwQjhJWklRV1RNakJ1SDdqMDNtRFRNendCNFQzb1VrdGd5MnRydkdFSjZZX2prNkJ0VTl0c1A4aVQyLTBBeGZLSzlmcVNy?oc=5",
+        "fecha": "2026-10-01"
+      }
+    ]
+  },
+  {
     "id": "dengue-norte-de-santander-2026-s44",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -97,7 +117,7 @@
     "nivel": "alto",
     "casos": 5000,
     "esperado": 142,
-    "resumen": "15 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 142 casos (INS).",
+    "resumen": "16 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 142 casos (INS).",
     "fecha_deteccion": "2026-10-26",
     "municipios": [
       "Barranquilla",
@@ -195,58 +215,12 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdVBwWEd6VHRCanNkQlNEYmZWS1JJempSNXhwdmRLdE9Ed21UWEFCZlZEVzVoNG9xS1ppRkY4SXNMdElESTcwSi1yV21SV0JyNmJIeHlvV3ZJQ3hUY0xtcjFYdHRiRWpOUEJXRlg4WXN5R2d4c1VmdG9KNFg0czlwX2FwVGVRNS1XNHlkaGFxSTJmUks1YW1WeTNSQTBSQ1dWZUMwQjJ1UEY0OXZPbGpjUEMzSFZWX01sVVFnVHhKTE9FNkI5NHllajh1eUl5NnNjMUNZ?oc=5",
         "fecha": "2026-10-27"
-      }
-    ]
-  },
-  {
-    "id": "dengue-cesar-2026-s44",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Cesar",
-    "nivel": "alto",
-    "casos": 6390,
-    "esperado": 86,
-    "resumen": "6 fuente(s) reportan dengue en Cesar esta semana. Lo normal para esta semana son unos 86 casos (INS).",
-    "fecha_deteccion": "2026-10-26",
-    "municipios": [
-      "Valledupar"
-    ],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05aEplakExcV9XanNBRlU2dDU3Z2QyWkRWZnN0amRLWGx0X2ZHN0JHTVhDQno2elg5U3Q0V1gxR0xQamRzdTU2d2pXc1R5dlRpcHBSVVMzS3lKLUZBd3VZLXhPV2ZSM1RsZ0ZhbVk4SmhWYTVzR1Y4?oc=5",
-        "fecha": "2026-10-25"
       },
       {
         "nombre": "Prensa",
         "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQekZBN0tlM0lObGVWNXpVNWwyOVdUdV93bnpGWnVlbVN4YWdPTHMyRzBqN21RVW5RTWdQZ2pXamFFekVmMkt3eG13WXhUaGRLVVdPQUJvVWVEV0kxa2pobFVFUDNFd3Q4Vy1pU1FQREkzNkdWRl9KOTFWcWwwSjVWTjBHemw?oc=5",
-        "fecha": "2026-10-22"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xa3JrWTd1bEt2OTZQQ0dBeWUtVFhPbHpvaVd6ZnZtc0hyMkdaNHMxcVFveDlyOEFOcmxRcUJEYm1tVmh6OXRMU3lCR2t6cDQ5S2hkQmFFNDRaZGc2ajd4YTF4Ynh6a0Q0S0VKWl9ja2RZb0k0?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRlc0dkRCbzRrRUlVY1VVSVlOb3lEZGFoMUJjdkF3akhZSU50VVMyYXdfQ2dTZGlsTzNfLVlEZnpZTHJ1WjVNb2FsUVBCVjREWWFMT3pQN0RwX3pwZUp2bUVaTnVzMmhTcFM3ZzNfYVEza20xUjlWX19PVm9wVDhRZ1A3ZjdFTEdzemxaU3FmdzZKWkZuaWRaanB4MDVuU3c?oc=5",
         "fecha": "2026-10-26"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUzRjUlVzbUVxdTY0d3VydWFPa1A2MUdmcDVxOGozZ2Y0Vlh5TEJ2QzZ0YzRKZC10cXhtWFBTSFNtOE9DanQtbmxIRlRjWVhCX1JpSzZmMlV2WFVpVC1EMjlENjZJZkNtZlR3NUQ4d01iel9Qa3lVYS0wS1didVlKR1I2eEJsSTVZTm5EOWtNMm9qSE9wbWo4aHZfTW5XNzVMX0F6VEgybEVkNWszRXl2bg?oc=5",
-        "fecha": "2026-10-22"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RNGhwSWZRcFptZjFuTHlueXhudW9YaGR2UE9kMTZ1LWV5MENfWHlnSFNRSlJyQ1RTS01WRVhmYTBlcUV4ZllTaGkxTktjQldSY21TR21CbWFuYkdscGREbktsV1lTd3NjaldHVk1BOU5UOVVWbUJINEl3?oc=5",
-        "fecha": "2026-10-28"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcWxHSkhkU0taT3RFLXpRS1UzdjI5MGEzZEE3UVZzMWExQUM1Mmt1NnNjdGxJcmczdFZVUko4aHZ0eXFWRk1QZTQtc2pyc21fcXRRWC1UMDZLZFFrWHh1MG9abkRlN0Nma2ZUN3JrZVNtdjdkYk5mdGVxTElGMWlJaTBLTFJFekVuZEhaSXNPRmdXelNjdkFMWTNiTEVVZ1VySklrMFBndw?oc=5",
-        "fecha": "2026-10-28"
       }
     ]
   },
@@ -258,7 +232,7 @@
     "nivel": "alto",
     "casos": 3149,
     "esperado": 197,
-    "resumen": "15 fuente(s) reportan dengue en Tolima esta semana. Lo normal para esta semana son unos 197 casos (INS).",
+    "resumen": "17 fuente(s) reportan dengue en Tolima esta semana. Lo normal para esta semana son unos 197 casos (INS).",
     "fecha_deteccion": "2026-10-26",
     "municipios": [
       "Ibagué"
@@ -353,6 +327,18 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRldtdUNyVmJWeHlVenFuYWxDU3ZrdW9SZWRyT003ZlpjZzJRNUtqVWRfWDRBdm1JNzNZQTJBZ1FBZVFCY3FVb0Fwa0FSVnNVUS05aEFkcnVlY2RQSU4tbFl2cDFJRWtoam5FTk5ySW01b196aUpVdXJVS1JmZGxZWTFwTQ?oc=5",
         "fecha": "2026-10-28"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0c1N2cFpDdTJkYmdCRGNHTHFtbVBxSzhXem03cGxnQllxTXB2al9PZzJGbmw2X2psOUQwMXE1SV94NTNVWWtyTWFSeDJubm4wNHUzVXk5NA?oc=5",
+        "fecha": "2026-10-27"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRkNWSDBXQ2ZNY0x1dmJ2d0VKR2NCUEZ0QmtHUW9KME0yRzl4WHZxTmZab3JZa0l4eEttclJBRV9ubF9QQ0E3MjNfeFloZWNqZ1lReE1VWHhtSVlhWlYtWC1iMWpMem50QS1mVV9pNHctWnNrZ2dubEhsUHpfVHFtS0t3THk3bjdnc0xjVzduNEpXbklTS2FiTnRhQXpWYWZJZzZ0YUs2MVljeVlHdGplS0JtVnEzSkRYMklBcFZKWHRyUkU?oc=5",
+        "fecha": "2026-10-27"
       }
     ]
   },
@@ -364,7 +350,7 @@
     "nivel": "alto",
     "casos": 6802,
     "esperado": 268,
-    "resumen": "6 fuente(s) reportan dengue en Santander esta semana. Lo normal para esta semana son unos 268 casos (INS).",
+    "resumen": "7 fuente(s) reportan dengue en Santander esta semana. Lo normal para esta semana son unos 268 casos (INS).",
     "fecha_deteccion": "2026-10-26",
     "municipios": [
       "Bucaramanga",
@@ -406,6 +392,64 @@
         "nombre": "Prensa",
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcmM3bmU3TktNa2xBYkdfWTJNSXpJdVQ4bFpIdVZqWUF4NHMwWVpFVWhDc0hfTVprUmk2ZWl6MTVnSFM0UDFVVzNQeldyc0JyaTlDN3VrcWI3V1hPaHZFaXRhX2NnblJFQlF0MGFsYkttRTkyLXVGd0pxSGMwSzFrNDA1cWEwcG9ZMjZnOXQ0eHVtWVVHaVlibFdaZkxZRWp2NWdSMkctX1Q3dXVEeWNOekdRZkNzSXo3aW9YMnF0SGs?oc=5",
+        "fecha": "2026-10-28"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUlgwVmhIMFQ4aEh2ZF85bUpFSFBSMC1ValNoQjE1WmVNOWlsNG5ydFpSemVzeW9NZDdaMVd1Z3VFQlFORmhpT0ZRT1RoOUNMaFJLdHdBTm5UQ0ZQZTVzOG5vRzBFMGk2QjdEVkp0Nl9EcWdsMFpvQ1FrQ0JkNGNPdlNPQk1oSU5ab29ETjRXNGJ6cHJxejBSQkVXbGFLSVowTmg2RHkyRlV5M2Y3dDZVWjRFT00wNzQ?oc=5",
+        "fecha": "2026-10-28"
+      }
+    ]
+  },
+  {
+    "id": "dengue-cesar-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Cesar",
+    "nivel": "alto",
+    "casos": 6390,
+    "esperado": 86,
+    "resumen": "6 fuente(s) reportan dengue en Cesar esta semana. Lo normal para esta semana son unos 86 casos (INS).",
+    "fecha_deteccion": "2026-10-26",
+    "municipios": [
+      "Valledupar"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05aEplakExcV9XanNBRlU2dDU3Z2QyWkRWZnN0amRLWGx0X2ZHN0JHTVhDQno2elg5U3Q0V1gxR0xQamRzdTU2d2pXc1R5dlRpcHBSVVMzS3lKLUZBd3VZLXhPV2ZSM1RsZ0ZhbVk4SmhWYTVzR1Y4?oc=5",
+        "fecha": "2026-10-25"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQekZBN0tlM0lObGVWNXpVNWwyOVdUdV93bnpGWnVlbVN4YWdPTHMyRzBqN21RVW5RTWdQZ2pXamFFekVmMkt3eG13WXhUaGRLVVdPQUJvVWVEV0kxa2pobFVFUDNFd3Q4Vy1pU1FQREkzNkdWRl9KOTFWcWwwSjVWTjBHemw?oc=5",
+        "fecha": "2026-10-22"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xa3JrWTd1bEt2OTZQQ0dBeWUtVFhPbHpvaVd6ZnZtc0hyMkdaNHMxcVFveDlyOEFOcmxRcUJEYm1tVmh6OXRMU3lCR2t6cDQ5S2hkQmFFNDRaZGc2ajd4YTF4Ynh6a0Q0S0VKWl9ja2RZb0k0?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUzRjUlVzbUVxdTY0d3VydWFPa1A2MUdmcDVxOGozZ2Y0Vlh5TEJ2QzZ0YzRKZC10cXhtWFBTSFNtOE9DanQtbmxIRlRjWVhCX1JpSzZmMlV2WFVpVC1EMjlENjZJZkNtZlR3NUQ4d01iel9Qa3lVYS0wS1didVlKR1I2eEJsSTVZTm5EOWtNMm9qSE9wbWo4aHZfTW5XNzVMX0F6VEgybEVkNWszRXl2bg?oc=5",
+        "fecha": "2026-10-22"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RNGhwSWZRcFptZjFuTHlueXhudW9YaGR2UE9kMTZ1LWV5MENfWHlnSFNRSlJyQ1RTS01WRVhmYTBlcUV4ZllTaGkxTktjQldSY21TR21CbWFuYkdscGREbktsV1lTd3NjaldHVk1BOU5UOVVWbUJINEl3?oc=5",
+        "fecha": "2026-10-28"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcWxHSkhkU0taT3RFLXpRS1UzdjI5MGEzZEE3UVZzMWExQUM1Mmt1NnNjdGxJcmczdFZVUko4aHZ0eXFWRk1QZTQtc2pyc21fcXRRWC1UMDZLZFFrWHh1MG9abkRlN0Nma2ZUN3JrZVNtdjdkYk5mdGVxTElGMWlJaTBLTFJFekVuZEhaSXNPRmdXelNjdkFMWTNiTEVVZ1VySklrMFBndw?oc=5",
         "fecha": "2026-10-28"
       }
     ]
