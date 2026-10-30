@@ -1,13 +1,1073 @@
 [
   {
+    "id": "chikungunya-cundinamarca-2026-s44",
+    "patogeno": "Chikungunya",
+    "tipo": "virus",
+    "departamento": "Cundinamarca",
+    "nivel": "moderado",
+    "casos": 1,
+    "esperado": 0,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 1 casos en el año frente a 0 esperados.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-vichada-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Vichada",
+    "nivel": "bajo",
+    "casos": 101,
+    "esperado": 134,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 101 casos en las últimas 4 semanas frente a 134 esperados; 1641 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-vaupes-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Vaupés",
+    "nivel": "bajo",
+    "casos": 193,
+    "esperado": 235,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 193 casos en las últimas 4 semanas frente a 235 esperados; 1142 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-tolima-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Tolima",
+    "nivel": "moderado",
+    "casos": 2,
+    "esperado": 0,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 2 casos en las últimas 4 semanas frente a 0 esperados; 19 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-sucre-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Sucre",
+    "nivel": "alto",
+    "casos": 10,
+    "esperado": 6,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 10 casos en las últimas 4 semanas frente a 6 esperados; 56 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-santander-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Santander",
+    "nivel": "moderado",
+    "casos": 3,
+    "esperado": 1,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 3 casos en las últimas 4 semanas frente a 1 esperados; 15 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-risaralda-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Risaralda",
+    "nivel": "bajo",
+    "casos": 270,
+    "esperado": 320,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 270 casos en las últimas 4 semanas frente a 320 esperados; 2762 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-quindio-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Quindío",
+    "nivel": "bajo",
+    "casos": 0,
+    "esperado": 2,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 0 casos en las últimas 4 semanas frente a 2 esperados; 2 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-putumayo-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Putumayo",
+    "nivel": "bajo",
+    "casos": 3,
+    "esperado": 4,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 3 casos en las últimas 4 semanas frente a 4 esperados; 64 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-norte-de-santander-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Norte de Santander",
+    "nivel": "bajo",
+    "casos": 84,
+    "esperado": 101,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 84 casos en las últimas 4 semanas frente a 101 esperados; 968 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-narino-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Nariño",
+    "nivel": "bajo",
+    "casos": 278,
+    "esperado": 694,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 278 casos en las últimas 4 semanas frente a 694 esperados; 3243 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-meta-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Meta",
+    "nivel": "critico",
+    "casos": 183,
+    "esperado": 44,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 183 casos en las últimas 4 semanas frente a 44 esperados; 1571 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-magdalena-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Magdalena",
+    "nivel": "bajo",
+    "casos": 0,
+    "esperado": 1,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 0 casos en las últimas 4 semanas frente a 1 esperados; 13 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-la-guajira-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "La Guajira",
+    "nivel": "moderado",
+    "casos": 5,
+    "esperado": 2,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 5 casos en las últimas 4 semanas frente a 2 esperados; 19 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-guaviare-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Guaviare",
+    "nivel": "alto",
+    "casos": 177,
+    "esperado": 99,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 177 casos en las últimas 4 semanas frente a 99 esperados; 1401 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-guainia-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Guainía",
+    "nivel": "moderado",
+    "casos": 412,
+    "esperado": 326,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 412 casos en las últimas 4 semanas frente a 326 esperados; 3285 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-cordoba-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Córdoba",
+    "nivel": "bajo",
+    "casos": 516,
+    "esperado": 750,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 516 casos en las últimas 4 semanas frente a 750 esperados; 4630 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-choco-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Chocó",
+    "nivel": "alto",
+    "casos": 3615,
+    "esperado": 2130,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 3615 casos en las últimas 4 semanas frente a 2130 esperados; 28620 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-cesar-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Cesar",
+    "nivel": "moderado",
+    "casos": 2,
+    "esperado": 2,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 2 casos en las últimas 4 semanas frente a 2 esperados; 10 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-cauca-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Cauca",
+    "nivel": "bajo",
+    "casos": 169,
+    "esperado": 230,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 169 casos en las últimas 4 semanas frente a 230 esperados; 2174 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-casanare-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Casanare",
+    "nivel": "moderado",
+    "casos": 1,
+    "esperado": 1,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 1 casos en las últimas 4 semanas frente a 1 esperados; 26 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-caqueta-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Caquetá",
+    "nivel": "critico",
+    "casos": 45,
+    "esperado": 18,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 45 casos en las últimas 4 semanas frente a 18 esperados; 369 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-caldas-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Caldas",
+    "nivel": "bajo",
+    "casos": 0,
+    "esperado": 2,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 0 casos en las últimas 4 semanas frente a 2 esperados; 8 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-valle-del-cauca-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Valle del Cauca",
+    "nivel": "moderado",
+    "casos": 176,
+    "esperado": 162,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 176 casos en las últimas 4 semanas frente a 162 esperados; 1728 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-boyaca-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Boyacá",
+    "nivel": "moderado",
+    "casos": 6,
+    "esperado": 0,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 6 casos en las últimas 4 semanas frente a 0 esperados; 186 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-bolivar-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Bolívar",
+    "nivel": "critico",
+    "casos": 237,
+    "esperado": 103,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 237 casos en las últimas 4 semanas frente a 103 esperados; 1936 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-atlantico-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Atlántico",
+    "nivel": "bajo",
+    "casos": 0,
+    "esperado": 0,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 0 casos en las últimas 4 semanas frente a 0 esperados; 1 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-arauca-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Arauca",
+    "nivel": "bajo",
+    "casos": 5,
+    "esperado": 6,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 5 casos en las últimas 4 semanas frente a 6 esperados; 189 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "malaria-antioquia-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Antioquia",
+    "nivel": "moderado",
+    "casos": 878,
+    "esperado": 761,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 878 casos en las últimas 4 semanas frente a 761 esperados; 8396 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-vichada-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Vichada",
+    "nivel": "alto",
+    "casos": 27,
+    "esperado": 18,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 27 casos en las últimas 4 semanas frente a 18 esperados; 131 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-vaupes-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Vaupés",
+    "nivel": "critico",
+    "casos": 19,
+    "esperado": 1,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 19 casos en las últimas 4 semanas frente a 1 esperados; 89 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-sucre-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Sucre",
+    "nivel": "critico",
+    "casos": 575,
+    "esperado": 200,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 575 casos en las últimas 4 semanas frente a 200 esperados; 2331 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-san-andres-y-providencia-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "San Andrés y Providencia",
+    "nivel": "moderado",
+    "casos": 10,
+    "esperado": 10,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 10 casos en las últimas 4 semanas frente a 10 esperados; 39 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-risaralda-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Risaralda",
+    "nivel": "critico",
+    "casos": 66,
+    "esperado": 21,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 66 casos en las últimas 4 semanas frente a 21 esperados; 223 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-quindio-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Quindío",
+    "nivel": "critico",
+    "casos": 101,
+    "esperado": 25,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 101 casos en las últimas 4 semanas frente a 25 esperados; 399 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-putumayo-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Putumayo",
+    "nivel": "alto",
+    "casos": 75,
+    "esperado": 45,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 75 casos en las últimas 4 semanas frente a 45 esperados; 393 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-narino-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Nariño",
+    "nivel": "bajo",
+    "casos": 75,
+    "esperado": 79,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 75 casos en las últimas 4 semanas frente a 79 esperados; 684 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-la-guajira-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "La Guajira",
+    "nivel": "bajo",
+    "casos": 60,
+    "esperado": 139,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 60 casos en las últimas 4 semanas frente a 139 esperados; 3158 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-huila-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Huila",
+    "nivel": "bajo",
+    "casos": 134,
+    "esperado": 141,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 134 casos en las últimas 4 semanas frente a 141 esperados; 1060 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-guaviare-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Guaviare",
+    "nivel": "critico",
+    "casos": 175,
+    "esperado": 29,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 175 casos en las últimas 4 semanas frente a 29 esperados; 647 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-guainia-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Guainía",
+    "nivel": "bajo",
+    "casos": 1,
+    "esperado": 4,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 1 casos en las últimas 4 semanas frente a 4 esperados; 10 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-cordoba-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Córdoba",
+    "nivel": "bajo",
+    "casos": 287,
+    "esperado": 370,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 287 casos en las últimas 4 semanas frente a 370 esperados; 3014 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-choco-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Chocó",
+    "nivel": "alto",
+    "casos": 150,
+    "esperado": 87,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 150 casos en las últimas 4 semanas frente a 87 esperados; 1097 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-cauca-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Cauca",
+    "nivel": "bajo",
+    "casos": 48,
+    "esperado": 61,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 48 casos en las últimas 4 semanas frente a 61 esperados; 229 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-casanare-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Casanare",
+    "nivel": "critico",
+    "casos": 247,
+    "esperado": 73,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 247 casos en las últimas 4 semanas frente a 73 esperados; 3596 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-caqueta-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Caquetá",
+    "nivel": "bajo",
+    "casos": 20,
+    "esperado": 37,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 20 casos en las últimas 4 semanas frente a 37 esperados; 433 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-caldas-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Caldas",
+    "nivel": "alto",
+    "casos": 25,
+    "esperado": 13,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 25 casos en las últimas 4 semanas frente a 13 esperados; 171 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-valle-del-cauca-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Valle del Cauca",
+    "nivel": "bajo",
+    "casos": 689,
+    "esperado": 992,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 689 casos en las últimas 4 semanas frente a 992 esperados; 3436 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-boyaca-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Boyacá",
+    "nivel": "alto",
+    "casos": 31,
+    "esperado": 19,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 31 casos en las últimas 4 semanas frente a 19 esperados; 266 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-bolivar-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Bolívar",
+    "nivel": "critico",
+    "casos": 1991,
+    "esperado": 813,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 1991 casos en las últimas 4 semanas frente a 813 esperados; 12691 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-arauca-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Arauca",
+    "nivel": "critico",
+    "casos": 301,
+    "esperado": 86,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 301 casos en las últimas 4 semanas frente a 86 esperados; 2610 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-antioquia-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Antioquia",
+    "nivel": "critico",
+    "casos": 566,
+    "esperado": 258,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 566 casos en las últimas 4 semanas frente a 258 esperados; 3726 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-amazonas-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Amazonas",
+    "nivel": "critico",
+    "casos": 122,
+    "esperado": 22,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 122 casos en las últimas 4 semanas frente a 22 esperados; 842 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
     "id": "dengue-norte-de-santander-2026-s44",
     "patogeno": "Dengue",
     "tipo": "virus",
     "departamento": "Norte de Santander",
-    "nivel": "alto",
-    "casos": 5700,
-    "esperado": 122,
-    "resumen": "2 fuente(s) reportan dengue en Norte de Santander esta semana. Lo normal para esta semana son unos 122 casos (INS).",
+    "nivel": "critico",
+    "casos": 709,
+    "esperado": 324,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 709 casos en las últimas 4 semanas frente a 324 esperados; 5906 en lo que va del año.",
     "fecha_deteccion": "2026-10-29",
     "municipios": [
       "Cúcuta"
@@ -24,6 +1084,12 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQU9XNVVMa083eFZKY3VpUmdGUzZnS19iWTZTVHlOaTdBMFpJQkxYaW0tb2xMUnVhOFdoMnZLaFFIalVyR1Q1dEZjSkZOd2JFbGhGcGhnSEVWY2FCX3JmUFZGMnpBbjFrVTNDVXE4V3V3SmVUQXVLaGtHMWJsUmYwN1lTSGRocWdpUjVoVjVadHJYdzhOdW1LajFvNGFlMkh6Nm15S1JOMnowMnc?oc=5",
         "fecha": "2026-10-29"
+      },
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
       }
     ]
   },
@@ -32,10 +1098,10 @@
     "patogeno": "Dengue",
     "tipo": "virus",
     "departamento": "Cundinamarca",
-    "nivel": "alto",
-    "casos": 1390,
-    "esperado": 102,
-    "resumen": "1 fuente(s) reportan dengue en Cundinamarca esta semana. Lo normal para esta semana son unos 102 casos (INS).",
+    "nivel": "critico",
+    "casos": 480,
+    "esperado": 154,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 480 casos en las últimas 4 semanas frente a 154 esperados; 1949 en lo que va del año.",
     "fecha_deteccion": "2026-10-29",
     "municipios": [],
     "fuentes": [
@@ -44,6 +1110,73 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYmVoZGI3cTgyUnZpNGx0b1ZtYWk2WmEyRXhvYy02Qi1TcmxHQ0NrOUlkb3JpS3ZoUVNDTlU0bFlIRHRNVWFmQVkzZ1ZCc2VPOHA0M2c5TXFNZ1pyaWF5VjdwMEtuX3dpUkVCbXdubHFLb3ZmWmJCejc0UXB3R3lIWi05WUxLSTY4MVIwQjhJWklRV1RNakJ1SDdqMDNtRFRNendCNFQzb1VrdGd5MnRydkdFSjZZX2prNkJ0VTl0c1A4aVQyLTBBeGZLSzlmcVNy?oc=5",
         "fecha": "2026-10-01"
+      },
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-magdalena-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Magdalena",
+    "nivel": "critico",
+    "casos": 738,
+    "esperado": 192,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 738 casos en las últimas 4 semanas frente a 192 esperados; 7808 en lo que va del año.",
+    "fecha_deteccion": "2026-10-28",
+    "municipios": [
+      "Guamal",
+      "Santa Marta"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVEZmb2dRNGFsOXFFSGpRWXJIbnJaWERVYWFaa3Y0bXlyTTlBMXNvTkVKOEZrYWVHTUVoMGV6bF9OeEVjZ1dGeHNRcEtVRGFOYVNPeGZNNGVZVUVmN0Qyd1NXeWpETWk2NEt1Y09oT2UycmZCT1g0STF3SkdlYzlJQllueHNpdW5HVGNNRFdyZ2JobGw1SEdVUjRSSXBBaGExVXdoMWJKZF9aZFVEejhZSFZaemdwN2R3d2V6SllENDdXQVZwdDE3YWhZa2hMblRPOXE1N3dNWnAxRk9EWXdB?oc=5",
+        "fecha": "2026-10-28"
+      },
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbUk1OXRkejNwX20xcUpCVnJCZ0JjSE9yM0xZN3hSZUJIeU96bHlMNHhzMHlGelFKSEJaSWNjam84TjRSX2dqcEQxN2dvaUZVN0FBd3J1bmNsLWlwRDBOVXZibGxpVGM2eHJPbFExNFhPVEx0Q1Rmbm5VeGIzSTNUc3pnZnU2cTZXeEhaT2xxRHZ5N0RidDNpYXo3SWpJalJSM3hKU0RYVTNrTU9jcnlGazZHcmd5MGhoYWVRWVItd2xuMHFCd3lEUzBodUxSS2VTY2dXVEl1OA?oc=5",
+        "fecha": "2026-10-30"
+      }
+    ]
+  },
+  {
+    "id": "malaria-amazonas-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Amazonas",
+    "nivel": "bajo",
+    "casos": 145,
+    "esperado": 290,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 145 casos en las últimas 4 semanas frente a 290 esperados; 2033 en lo que va del año.",
+    "fecha_deteccion": "2026-10-28",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQy1HdGpvanpOT2Z2TWQ0cVFXNDRZMFkzb2NvTWRYcDVQRjU1MFZLS0hOZlhaaUtWOWRCc21tQjFWcWVDTlg2LTE0eEhpUFlYSDViM0N4empJTExrSkdZcEh1WEFmM2xsZGR2aWY3V0psQkp4QzlBb1EzWWkxcXFxdDR3clFWd3NZbzFIOWg3b3ZQangxUXBTd3E1T2ZWek5hVnF4REFUa0UyVDZaTU5yZVRyWFJ6dUNKVlE?oc=5",
+        "fecha": "2026-10-27"
+      },
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
       }
     ]
   },
@@ -52,10 +1185,10 @@
     "patogeno": "Dengue",
     "tipo": "virus",
     "departamento": "Meta",
-    "nivel": "alto",
-    "casos": 3400,
-    "esperado": 121,
-    "resumen": "2 fuente(s) reportan dengue en Meta esta semana. Lo normal para esta semana son unos 121 casos (INS).",
+    "nivel": "critico",
+    "casos": 980,
+    "esperado": 323,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 980 casos en las últimas 4 semanas frente a 323 esperados; 13904 en lo que va del año.",
     "fecha_deteccion": "2026-10-28",
     "municipios": [
       "Villavicencio"
@@ -72,48 +1205,12 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWkt0alRfNzZvODZlSWF6TFJJaG94bmMwbzJCaUpiVE1KSEg4UmN0UlZtUHBZU3FoN2E2NmFlcE5yRWVnU3ZnRHR6ZER1MjdNMVJZY290aXBuNUdBbGtQYlFzT0MzNjJlaVozQkM4Tl9VcFpDWjJscERlbmFqUEVJYzd1THowLUlyT3NoUTFn?oc=5",
         "fecha": "2026-10-23"
-      }
-    ]
-  },
-  {
-    "id": "dengue-magdalena-2026-s44",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Magdalena",
-    "nivel": "bajo",
-    "casos": 7405,
-    "esperado": 78,
-    "resumen": "1 fuente(s) reportan dengue en Magdalena esta semana. Lo normal para esta semana son unos 78 casos (INS).",
-    "fecha_deteccion": "2026-10-28",
-    "municipios": [
-      "Santa Marta"
-    ],
-    "fuentes": [
+      },
       {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVEZmb2dRNGFsOXFFSGpRWXJIbnJaWERVYWFaa3Y0bXlyTTlBMXNvTkVKOEZrYWVHTUVoMGV6bF9OeEVjZ1dGeHNRcEtVRGFOYVNPeGZNNGVZVUVmN0Qyd1NXeWpETWk2NEt1Y09oT2UycmZCT1g0STF3SkdlYzlJQllueHNpdW5HVGNNRFdyZ2JobGw1SEdVUjRSSXBBaGExVXdoMWJKZF9aZFVEejhZSFZaemdwN2R3d2V6SllENDdXQVZwdDE3YWhZa2hMblRPOXE1N3dNWnAxRk9EWXdB?oc=5",
-        "fecha": "2026-10-28"
-      }
-    ]
-  },
-  {
-    "id": "malaria-amazonas-2026-s44",
-    "patogeno": "Malaria",
-    "tipo": "parasito",
-    "departamento": "Amazonas",
-    "nivel": "bajo",
-    "casos": null,
-    "esperado": 55,
-    "resumen": "1 fuente(s) reportan malaria en Amazonas esta semana. Lo normal para esta semana son unos 55 casos (INS).",
-    "fecha_deteccion": "2026-10-28",
-    "municipios": [],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQy1HdGpvanpOT2Z2TWQ0cVFXNDRZMFkzb2NvTWRYcDVQRjU1MFZLS0hOZlhaaUtWOWRCc21tQjFWcWVDTlg2LTE0eEhpUFlYSDViM0N4empJTExrSkdZcEh1WEFmM2xsZGR2aWY3V0psQkp4QzlBb1EzWWkxcXFxdDR3clFWd3NZbzFIOWg3b3ZQangxUXBTd3E1T2ZWek5hVnF4REFUa0UyVDZaTU5yZVRyWFJ6dUNKVlE?oc=5",
-        "fecha": "2026-10-27"
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
       }
     ]
   },
@@ -122,10 +1219,10 @@
     "patogeno": "Dengue",
     "tipo": "virus",
     "departamento": "Santander",
-    "nivel": "alto",
-    "casos": 6802,
-    "esperado": 268,
-    "resumen": "9 fuente(s) reportan dengue en Santander esta semana. Lo normal para esta semana son unos 268 casos (INS).",
+    "nivel": "critico",
+    "casos": 1190,
+    "esperado": 466,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 1190 casos en las últimas 4 semanas frente a 466 esperados; 7134 en lo que va del año.",
     "fecha_deteccion": "2026-10-26",
     "municipios": [
       "Bucaramanga",
@@ -186,121 +1283,42 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSzlMTE1Fb3V0ZXA0bVcwR3NkblRmMVlsVnptWkstVnVyaUNFY05HQlFQMjB4Wm95TktacVFCWW5TZE5iaU5zSF96d2c1dHl6MExPMk94QzBudEpUOTJuWXpKQjBsNWhOV3RiVDBsUjZOUEMzcjlpb2Z4THRBUlJqMktHa2hTdHo3azlXSnQ0LTJ3VlhhcENSV2tDeHItTmRJNnZZY2xhb0lybUZqNkRUVmZ1dW1PRndvazVrVzgzLThnNUJh0gHSAUFVX3lxTE5JZFhMZDhpR3NiSWJELUozcm1USldTYWppVXh5NER4YkFMeUQyS0tUTlN2bGJlNGd6WTRHZGJHQTJPeDJyYXRVc1FlNUdsLXJZanhQS2I5aUFyd3RRQng0QU4ybGc1U0NoY2dpdENUTXkxWXJMdElKVGlBQnEyU0RKTXE3RXhjVGViSlc4elRwOFozNWtxUWQ1YjRyUnZKcm42S0x2QTNnUXdOd1RsaTBqMVVlMnljbXhOTGFPWkRvS1JiTW5LdmxDUlIxdFhIMURjQQ?oc=5",
         "fecha": "2026-10-29"
-      }
-    ]
-  },
-  {
-    "id": "dengue-atlantico-2026-s44",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Atlántico",
-    "nivel": "alto",
-    "casos": 5000,
-    "esperado": 142,
-    "resumen": "16 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 142 casos (INS).",
-    "fecha_deteccion": "2026-10-26",
-    "municipios": [
-      "Barranquilla",
-      "Ponedera",
-      "Puerto Giraldo",
-      "Sabanalarga"
-    ],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUGxVZzhKdmtGR21OM3VrMHBRbmp2Zmt6ajZVMjQtSDFDdlRQTVprVXk2UVhIOERCc2g5RHYtYUZwVWhFR21ya2JCc2t6N2o0ZUF2NFFsM3U3NEhqc0M1QmJTQVRZZ2F3a2FYdzF5M0ZSdWh3bHNrODIwbTlVZHd5UmgzcDktLWRzWU1HYk9ZX01FVl85VnJIQlZMOWpPRHB0SWVoRFo5N2x3Z9IBqgFBVV95cUxPZUdVaHJYODA5LVo3SWtwdjJNY0JTUmxPdWczQ0c4OGhscWw5amJEMV9JZWI3bmJCeU9wUTVGN0dUT3RIUWt4R3lSbENNYWpJSnlwY2lMQ1pIcElUT09xSDZwM2FOTWx6ZFNsUjZWUXh2OXdONVpLUE5SWHEtZ2VscDBiSE1fLTdaQVV6bmRpazQtRWpsMEt3cms5NkVpcHBzSjIzWTlIVW1zZw?oc=5",
-        "fecha": "2026-10-26"
       },
       {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQW4yM2tZNFNhc1dHSG1FVmNKSVZIa2RWR0NtMktvVkN5U00xSTd4V0FJc1BjX0dENmJtSllTZnEwT0xWX09MR29jZmxoQjdaakctWjBZODZCYlBzZ3dVZEJPSFRPbjd0XzhXeHNtWnhpUU84Q25oS2ttVjJVRXhFVFdHOUE2VEh1WDhlZEJEU1YwcTZrNEswRVdlbFAwX2Z1TW1rRm84N0FnWlNuY2dmSmE3SnRoX2VsY3NJZmxCa2xwSG80WWR3R1VTYnRLcmVDVGRWek04cF83a0lRRDZn0gHfAUFVX3lxTE1BbjIza1k0U2FzV0dIbUVWY0pJVkhrZFZHQ20yS29WQ3lTTTFJN3hXQUlzUGNfR0Q2Ym1KWVNmcTBPTFZfT0xHb2NmbGhCN1pqRy1aMFk4NkJiUHNnd1VkQk9IVE9uN3RfOFd4c21aeGlRTzhDbmhLa21WMlVFeEVUV0c5QTZUSHVYOGVkQkRTVjBxNms0SzBFV2VsUDBfZnVNbWtGbzg3QWdaU25jZ2ZKYTdKdGhfZWxjc0lmbEJrbHBIbzRZZHdHVVNidEtyZUNUZFZ6TThwXzdrSVFENmc?oc=5",
-        "fecha": "2026-10-26"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNlNaZHhkYVNJTjRoR3lsRVpTcXpJTjZ2WGNUS3FzQmpTdmdTbElNbDRja09wSUE3VVJORk9ENmZhYVR4NWtBOHI5azhWenNsSkxOaGVZMHdRMFVadnJJaEFYbDdrUF8zdWlVMGdOZ0J3RmxkaElRTmRZWlBFNjJMZ0xNWU9kWS02VGw1VnRiOXlCcENkU2ZlalZsUG5UbVFjV1lmc3QwcWZSdU9KLXpTSHJrVXFUM0tGbEE?oc=5",
-        "fecha": "2026-10-26"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQX2tnWXp4alM4c2dEcDcycU9xdkxhWGNJNUlYSk5hWXRCbDRBRFpBYjYwYnJpczVMczlSRDZVSUNPNXo5WGFJamZtZFpqYmRVaE9xOWt0NjFLZWtwZUVQM3hwX3JqZHJSdVhyblZpMTFobTJzbjFWMG9LWVhlV09lX2FyeHFtWFNiUVNzbDJGM2VBWFBzOVJPNDk3cmdlTzktUjFNQVlJX3lFdWVxWDVDSzJpQy1IaHFoUEJwd01PZHJyMlZMV1BELWZWdnZsbHd5TVh5Y3FpbWY4dw?oc=5",
-        "fecha": "2026-10-26"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPanRqTXdTTGJ3Zkc1dzZSVnEzZlJ4eVNaVHlvOXFxNmRmWHpPSjAzdnhuN2IzbkNoRkJGcFF6WWtKTVp6YzJmTkpaa0NCRi01blJodWh2aGpEWlN6ZUZOQzl4SVkwa2c0MmNUSGpoOXZaVmZlSTlpdzlKX3h0Rlg1MTBZcWVCR0pxTk9KbkoxbEhjNENHMWV3dlhKaFVLT2gxdnp5cjJHdDU0dl9jZm9YTEp1WGRkZDNfblVZWnZDUGhtWV9nTjhDclNkMS1EUXNhTkREcG1yMjE5XzlsenRnTFFNMTdYaGxrdXZyZ0hIQVVKeHJBcXJwVU1qcVk4SnJyN3RrZ1BHaWh4YmZOMFJBRGZfN3RqUdIBlgJBVV95cUxPanRqTXdTTGJ3Zkc1dzZSVnEzZlJ4eVNaVHlvOXFxNmRmWHpPSjAzdnhuN2IzbkNoRkJGcFF6WWtKTVp6YzJmTkpaa0NCRi01blJodWh2aGpEWlN6ZUZOQzl4SVkwa2c0MmNUSGpoOXZaVmZlSTlpdzlKX3h0Rlg1MTBZcWVCR0pxTk9KbkoxbEhjNENHMWV3dlhKaFVLT2gxdnp5cjJHdDU0dl9jZm9YTEp1WGRkZDNfblVZWnZDUGhtWV9nTjhDclNkMS1EUXNhTkREcG1yMjE5XzlsenRnTFFNMTdYaGxrdXZyZ0hIQVVKeHJBcXJwVU1qcVk4SnJyN3RrZ1BHaWh4YmZOMFJBRGZfN3RqUQ?oc=5",
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
         "fecha": "2026-10-24"
       },
       {
         "nombre": "Prensa",
         "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOT0JpeC1Ba1QzZ3pyNVdqWktPenRZMFYwdzNqUi1lbGJBVWRIWUd5Znd0UHFweXU4eUUtT0N5RFd4SWl4WG9wdlU4N1dGZEpBQTBBZkpObUJfRFVhdUg3OVYxTVpjVXZvRXhzVlhIdHZjYk1SSGJQbWlWNTJDS2xsMFhvT1R6Y3BKWkpPWmN2X3lKR3BZamZXVjBBb3NjaGxkYmJzQ1VpbENlVUJkbTdOX2VCMGZWTERyYjRrV2tFZUJoc0JZTGpyMHNTaFE0MEVjbkE?oc=5",
-        "fecha": "2026-10-20"
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOdmt5b1VvRGJBdHBDc2VsSlU1LUdZTWlSbFlzNlBlR1dJOWVQY2VkVk1qdnFuWjZuMmFMbjZTZjlXX1h2MF9mWHV2YnZCS0NqaWdBaUdzanM4RGZpa1gzN3p1NW1qbnpoeGJ2WkU0TDczclhaTG1KUGdEazczZGhscThqRVoyb3c4eUtoUTNRNkVDOVdnYzM2Tk9qeWxqMlJRbmhod1ZURFgzUW9ORl9LUFZVa0RTVkMzMzBxeFZLWm5TT0FPbVlCaDUzeGx2MFBqaUltVVBKalczT09PN2wyLU1sejlOQXpVOEE4d3cwanFGTkFhOVNn?oc=5",
+        "fecha": "2026-10-30"
       },
       {
         "nombre": "Prensa",
         "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVXVZTnVESzU1bFhlVndnSEFzcVdMeHVIZVRHTWtKZDBSb0ZJV2Y2RXZoc1ROcTliTHYwNUFrVW1Yb1VoZVltUTE4RGNwVUZ0SW9NYnI1a2VRMllac1BZQTFaZUJaeEg3VHhMZ0RMbGxOTm9EeF9SdDI3OHdtdXJFZVZucy05NHVTWmZLZnRsRlhwVVhRR1MwSWVEcWw2ai1HNWVCM0NpTklRaG0xWmpZLTFaZEx5NWZxeDl5bncxS0xNSUJmY211aGM4T1hPVnF6bWVMVHR3?oc=5",
-        "fecha": "2026-10-26"
+        "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPTVRKa1RUVVYyQWFGNVdyUWs0dVpWT1g1Y2QwUmlKNDQ5T3YxQm9iUkhoOEJvbUQ3M1IzVjA5QlRIN2piNDRtR2I3MmVHX09ycEdtM2Y5c1dEQkdfN1ZfdGFHOTd3OEU1Q01NSE5UY3R2ckpBYkxZVzFRNjlYbTNpQmV3a3JiaE9pT1VvSFQzdGpNTDJuS2RHQUNjSDhtUXlza3NWQUZNVkJ3X3Y4WmptS2tRYzQ4REh5TVJfVUItTGhmSnRVVzcwRTFTZVhXSUtad2FWMF85SnJ5SnpzUTcxTTJqUzRhYWhWWWlsTHNrTkJGQ0FTV1RjR3FxaE5UTmJNeWhReTVqMEtuVVA3b0I2SmhxVHNNeWVlU3VWOWVkQ19OdHkyVFE40gGsAkFVX3lxTE9ha3RvUVRMVVROeGMzd0hiZ3V2c2p2dmVqSHJZSHR4c0pmb1pBbW5JMUlpZWdxdkJNSjZiR1RfT0NadTM5bF81YkFfN3RvdlE0cEt6bnJiRkE1MXJIcmN3WXlWVWZjV01OOG5seDhjeW5CbWh5dTdaT2VuN1M5djRmYnlydUdycUxfZjRHWHZyeFZQT1dkWVNMQ0tZRFFHTDVEOUZKYXROUGpudDlsdUV6dUVQQmZINWlHaHI1WVVHckhEcTJOa3h2NmE0b1ZFSXA5cEQwUW5fVXZnNzc0R3JGRGI0dnNseXhSOUdyY0FOU3N0VVNXR2QwakhjTWxVTW9jczRyeFVmM041eE9UQzFRblhVczBQal92YVBWQ0Z1V0JmUHF5WkpTRkdFZg?oc=5",
+        "fecha": "2026-10-30"
       },
       {
         "nombre": "Prensa",
         "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQTMwYllZNGJGZjFuNi13bHJhNGM1eFVpMldvRlhPbzA3b05VOHBQMlRCUC1Ja2Y2WjZlaWpJZjVqRlQtZXAySUZfb29mV3Zza1prU0ZaUExveDFCM3NfMm9JU3FXdENsbzF5VUVGUmNHODZRR2pERUVyREJXQ0JrZ0haaldDTE01Q0RYTjQtT192V0pzVkM5Tkx0OXVqOVd1T0JxRGhrOEtsQ1M3NlREUUxxVFN1NXN6cnBlN1A0cEhhU2k2OGxad9IB0AFBVV95cUxPZVQ0ZDJlODFINHNGVmVUUW9laVFWS0lDaWNUeDh5ZnBlaTVQUXdMSjI3dU1vUGE0SklVaTdVbVBfZXcwR1VnNTBWRGs4ZkdyTElTNG40OUNzWEsxWFNreWF3MmZ5aFlCQlNfcTExbF92UnBoN0VGZVVxX2ZSVHl3WXJ6V3lMRlRoYkM5SlU2YVNuVzdtbFZxV3gyODlLeVFzZTg4TERjYkcwX3UzdFlWX3hUVm9CNjJUNjdwVGhRVDMtOUJGWHVoUXNrZzJYTmly?oc=5",
-        "fecha": "2026-10-24"
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MSkx0ZnhUWVp5X2ppZWJuOXh1NXFqMjVza01mN2NpOXhrVV9uOFJ1VXFJQkZMM2JNV0FXS1Q4d1doWHBVRW1vdEE1bXFuRFZYRklxZUN4TzNHaDF4NzRSVV9BMTQ5aEh3WDkwemxNNXJoQ04zNGtyTXJhN2prVjg?oc=5",
+        "fecha": "2026-10-30"
       },
       {
         "nombre": "Prensa",
         "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUHpWUVdEMHFORW4xNVBXR1R2Sm5FMDhtbXViTjJFaWt6cXdxUzYxenU1cW4wRG9LUnBUVDFzREppcHdhUTR5czdteHBEQm1uaS1rMnJ6dkcxdFdRcVlTRVdxSkotWWtHT016MTBGdVcwYTZwRFAyNVk5NUwtdFljN3paREY4dkFtZHZ6amNxdXdzdG9Uc045OElydG1lUHNYUU1LeGJqV005S0JKdnlZ0gHDAUFVX3lxTE4yME5uZTdXbGl1Yzc5Y3J0NnFQWFFDSDJNeHU4ajlQU25rYnBDYTNOa2FrdVRtUENsZXRwNGMzc3JOa3I0akUtdmFwX3ZheW5FamhFQS03REFNUmc3QzVCRGxFSC14MU1CWTdPeDFhNjI0UXU5cnZIdWpHbkkxWVA3Q2V3RUVVMW5qQWstSDV5TktTc2ZyQVdMeUhKYzRrejRVMTdxalN6YUM0c2JGdnJ3TnNCUkItZEo2LTRUcm9NZTJmcw?oc=5",
-        "fecha": "2026-10-27"
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONC1hMGNPMDU3M29UN3YzakhKMjZ2NVVLV0swR1QyMEFaV1JQaEpMb0Rwc1FMOE1sOFJZbnNDY3FGb0pDRnRZd2dsREEtQkRNLVJVRnVGSDlqMk5KSFlscFk5dHVYX0NEblkxcmdOczNzRkJrR0VlYTRTVzNmT0pxaE1WRkZOYVRTMmVLMXRuMlRBbS1VT01mMHo0VWtYcEN5MEtuNlRUUmVETzgwV08zcGh3?oc=5",
+        "fecha": "2026-10-30"
       },
       {
         "nombre": "Prensa",
         "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNX0QwV196WHU4MC16cVpRRWRzVEZFZnAwV0hfSlBYTVVGcWZrcldmUmN6dFJHcEJfdzFIOXZIalhITXhaQlpGOFVta1czOE9NZUtFTmZ6VERtdjBmektzSGttWmt1NDdhbEdsWXBvSTlXSHg1dTZ3TVIzdzV1WGt5ZU9vNFl4WHVWVEh5eHdTSk9vaHRoUXN5X1l1UG81TnpYWUJURjFOUndVbmN5eWhCeDZyVDZpd3EzLUFTeVRzT3U3WF9mOXpoeEYyQdIB3wFBVV95cUxNQW4yM2tZNFNhc1dHSG1FVmNKSVZIa2RWR0NtMktvVkN5U00xSTd4V0FJc1BjX0dENmJtSllTZnEwT0xWX09MR29jZmxoQjdaakctWjBZODZCYlBzZ3dVZEJPSFRPbjd0XzhXeHNtWnhpUU84Q25oS2ttVjJVRXhFVFdHOUE2VEh1WDhlZEJEU1YwcTZrNEswRVdlbFAwX2Z1TW1rRm84N0FnWlNuY2dmSmE3SnRoX2VsY3NJZmxCa2xwSG80WWR3R1VTYnRLcmVDVGRWek04cF83a0lRRDZn?oc=5",
-        "fecha": "2026-10-26"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPT25lZGtBT1NJMnhUbVl1MDIwaEZTZWJucFpsQnR4RFhScGRwMEVFczc2N29DN2hLTU1wVVktQXgtcFA1dUdKbWRSNnFvY2hPS0lmaXdfQUdOTTAwVjdPcWlJLTdkZnNOeFJydFBhdzRORWUtZ1A1aW9BZmRZaHlCSDZzS2YwNllkQmJNZ25aX09fcjlmNThlbzVlVUhVeWlkVHN2NUdNMVV0X2REUHlJMjU3WHVuSTB0ZnpDSWx6enJsbE5IUnZaNGpGMnB0TmprM2U3QUN4R2Q5S28?oc=5",
-        "fecha": "2026-10-27"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVGJxY05qVEpqdEx3WHRKVHM2aU9JSlc3Yzd0bEdIVWh4Ni1VdlVYdnk3YTJZbmNaU25JYXc1VXpMSXpvQnB1VHNDVXlqakNHNmY1ZFQzeV9FY2VtaGNTZ210Mjc5ZUlsbnhLSzVRRlJYMWFQVW1TMm14bkZzanpYaXE0V0RScVNJaXpYeUNDM24tZVpuZlRTOXhZRFFBOFFpbXQ0Wi1ST2owSWJUVWJyZHhxUG0wWGhyS1FnUmhkNFoxSGJKbXNJSQ?oc=5",
-        "fecha": "2026-10-20"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNV0VubVpYbmRLcDVlSXY1d2pjX1I2WFNaSUNjSmNKWWdwdy1QMmtIbjRYdnNQREdacUVCXzQyNnFWUmtQMWtjQVU3QU0wZEpEUUY2cEUzZk55NDktcEtWNU5ZNVFBNEcybmV0aHdJY1lLV2tmdDJ6UGxQYTJQMkJJUnRQc2VJdngwbGFSTkE5VXAxRkplWGdST0JocWlXX0NPZ2lQY0l0S2w0T1FRZE9FcW93SzZjUTlDZmpRS2Z3TGFOc29kSkZwcm9sQkdjaVIyNFlxcg?oc=5",
-        "fecha": "2026-10-15"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUXpONWFOY1plUVNFRVdFUFpTR01JX3VyUUhXeTNoMFJYMzBxZXIwY1I0c0FUcTE1LWozYkVWV0I5b2JrUDNkQUpWWHlKM3VxUkdtMmllX2RfUU94Rk1PbzFibGM4ZTduWVA0cEJ4WWtraWI2YkpDRng0VC1mSklPcHlTbmxrZjk4aU45U2ZROUZ2UXRUSkhRSmF4azVnNUVhTVMxS2F30gGuAUFVX3lxTE9KUXZwWlZwSE11dERCdTA3Z1psT1JxYUdlbDJGZFdYX1BORHRKWVdyTjZJdnAzZkFQMENiR2hJdEtzSlprc1hxVHp5WEhGN2diUzBpNm9SR2dNbi1MSFhpT3lNQzRpRVFMT3NibmtMNVctN3YxdnBwMWp2SVpmemIwek9wUkxMbU55S1BWSS1WYUwwVDA5WmVIQXNmVTJyQ0kyQWNGWjYzMTd5c29PQQ?oc=5",
-        "fecha": "2026-10-06"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdVBwWEd6VHRCanNkQlNEYmZWS1JJempSNXhwdmRLdE9Ed21UWEFCZlZEVzVoNG9xS1ppRkY4SXNMdElESTcwSi1yV21SV0JyNmJIeHlvV3ZJQ3hUY0xtcjFYdHRiRWpOUEJXRlg4WXN5R2d4c1VmdG9KNFg0czlwX2FwVGVRNS1XNHlkaGFxSTJmUks1YW1WeTNSQTBSQ1dWZUMwQjJ1UEY0OXZPbGpjUEMzSFZWX01sVVFnVHhKTE9FNkI5NHllajh1eUl5NnNjMUNZ?oc=5",
-        "fecha": "2026-10-27"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRlc0dkRCbzRrRUlVY1VVSVlOb3lEZGFoMUJjdkF3akhZSU50VVMyYXdfQ2dTZGlsTzNfLVlEZnpZTHJ1WjVNb2FsUVBCVjREWWFMT3pQN0RwX3pwZUp2bUVaTnVzMmhTcFM3ZzNfYVEza20xUjlWX19PVm9wVDhRZ1A3ZjdFTEdzemxaU3FmdzZKWkZuaWRaanB4MDVuU3c?oc=5",
-        "fecha": "2026-10-26"
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSzlMTE1Fb3V0ZXA0bVcwR3NkblRmMVlsVnptWkstVnVyaUNFY05HQlFQMjB4Wm95TktacVFCWW5TZE5iaU5zSF96d2c1dHl6MExPMk94QzBudEpUOTJuWXpKQjBsNWhOV3RiVDBsUjZOUEMzcjlpb2Z4THRBUlJqMktHa2hTdHo3azlXSnQ0LTJ3VlhhcENSV2tDeHItTmRJNnZZY2xhb0lybUZqNkRUVmZ1dW1PRndvazVrVzgzLThnNUJh?oc=5",
+        "fecha": "2026-10-29"
       }
     ]
   },
@@ -310,9 +1328,9 @@
     "tipo": "virus",
     "departamento": "Tolima",
     "nivel": "alto",
-    "casos": 3149,
-    "esperado": 197,
-    "resumen": "17 fuente(s) reportan dengue en Tolima esta semana. Lo normal para esta semana son unos 197 casos (INS).",
+    "casos": 662,
+    "esperado": 397,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 662 casos en las últimas 4 semanas frente a 397 esperados; 3221 en lo que va del año.",
     "fecha_deteccion": "2026-10-26",
     "municipios": [
       "Ibagué"
@@ -419,6 +1437,12 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRkNWSDBXQ2ZNY0x1dmJ2d0VKR2NCUEZ0QmtHUW9KME0yRzl4WHZxTmZab3JZa0l4eEttclJBRV9ubF9QQ0E3MjNfeFloZWNqZ1lReE1VWHhtSVlhWlYtWC1iMWpMem50QS1mVV9pNHctWnNrZ2dubEhsUHpfVHFtS0t3THk3bjdnc0xjVzduNEpXbklTS2FiTnRhQXpWYWZJZzZ0YUs2MVljeVlHdGplS0JtVnEzSkRYMklBcFZKWHRyUkU?oc=5",
         "fecha": "2026-10-27"
+      },
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
       }
     ]
   },
@@ -428,9 +1452,9 @@
     "tipo": "virus",
     "departamento": "Cesar",
     "nivel": "alto",
-    "casos": 6390,
-    "esperado": 86,
-    "resumen": "6 fuente(s) reportan dengue en Cesar esta semana. Lo normal para esta semana son unos 86 casos (INS).",
+    "casos": 381,
+    "esperado": 254,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 381 casos en las últimas 4 semanas frente a 254 esperados; 6574 en lo que va del año.",
     "fecha_deteccion": "2026-10-26",
     "municipios": [
       "Valledupar"
@@ -471,6 +1495,133 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcWxHSkhkU0taT3RFLXpRS1UzdjI5MGEzZEE3UVZzMWExQUM1Mmt1NnNjdGxJcmczdFZVUko4aHZ0eXFWRk1QZTQtc2pyc21fcXRRWC1UMDZLZFFrWHh1MG9abkRlN0Nma2ZUN3JrZVNtdjdkYk5mdGVxTElGMWlJaTBLTFJFekVuZEhaSXNPRmdXelNjdkFMWTNiTEVVZ1VySklrMFBndw?oc=5",
         "fecha": "2026-10-28"
+      },
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-atlantico-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Atlántico",
+    "nivel": "alto",
+    "casos": 938,
+    "esperado": 598,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 938 casos en las últimas 4 semanas frente a 598 esperados; 6651 en lo que va del año.",
+    "fecha_deteccion": "2026-10-26",
+    "municipios": [
+      "Barranquilla",
+      "Ponedera",
+      "Puerto Giraldo",
+      "Sabanalarga"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUGxVZzhKdmtGR21OM3VrMHBRbmp2Zmt6ajZVMjQtSDFDdlRQTVprVXk2UVhIOERCc2g5RHYtYUZwVWhFR21ya2JCc2t6N2o0ZUF2NFFsM3U3NEhqc0M1QmJTQVRZZ2F3a2FYdzF5M0ZSdWh3bHNrODIwbTlVZHd5UmgzcDktLWRzWU1HYk9ZX01FVl85VnJIQlZMOWpPRHB0SWVoRFo5N2x3Z9IBqgFBVV95cUxPZUdVaHJYODA5LVo3SWtwdjJNY0JTUmxPdWczQ0c4OGhscWw5amJEMV9JZWI3bmJCeU9wUTVGN0dUT3RIUWt4R3lSbENNYWpJSnlwY2lMQ1pIcElUT09xSDZwM2FOTWx6ZFNsUjZWUXh2OXdONVpLUE5SWHEtZ2VscDBiSE1fLTdaQVV6bmRpazQtRWpsMEt3cms5NkVpcHBzSjIzWTlIVW1zZw?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQW4yM2tZNFNhc1dHSG1FVmNKSVZIa2RWR0NtMktvVkN5U00xSTd4V0FJc1BjX0dENmJtSllTZnEwT0xWX09MR29jZmxoQjdaakctWjBZODZCYlBzZ3dVZEJPSFRPbjd0XzhXeHNtWnhpUU84Q25oS2ttVjJVRXhFVFdHOUE2VEh1WDhlZEJEU1YwcTZrNEswRVdlbFAwX2Z1TW1rRm84N0FnWlNuY2dmSmE3SnRoX2VsY3NJZmxCa2xwSG80WWR3R1VTYnRLcmVDVGRWek04cF83a0lRRDZn0gHfAUFVX3lxTE1BbjIza1k0U2FzV0dIbUVWY0pJVkhrZFZHQ20yS29WQ3lTTTFJN3hXQUlzUGNfR0Q2Ym1KWVNmcTBPTFZfT0xHb2NmbGhCN1pqRy1aMFk4NkJiUHNnd1VkQk9IVE9uN3RfOFd4c21aeGlRTzhDbmhLa21WMlVFeEVUV0c5QTZUSHVYOGVkQkRTVjBxNms0SzBFV2VsUDBfZnVNbWtGbzg3QWdaU25jZ2ZKYTdKdGhfZWxjc0lmbEJrbHBIbzRZZHdHVVNidEtyZUNUZFZ6TThwXzdrSVFENmc?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNlNaZHhkYVNJTjRoR3lsRVpTcXpJTjZ2WGNUS3FzQmpTdmdTbElNbDRja09wSUE3VVJORk9ENmZhYVR4NWtBOHI5azhWenNsSkxOaGVZMHdRMFVadnJJaEFYbDdrUF8zdWlVMGdOZ0J3RmxkaElRTmRZWlBFNjJMZ0xNWU9kWS02VGw1VnRiOXlCcENkU2ZlalZsUG5UbVFjV1lmc3QwcWZSdU9KLXpTSHJrVXFUM0tGbEE?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQX2tnWXp4alM4c2dEcDcycU9xdkxhWGNJNUlYSk5hWXRCbDRBRFpBYjYwYnJpczVMczlSRDZVSUNPNXo5WGFJamZtZFpqYmRVaE9xOWt0NjFLZWtwZUVQM3hwX3JqZHJSdVhyblZpMTFobTJzbjFWMG9LWVhlV09lX2FyeHFtWFNiUVNzbDJGM2VBWFBzOVJPNDk3cmdlTzktUjFNQVlJX3lFdWVxWDVDSzJpQy1IaHFoUEJwd01PZHJyMlZMV1BELWZWdnZsbHd5TVh5Y3FpbWY4dw?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPanRqTXdTTGJ3Zkc1dzZSVnEzZlJ4eVNaVHlvOXFxNmRmWHpPSjAzdnhuN2IzbkNoRkJGcFF6WWtKTVp6YzJmTkpaa0NCRi01blJodWh2aGpEWlN6ZUZOQzl4SVkwa2c0MmNUSGpoOXZaVmZlSTlpdzlKX3h0Rlg1MTBZcWVCR0pxTk9KbkoxbEhjNENHMWV3dlhKaFVLT2gxdnp5cjJHdDU0dl9jZm9YTEp1WGRkZDNfblVZWnZDUGhtWV9nTjhDclNkMS1EUXNhTkREcG1yMjE5XzlsenRnTFFNMTdYaGxrdXZyZ0hIQVVKeHJBcXJwVU1qcVk4SnJyN3RrZ1BHaWh4YmZOMFJBRGZfN3RqUdIBlgJBVV95cUxPanRqTXdTTGJ3Zkc1dzZSVnEzZlJ4eVNaVHlvOXFxNmRmWHpPSjAzdnhuN2IzbkNoRkJGcFF6WWtKTVp6YzJmTkpaa0NCRi01blJodWh2aGpEWlN6ZUZOQzl4SVkwa2c0MmNUSGpoOXZaVmZlSTlpdzlKX3h0Rlg1MTBZcWVCR0pxTk9KbkoxbEhjNENHMWV3dlhKaFVLT2gxdnp5cjJHdDU0dl9jZm9YTEp1WGRkZDNfblVZWnZDUGhtWV9nTjhDclNkMS1EUXNhTkREcG1yMjE5XzlsenRnTFFNMTdYaGxrdXZyZ0hIQVVKeHJBcXJwVU1qcVk4SnJyN3RrZ1BHaWh4YmZOMFJBRGZfN3RqUQ?oc=5",
+        "fecha": "2026-10-24"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOT0JpeC1Ba1QzZ3pyNVdqWktPenRZMFYwdzNqUi1lbGJBVWRIWUd5Znd0UHFweXU4eUUtT0N5RFd4SWl4WG9wdlU4N1dGZEpBQTBBZkpObUJfRFVhdUg3OVYxTVpjVXZvRXhzVlhIdHZjYk1SSGJQbWlWNTJDS2xsMFhvT1R6Y3BKWkpPWmN2X3lKR3BZamZXVjBBb3NjaGxkYmJzQ1VpbENlVUJkbTdOX2VCMGZWTERyYjRrV2tFZUJoc0JZTGpyMHNTaFE0MEVjbkE?oc=5",
+        "fecha": "2026-10-20"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVXVZTnVESzU1bFhlVndnSEFzcVdMeHVIZVRHTWtKZDBSb0ZJV2Y2RXZoc1ROcTliTHYwNUFrVW1Yb1VoZVltUTE4RGNwVUZ0SW9NYnI1a2VRMllac1BZQTFaZUJaeEg3VHhMZ0RMbGxOTm9EeF9SdDI3OHdtdXJFZVZucy05NHVTWmZLZnRsRlhwVVhRR1MwSWVEcWw2ai1HNWVCM0NpTklRaG0xWmpZLTFaZEx5NWZxeDl5bncxS0xNSUJmY211aGM4T1hPVnF6bWVMVHR3?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQTMwYllZNGJGZjFuNi13bHJhNGM1eFVpMldvRlhPbzA3b05VOHBQMlRCUC1Ja2Y2WjZlaWpJZjVqRlQtZXAySUZfb29mV3Zza1prU0ZaUExveDFCM3NfMm9JU3FXdENsbzF5VUVGUmNHODZRR2pERUVyREJXQ0JrZ0haaldDTE01Q0RYTjQtT192V0pzVkM5Tkx0OXVqOVd1T0JxRGhrOEtsQ1M3NlREUUxxVFN1NXN6cnBlN1A0cEhhU2k2OGxad9IB0AFBVV95cUxPZVQ0ZDJlODFINHNGVmVUUW9laVFWS0lDaWNUeDh5ZnBlaTVQUXdMSjI3dU1vUGE0SklVaTdVbVBfZXcwR1VnNTBWRGs4ZkdyTElTNG40OUNzWEsxWFNreWF3MmZ5aFlCQlNfcTExbF92UnBoN0VGZVVxX2ZSVHl3WXJ6V3lMRlRoYkM5SlU2YVNuVzdtbFZxV3gyODlLeVFzZTg4TERjYkcwX3UzdFlWX3hUVm9CNjJUNjdwVGhRVDMtOUJGWHVoUXNrZzJYTmly?oc=5",
+        "fecha": "2026-10-24"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUHpWUVdEMHFORW4xNVBXR1R2Sm5FMDhtbXViTjJFaWt6cXdxUzYxenU1cW4wRG9LUnBUVDFzREppcHdhUTR5czdteHBEQm1uaS1rMnJ6dkcxdFdRcVlTRVdxSkotWWtHT016MTBGdVcwYTZwRFAyNVk5NUwtdFljN3paREY4dkFtZHZ6amNxdXdzdG9Uc045OElydG1lUHNYUU1LeGJqV005S0JKdnlZ0gHDAUFVX3lxTE4yME5uZTdXbGl1Yzc5Y3J0NnFQWFFDSDJNeHU4ajlQU25rYnBDYTNOa2FrdVRtUENsZXRwNGMzc3JOa3I0akUtdmFwX3ZheW5FamhFQS03REFNUmc3QzVCRGxFSC14MU1CWTdPeDFhNjI0UXU5cnZIdWpHbkkxWVA3Q2V3RUVVMW5qQWstSDV5TktTc2ZyQVdMeUhKYzRrejRVMTdxalN6YUM0c2JGdnJ3TnNCUkItZEo2LTRUcm9NZTJmcw?oc=5",
+        "fecha": "2026-10-27"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNX0QwV196WHU4MC16cVpRRWRzVEZFZnAwV0hfSlBYTVVGcWZrcldmUmN6dFJHcEJfdzFIOXZIalhITXhaQlpGOFVta1czOE9NZUtFTmZ6VERtdjBmektzSGttWmt1NDdhbEdsWXBvSTlXSHg1dTZ3TVIzdzV1WGt5ZU9vNFl4WHVWVEh5eHdTSk9vaHRoUXN5X1l1UG81TnpYWUJURjFOUndVbmN5eWhCeDZyVDZpd3EzLUFTeVRzT3U3WF9mOXpoeEYyQdIB3wFBVV95cUxNQW4yM2tZNFNhc1dHSG1FVmNKSVZIa2RWR0NtMktvVkN5U00xSTd4V0FJc1BjX0dENmJtSllTZnEwT0xWX09MR29jZmxoQjdaakctWjBZODZCYlBzZ3dVZEJPSFRPbjd0XzhXeHNtWnhpUU84Q25oS2ttVjJVRXhFVFdHOUE2VEh1WDhlZEJEU1YwcTZrNEswRVdlbFAwX2Z1TW1rRm84N0FnWlNuY2dmSmE3SnRoX2VsY3NJZmxCa2xwSG80WWR3R1VTYnRLcmVDVGRWek04cF83a0lRRDZn?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPT25lZGtBT1NJMnhUbVl1MDIwaEZTZWJucFpsQnR4RFhScGRwMEVFczc2N29DN2hLTU1wVVktQXgtcFA1dUdKbWRSNnFvY2hPS0lmaXdfQUdOTTAwVjdPcWlJLTdkZnNOeFJydFBhdzRORWUtZ1A1aW9BZmRZaHlCSDZzS2YwNllkQmJNZ25aX09fcjlmNThlbzVlVUhVeWlkVHN2NUdNMVV0X2REUHlJMjU3WHVuSTB0ZnpDSWx6enJsbE5IUnZaNGpGMnB0TmprM2U3QUN4R2Q5S28?oc=5",
+        "fecha": "2026-10-27"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVGJxY05qVEpqdEx3WHRKVHM2aU9JSlc3Yzd0bEdIVWh4Ni1VdlVYdnk3YTJZbmNaU25JYXc1VXpMSXpvQnB1VHNDVXlqakNHNmY1ZFQzeV9FY2VtaGNTZ210Mjc5ZUlsbnhLSzVRRlJYMWFQVW1TMm14bkZzanpYaXE0V0RScVNJaXpYeUNDM24tZVpuZlRTOXhZRFFBOFFpbXQ0Wi1ST2owSWJUVWJyZHhxUG0wWGhyS1FnUmhkNFoxSGJKbXNJSQ?oc=5",
+        "fecha": "2026-10-20"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNV0VubVpYbmRLcDVlSXY1d2pjX1I2WFNaSUNjSmNKWWdwdy1QMmtIbjRYdnNQREdacUVCXzQyNnFWUmtQMWtjQVU3QU0wZEpEUUY2cEUzZk55NDktcEtWNU5ZNVFBNEcybmV0aHdJY1lLV2tmdDJ6UGxQYTJQMkJJUnRQc2VJdngwbGFSTkE5VXAxRkplWGdST0JocWlXX0NPZ2lQY0l0S2w0T1FRZE9FcW93SzZjUTlDZmpRS2Z3TGFOc29kSkZwcm9sQkdjaVIyNFlxcg?oc=5",
+        "fecha": "2026-10-15"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUXpONWFOY1plUVNFRVdFUFpTR01JX3VyUUhXeTNoMFJYMzBxZXIwY1I0c0FUcTE1LWozYkVWV0I5b2JrUDNkQUpWWHlKM3VxUkdtMmllX2RfUU94Rk1PbzFibGM4ZTduWVA0cEJ4WWtraWI2YkpDRng0VC1mSklPcHlTbmxrZjk4aU45U2ZROUZ2UXRUSkhRSmF4azVnNUVhTVMxS2F30gGuAUFVX3lxTE9KUXZwWlZwSE11dERCdTA3Z1psT1JxYUdlbDJGZFdYX1BORHRKWVdyTjZJdnAzZkFQMENiR2hJdEtzSlprc1hxVHp5WEhGN2diUzBpNm9SR2dNbi1MSFhpT3lNQzRpRVFMT3NibmtMNVctN3YxdnBwMWp2SVpmemIwek9wUkxMbU55S1BWSS1WYUwwVDA5WmVIQXNmVTJyQ0kyQWNGWjYzMTd5c29PQQ?oc=5",
+        "fecha": "2026-10-06"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdVBwWEd6VHRCanNkQlNEYmZWS1JJempSNXhwdmRLdE9Ed21UWEFCZlZEVzVoNG9xS1ppRkY4SXNMdElESTcwSi1yV21SV0JyNmJIeHlvV3ZJQ3hUY0xtcjFYdHRiRWpOUEJXRlg4WXN5R2d4c1VmdG9KNFg0czlwX2FwVGVRNS1XNHlkaGFxSTJmUks1YW1WeTNSQTBSQ1dWZUMwQjJ1UEY0OXZPbGpjUEMzSFZWX01sVVFnVHhKTE9FNkI5NHllajh1eUl5NnNjMUNZ?oc=5",
+        "fecha": "2026-10-27"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRlc0dkRCbzRrRUlVY1VVSVlOb3lEZGFoMUJjdkF3akhZSU50VVMyYXdfQ2dTZGlsTzNfLVlEZnpZTHJ1WjVNb2FsUVBCVjREWWFMT3pQN0RwX3pwZUp2bUVaTnVzMmhTcFM3ZzNfYVEza20xUjlWX19PVm9wVDhRZ1A3ZjdFTEdzemxaU3FmdzZKWkZuaWRaanB4MDVuU3c?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
       }
     ]
   },
