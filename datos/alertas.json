@@ -1,5 +1,33 @@
 [
   {
+    "id": "dengue-norte-de-santander-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Norte de Santander",
+    "nivel": "alto",
+    "casos": 5700,
+    "esperado": 122,
+    "resumen": "2 fuente(s) reportan dengue en Norte de Santander esta semana. Lo normal para esta semana son unos 122 casos (INS).",
+    "fecha_deteccion": "2026-10-29",
+    "municipios": [
+      "Cúcuta"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd0JjelJkT0lYRG9IZmVUNGJvaV90ei1SU2ZncDJ0UkF4NGREMTBDMW1jWlk2VW5WOWJTMzhIQXU5ekNmQml1ZHhrOTQ3Wk5tMDRCb1VHSHpuSG5fRjVpd3ViTkx5c0poN3Y4NjdKZDJnVFIwMVltZl9vWWJCRE5rd2xWZ2ZPZ2k1bWU0eHU5Y2FDREIxS0pyYWpPMEFBZE42ZzVFY2hUcUN6SEJrU3FJU1RxZGk3QQ?oc=5",
+        "fecha": "2026-10-29"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQU9XNVVMa083eFZKY3VpUmdGUzZnS19iWTZTVHlOaTdBMFpJQkxYaW0tb2xMUnVhOFdoMnZLaFFIalVyR1Q1dEZjSkZOd2JFbGhGcGhnSEVWY2FCX3JmUFZGMnpBbjFrVTNDVXE4V3V3SmVUQXVLaGtHMWJsUmYwN1lTSGRocWdpUjVoVjVadHJYdzhOdW1LajFvNGFlMkh6Nm15S1JOMnowMnc?oc=5",
+        "fecha": "2026-10-29"
+      }
+    ]
+  },
+  {
     "id": "dengue-cundinamarca-2026-s44",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -16,26 +44,6 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYmVoZGI3cTgyUnZpNGx0b1ZtYWk2WmEyRXhvYy02Qi1TcmxHQ0NrOUlkb3JpS3ZoUVNDTlU0bFlIRHRNVWFmQVkzZ1ZCc2VPOHA0M2c5TXFNZ1pyaWF5VjdwMEtuX3dpUkVCbXdubHFLb3ZmWmJCejc0UXB3R3lIWi05WUxLSTY4MVIwQjhJWklRV1RNakJ1SDdqMDNtRFRNendCNFQzb1VrdGd5MnRydkdFSjZZX2prNkJ0VTl0c1A4aVQyLTBBeGZLSzlmcVNy?oc=5",
         "fecha": "2026-10-01"
-      }
-    ]
-  },
-  {
-    "id": "dengue-norte-de-santander-2026-s44",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Norte de Santander",
-    "nivel": "bajo",
-    "casos": 5700,
-    "esperado": 122,
-    "resumen": "1 fuente(s) reportan dengue en Norte de Santander esta semana. Lo normal para esta semana son unos 122 casos (INS).",
-    "fecha_deteccion": "2026-10-29",
-    "municipios": [],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd0JjelJkT0lYRG9IZmVUNGJvaV90ei1SU2ZncDJ0UkF4NGREMTBDMW1jWlk2VW5WOWJTMzhIQXU5ekNmQml1ZHhrOTQ3Wk5tMDRCb1VHSHpuSG5fRjVpd3ViTkx5c0poN3Y4NjdKZDJnVFIwMVltZl9vWWJCRE5rd2xWZ2ZPZ2k1bWU0eHU5Y2FDREIxS0pyYWpPMEFBZE42ZzVFY2hUcUN6SEJrU3FJU1RxZGk3QQ?oc=5",
-        "fecha": "2026-10-29"
       }
     ]
   },
@@ -106,6 +114,78 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQy1HdGpvanpOT2Z2TWQ0cVFXNDRZMFkzb2NvTWRYcDVQRjU1MFZLS0hOZlhaaUtWOWRCc21tQjFWcWVDTlg2LTE0eEhpUFlYSDViM0N4empJTExrSkdZcEh1WEFmM2xsZGR2aWY3V0psQkp4QzlBb1EzWWkxcXFxdDR3clFWd3NZbzFIOWg3b3ZQangxUXBTd3E1T2ZWek5hVnF4REFUa0UyVDZaTU5yZVRyWFJ6dUNKVlE?oc=5",
         "fecha": "2026-10-27"
+      }
+    ]
+  },
+  {
+    "id": "dengue-santander-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Santander",
+    "nivel": "alto",
+    "casos": 6802,
+    "esperado": 268,
+    "resumen": "9 fuente(s) reportan dengue en Santander esta semana. Lo normal para esta semana son unos 268 casos (INS).",
+    "fecha_deteccion": "2026-10-26",
+    "municipios": [
+      "Bucaramanga",
+      "Floridablanca",
+      "San Andrés"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTzF6TUtGQ25rOWltOHVmUWpjNkVUaWt2blgtNFVWdF9rbHJrY0JHS1lreFkwdTlBdGFXRTNtVzNwOUpFalJsWXRyV2d6ckFBSEhtSm9DRGFtOUE2dXJuLUhyTVVSbXBnOGZoS3NUNEE2SFk4a01HcXV4VFJoM3NJOXVHdmFlRnYxQWJYYWNyXzZ2eENlNF8yZ1kxVDdUdDFqeXZiSGNGc0ZHX1FLd0ROX2ZKRkwtaEJ2YXlRZy1DbE9wUGV1TE5aZTAtTzFxejRocGfSAd8BQVVfeXFMTmRRTlI0aUNOSmNiQVFDZE5lQ2hsNUU3ZHdzN3dKYWRyeUY2WkxjNk5VOHJFaUJLdnIydzZ3Q3J6dWRpaFBrd2dzZS1nSS0tVGFHc0NWRU5ONHFtdzBvREpLWjBkWkd2Y2xzZFFSbmJVanhEbFo1aUtxMjNQdjVuQWdsZnU1YjNlbE15bW8xQjFIMTNuQVpXWEpmeThNQjl0SHUzTHZzV0s4alF1eGJjQ0VLZ05saTI1ZFV3ZGxxUmpCMXRYVGxHX3J4TUR4SUFPN0dEejJuMEFTX0taMTIxVQ?oc=5",
+        "fecha": "2026-10-25"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNS1lZT1JaR3RUdVBBZXNsSW9QVmtoaXJsT1ZLUXhwWDM4SlA2MGpiVUJ6dWpVOFZobWpKMGN5OTBFWkdIOUx2N3RLLXhhWXBzeEp5RGpFc3pKSzlqSHNBMVJGRDRwSlpxZlFIb2FnbHVfbnVVUy1paFZBU2tkN2gxRkF0a0dneHRPd1VfQkk5TzJmaWxUd1VDZlpabjZnc1lxT09ETHZNUFhmSkNQdTk2alp1bE1fNjgzMng4M1g3R003cnB5TnVTcFZ5TklabjRLYnZIUG9kZ1XSAeYBQVVfeXFMTjBGU3pLODJ4MDRyeTN6TjNmMEp0X3JLZjc2SGZIWG93M1ZOZmVRVFg4UnZMZzREelBiallDc2NkMks4MXVaSmZrMWhVb1VSbWFJQ3JwYThfSmJ6d3JDRVZMYlNyYzM0SUQ0ZlliMjhDOVZ6WXEwQVdZeGJUSzZxbThpckhPSjhuYzBfcFliMjYzSUlzMEV0RXhDVUl5MDhOczB0RVlEbzdZb0pDU3psZFZVS09JQ0Z5MkRHV3VZQkdicUVxdDFCU2tMVGI5NHUtaUZXZXFKZWVMcG1hMGp4RWJueFRwUmc?oc=5",
+        "fecha": "2026-10-25"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQWhVS3J6UGlaUXRFNjJIdHQyUTNHTnphVFdFaUNySEZTXzJCT256emNCbnN5dmsyWmtPSmRLZ2c3eWkyR0p6ODdYNFJkVi1YVXRGTHFGdERQaFNHY1AwaDB5MmZmTG52c2c1Q1B0UnFSc1JmWEpSRHpCSjlfSk41UDItejZDUy1NVmd1TTNNRHlteGNKOWpBeGR3ZXp4TmFVeVJPV05pSF9CQWtMQ1BsOTNUSjV4azYzc1ZLc21DY9IBwwFBVV95cUxQTzNYSjllZFg4VWFQRUxvZDJPLThWNzRKZS03MTFiMnd4aGJzcWpBQjh0TFBZaHh0UWdqM3VLTjhEbk1MWDc1UUQtX0dIQWh2NmxtVUdQbGhPcnp3Vk04UXh3RXVIRHB0UEJ0b015WlEwMkhsY2tqQ2dIQ2RFQ0NzRTR6bmtLRkZ4U2tpNWVyaVJMbW5veFhGZ05GN0M2X0ZBcUhMbmtydFRUQUkxRjZGYzVpdTZrdTJJQWtaT056eTIyaDA?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZkxfOXFJV1BwMTNUVkFOMnIzSllCbzFrbFJYMGFybDczWmlZZlRwNHRzbXNIei1WN09xX29RQnRKOWdoRFowTjJxWWEtYkpsTHhFYWZsZDZGYXZpRFZHTkRTTUdXVlhZYkxxbWo4SmxTLXgxRDRDbGhHMXBCbjZZbkdMajFkWXV5clFSX1ctU3hISUZVa0pMSFNBS1FZbWxOaFlRT3RqOUVoT1JjVWVaUHF1OUNTeXdzclpzSFB5VWNobFBqQkZVZDRmRlNxV0VJOVVGeFNxd2ROY2JO?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUlgwVmhIMFQ4aEh2ZF85bUpFSFBSMC1ValNoQjE1WmVNOWlsNG5ydFpSemVzeW9NZDdaMVd1Z3VFQlFORmhpT0ZRT1RoOUNMaFJLdHdBTm5UQ0ZQZTVzOG5vRzBFMGk2QjdEVkp0Nl9EcWdsMFpvQ1FrQ0JkNGNPdlNPQk1oSU5ab29ETjRXNGJ6cHJxejBSQkVXbGFLSVowTmg2RHkyRlV5M2Y3dDZVWjRFT00wNzTSAcsBQVVfeXFMT1lRNEtSOHpQcm9CQlQ5UWpQeld1ZDNXT3Exdy1XTmkyMEdCeUl0cjRDZ19Ucm9IRWwzVVc2a1FGaXlTMHl4Um0yVkRfNlJLV05aVGUwekM2VkY4TjB0aGtQTDN5OE93cVoxTVgtTTctVHY3RDNqekltdU5KLXN2YnJFM1FBRzN6b3RDT1lFUUhraHJQY25WMGc3RVo0WXNyd2Y1YThMWXZoYXZLcWhMV1g4OTM0bi04alJzUVI4V2I3VlFWcm05LU50Znc?oc=5",
+        "fecha": "2026-10-28"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcmM3bmU3TktNa2xBYkdfWTJNSXpJdVQ4bFpIdVZqWUF4NHMwWVpFVWhDc0hfTVprUmk2ZWl6MTVnSFM0UDFVVzNQeldyc0JyaTlDN3VrcWI3V1hPaHZFaXRhX2NnblJFQlF0MGFsYkttRTkyLXVGd0pxSGMwSzFrNDA1cWEwcG9ZMjZnOXQ0eHVtWVVHaVlibFdaZkxZRWp2NWdSMkctX1Q3dXVEeWNOekdRZkNzSXo3aW9YMnF0SGs?oc=5",
+        "fecha": "2026-10-28"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUlgwVmhIMFQ4aEh2ZF85bUpFSFBSMC1ValNoQjE1WmVNOWlsNG5ydFpSemVzeW9NZDdaMVd1Z3VFQlFORmhpT0ZRT1RoOUNMaFJLdHdBTm5UQ0ZQZTVzOG5vRzBFMGk2QjdEVkp0Nl9EcWdsMFpvQ1FrQ0JkNGNPdlNPQk1oSU5ab29ETjRXNGJ6cHJxejBSQkVXbGFLSVowTmg2RHkyRlV5M2Y3dDZVWjRFT00wNzQ?oc=5",
+        "fecha": "2026-10-28"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOVhYM0tFY1M0MEZySmdjMlFyVVVvalA4aVBXbGFFSU9iREI4OWh1bzE0STJ4WnoxODdxZDVzTEtuYTduMlZYYWhWRUlQeFhRdWRiMGRKY3I5YW16bVpfa1dqYjI1THRNTGYxcEhLa2VTUkk4X1V3UXVRYlVXM3ViaV9McVp2eXE0WUhtN0JRcU1GQUd1SVB5b0gyMnNXM3FpeWtlZ1RkelZxWFBsN2hqZFd30gHGAUFVX3lxTFAxZnZjNFhHanJBM3B0cEVTMDg3UXRWclMxbmhDMGdKellrQXh1Ty02TmdoUGktU0N2Uzh2c2w0b01EZGZaVzdYdkNpV1J2Y0s0bVdGaVBueDlKZnVDTzQ1dU8xYWZvS0FMUmlTakRiOFlHcDlXS2hOa1REM1BDeG1ib0dUek92VnpIWkhrcXJ5VnJpdWpNeFJNbzNGMGFWY3NfanA5UHRIcV9iMTU2NUtRT05ZeWRqakhob05DM2dfcFJWb3R5Zw?oc=5",
+        "fecha": "2026-10-30"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSzlMTE1Fb3V0ZXA0bVcwR3NkblRmMVlsVnptWkstVnVyaUNFY05HQlFQMjB4Wm95TktacVFCWW5TZE5iaU5zSF96d2c1dHl6MExPMk94QzBudEpUOTJuWXpKQjBsNWhOV3RiVDBsUjZOUEMzcjlpb2Z4THRBUlJqMktHa2hTdHo3azlXSnQ0LTJ3VlhhcENSV2tDeHItTmRJNnZZY2xhb0lybUZqNkRUVmZ1dW1PRndvazVrVzgzLThnNUJh0gHSAUFVX3lxTE5JZFhMZDhpR3NiSWJELUozcm1USldTYWppVXh5NER4YkFMeUQyS0tUTlN2bGJlNGd6WTRHZGJHQTJPeDJyYXRVc1FlNUdsLXJZanhQS2I5aUFyd3RRQng0QU4ybGc1U0NoY2dpdENUTXkxWXJMdElKVGlBQnEyU0RKTXE3RXhjVGViSlc4elRwOFozNWtxUWQ1YjRyUnZKcm42S0x2QTNnUXdOd1RsaTBqMVVlMnljbXhOTGFPWkRvS1JiTW5LdmxDUlIxdFhIMURjQQ?oc=5",
+        "fecha": "2026-10-29"
       }
     ]
   },
@@ -339,66 +419,6 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRkNWSDBXQ2ZNY0x1dmJ2d0VKR2NCUEZ0QmtHUW9KME0yRzl4WHZxTmZab3JZa0l4eEttclJBRV9ubF9QQ0E3MjNfeFloZWNqZ1lReE1VWHhtSVlhWlYtWC1iMWpMem50QS1mVV9pNHctWnNrZ2dubEhsUHpfVHFtS0t3THk3bjdnc0xjVzduNEpXbklTS2FiTnRhQXpWYWZJZzZ0YUs2MVljeVlHdGplS0JtVnEzSkRYMklBcFZKWHRyUkU?oc=5",
         "fecha": "2026-10-27"
-      }
-    ]
-  },
-  {
-    "id": "dengue-santander-2026-s44",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Santander",
-    "nivel": "alto",
-    "casos": 6802,
-    "esperado": 268,
-    "resumen": "7 fuente(s) reportan dengue en Santander esta semana. Lo normal para esta semana son unos 268 casos (INS).",
-    "fecha_deteccion": "2026-10-26",
-    "municipios": [
-      "Bucaramanga",
-      "Floridablanca",
-      "San Andrés"
-    ],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTzF6TUtGQ25rOWltOHVmUWpjNkVUaWt2blgtNFVWdF9rbHJrY0JHS1lreFkwdTlBdGFXRTNtVzNwOUpFalJsWXRyV2d6ckFBSEhtSm9DRGFtOUE2dXJuLUhyTVVSbXBnOGZoS3NUNEE2SFk4a01HcXV4VFJoM3NJOXVHdmFlRnYxQWJYYWNyXzZ2eENlNF8yZ1kxVDdUdDFqeXZiSGNGc0ZHX1FLd0ROX2ZKRkwtaEJ2YXlRZy1DbE9wUGV1TE5aZTAtTzFxejRocGfSAd8BQVVfeXFMTmRRTlI0aUNOSmNiQVFDZE5lQ2hsNUU3ZHdzN3dKYWRyeUY2WkxjNk5VOHJFaUJLdnIydzZ3Q3J6dWRpaFBrd2dzZS1nSS0tVGFHc0NWRU5ONHFtdzBvREpLWjBkWkd2Y2xzZFFSbmJVanhEbFo1aUtxMjNQdjVuQWdsZnU1YjNlbE15bW8xQjFIMTNuQVpXWEpmeThNQjl0SHUzTHZzV0s4alF1eGJjQ0VLZ05saTI1ZFV3ZGxxUmpCMXRYVGxHX3J4TUR4SUFPN0dEejJuMEFTX0taMTIxVQ?oc=5",
-        "fecha": "2026-10-25"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNS1lZT1JaR3RUdVBBZXNsSW9QVmtoaXJsT1ZLUXhwWDM4SlA2MGpiVUJ6dWpVOFZobWpKMGN5OTBFWkdIOUx2N3RLLXhhWXBzeEp5RGpFc3pKSzlqSHNBMVJGRDRwSlpxZlFIb2FnbHVfbnVVUy1paFZBU2tkN2gxRkF0a0dneHRPd1VfQkk5TzJmaWxUd1VDZlpabjZnc1lxT09ETHZNUFhmSkNQdTk2alp1bE1fNjgzMng4M1g3R003cnB5TnVTcFZ5TklabjRLYnZIUG9kZ1XSAeYBQVVfeXFMTjBGU3pLODJ4MDRyeTN6TjNmMEp0X3JLZjc2SGZIWG93M1ZOZmVRVFg4UnZMZzREelBiallDc2NkMks4MXVaSmZrMWhVb1VSbWFJQ3JwYThfSmJ6d3JDRVZMYlNyYzM0SUQ0ZlliMjhDOVZ6WXEwQVdZeGJUSzZxbThpckhPSjhuYzBfcFliMjYzSUlzMEV0RXhDVUl5MDhOczB0RVlEbzdZb0pDU3psZFZVS09JQ0Z5MkRHV3VZQkdicUVxdDFCU2tMVGI5NHUtaUZXZXFKZWVMcG1hMGp4RWJueFRwUmc?oc=5",
-        "fecha": "2026-10-25"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQWhVS3J6UGlaUXRFNjJIdHQyUTNHTnphVFdFaUNySEZTXzJCT256emNCbnN5dmsyWmtPSmRLZ2c3eWkyR0p6ODdYNFJkVi1YVXRGTHFGdERQaFNHY1AwaDB5MmZmTG52c2c1Q1B0UnFSc1JmWEpSRHpCSjlfSk41UDItejZDUy1NVmd1TTNNRHlteGNKOWpBeGR3ZXp4TmFVeVJPV05pSF9CQWtMQ1BsOTNUSjV4azYzc1ZLc21DY9IBwwFBVV95cUxQTzNYSjllZFg4VWFQRUxvZDJPLThWNzRKZS03MTFiMnd4aGJzcWpBQjh0TFBZaHh0UWdqM3VLTjhEbk1MWDc1UUQtX0dIQWh2NmxtVUdQbGhPcnp3Vk04UXh3RXVIRHB0UEJ0b015WlEwMkhsY2tqQ2dIQ2RFQ0NzRTR6bmtLRkZ4U2tpNWVyaVJMbW5veFhGZ05GN0M2X0ZBcUhMbmtydFRUQUkxRjZGYzVpdTZrdTJJQWtaT056eTIyaDA?oc=5",
-        "fecha": "2026-10-26"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZkxfOXFJV1BwMTNUVkFOMnIzSllCbzFrbFJYMGFybDczWmlZZlRwNHRzbXNIei1WN09xX29RQnRKOWdoRFowTjJxWWEtYkpsTHhFYWZsZDZGYXZpRFZHTkRTTUdXVlhZYkxxbWo4SmxTLXgxRDRDbGhHMXBCbjZZbkdMajFkWXV5clFSX1ctU3hISUZVa0pMSFNBS1FZbWxOaFlRT3RqOUVoT1JjVWVaUHF1OUNTeXdzclpzSFB5VWNobFBqQkZVZDRmRlNxV0VJOVVGeFNxd2ROY2JO?oc=5",
-        "fecha": "2026-10-26"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUlgwVmhIMFQ4aEh2ZF85bUpFSFBSMC1ValNoQjE1WmVNOWlsNG5ydFpSemVzeW9NZDdaMVd1Z3VFQlFORmhpT0ZRT1RoOUNMaFJLdHdBTm5UQ0ZQZTVzOG5vRzBFMGk2QjdEVkp0Nl9EcWdsMFpvQ1FrQ0JkNGNPdlNPQk1oSU5ab29ETjRXNGJ6cHJxejBSQkVXbGFLSVowTmg2RHkyRlV5M2Y3dDZVWjRFT00wNzTSAcsBQVVfeXFMT1lRNEtSOHpQcm9CQlQ5UWpQeld1ZDNXT3Exdy1XTmkyMEdCeUl0cjRDZ19Ucm9IRWwzVVc2a1FGaXlTMHl4Um0yVkRfNlJLV05aVGUwekM2VkY4TjB0aGtQTDN5OE93cVoxTVgtTTctVHY3RDNqekltdU5KLXN2YnJFM1FBRzN6b3RDT1lFUUhraHJQY25WMGc3RVo0WXNyd2Y1YThMWXZoYXZLcWhMV1g4OTM0bi04alJzUVI4V2I3VlFWcm05LU50Znc?oc=5",
-        "fecha": "2026-10-28"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcmM3bmU3TktNa2xBYkdfWTJNSXpJdVQ4bFpIdVZqWUF4NHMwWVpFVWhDc0hfTVprUmk2ZWl6MTVnSFM0UDFVVzNQeldyc0JyaTlDN3VrcWI3V1hPaHZFaXRhX2NnblJFQlF0MGFsYkttRTkyLXVGd0pxSGMwSzFrNDA1cWEwcG9ZMjZnOXQ0eHVtWVVHaVlibFdaZkxZRWp2NWdSMkctX1Q3dXVEeWNOekdRZkNzSXo3aW9YMnF0SGs?oc=5",
-        "fecha": "2026-10-28"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUlgwVmhIMFQ4aEh2ZF85bUpFSFBSMC1ValNoQjE1WmVNOWlsNG5ydFpSemVzeW9NZDdaMVd1Z3VFQlFORmhpT0ZRT1RoOUNMaFJLdHdBTm5UQ0ZQZTVzOG5vRzBFMGk2QjdEVkp0Nl9EcWdsMFpvQ1FrQ0JkNGNPdlNPQk1oSU5ab29ETjRXNGJ6cHJxejBSQkVXbGFLSVowTmg2RHkyRlV5M2Y3dDZVWjRFT00wNzQ?oc=5",
-        "fecha": "2026-10-28"
       }
     ]
   },
