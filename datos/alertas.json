@@ -1120,6 +1120,46 @@
     ]
   },
   {
+    "id": "dengue-meta-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Meta",
+    "nivel": "critico",
+    "casos": 980,
+    "esperado": 323,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 980 casos en las últimas 4 semanas frente a 323 esperados; 13904 en lo que va del año.",
+    "fecha_deteccion": "2026-10-28",
+    "municipios": [
+      "Villavicencio"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNk9hMUNMWEZqYTl1ZW5sNWVJcENJbkFDS2lVYm1tcU5EZXAtSVpMeTRvZjdCcmdPS2FZQjB4cnZWeGdNb00xWXc4Mk9rU0hLQkJnaDY5RnI2Z0RVaHNZdktyT0J2eFl5UkZtWXNxQ2dabWZIUkhRUlBQVFl2NW5sYUZlMU1kNk1ZdkVGSzNNYXUwOXhQUnE0Z2JEdm0zLUlQUXRvMGlfc3NJR0lNbHcwTUxXNDVuSHNFSWpTTUM1UdIBxwFBVV95cUxQb3c0bDRvbTFjWWo3VnlZQzgxS1ZXRmUxOUhYckJINEN0QTZQclJJd3ZaVU1ScXNra0hkNnVxRWlHMkVfMGRwZjd2ZFBwVE80U2doNFV3MlM4RHdqYmtPYm04akFKRTNDS0xoaUNxVXM2d3h0UUZ2cG5KMkZDUkozc184Q3dRY3ptb3A1bi01cklUbG5sVVozWkd2OExwNU5pc241cTRzdXhLVExXMG1jZ1g1MDRETTdQd3R5OGFwQjlSQnJycnlj?oc=5",
+        "fecha": "2026-10-27"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWkt0alRfNzZvODZlSWF6TFJJaG94bmMwbzJCaUpiVE1KSEg4UmN0UlZtUHBZU3FoN2E2NmFlcE5yRWVnU3ZnRHR6ZER1MjdNMVJZY290aXBuNUdBbGtQYlFzT0MzNjJlaVozQkM4Tl9VcFpDWjJscERlbmFqUEVJYzd1THowLUlyT3NoUTFn?oc=5",
+        "fecha": "2026-10-23"
+      },
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV1BzZjhLTXJmMXgxZ1J6NlN1dnU3dlJfeE1odEZ1V0JUUnR6MHl4U0ljemNyM1BRLVRFMVJPTTZGTzd1MWdyNDF2Y0pVSVZYME9MTVBUcnVpMzF6ZVFjY2c3eXZvLV9PN2NnWlJhdE9lU2VQR0xPT1JMY3o1aWlCRmp2TmpyU2lyLUhMRHR5eERWczBKQVlUT3c4RTBrX0Z5djlvejdLZlJneXlPbHpOMzBMZzlsUQ?oc=5",
+        "fecha": "2026-10-30"
+      }
+    ]
+  },
+  {
     "id": "dengue-magdalena-2026-s44",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -1171,40 +1211,6 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQy1HdGpvanpOT2Z2TWQ0cVFXNDRZMFkzb2NvTWRYcDVQRjU1MFZLS0hOZlhaaUtWOWRCc21tQjFWcWVDTlg2LTE0eEhpUFlYSDViM0N4empJTExrSkdZcEh1WEFmM2xsZGR2aWY3V0psQkp4QzlBb1EzWWkxcXFxdDR3clFWd3NZbzFIOWg3b3ZQangxUXBTd3E1T2ZWek5hVnF4REFUa0UyVDZaTU5yZVRyWFJ6dUNKVlE?oc=5",
         "fecha": "2026-10-27"
-      },
-      {
-        "nombre": "INS · BES semana 42",
-        "tipo": "oficial",
-        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
-        "fecha": "2026-10-24"
-      }
-    ]
-  },
-  {
-    "id": "dengue-meta-2026-s44",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Meta",
-    "nivel": "critico",
-    "casos": 980,
-    "esperado": 323,
-    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 980 casos en las últimas 4 semanas frente a 323 esperados; 13904 en lo que va del año.",
-    "fecha_deteccion": "2026-10-28",
-    "municipios": [
-      "Villavicencio"
-    ],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNk9hMUNMWEZqYTl1ZW5sNWVJcENJbkFDS2lVYm1tcU5EZXAtSVpMeTRvZjdCcmdPS2FZQjB4cnZWeGdNb00xWXc4Mk9rU0hLQkJnaDY5RnI2Z0RVaHNZdktyT0J2eFl5UkZtWXNxQ2dabWZIUkhRUlBQVFl2NW5sYUZlMU1kNk1ZdkVGSzNNYXUwOXhQUnE0Z2JEdm0zLUlQUXRvMGlfc3NJR0lNbHcwTUxXNDVuSHNFSWpTTUM1UdIBxwFBVV95cUxQb3c0bDRvbTFjWWo3VnlZQzgxS1ZXRmUxOUhYckJINEN0QTZQclJJd3ZaVU1ScXNra0hkNnVxRWlHMkVfMGRwZjd2ZFBwVE80U2doNFV3MlM4RHdqYmtPYm04akFKRTNDS0xoaUNxVXM2d3h0UUZ2cG5KMkZDUkozc184Q3dRY3ptb3A1bi01cklUbG5sVVozWkd2OExwNU5pc241cTRzdXhLVExXMG1jZ1g1MDRETTdQd3R5OGFwQjlSQnJycnlj?oc=5",
-        "fecha": "2026-10-27"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWkt0alRfNzZvODZlSWF6TFJJaG94bmMwbzJCaUpiVE1KSEg4UmN0UlZtUHBZU3FoN2E2NmFlcE5yRWVnU3ZnRHR6ZER1MjdNMVJZY290aXBuNUdBbGtQYlFzT0MzNjJlaVozQkM4Tl9VcFpDWjJscERlbmFqUEVJYzd1THowLUlyT3NoUTFn?oc=5",
-        "fecha": "2026-10-23"
       },
       {
         "nombre": "INS · BES semana 42",
@@ -1319,6 +1325,18 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSzlMTE1Fb3V0ZXA0bVcwR3NkblRmMVlsVnptWkstVnVyaUNFY05HQlFQMjB4Wm95TktacVFCWW5TZE5iaU5zSF96d2c1dHl6MExPMk94QzBudEpUOTJuWXpKQjBsNWhOV3RiVDBsUjZOUEMzcjlpb2Z4THRBUlJqMktHa2hTdHo3azlXSnQ0LTJ3VlhhcENSV2tDeHItTmRJNnZZY2xhb0lybUZqNkRUVmZ1dW1PRndvazVrVzgzLThnNUJh?oc=5",
         "fecha": "2026-10-29"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOY2JFLURYSVJrbWdFNGQ3VkFVWUJxR3dIczVLcUp5ZE5sckwwdWhOTEo2eHJ6M3FLLWIwLWxLSmFVX2dYSnp6ZmY5WmdDMWxmQWFPeVNnSWVUdnYtYS02Rm55RVNRaml0OGc2Vi14RHBta0d1TU5MMllqMlBSU0psN05FV0xGVzlUUGtCYUNQcVM?oc=5",
+        "fecha": "2026-10-30"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdk80b0ZaRmpkQWFkWlI1RkdkajBONjdRWmhHSTZiaGdPNk96Zkx5RGplcmhmcHI5RVpTMTM1S3VzeWd3Ykp2ODBEUkhNV3VkRHlPNnM1MGF5b3lqN1M5al91NGd3SHdXVnhnZjhLUTJFbmkzbDlQX1YxanhYV0t2N0pSY2VDd2cxbzZBNUdDWVFyN0l4LVBIMnRBWXpvN3VvdmxSR2dSR3laQQ?oc=5",
+        "fecha": "2026-10-30"
       }
     ]
   },
