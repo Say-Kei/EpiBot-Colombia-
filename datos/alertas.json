@@ -1,5 +1,122 @@
 [
   {
+    "id": "fiebre-amarilla-huila-2026-s44",
+    "patogeno": "Fiebre amarilla",
+    "tipo": "virus",
+    "departamento": "Huila",
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": null,
+    "resumen": "1 fuente(s) reportan fiebre amarilla en Huila esta semana.",
+    "fecha_deteccion": "2026-11-01",
+    "municipios": [
+      "San Antonio"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSWlOLWNXUVJ4Y2lqbXQtMW5wMi1vaFY5S2kwci0xN2JmVUk2ZS1rTTlZZ3VoWHlEa3FPUUwzd0pwWVBmQm41dGtXaC1keEZmWEdOaHJTQ1dmZGQ4QjRiOC1PWEliYkNHTnF4ajVwQWI5SVMtTklHdTgzZkRGYUY4em04UmxoakFYMFpmRWtsQkxMQlRkNVNFanRFRVBoNm1FeFRGVmpob0VaSE8tT1VZM2VqMEtfUzZuZUZ6WUw0YlduRjlYa3FOaDh5V0hiQWFQekthSW5ncGFySDg3ejNSZk1jMno?oc=5",
+        "fecha": "2026-10-07"
+      }
+    ]
+  },
+  {
+    "id": "malaria-valle-del-cauca-2026-s44",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Valle del Cauca",
+    "nivel": "moderado",
+    "casos": 176,
+    "esperado": 162,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 176 casos en las últimas 4 semanas frente a 162 esperados; 1728 en lo que va del año.",
+    "fecha_deteccion": "2026-10-30",
+    "municipios": [
+      "Cali",
+      "Palmira"
+    ],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOV3pXUjRUaUVoZmpDSzBGV0RBaV85eHRKUVJhN3YxeHhJUHZONE1PTTk5aVMwWEJxZHZCZUtLQkFlMkRMMFVjY2tuTEdUMkhYZmM3cFlPclQwa21FdFA0WW9pNFYzeFpySlVUUm9VcFlYdmpNY1RoN1JWQUJjVmxWb0NMeUtwZUVyd2N4ZWJ5bzFKVGZV?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPYk1DeFdXdGVscjJvS2J3R2p1TTZVamtValRHVl81cWYyaFJkdEVPemhOT1NBeUFsUWJZT0U1RkxPamd5MVIwOFZVWWxZVkhtMGF5WnJRamEzWmxKcURGQ19JZ2xoRWdidmFIeG01RldNTzVwY3RWdTJmZDlvQVhTRkRJRUhqV282d3RzTTVUWTlldURINmpTaTZxa1dFX0J5TmlGeTNtaVlTa1JtWFFHc0M2cVY5RnBlMS1UY2tMd3ktS3JFSnJzeGNlMDlsRFdwNjdNb2YxUUoyYVlzQnAtcG4yQVFmWGJSRDhFbnpoUUpWczliVWhDZk95WFM?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdnJ4ODZtd2xGRTZiVW9TVlF6enB2SWNhUk5wYmEzN1psVDdFNkp2Ujl3czNRWlRRWlJ6Mm5SWk5TbEV0SUJnRVA3OFBMclBEV044bVhMcXhrQ09QRTBkbFpEbUxZSE9vb1VLcEk2Z1BvdWkxV1ptTXNYMXJrZmFfXzdIeEJRT1hYTVUycVdqeFdOMTd5UDhUb1R1VQ?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY3Qwcm1La2NXYUNabTRoSV9EU2hsSGdPRVRUOW1fZFhyT3dlcU5najE4WXhqVGw3NThPblB0RjhQcVkwZWdBZlctUnpKWnRVV2hfUml2MjhjMi15QmhiTEoyeVlNUmhYeWM1bHVVemk2aHVCaHM4ejlBTEdyelRoSXdqYlo5Mng5RWRkNnNoTW1ENlROUVpFag?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaWR3SmxhLUdwMXhsdGdndTRlN0VrLUpjMWNSdERNazJmMll1cFZkZGx3eTAtbm5EU1Qtd1hLVFJUbGJKTVdmd05CMzlFNVlBbmtrZlo1Q2pOUDFac0xNcS1sNFVFOHpmNnBfUFdndFVobm9PMVAxbFoxZ0JYMEgwakRfWVY5eWNFc1lmbHV0bmcyNk4wTHczVXJmeWdVcmd3bUJnLWtrMHBIc2lhQzNNR0N1Y2EwZG1RaDQ5Vm9BdnYyTmRuaGRmVXE1R2s0WXlSZU80?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNS1HNDg5VGdfWWc1TmlIUG5udzBrbWxfUUd6OHhzcGhoWUlRWFBXeUhRaEh0eUhEUTVIMmhTT25yOGUzVjJuRzdmc1FfUWVCcjN0NUd5Tl9YMGlIZ0JtSFhJaHRRRkI0V0hNUlhVSXA1d3RrZ0dYZ01USWxMQldWdlhVdDRVWDNKTlhsTVZMdEZMaUFmQWJrblRoZTUzVDFPY0FEMlBLblZtcm5DcUFwWlRodVJ4VURYLU1Pa2s3Rmo0X1pUQkdHNXZzcG9kd2ZvMWxKQTY0TEpZek3SAeABQVVfeXFMTm1uVjFNZURVQzFHdzI0NVZwaXFzOUhuMVZSR0s3YXd6c0pHVmpkbzhIZF9RVWNzZm9UVzlDRkpObVpDTTRaNFhSV3Vzc0g2VXVsOWk5RzVsVTFyb1VEemJXQXZybUc4ckpGc1JsY1dlZ3JmUHk0N1RHUmVyUEV0d3hWcGhaYzZDRWw5VUdSWDRyYmVpQW5wZ3hmbTVwSzZPTG85d0FPZHo0Y290ZHQyY1lTdmtCQ0RjSURxVkN3Y3Q5Y2xnb1BPNnh6emtJZUxZUHFPajM0VDh5N0RDcDFBb2M?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaVlxZ1hlSWdkQ1lXbHdKbThDblJVLV8tZkxRU3FuUk1RaTB3N1U5RnhRaHNMLVRWNUpxNGtoVVktOHhlZWZJQndnc2Z0UTUwcFVQVGxUVGZVMmtGejBoUTdibG1mT2tmT3VqNGhLTDUxTE1jb3FzUmtrUFU1XzJpWVczaVU2X09mV0lRNzhxUkh3SVFQcU5TOHFzbWttT1pKZ0VRS0dGWG1IZERSbUxwUXNaRE11cEU?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZDNkLU9veFlRX25qclY1cm85blAtVl9DeEZlZGdNN2xmSDFDN1lWTUhtd0lLdktYZVRNRTA0dEVnel9rdzNSS2NwU0JCX2gtWUExNk1SczlLQ2ZUc1VnbVRTcnJFRGtDcTJkWmctU3RIajl0cklzOVQ3dUZVaEtkUjdKVzVzOE1WTHZyWnFJWTVXT3AweWVUc3NQWEZRckN4b2ZkdnJWdDk2SGZacmpKaG5mX3F6ZTJoU01RR1JNTlBlZw?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPd2NjYll0d3FQWVMwVjVIdC1nMW54bmdrYUJNemh1SXhCSmhUYWxtdWdpdGl3cUxnUXgzMnBONDYzcHNDck83bDVpLXdmRE82XzZON3VoekVEZWx4Yk5yQ3luSXFNaDUzU2ZiUjJDQ1o4TmlraG05ODhGOTI4OUp0dUw0NnVFR1FzN1lIMzF0MXluZ3NYbW05YzV1MGZrVkJZR0pVYXFnd3dNQVJlOGZDX09JM3ZkR3N1dnl5b1ExQW1UM3dkdUMwd3JGcG9vdzBPNHJ0ZzdQLWRVZWV4M2xGakxYc1YzQdIB5gFBVV95cUxPd2NjYll0d3FQWVMwVjVIdC1nMW54bmdrYUJNemh1SXhCSmhUYWxtdWdpdGl3cUxnUXgzMnBONDYzcHNDck83bDVpLXdmRE82XzZON3VoekVEZWx4Yk5yQ3luSXFNaDUzU2ZiUjJDQ1o4TmlraG05ODhGOTI4OUp0dUw0NnVFR1FzN1lIMzF0MXluZ3NYbW05YzV1MGZrVkJZR0pVYXFnd3dNQVJlOGZDX09JM3ZkR3N1dnl5b1ExQW1UM3dkdUMwd3JGcG9vdzBPNHJ0ZzdQLWRVZWV4M2xGakxYc1YzQQ?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNclg5T1lHemJnZEphQ3BDcktWQkpqTVI2U1NlUjNKUzk1R01vd0ZDbDBUdDhMQUhOUFVsT1JoRmJtLVRGNXVWenZBOVFwN3VabUdKcjVYcTlJMzNDdmplU25feVZ5UlVCUy03eDRTcURyRy1IVl9reEx0VUJQMTVRbmdQYnNJU1JiLVJ1NVY1NXpjSGoxUjRsT3o4cFVkMmp5NUhOclFncV84ZmM5d1hFV0lMOVdWYk1rWWVz?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUklQRUdZbDRuZzZGVzRuVnZwdXFSMXlxVDJyRWhjaUhpXzRXTFV3U1pyekR1aWZZYzZlVmZ5Zl83TEVxZ2xjeldsSHRpTklOX1hKaGZrcjhzYlREN3lQbzZZSHJUUTNrMXdBRXJHaWJiaTM0X0pwbGFMeW9QU1lMeGM5bGJtZWxlZ2pDaUJ0RWxTdnNObmY1VUNtaDVzOXhrVjFTQV85M0xwQi1FVFpSc2RpRGVOVGtBYnZTZU01NE1sdUFPaXJ6NEFNdUUya01R0gHyAUFVX3lxTE5yRGszcUE4bk96R1FWQ0hYcWxTZE9ab1dEVHBUS0tqU0xBS3V0WFF6ZUh4MGNxaVFmLTJNdF9CeTltM2tDeF9CYlkwWFQxMzdXUnBHZW55eUV2TVVYRGFOUFRoeTUxRTBTbl95N3hwQ0xMQkpqZm9icl9nTGREV28yR1hFU3hQdkJzMS01TjRwakNNUmtfR25ENVhBRmcwVXNGa0xjdjlFZ0piTGtzSjVZS3ZFT05VbnlrUDBKQ2xTTVVOeXZ2cWpqMWVpYjI1dXZ2a3J6RzZOMnY2eDBlMENna3FwN1BEMGJhOVJNREl6WE9R?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBuZlRtWE1wb2xTZEd4M2w2UVFiM0hYRm5qMHl6ZXU1U3llYzBXeXowc1A2bXd6dG1rbjB6Mm1OSVRWZkhWOE9lMGlNcVgzRWpxOVQyMW0yMExEd0RmRFhvbkk1Z9IBY0FVX3lxTFBuZlRtWE1wb2xTZEd4M2w2UVFiM0hYRm5qMHl6ZXU1U3llYzBXeXowc1A2bXd6dG1rbjB6Mm1OSVRWZkhWOE9lMGlNcVgzRWpxOVQyMW0yMExEd0RmRFhvbkk1Zw?oc=5",
+        "fecha": "2026-11-01"
+      }
+    ]
+  },
+  {
     "id": "dengue-bolivar-2026-s44",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -22,32 +139,6 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRF9hVzlKQ0t2Tjc5VThfaEkyWDBQMWxQVEVpbkdkbGhRUGdKb3ZqUWgxY0d0dVg0SFNvYmg4S3ZnQ1ZxenVuMm9tUEJ5cDh6Um9KVTJwZlJWcVJhenF0WEhGTzNhLUlfUE5PNmQ3ME1vb2MzUmIySFZuWF9RZnctOFUwdHBtZGNvNURMQzBHOW5nc0RFdmg2dnZMMnNVNTNoX3BDV2JnNXdEbDVkZUdaNjJoVXJ2c3fSAcsBQVVfeXFMTjJpemUycFZYVzhsYmM4SHZCeUxhcU9DOEZhekNDVjFHN19HSFVWdnBvTjJTN0h4eTNkRkg3ZHd2cXd3Qmc2b0ZpUWhoRFBMZ3FueTU2bVVwM2U4QVJ1SmUwOHl4ZEFyajVjbTRwSFdKQUxFdm1KZXZfYXVkay01ZjN6T1djcWhqQV9ybHVNZ2FaOEpjWWRaMjBtT1B2YW81YXcxaktmcmk0Si0yWXgxLW1fcFF5YjBlUlJsSk13SnNZNW9TckphbmVwS3M?oc=5",
         "fecha": "2026-10-31"
-      }
-    ]
-  },
-  {
-    "id": "malaria-valle-del-cauca-2026-s44",
-    "patogeno": "Malaria",
-    "tipo": "parasito",
-    "departamento": "Valle del Cauca",
-    "nivel": "moderado",
-    "casos": 176,
-    "esperado": 162,
-    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 176 casos en las últimas 4 semanas frente a 162 esperados; 1728 en lo que va del año.",
-    "fecha_deteccion": "2026-10-30",
-    "municipios": [],
-    "fuentes": [
-      {
-        "nombre": "INS · BES semana 42",
-        "tipo": "oficial",
-        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
-        "fecha": "2026-10-24"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOV3pXUjRUaUVoZmpDSzBGV0RBaV85eHRKUVJhN3YxeHhJUHZONE1PTTk5aVMwWEJxZHZCZUtLQkFlMkRMMFVjY2tuTEdUMkhYZmM3cFlPclQwa21FdFA0WW9pNFYzeFpySlVUUm9VcFlYdmpNY1RoN1JWQUJjVmxWb0NMeUtwZUVyd2N4ZWJ5bzFKVGZV?oc=5",
-        "fecha": "2026-11-01"
       }
     ]
   },
@@ -1169,6 +1260,12 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOM1Q4SzBCZGpRUF9pbVlWMEhRQmV1YTNiSTFSbWI3WmFlY3JfQktkY0ZoZTRLZzZkSjctRlNVLTk1ZlkwSVZEQWRVVWRBZFh1bHNWWUlkVFc1MUprMVZFQWJSMVIxcTZja0FDQVQ2SmxkZ00wbTBCWTl6QkpUMjNvT1o3eFRYRml0bm1KbTAxV2REU3dOUGhj?oc=5",
         "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT2M2cERNQndPYVJ5XzJfZVQ4SXE5YzhaU2R4UmlRamNkTUFCQXZsWVZJLVdYb0F4MVR3WmtLU1pvMlRnczFUaDVfallUd281M1FJekoxdmZYWGZER3hnZ0dXZ192ZXlVRTdud2tSdDhDV0ZITGFSalpWWUtiUnZpanBhcDViWHFia2lzMUlMbkZZNmdqZ3lpeA?oc=5",
+        "fecha": "2026-11-01"
       }
     ]
   },
@@ -1235,6 +1332,133 @@
         "tipo": "oficial",
         "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
         "fecha": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-atlantico-2026-s44",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Atlántico",
+    "nivel": "alto",
+    "casos": 938,
+    "esperado": 598,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 938 casos en las últimas 4 semanas frente a 598 esperados; 6651 en lo que va del año.",
+    "fecha_deteccion": "2026-10-26",
+    "municipios": [
+      "Barranquilla",
+      "Ponedera",
+      "Puerto Giraldo",
+      "Sabanalarga"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUGxVZzhKdmtGR21OM3VrMHBRbmp2Zmt6ajZVMjQtSDFDdlRQTVprVXk2UVhIOERCc2g5RHYtYUZwVWhFR21ya2JCc2t6N2o0ZUF2NFFsM3U3NEhqc0M1QmJTQVRZZ2F3a2FYdzF5M0ZSdWh3bHNrODIwbTlVZHd5UmgzcDktLWRzWU1HYk9ZX01FVl85VnJIQlZMOWpPRHB0SWVoRFo5N2x3Z9IBqgFBVV95cUxPZUdVaHJYODA5LVo3SWtwdjJNY0JTUmxPdWczQ0c4OGhscWw5amJEMV9JZWI3bmJCeU9wUTVGN0dUT3RIUWt4R3lSbENNYWpJSnlwY2lMQ1pIcElUT09xSDZwM2FOTWx6ZFNsUjZWUXh2OXdONVpLUE5SWHEtZ2VscDBiSE1fLTdaQVV6bmRpazQtRWpsMEt3cms5NkVpcHBzSjIzWTlIVW1zZw?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQW4yM2tZNFNhc1dHSG1FVmNKSVZIa2RWR0NtMktvVkN5U00xSTd4V0FJc1BjX0dENmJtSllTZnEwT0xWX09MR29jZmxoQjdaakctWjBZODZCYlBzZ3dVZEJPSFRPbjd0XzhXeHNtWnhpUU84Q25oS2ttVjJVRXhFVFdHOUE2VEh1WDhlZEJEU1YwcTZrNEswRVdlbFAwX2Z1TW1rRm84N0FnWlNuY2dmSmE3SnRoX2VsY3NJZmxCa2xwSG80WWR3R1VTYnRLcmVDVGRWek04cF83a0lRRDZn0gHfAUFVX3lxTE1BbjIza1k0U2FzV0dIbUVWY0pJVkhrZFZHQ20yS29WQ3lTTTFJN3hXQUlzUGNfR0Q2Ym1KWVNmcTBPTFZfT0xHb2NmbGhCN1pqRy1aMFk4NkJiUHNnd1VkQk9IVE9uN3RfOFd4c21aeGlRTzhDbmhLa21WMlVFeEVUV0c5QTZUSHVYOGVkQkRTVjBxNms0SzBFV2VsUDBfZnVNbWtGbzg3QWdaU25jZ2ZKYTdKdGhfZWxjc0lmbEJrbHBIbzRZZHdHVVNidEtyZUNUZFZ6TThwXzdrSVFENmc?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNlNaZHhkYVNJTjRoR3lsRVpTcXpJTjZ2WGNUS3FzQmpTdmdTbElNbDRja09wSUE3VVJORk9ENmZhYVR4NWtBOHI5azhWenNsSkxOaGVZMHdRMFVadnJJaEFYbDdrUF8zdWlVMGdOZ0J3RmxkaElRTmRZWlBFNjJMZ0xNWU9kWS02VGw1VnRiOXlCcENkU2ZlalZsUG5UbVFjV1lmc3QwcWZSdU9KLXpTSHJrVXFUM0tGbEE?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQX2tnWXp4alM4c2dEcDcycU9xdkxhWGNJNUlYSk5hWXRCbDRBRFpBYjYwYnJpczVMczlSRDZVSUNPNXo5WGFJamZtZFpqYmRVaE9xOWt0NjFLZWtwZUVQM3hwX3JqZHJSdVhyblZpMTFobTJzbjFWMG9LWVhlV09lX2FyeHFtWFNiUVNzbDJGM2VBWFBzOVJPNDk3cmdlTzktUjFNQVlJX3lFdWVxWDVDSzJpQy1IaHFoUEJwd01PZHJyMlZMV1BELWZWdnZsbHd5TVh5Y3FpbWY4dw?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPanRqTXdTTGJ3Zkc1dzZSVnEzZlJ4eVNaVHlvOXFxNmRmWHpPSjAzdnhuN2IzbkNoRkJGcFF6WWtKTVp6YzJmTkpaa0NCRi01blJodWh2aGpEWlN6ZUZOQzl4SVkwa2c0MmNUSGpoOXZaVmZlSTlpdzlKX3h0Rlg1MTBZcWVCR0pxTk9KbkoxbEhjNENHMWV3dlhKaFVLT2gxdnp5cjJHdDU0dl9jZm9YTEp1WGRkZDNfblVZWnZDUGhtWV9nTjhDclNkMS1EUXNhTkREcG1yMjE5XzlsenRnTFFNMTdYaGxrdXZyZ0hIQVVKeHJBcXJwVU1qcVk4SnJyN3RrZ1BHaWh4YmZOMFJBRGZfN3RqUdIBlgJBVV95cUxPanRqTXdTTGJ3Zkc1dzZSVnEzZlJ4eVNaVHlvOXFxNmRmWHpPSjAzdnhuN2IzbkNoRkJGcFF6WWtKTVp6YzJmTkpaa0NCRi01blJodWh2aGpEWlN6ZUZOQzl4SVkwa2c0MmNUSGpoOXZaVmZlSTlpdzlKX3h0Rlg1MTBZcWVCR0pxTk9KbkoxbEhjNENHMWV3dlhKaFVLT2gxdnp5cjJHdDU0dl9jZm9YTEp1WGRkZDNfblVZWnZDUGhtWV9nTjhDclNkMS1EUXNhTkREcG1yMjE5XzlsenRnTFFNMTdYaGxrdXZyZ0hIQVVKeHJBcXJwVU1qcVk4SnJyN3RrZ1BHaWh4YmZOMFJBRGZfN3RqUQ?oc=5",
+        "fecha": "2026-10-24"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOT0JpeC1Ba1QzZ3pyNVdqWktPenRZMFYwdzNqUi1lbGJBVWRIWUd5Znd0UHFweXU4eUUtT0N5RFd4SWl4WG9wdlU4N1dGZEpBQTBBZkpObUJfRFVhdUg3OVYxTVpjVXZvRXhzVlhIdHZjYk1SSGJQbWlWNTJDS2xsMFhvT1R6Y3BKWkpPWmN2X3lKR3BZamZXVjBBb3NjaGxkYmJzQ1VpbENlVUJkbTdOX2VCMGZWTERyYjRrV2tFZUJoc0JZTGpyMHNTaFE0MEVjbkE?oc=5",
+        "fecha": "2026-10-20"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVXVZTnVESzU1bFhlVndnSEFzcVdMeHVIZVRHTWtKZDBSb0ZJV2Y2RXZoc1ROcTliTHYwNUFrVW1Yb1VoZVltUTE4RGNwVUZ0SW9NYnI1a2VRMllac1BZQTFaZUJaeEg3VHhMZ0RMbGxOTm9EeF9SdDI3OHdtdXJFZVZucy05NHVTWmZLZnRsRlhwVVhRR1MwSWVEcWw2ai1HNWVCM0NpTklRaG0xWmpZLTFaZEx5NWZxeDl5bncxS0xNSUJmY211aGM4T1hPVnF6bWVMVHR3?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQTMwYllZNGJGZjFuNi13bHJhNGM1eFVpMldvRlhPbzA3b05VOHBQMlRCUC1Ja2Y2WjZlaWpJZjVqRlQtZXAySUZfb29mV3Zza1prU0ZaUExveDFCM3NfMm9JU3FXdENsbzF5VUVGUmNHODZRR2pERUVyREJXQ0JrZ0haaldDTE01Q0RYTjQtT192V0pzVkM5Tkx0OXVqOVd1T0JxRGhrOEtsQ1M3NlREUUxxVFN1NXN6cnBlN1A0cEhhU2k2OGxad9IB0AFBVV95cUxPZVQ0ZDJlODFINHNGVmVUUW9laVFWS0lDaWNUeDh5ZnBlaTVQUXdMSjI3dU1vUGE0SklVaTdVbVBfZXcwR1VnNTBWRGs4ZkdyTElTNG40OUNzWEsxWFNreWF3MmZ5aFlCQlNfcTExbF92UnBoN0VGZVVxX2ZSVHl3WXJ6V3lMRlRoYkM5SlU2YVNuVzdtbFZxV3gyODlLeVFzZTg4TERjYkcwX3UzdFlWX3hUVm9CNjJUNjdwVGhRVDMtOUJGWHVoUXNrZzJYTmly?oc=5",
+        "fecha": "2026-10-24"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUHpWUVdEMHFORW4xNVBXR1R2Sm5FMDhtbXViTjJFaWt6cXdxUzYxenU1cW4wRG9LUnBUVDFzREppcHdhUTR5czdteHBEQm1uaS1rMnJ6dkcxdFdRcVlTRVdxSkotWWtHT016MTBGdVcwYTZwRFAyNVk5NUwtdFljN3paREY4dkFtZHZ6amNxdXdzdG9Uc045OElydG1lUHNYUU1LeGJqV005S0JKdnlZ0gHDAUFVX3lxTE4yME5uZTdXbGl1Yzc5Y3J0NnFQWFFDSDJNeHU4ajlQU25rYnBDYTNOa2FrdVRtUENsZXRwNGMzc3JOa3I0akUtdmFwX3ZheW5FamhFQS03REFNUmc3QzVCRGxFSC14MU1CWTdPeDFhNjI0UXU5cnZIdWpHbkkxWVA3Q2V3RUVVMW5qQWstSDV5TktTc2ZyQVdMeUhKYzRrejRVMTdxalN6YUM0c2JGdnJ3TnNCUkItZEo2LTRUcm9NZTJmcw?oc=5",
+        "fecha": "2026-10-27"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNX0QwV196WHU4MC16cVpRRWRzVEZFZnAwV0hfSlBYTVVGcWZrcldmUmN6dFJHcEJfdzFIOXZIalhITXhaQlpGOFVta1czOE9NZUtFTmZ6VERtdjBmektzSGttWmt1NDdhbEdsWXBvSTlXSHg1dTZ3TVIzdzV1WGt5ZU9vNFl4WHVWVEh5eHdTSk9vaHRoUXN5X1l1UG81TnpYWUJURjFOUndVbmN5eWhCeDZyVDZpd3EzLUFTeVRzT3U3WF9mOXpoeEYyQdIB3wFBVV95cUxNQW4yM2tZNFNhc1dHSG1FVmNKSVZIa2RWR0NtMktvVkN5U00xSTd4V0FJc1BjX0dENmJtSllTZnEwT0xWX09MR29jZmxoQjdaakctWjBZODZCYlBzZ3dVZEJPSFRPbjd0XzhXeHNtWnhpUU84Q25oS2ttVjJVRXhFVFdHOUE2VEh1WDhlZEJEU1YwcTZrNEswRVdlbFAwX2Z1TW1rRm84N0FnWlNuY2dmSmE3SnRoX2VsY3NJZmxCa2xwSG80WWR3R1VTYnRLcmVDVGRWek04cF83a0lRRDZn?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPT25lZGtBT1NJMnhUbVl1MDIwaEZTZWJucFpsQnR4RFhScGRwMEVFczc2N29DN2hLTU1wVVktQXgtcFA1dUdKbWRSNnFvY2hPS0lmaXdfQUdOTTAwVjdPcWlJLTdkZnNOeFJydFBhdzRORWUtZ1A1aW9BZmRZaHlCSDZzS2YwNllkQmJNZ25aX09fcjlmNThlbzVlVUhVeWlkVHN2NUdNMVV0X2REUHlJMjU3WHVuSTB0ZnpDSWx6enJsbE5IUnZaNGpGMnB0TmprM2U3QUN4R2Q5S28?oc=5",
+        "fecha": "2026-10-27"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVGJxY05qVEpqdEx3WHRKVHM2aU9JSlc3Yzd0bEdIVWh4Ni1VdlVYdnk3YTJZbmNaU25JYXc1VXpMSXpvQnB1VHNDVXlqakNHNmY1ZFQzeV9FY2VtaGNTZ210Mjc5ZUlsbnhLSzVRRlJYMWFQVW1TMm14bkZzanpYaXE0V0RScVNJaXpYeUNDM24tZVpuZlRTOXhZRFFBOFFpbXQ0Wi1ST2owSWJUVWJyZHhxUG0wWGhyS1FnUmhkNFoxSGJKbXNJSQ?oc=5",
+        "fecha": "2026-10-20"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNV0VubVpYbmRLcDVlSXY1d2pjX1I2WFNaSUNjSmNKWWdwdy1QMmtIbjRYdnNQREdacUVCXzQyNnFWUmtQMWtjQVU3QU0wZEpEUUY2cEUzZk55NDktcEtWNU5ZNVFBNEcybmV0aHdJY1lLV2tmdDJ6UGxQYTJQMkJJUnRQc2VJdngwbGFSTkE5VXAxRkplWGdST0JocWlXX0NPZ2lQY0l0S2w0T1FRZE9FcW93SzZjUTlDZmpRS2Z3TGFOc29kSkZwcm9sQkdjaVIyNFlxcg?oc=5",
+        "fecha": "2026-10-15"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUXpONWFOY1plUVNFRVdFUFpTR01JX3VyUUhXeTNoMFJYMzBxZXIwY1I0c0FUcTE1LWozYkVWV0I5b2JrUDNkQUpWWHlKM3VxUkdtMmllX2RfUU94Rk1PbzFibGM4ZTduWVA0cEJ4WWtraWI2YkpDRng0VC1mSklPcHlTbmxrZjk4aU45U2ZROUZ2UXRUSkhRSmF4azVnNUVhTVMxS2F30gGuAUFVX3lxTE9KUXZwWlZwSE11dERCdTA3Z1psT1JxYUdlbDJGZFdYX1BORHRKWVdyTjZJdnAzZkFQMENiR2hJdEtzSlprc1hxVHp5WEhGN2diUzBpNm9SR2dNbi1MSFhpT3lNQzRpRVFMT3NibmtMNVctN3YxdnBwMWp2SVpmemIwek9wUkxMbU55S1BWSS1WYUwwVDA5WmVIQXNmVTJyQ0kyQWNGWjYzMTd5c29PQQ?oc=5",
+        "fecha": "2026-10-06"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdVBwWEd6VHRCanNkQlNEYmZWS1JJempSNXhwdmRLdE9Ed21UWEFCZlZEVzVoNG9xS1ppRkY4SXNMdElESTcwSi1yV21SV0JyNmJIeHlvV3ZJQ3hUY0xtcjFYdHRiRWpOUEJXRlg4WXN5R2d4c1VmdG9KNFg0czlwX2FwVGVRNS1XNHlkaGFxSTJmUks1YW1WeTNSQTBSQ1dWZUMwQjJ1UEY0OXZPbGpjUEMzSFZWX01sVVFnVHhKTE9FNkI5NHllajh1eUl5NnNjMUNZ?oc=5",
+        "fecha": "2026-10-27"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRlc0dkRCbzRrRUlVY1VVSVlOb3lEZGFoMUJjdkF3akhZSU50VVMyYXdfQ2dTZGlsTzNfLVlEZnpZTHJ1WjVNb2FsUVBCVjREWWFMT3pQN0RwX3pwZUp2bUVaTnVzMmhTcFM3ZzNfYVEza20xUjlWX19PVm9wVDhRZ1A3ZjdFTEdzemxaU3FmdzZKWkZuaWRaanB4MDVuU3c?oc=5",
+        "fecha": "2026-10-26"
+      },
+      {
+        "nombre": "INS · BES semana 42",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
+        "fecha": "2026-10-24"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQb2JESnVxM3JjajFVXzF6d2tpY0YzMVJ4NEIyazdrbHVCUzNHcTRrbjhPcU9tcTR1RzFxQ2RUdXgtd3lxc0VSY2Z4a201bnZxVnl5SkNpTXRIc2xPalQ5NG1WUFBEMzcxN0FGMUpSQVF0aUdOMlZ1SHJKVVhUbnFXTjRtTUdINmpBVkllQmNFT25tLWhBbEEtVks4aW84VWlIOTQ2VF81c1JQa0hNT29FSNIBsAFBVV95cUxPM0VGZlZseU9heDF0d0c0aGxLamtBMTQ1Z3Q2eGU2YzlwazJnR1A4UFhTY1dzNWM5UGxoa3pBYmFsUGNXRWVoOUIzVHBUZjFTbk1tay1jYVJneHQyNS1ETWNYS3FxVDR1c0hsVmRsLVlOMFpFRmtvRWh3em5zczhzajdwcW5ZbUFySmVVRWtGLTFkeVBOUFNyNUdON09sWnVscnZSM1hVNGw3ZllBUk5RQQ?oc=5",
+        "fecha": "2026-11-01"
       }
     ]
   },
@@ -1355,6 +1579,12 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdk80b0ZaRmpkQWFkWlI1RkdkajBONjdRWmhHSTZiaGdPNk96Zkx5RGplcmhmcHI5RVpTMTM1S3VzeWd3Ykp2ODBEUkhNV3VkRHlPNnM1MGF5b3lqN1M5al91NGd3SHdXVnhnZjhLUTJFbmkzbDlQX1YxanhYV0t2N0pSY2VDd2cxbzZBNUdDWVFyN0l4LVBIMnRBWXpvN3VvdmxSR2dSR3laQQ?oc=5",
         "fecha": "2026-10-30"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPREo5T21Vc2Y4YTJBb0V0cVVGUzZYUGlGZl9rOVc5ZmtVT0NuWDZLc2xSSTNma1V1VjJxOXB2MGFpcjRUMU1uQ0RPTXRTdDlmRFJ3R2pPM1ZsalFlRG8yUE5UUFNpazVwa19nanVodzMyQlhVUmNWbHFYNkRUby1vNERUNHhtZVE2S3V0aFRFcFRaaGxGaDhUckxfeXhJYjZ1cnF2QmJWUGZRUGdYa0HSAbIBQVVfeXFMTUFWZ19TQkNBekthVm92MFdVREFqV3Y5ZXZkU2F5VUxWc0NEVjhrM1NpTXVSUXRLbnRkMW1zZkxESGczc3BnNWs2WWFxNUlfT2N6cGQwdXpXV1B1dFJqMmdEWElfZGhORWpzODdFUm9VOHVFSlIyTkFxa0ttUzREa0xMdzNSNWV3Zm1UNnpnWG1NYWd0S2ZhY1l5cFBwYTFVdUY1azZmOXM4bGJ0c09lcXRldw?oc=5",
+        "fecha": "2026-11-01"
       }
     ]
   },
@@ -1531,127 +1761,6 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcWxHSkhkU0taT3RFLXpRS1UzdjI5MGEzZEE3UVZzMWExQUM1Mmt1NnNjdGxJcmczdFZVUko4aHZ0eXFWRk1QZTQtc2pyc21fcXRRWC1UMDZLZFFrWHh1MG9abkRlN0Nma2ZUN3JrZVNtdjdkYk5mdGVxTElGMWlJaTBLTFJFekVuZEhaSXNPRmdXelNjdkFMWTNiTEVVZ1VySklrMFBndw?oc=5",
         "fecha": "2026-10-28"
-      },
-      {
-        "nombre": "INS · BES semana 42",
-        "tipo": "oficial",
-        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
-        "fecha": "2026-10-24"
-      }
-    ]
-  },
-  {
-    "id": "dengue-atlantico-2026-s44",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Atlántico",
-    "nivel": "alto",
-    "casos": 938,
-    "esperado": 598,
-    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 938 casos en las últimas 4 semanas frente a 598 esperados; 6651 en lo que va del año.",
-    "fecha_deteccion": "2026-10-26",
-    "municipios": [
-      "Barranquilla",
-      "Ponedera",
-      "Puerto Giraldo",
-      "Sabanalarga"
-    ],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUGxVZzhKdmtGR21OM3VrMHBRbmp2Zmt6ajZVMjQtSDFDdlRQTVprVXk2UVhIOERCc2g5RHYtYUZwVWhFR21ya2JCc2t6N2o0ZUF2NFFsM3U3NEhqc0M1QmJTQVRZZ2F3a2FYdzF5M0ZSdWh3bHNrODIwbTlVZHd5UmgzcDktLWRzWU1HYk9ZX01FVl85VnJIQlZMOWpPRHB0SWVoRFo5N2x3Z9IBqgFBVV95cUxPZUdVaHJYODA5LVo3SWtwdjJNY0JTUmxPdWczQ0c4OGhscWw5amJEMV9JZWI3bmJCeU9wUTVGN0dUT3RIUWt4R3lSbENNYWpJSnlwY2lMQ1pIcElUT09xSDZwM2FOTWx6ZFNsUjZWUXh2OXdONVpLUE5SWHEtZ2VscDBiSE1fLTdaQVV6bmRpazQtRWpsMEt3cms5NkVpcHBzSjIzWTlIVW1zZw?oc=5",
-        "fecha": "2026-10-26"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQW4yM2tZNFNhc1dHSG1FVmNKSVZIa2RWR0NtMktvVkN5U00xSTd4V0FJc1BjX0dENmJtSllTZnEwT0xWX09MR29jZmxoQjdaakctWjBZODZCYlBzZ3dVZEJPSFRPbjd0XzhXeHNtWnhpUU84Q25oS2ttVjJVRXhFVFdHOUE2VEh1WDhlZEJEU1YwcTZrNEswRVdlbFAwX2Z1TW1rRm84N0FnWlNuY2dmSmE3SnRoX2VsY3NJZmxCa2xwSG80WWR3R1VTYnRLcmVDVGRWek04cF83a0lRRDZn0gHfAUFVX3lxTE1BbjIza1k0U2FzV0dIbUVWY0pJVkhrZFZHQ20yS29WQ3lTTTFJN3hXQUlzUGNfR0Q2Ym1KWVNmcTBPTFZfT0xHb2NmbGhCN1pqRy1aMFk4NkJiUHNnd1VkQk9IVE9uN3RfOFd4c21aeGlRTzhDbmhLa21WMlVFeEVUV0c5QTZUSHVYOGVkQkRTVjBxNms0SzBFV2VsUDBfZnVNbWtGbzg3QWdaU25jZ2ZKYTdKdGhfZWxjc0lmbEJrbHBIbzRZZHdHVVNidEtyZUNUZFZ6TThwXzdrSVFENmc?oc=5",
-        "fecha": "2026-10-26"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNlNaZHhkYVNJTjRoR3lsRVpTcXpJTjZ2WGNUS3FzQmpTdmdTbElNbDRja09wSUE3VVJORk9ENmZhYVR4NWtBOHI5azhWenNsSkxOaGVZMHdRMFVadnJJaEFYbDdrUF8zdWlVMGdOZ0J3RmxkaElRTmRZWlBFNjJMZ0xNWU9kWS02VGw1VnRiOXlCcENkU2ZlalZsUG5UbVFjV1lmc3QwcWZSdU9KLXpTSHJrVXFUM0tGbEE?oc=5",
-        "fecha": "2026-10-26"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQX2tnWXp4alM4c2dEcDcycU9xdkxhWGNJNUlYSk5hWXRCbDRBRFpBYjYwYnJpczVMczlSRDZVSUNPNXo5WGFJamZtZFpqYmRVaE9xOWt0NjFLZWtwZUVQM3hwX3JqZHJSdVhyblZpMTFobTJzbjFWMG9LWVhlV09lX2FyeHFtWFNiUVNzbDJGM2VBWFBzOVJPNDk3cmdlTzktUjFNQVlJX3lFdWVxWDVDSzJpQy1IaHFoUEJwd01PZHJyMlZMV1BELWZWdnZsbHd5TVh5Y3FpbWY4dw?oc=5",
-        "fecha": "2026-10-26"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPanRqTXdTTGJ3Zkc1dzZSVnEzZlJ4eVNaVHlvOXFxNmRmWHpPSjAzdnhuN2IzbkNoRkJGcFF6WWtKTVp6YzJmTkpaa0NCRi01blJodWh2aGpEWlN6ZUZOQzl4SVkwa2c0MmNUSGpoOXZaVmZlSTlpdzlKX3h0Rlg1MTBZcWVCR0pxTk9KbkoxbEhjNENHMWV3dlhKaFVLT2gxdnp5cjJHdDU0dl9jZm9YTEp1WGRkZDNfblVZWnZDUGhtWV9nTjhDclNkMS1EUXNhTkREcG1yMjE5XzlsenRnTFFNMTdYaGxrdXZyZ0hIQVVKeHJBcXJwVU1qcVk4SnJyN3RrZ1BHaWh4YmZOMFJBRGZfN3RqUdIBlgJBVV95cUxPanRqTXdTTGJ3Zkc1dzZSVnEzZlJ4eVNaVHlvOXFxNmRmWHpPSjAzdnhuN2IzbkNoRkJGcFF6WWtKTVp6YzJmTkpaa0NCRi01blJodWh2aGpEWlN6ZUZOQzl4SVkwa2c0MmNUSGpoOXZaVmZlSTlpdzlKX3h0Rlg1MTBZcWVCR0pxTk9KbkoxbEhjNENHMWV3dlhKaFVLT2gxdnp5cjJHdDU0dl9jZm9YTEp1WGRkZDNfblVZWnZDUGhtWV9nTjhDclNkMS1EUXNhTkREcG1yMjE5XzlsenRnTFFNMTdYaGxrdXZyZ0hIQVVKeHJBcXJwVU1qcVk4SnJyN3RrZ1BHaWh4YmZOMFJBRGZfN3RqUQ?oc=5",
-        "fecha": "2026-10-24"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOT0JpeC1Ba1QzZ3pyNVdqWktPenRZMFYwdzNqUi1lbGJBVWRIWUd5Znd0UHFweXU4eUUtT0N5RFd4SWl4WG9wdlU4N1dGZEpBQTBBZkpObUJfRFVhdUg3OVYxTVpjVXZvRXhzVlhIdHZjYk1SSGJQbWlWNTJDS2xsMFhvT1R6Y3BKWkpPWmN2X3lKR3BZamZXVjBBb3NjaGxkYmJzQ1VpbENlVUJkbTdOX2VCMGZWTERyYjRrV2tFZUJoc0JZTGpyMHNTaFE0MEVjbkE?oc=5",
-        "fecha": "2026-10-20"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVXVZTnVESzU1bFhlVndnSEFzcVdMeHVIZVRHTWtKZDBSb0ZJV2Y2RXZoc1ROcTliTHYwNUFrVW1Yb1VoZVltUTE4RGNwVUZ0SW9NYnI1a2VRMllac1BZQTFaZUJaeEg3VHhMZ0RMbGxOTm9EeF9SdDI3OHdtdXJFZVZucy05NHVTWmZLZnRsRlhwVVhRR1MwSWVEcWw2ai1HNWVCM0NpTklRaG0xWmpZLTFaZEx5NWZxeDl5bncxS0xNSUJmY211aGM4T1hPVnF6bWVMVHR3?oc=5",
-        "fecha": "2026-10-26"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQTMwYllZNGJGZjFuNi13bHJhNGM1eFVpMldvRlhPbzA3b05VOHBQMlRCUC1Ja2Y2WjZlaWpJZjVqRlQtZXAySUZfb29mV3Zza1prU0ZaUExveDFCM3NfMm9JU3FXdENsbzF5VUVGUmNHODZRR2pERUVyREJXQ0JrZ0haaldDTE01Q0RYTjQtT192V0pzVkM5Tkx0OXVqOVd1T0JxRGhrOEtsQ1M3NlREUUxxVFN1NXN6cnBlN1A0cEhhU2k2OGxad9IB0AFBVV95cUxPZVQ0ZDJlODFINHNGVmVUUW9laVFWS0lDaWNUeDh5ZnBlaTVQUXdMSjI3dU1vUGE0SklVaTdVbVBfZXcwR1VnNTBWRGs4ZkdyTElTNG40OUNzWEsxWFNreWF3MmZ5aFlCQlNfcTExbF92UnBoN0VGZVVxX2ZSVHl3WXJ6V3lMRlRoYkM5SlU2YVNuVzdtbFZxV3gyODlLeVFzZTg4TERjYkcwX3UzdFlWX3hUVm9CNjJUNjdwVGhRVDMtOUJGWHVoUXNrZzJYTmly?oc=5",
-        "fecha": "2026-10-24"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUHpWUVdEMHFORW4xNVBXR1R2Sm5FMDhtbXViTjJFaWt6cXdxUzYxenU1cW4wRG9LUnBUVDFzREppcHdhUTR5czdteHBEQm1uaS1rMnJ6dkcxdFdRcVlTRVdxSkotWWtHT016MTBGdVcwYTZwRFAyNVk5NUwtdFljN3paREY4dkFtZHZ6amNxdXdzdG9Uc045OElydG1lUHNYUU1LeGJqV005S0JKdnlZ0gHDAUFVX3lxTE4yME5uZTdXbGl1Yzc5Y3J0NnFQWFFDSDJNeHU4ajlQU25rYnBDYTNOa2FrdVRtUENsZXRwNGMzc3JOa3I0akUtdmFwX3ZheW5FamhFQS03REFNUmc3QzVCRGxFSC14MU1CWTdPeDFhNjI0UXU5cnZIdWpHbkkxWVA3Q2V3RUVVMW5qQWstSDV5TktTc2ZyQVdMeUhKYzRrejRVMTdxalN6YUM0c2JGdnJ3TnNCUkItZEo2LTRUcm9NZTJmcw?oc=5",
-        "fecha": "2026-10-27"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNX0QwV196WHU4MC16cVpRRWRzVEZFZnAwV0hfSlBYTVVGcWZrcldmUmN6dFJHcEJfdzFIOXZIalhITXhaQlpGOFVta1czOE9NZUtFTmZ6VERtdjBmektzSGttWmt1NDdhbEdsWXBvSTlXSHg1dTZ3TVIzdzV1WGt5ZU9vNFl4WHVWVEh5eHdTSk9vaHRoUXN5X1l1UG81TnpYWUJURjFOUndVbmN5eWhCeDZyVDZpd3EzLUFTeVRzT3U3WF9mOXpoeEYyQdIB3wFBVV95cUxNQW4yM2tZNFNhc1dHSG1FVmNKSVZIa2RWR0NtMktvVkN5U00xSTd4V0FJc1BjX0dENmJtSllTZnEwT0xWX09MR29jZmxoQjdaakctWjBZODZCYlBzZ3dVZEJPSFRPbjd0XzhXeHNtWnhpUU84Q25oS2ttVjJVRXhFVFdHOUE2VEh1WDhlZEJEU1YwcTZrNEswRVdlbFAwX2Z1TW1rRm84N0FnWlNuY2dmSmE3SnRoX2VsY3NJZmxCa2xwSG80WWR3R1VTYnRLcmVDVGRWek04cF83a0lRRDZn?oc=5",
-        "fecha": "2026-10-26"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPT25lZGtBT1NJMnhUbVl1MDIwaEZTZWJucFpsQnR4RFhScGRwMEVFczc2N29DN2hLTU1wVVktQXgtcFA1dUdKbWRSNnFvY2hPS0lmaXdfQUdOTTAwVjdPcWlJLTdkZnNOeFJydFBhdzRORWUtZ1A1aW9BZmRZaHlCSDZzS2YwNllkQmJNZ25aX09fcjlmNThlbzVlVUhVeWlkVHN2NUdNMVV0X2REUHlJMjU3WHVuSTB0ZnpDSWx6enJsbE5IUnZaNGpGMnB0TmprM2U3QUN4R2Q5S28?oc=5",
-        "fecha": "2026-10-27"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVGJxY05qVEpqdEx3WHRKVHM2aU9JSlc3Yzd0bEdIVWh4Ni1VdlVYdnk3YTJZbmNaU25JYXc1VXpMSXpvQnB1VHNDVXlqakNHNmY1ZFQzeV9FY2VtaGNTZ210Mjc5ZUlsbnhLSzVRRlJYMWFQVW1TMm14bkZzanpYaXE0V0RScVNJaXpYeUNDM24tZVpuZlRTOXhZRFFBOFFpbXQ0Wi1ST2owSWJUVWJyZHhxUG0wWGhyS1FnUmhkNFoxSGJKbXNJSQ?oc=5",
-        "fecha": "2026-10-20"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNV0VubVpYbmRLcDVlSXY1d2pjX1I2WFNaSUNjSmNKWWdwdy1QMmtIbjRYdnNQREdacUVCXzQyNnFWUmtQMWtjQVU3QU0wZEpEUUY2cEUzZk55NDktcEtWNU5ZNVFBNEcybmV0aHdJY1lLV2tmdDJ6UGxQYTJQMkJJUnRQc2VJdngwbGFSTkE5VXAxRkplWGdST0JocWlXX0NPZ2lQY0l0S2w0T1FRZE9FcW93SzZjUTlDZmpRS2Z3TGFOc29kSkZwcm9sQkdjaVIyNFlxcg?oc=5",
-        "fecha": "2026-10-15"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUXpONWFOY1plUVNFRVdFUFpTR01JX3VyUUhXeTNoMFJYMzBxZXIwY1I0c0FUcTE1LWozYkVWV0I5b2JrUDNkQUpWWHlKM3VxUkdtMmllX2RfUU94Rk1PbzFibGM4ZTduWVA0cEJ4WWtraWI2YkpDRng0VC1mSklPcHlTbmxrZjk4aU45U2ZROUZ2UXRUSkhRSmF4azVnNUVhTVMxS2F30gGuAUFVX3lxTE9KUXZwWlZwSE11dERCdTA3Z1psT1JxYUdlbDJGZFdYX1BORHRKWVdyTjZJdnAzZkFQMENiR2hJdEtzSlprc1hxVHp5WEhGN2diUzBpNm9SR2dNbi1MSFhpT3lNQzRpRVFMT3NibmtMNVctN3YxdnBwMWp2SVpmemIwek9wUkxMbU55S1BWSS1WYUwwVDA5WmVIQXNmVTJyQ0kyQWNGWjYzMTd5c29PQQ?oc=5",
-        "fecha": "2026-10-06"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdVBwWEd6VHRCanNkQlNEYmZWS1JJempSNXhwdmRLdE9Ed21UWEFCZlZEVzVoNG9xS1ppRkY4SXNMdElESTcwSi1yV21SV0JyNmJIeHlvV3ZJQ3hUY0xtcjFYdHRiRWpOUEJXRlg4WXN5R2d4c1VmdG9KNFg0czlwX2FwVGVRNS1XNHlkaGFxSTJmUks1YW1WeTNSQTBSQ1dWZUMwQjJ1UEY0OXZPbGpjUEMzSFZWX01sVVFnVHhKTE9FNkI5NHllajh1eUl5NnNjMUNZ?oc=5",
-        "fecha": "2026-10-27"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRlc0dkRCbzRrRUlVY1VVSVlOb3lEZGFoMUJjdkF3akhZSU50VVMyYXdfQ2dTZGlsTzNfLVlEZnpZTHJ1WjVNb2FsUVBCVjREWWFMT3pQN0RwX3pwZUp2bUVaTnVzMmhTcFM3ZzNfYVEza20xUjlWX19PVm9wVDhRZ1A3ZjdFTEdzemxaU3FmdzZKWkZuaWRaanB4MDVuU3c?oc=5",
-        "fecha": "2026-10-26"
       },
       {
         "nombre": "INS · BES semana 42",
