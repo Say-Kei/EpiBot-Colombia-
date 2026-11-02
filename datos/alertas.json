@@ -1,5 +1,108 @@
 [
   {
+    "id": "dengue-atlantico-2026-s45",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Atlántico",
+    "nivel": "alto",
+    "casos": 2895,
+    "esperado": 177,
+    "resumen": "1 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 177 casos (INS).",
+    "fecha_deteccion": "2026-11-02",
+    "municipios": [
+      "Barranquilla"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlRFlTNXRPTkZlc3VUQUIzLWUzMFhpVzgzM3dqMzlGbm1lc1NkMkxIZXE0VjZaWl9fWUpIZHZYeGJGODRHUDdNYmVZV1VyYXVlWlNyTGtFeVNraGVMTDViT0dfMnYyUdIBZkFVX3lxTFBlRFlTNXRPTkZlc3VUQUIzLWUzMFhpVzgzM3dqMzlGbm1lc1NkMkxIZXE0VjZaWl9fWUpIZHZYeGJGODRHUDdNYmVZV1VyYXVlWlNyTGtFeVNraGVMTDViT0dfMnYyUQ?oc=5",
+        "fecha": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "id": "dengue-santander-2026-s45",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Santander",
+    "nivel": "bajo",
+    "casos": 7100,
+    "esperado": 266,
+    "resumen": "1 fuente(s) reportan dengue en Santander esta semana. Lo normal para esta semana son unos 266 casos (INS).",
+    "fecha_deteccion": "2026-11-02",
+    "municipios": [
+      "Bucaramanga"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTjdZY2N2ZGJDS3hjUHlacGpoSk1UMWFseHBBYTRpVEVqMmczZkdJZGVTS0xnVU1pMEt6TDhSU0dWRFVoOHJaRHE5cUNfYXVKZnk4WTk3X1EzMUFEbC1tcDJ5eTJSM0x3ZTBfRmhTVkwyVm9wVUhlaWtSMHcyV1RzX2JpcXQtQ0l2RmtnUVJnWTBWLXJEbjNuaW1mUzk2TWlNeVNRQUF4SjRrSE9ya1ZZU3Utb2JOV290dnFvVWJpOEtOVDExWXM4Mkw0U0h4NExBQjFPd1VB0gHjAUFVX3lxTE5lby1UbDZONGZLM3JoU0Flejd1ek1tZDFxZUt1RDZGWFRacWs4TE03eDN2cW1FUUhaVWJuT19zVDdEV08xTjE0RXg0UXF0bnRtSG1zN2o3ZTVyNDhYOUtpZ3Y2eW1vU3VGU0VWb1cwaGpYUHVCUmxUWnlUc19jLU5FRmEwRDc3bV9QaWU0Q0lLTzNLWHZTZHBuY0ZIZVVtMHhLT2NtQS0wTGpwNDBMWllmUEpxNkpZZjh4NE50bmRBZFVqa2hVZDBKeFAwcll3T05HNFAta1YtOXlYRTFubmJxQjd3?oc=5",
+        "fecha": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "id": "malaria-valle-del-cauca-2026-s45",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Valle del Cauca",
+    "nivel": "alto",
+    "casos": 4,
+    "esperado": 20,
+    "resumen": "7 fuente(s) reportan malaria en Valle del Cauca esta semana. Lo normal para esta semana son unos 20 casos (INS).",
+    "fecha_deteccion": "2026-11-02",
+    "municipios": [
+      "Cali",
+      "Palmira"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOUHRIX0hhLUVCYndXNXpMOWd4WFlOWnUycnZRMGpnNVB2RDZtbUQ3THBNNlZxSTdSdENGT1NhdVFlYWlDVm1yaXVFdmxiODFvX3ZCLWFkSFlWRDR1dXV0TnhvYTZTdkdkd1J4NlY2UXMwZE5uek9mV2c3MzA1Ymd5bzQzSGxzR3BISHVadWkwOS1od0pvYmNoSDJla1c2cUYzb2NrdFlHa2xNc1lodExLY25CaTRYdURVdE81NkduSy00cmtxSUkyRFRwWTEtMXlHY2cxRDRoeUFoLTgxVFYySV9iSmk1dnpydWNuWEpCVV9DUVJ0QmMyUURrV3Y?oc=5",
+        "fecha": "2026-11-02"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSFB4MGZ2OG5jeWo5Z014NDJWY1FnVW1fY2ozYVZWYUJPT2RGV0wwY0NVNEwtdWluS2s2TVY5T0lEam1oUGw0My00d1ZIQ0pDZl9FaUI4Mmx5NFkta1lLYmFVNlRvTFowVjJSek12aDk5eEJIS0FuQWNvZUQ5ZmE4RDFWUENwdUhEdDBlVQ?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQdlBINDdrMWgwZng4VnpNdkkzMnJqSW1qTnNTWGdpMUdlejRORlpDd1JsYS14ZlEyN0VUa2VnZExpRVk1UjBZa3U1MENtYlZfWDlsVGxDTjV3T19POVNsNWdvQkR2d2hVTHc1Ml90Y01mUS0xd3ZSYThKQWRaV1Jzc1VYdEV5djhXXy00X2J2TlIzMnRoZ25abGVkUF9Da1I3Tjg4R1pJbDlBd2VnbXRVX3BZVF9ldnFXbmVTODRBZDlvc2s5RkVnN1pGbkZEakdMZEt0Qkg3MmpUMnc3VFlnU0FfN1JsRm0xTExhSHh6cUd0S2pkVzdQX3Q2M1luLUJG?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWElKWUhuNUI4aENHaGpBZEZiUlVsUWpFM09SN05qRFZJRWtFanZIM04yZ294SVFvYi1NYmRrX2JwTUFFTHl0c3I3WmVIVTJGWkExa0V1MHRpc1pqWTFHcFczcW5LU19EYmE1SXJpcnFzSmpaLXFkYkNuS2RQRko0amlCXzZUczNLeDJYZnBVemN6MF83Q0FiWQ?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOT05vWW1kczU5TGtmX04wZWd0aFlpSmFXTnNpQldxczE4LWVESEdMOVVjaGUtMGdYVUpGcWVwOWpSeTh4OTNnMldoXzZGSDBWYWdWb0RZVi0yYXJjeTBrUkp1Vk5DaERvNWlQQkRISG9nSlJkSGdmV1pXTEI3WWxXUzdyajNEQQ?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbm1CZU1kM2V5cEtZOGJUZUxRSzFRajczZUJtSTZJc1N1YWJTZDB2RE1keDlaYmxkQ2tXZktTSWRFZ2JsSHRPY3phSHd6amJEd0tLMzFVOTdUX1NleXRaTUNNWW1YaUhCUy1MaTdWT0JHaVlvX29oMGhuRGRYWmdiT19pSXpnb2M0Y1ZOaHNCVHd1X2lZM0VPWlltVHRPbXNtRFlBTm0wNUhmcjFUWlhwVWNLd2JlcGJNMmlYNVdlakN6d1Z0ZGtlRDRMYlN3LUdmMERJSjVSbVNOOU5xbHVwT1htU29Od9IB5gFBVV95cUxPd2NjYll0d3FQWVMwVjVIdC1nMW54bmdrYUJNemh1SXhCSmhUYWxtdWdpdGl3cUxnUXgzMnBONDYzcHNDck83bDVpLXdmRE82XzZON3VoekVEZWx4Yk5yQ3luSXFNaDUzU2ZiUjJDQ1o4TmlraG05ODhGOTI4OUp0dUw0NnVFR1FzN1lIMzF0MXluZ3NYbW05YzV1MGZrVkJZR0pVYXFnd3dNQVJlOGZDX09JM3ZkR3N1dnl5b1ExQW1UM3dkdUMwd3JGcG9vdzBPNHJ0ZzdQLWRVZWV4M2xGakxYc1YzQQ?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcGNQa3BGTFF0UDhWWGJRcm1COE81dTR5QndvT2FVeEZONkpkZFN2STkydDV0QXRVdmNMbWJhakJ0X1pqdUVWQXFEMHhEVC0tRk1FODdVOXlzZ2JZZXJVQW1RcTNxZmduNVJIamhwMjA0dHpfXzJJZ3U3M29aVjZfNXM4RTg1ajg3S3pTTURycVQ5ZU9fSkxKR0pnaktoc0E4b0FmR2RnYWRoTHRjdExjZTNRNWdnNFlNX0ViTWU2SXZEQQ?oc=5",
+        "fecha": "2026-11-01"
+      }
+    ]
+  },
+  {
     "id": "fiebre-amarilla-huila-2026-s44",
     "patogeno": "Fiebre amarilla",
     "tipo": "virus",
