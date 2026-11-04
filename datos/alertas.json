@@ -1,5 +1,45 @@
 [
   {
+    "id": "dengue-tolima-2026-s45",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Tolima",
+    "nivel": "alto",
+    "casos": 1240,
+    "esperado": 202,
+    "resumen": "4 fuente(s) reportan dengue en Tolima esta semana. Lo normal para esta semana son unos 202 casos (INS).",
+    "fecha_deteccion": "2026-11-04",
+    "municipios": [
+      "Ibagué"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE82NHcwZ2EyOGxJRmlQLVJ2Q3pRZnpLZjhPYjBBNWMtSDVQaFN5Z00yR3ZtQnV0dERSSDZzaVFPdm1kUjdjQlBUa2wzeWRiZw?oc=5",
+        "fecha": "2026-11-04"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWE1TTENVbGV5VnNhSDVLS3NaOHNYQkFocFV6dmhHV0JQQnVnTUZMUzFKZml0N2FsU2wySHlxaEpwUnVxajB5aUlLYzMwRzR4SS1tV3lVYnM5SmdoS2xCMHAtMDE2TXVER2dvR2t6T1ZER2ZvUE5PUmRUeGVFZ1RXVFZKdTZjckIybGc3OHV3QUhMX3PSAZcBQVVfeXFMUFJBRldCRlpOVE9mREtpNEJVRWVoeEdKeFh5MHktYzNDazRjbDVJRWxfRWJvY1d2UzNCX1JVcERxUDFrend6V1I5V1pIUEp6TVNvLWMzVXk4UG9RV1ZDNEQ2NkJKamdCR2tGbVNiX1ptR0FtbzliNkx4Zk5uLUQ1R3NEWk93OUhhMlZ6M19hZ2ZmOWl4b0Fucw?oc=5",
+        "fecha": "2026-11-04"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPckZfa0tpUm1SWVVLSTFlNV9FU0R1X0Naa09Kdkk1bmVBQjBDTG5Xc01IMzJNU0dJRFJidkpqNV9zN1l4Y0ZzZWlkblYtTzg4RTk5TzIzUnh1Z3JQZkxiLTY1WlY0U2JvR2ZwaWR6MmF6Y1RJNEZ0RmdQbXpjY1FJRmNpQ1A?oc=5",
+        "fecha": "2026-11-04"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcWtHWVY5NHpjZEFZbnl4WHNCcmJpY2tqUmx3amk1UExQNllDeVdQa2phTkJFOThYVUtCRVk2aFhfNklpUkZTdGlTVi1ueHFDb25scTA4UkcwS2RsSnltQXhFaUpWdy1mYWdZSHNMc29KZ255X1FqVVh3ZVhjUU9maQ?oc=5",
+        "fecha": "2026-11-04"
+      }
+    ]
+  },
+  {
     "id": "dengue-cesar-2026-s45",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -49,7 +89,7 @@
     "nivel": "alto",
     "casos": 2,
     "esperado": 49,
-    "resumen": "3 fuente(s) reportan malaria en Cauca esta semana. Lo normal para esta semana son unos 49 casos (INS).",
+    "resumen": "4 fuente(s) reportan malaria en Cauca esta semana. Lo normal para esta semana son unos 49 casos (INS).",
     "fecha_deteccion": "2026-11-02",
     "municipios": [],
     "fuentes": [
@@ -70,6 +110,12 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcDFWblRGS05yaFZzV3J5d1ROQk1QQlFvSkU3SUZGQVNTYWpjQWFZa2xZMWF1Z0V3M1FUbjBEelJTYnNlSEtXVW43YUEtdTFNYWZBQ1Jha1AtV2R6dUREbnBqbU5DNnU5YnU2VHAyT2huTF84Z0o4YU14Wkd5b2VlM2I0dDE1MHVhUW4yaG1GVFAtUlMxMEtmdmd4ZmlrTnlKYmxNdmIyc0hKNUxuazhFQQ?oc=5",
         "fecha": "2026-11-02"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVVBuRFhIYU02c0dmd0dRa2dSaEdGZE5MQ3RDOTh3c2wtMUNDMTk4ZzZZaFFLdm5QZjB3OHh0S1BxZjZLajRPU2NlMXlORmc0OGtLeXNjV2RfLVNJRUJ1UTJ6am9YcnRxcl9rVFptUEtKcVhXN0p0VFFnNmpja2hUNTg3TnlVeUFUN1NaWDZuVkN3Y0FqTjB2MjJEMmZiTjdWbUE?oc=5",
+        "fecha": "2026-11-03"
       }
     ]
   },
@@ -81,7 +127,7 @@
     "nivel": "alto",
     "casos": 4,
     "esperado": 20,
-    "resumen": "15 fuente(s) reportan malaria en Valle del Cauca esta semana. Lo normal para esta semana son unos 20 casos (INS).",
+    "resumen": "19 fuente(s) reportan malaria en Valle del Cauca esta semana. Lo normal para esta semana son unos 20 casos (INS).",
     "fecha_deteccion": "2026-11-02",
     "municipios": [
       "Cali",
@@ -177,6 +223,30 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZml0VzFwR1BKZkRNZXBaQzhlOWdYTGk3VzNXbFZVNFpET3dDM2p5cTgyejBRZnIyaDFEZW9qS3F6Z3d3QjJHSHlBeWo3MlNkNENpOXNJUEJBZElJWTRwcUtEbi05WHZoSXgzd1JJR2prVHZhTVRkMHN2cTl0bWJGeFVXTy1VcWVWZnBya2RkVkx3aE96ZU91V2lEWmhWREZ0V2cxSVdjQ3Q0cEduLXE5VG1tcWhXNnFIUjBNaXFn?oc=5",
         "fecha": "2026-11-02"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sMW5YTFJ6N3kyQ0ozeGxzeU9TTmNjbkhibFlfS2dUcy1WWE10QkpCVElDWU14cERvLUU3SzlMTGZFYnhBVDNDbnI0dnNuSVhMcnNFRWNHX3k5NzM2eGVFZ3pRV3pkOXdmcW96eUZzRXcyUXBRR3ZyWFB2eVlzdw?oc=5",
+        "fecha": "2026-11-04"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWFE3dGtLcGlSQ2ZTalhVRm5NWERSUnRxZkltTVBLdThPZ08tZ1FvRFR1N3M2OWFfdVJManFrZWhucHUzcDZYQ0g1ejg3ZnRIQU9JV2V0LWplRzk0dFZZZUZRRUZrd08zQkU5aFlXRWwyc2pPNU0xQjZVLU1rQ1RXN2NraFVTQ2g4OC0yT0ZGMGctZWxtUnJvYkctZGN0bHBTMTNKN0FlTVQyd3JxQ09zN1NzNmlLeW56WVNxTzZnVdIBvwFBVV95cUxQWFE3dGtLcGlSQ2ZTalhVRm5NWERSUnRxZkltTVBLdThPZ08tZ1FvRFR1N3M2OWFfdVJManFrZWhucHUzcDZYQ0g1ejg3ZnRIQU9JV2V0LWplRzk0dFZZZUZRRUZrd08zQkU5aFlXRWwyc2pPNU0xQjZVLU1rQ1RXN2NraFVTQ2g4OC0yT0ZGMGctZWxtUnJvYkctZGN0bHBTMTNKN0FlTVQyd3JxQ09zN1NzNmlLeW56WVNxTzZnVQ?oc=5",
+        "fecha": "2026-11-03"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWEJhb1YxOWtSemZYNXpHWjRub3dzN0ZoZ2pHZklCdGQ2eDVDVFV6cDI2Z0dLZ184bk90V1h1TTRZRG90dmphdVJiS3hwbE9SMWhZa3JRSGJVMUticW9Oai16TjJubk1McldDeEpWcGl4S0ZBU0plaW94bi1EX1BGVnlqYTllY2JpZ0RTNEVQXzBQdGM3MERzelMyaHBjSXR6c2pZTFQzMzlTMXZIT2V5Y2ZZUWZ5Zkt4cnE0WHhfNXpIcWhq0gHKAUFVX3lxTFBnb0lEWHZuYVlVYWxtRXZQckpQT19WcVh4SVZNTjNnb18wc1dvX2tyMk4zSktFLTJuUElTX0JuMmhqTVo2UTVyWnNJOG1OamRoM29GWkQtUk5tc2VMblhVbXRlQ3JPUExPTjB5ZUU2OGNzRVAzMTJKUXJaYnFUc2p1UE5LVWpfTWtkZTlzOEVROVFCa2xEOFhJaGtJYmZUbEIyYWZzcHBiZUEybEVUc29ZQWdvX0F0QUZmV1hKTF9EV3BpZVpUUDNxU1E?oc=5",
+        "fecha": "2026-11-03"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQOXZReXdiWVBDb0xPeThVN2poWHVDeFBhMWNHWUtPd1lxa01hYmxSSEtMTU1SWVBlZHFxTHUyekZDdmY5MEtCNmRfMXE1djJEZGxUY3JSWk43cjlhbDdRMXV1eXZrcktyM0JwRWFhTHNtelNqVTExTjNmdXhkcG9VaG1QNy1YWXZYNEVxT05tNXE1MVJVRk50Uk85ZVdhanhPYkY0MjE5UXdxdTB0ckVZbzlVYjZXTmZHX3pOVDJOYmFiOEdETG1iUXJWVG9OZDN2bEo1WmJJemRzdUZmVTlfN1I2dzV3eDdUbVNsdWZWcmVQa0V4dHZ1b2huVWFOTmtfU0xjOVAwc1ZMcnJzbFpfbXY0SE93cUd6cVN6SlRVWk0tV195NWhudk9qVVdCNjIyb0lTc0VITQ?oc=5",
+        "fecha": "2026-11-02"
       }
     ]
   },
@@ -188,7 +258,7 @@
     "nivel": "alto",
     "casos": 6200,
     "esperado": 177,
-    "resumen": "4 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 177 casos (INS).",
+    "resumen": "9 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 177 casos (INS).",
     "fecha_deteccion": "2026-11-02",
     "municipios": [
       "Barranquilla"
@@ -217,6 +287,36 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNejk4ZGNkMnpMZDJyVENudEVVR2ZJRUpIaXFZQ3F2eHdOajZIY0RaaVk2b3NzUmtWTTg2MnpwOGhZN1NxZnpKTDhrdkJxY2s5amNHR1NNUDBjR0VCc3pvZmtuRHNRaU5iVkhkRHdDZXNYMG1XcG1Gb0lQUnNuSkdzTXNrWjRaUUFfNWVfT1ZlcGswTVlpT19HZUhyM2RvRnV4bXdKam5sWGJmNEpFRTY2S1MxcVRPMTlyemljejRpcTZ6QQ?oc=5",
         "fecha": "2026-10-20"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNHNKaXFySUtrbmNOMnBqeHJldUxuZ21uNXpwZTlEMS02QTZFZVhsU09IdUtMSlNZVnlzLTVtQ3J6X2VCZFZmSnVDRXRaUlFWNjRhUi1CWE8xRjhDekFQb0ZkWkEzenhJRWJ6RWxDS2UxYi16LTJVTFRILWlJdEhIRnA4MDFOS05qMjNnRmdvYlQwbG1UNzZtS2xpOHJ0cFk2cm0yLWRXRDdjQkJRX29lV0ZrVFJMU09pMzNDMHJYMFFiQkF4NkJlMjQ4VDBKUQ?oc=5",
+        "fecha": "2026-11-04"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxORFI3VDVJaHdaWHNoTDV3Rm9LVm94a3pLaXVEUFlHbFNUQUhUNElCdERwX3NmelRKT1NSR3VNRUh4RWY5ZE5teDBGcGlJUk5GYU93M29DLVRPeWFhS0hjWVhWUmJZX0wwRUJmcHRJQXhaQWROanJSSnFSWEhRdmJ4cHl1aV9DZTJjTlNsR19VYkNxOHNjYlN1clN1d3RVQUZmTUt4cUFWR01mejdMQXJ3N1ByMllKdWhzWkhSQmE3dWZfTGZCYkY0YTBfNVVTcmlnUnlPeG9lYlRvbVBFVHUxaTE0aDJic01GTXYzTjRfcW16X1dMaFV3ZllqMzN4NU5Gdm5fTzZoY0ZFUi1jRzdkbXVhdE9oRG81cFVSZDZtaFAwZ3JqM0VDZk9DMEHSAbICQVVfeXFMT0J4ZWpSMUU2QUs2WHJOQXVQa1owNmpkQXhUaURHRnhKWjhkQkRsY2xpak5tYzFVRV9hWWJ5VC1oQTRLcVBUblhEZTRzdWxpTnRvbnZCUm5NZkxhZGR0T3JNdC1MZEVRWUF3YW14QzRPQldsSmowOXpWc0poa3lVT19tV3Zra1ZUeGFVLXp5OHItNl9vM2JCZVE4Slh6SHI0c29nUU1ZYVU1bEJOQUJuS01BVjktZUhTZ1M2RzdkdkllVVRtakZKN0xNSDFPNWl4Yjhva2pHZkZKa0xsMXVfUXNHTGVWdXJMc1FSTldYVHVWM3pHcUxCOE1DWjBOcS1Gd1FqcEpyTW5ROElFdTdUck0yRy1IQW9nYThkMFlzcHpjOS1tWGxaMTNzQXhWYjBVVWhB?oc=5",
+        "fecha": "2026-11-04"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSlFFX24zU19nc2R2dXA3dnJ1SjMzZnJDY29xSnBvZkxJYWpjMW9nZ1ZIaEpqWGFoWEFDb0VoSEtXZFdXQlVsLXZwR3BRY2VMbm5ONnZwd3RkczRULVV4MWJuMlZoc1dGaTJIM001dnZVOEVudFpLZnFJT01mVGZCM3Nfb3k4cURJdEF3?oc=5",
+        "fecha": "2026-11-04"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVDg1OU5LR2lVdEF3eV9qYVg2R3N3M0hvRk5iRmFDMzMxblpJT0kya3VrVDhNZXdSd0tzOGFzbWZsNWNpWi1RM0tCNjh4S0tmalF2b0dDVDVxOHBLV2RiMG1GOGdqRnBPM01vWWVXSWN0MzBVTExMU1FJd2ZXMEZxVm1Wb0VDQk9ObnlZMlVLS2hQTWxWb25lTno3OWFkdFZhMEU4c2JSTGFySGoybHYzdzd5cl8xTS1WZ0VldlYwWdIB0wFBVV95cUxPR1FtNmQySk9zMWNZbDlrMXFtMUFlM3JlWkFFajYxSUg5OG1zc2kybGVYNHB6TGpkbFNqcEkwUTFhWnRnWXdVaXJfRFlMVzctM1JVT2tGRVBza1dYVWE0Xy1iUWwxMmFiRlBOamVDdS1TVDdrbVRVTV94MkN5YmJYMFFmd3dia2FhcVB4aEh5TjRzS2poT053c0tWOGhZSzR3VllreDJxaWxiSFB5OUdkaC1LWG5FY0RfOGNXc3dSdy0xUkI0OEs0YlhKbFpsQlpBeE5R?oc=5",
+        "fecha": "2026-11-04"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDMtdUFiVHMzVmN3NGRJRk1HZW1UbVlXcjRNWVVfb2ZIZWRTOTZ0WVZjdUtLbDduMXljRXBvVHZWQVRQeVVLNzRrZmhkallYQmZsQmxESjlMR3F0T0ZrcFJkUk51Z0kxcS1MM3NJZnNqT1gzaDAwd28wYnVCNngyNXA2X2xDb3NoMFB4REZWU3JRMDdrNm9vcUw1N01acHUySVBJckZiMmZFZHhvelhFWVkyUkNQQjhJR0dhV2xaTdIBxwFBVV95cUxPUTZOT3FQbktUekpBY1VoZ3h0RFA5MmEwLUhtemJVVHg2V3Vkai1rNGVRT0VseVVTMV9JWTdaUVVaU2NPb0pVM3NKdUt4bUFVSmZTaGZSQVdBTENDVkpXYXJ4eXA1MUlxWEZ3bUdjdGIzazRKUUxTZnFMNDdEVmtsamhNNXM0TDZSR1JBSHZZY2ZBMnNycGRmeDZpYVRVbVN2cVQxQjBTRFJHTU55RF9URXdPNUpmX2tGc0Y3R1JiVWt4TU1pZ2hN?oc=5",
+        "fecha": "2026-11-04"
       }
     ]
   },
