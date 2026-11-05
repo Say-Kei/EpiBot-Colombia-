@@ -7,7 +7,7 @@
     "nivel": "alto",
     "casos": 1240,
     "esperado": 202,
-    "resumen": "4 fuente(s) reportan dengue en Tolima esta semana. Lo normal para esta semana son unos 202 casos (INS).",
+    "resumen": "7 fuente(s) reportan dengue en Tolima esta semana. Lo normal para esta semana son unos 202 casos (INS).",
     "fecha_deteccion": "2026-11-04",
     "municipios": [
       "Ibagué"
@@ -36,6 +36,52 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcWtHWVY5NHpjZEFZbnl4WHNCcmJpY2tqUmx3amk1UExQNllDeVdQa2phTkJFOThYVUtCRVk2aFhfNklpUkZTdGlTVi1ueHFDb25scTA4UkcwS2RsSnltQXhFaUpWdy1mYWdZSHNMc29KZ255X1FqVVh3ZVhjUU9maQ?oc=5",
         "fecha": "2026-11-04"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNk5OT3FWQS1qRzJKdDFEZVhQWlI0UHNCZkxybENmVHhHRjZYWjJfVDZCMWM3ZV9PWWtjSjNXTGdHR3c5cFF2VWx3cDNkU1RfU1RIejVuZFUyMUlkaHBXRmZTUnU3SW1VZlBYeUVfbU5HMzhkOFd0RWVhaFZtMFdIV2FsdWFEVkxQWFdEenRjcjNmcWUzZ2Y1VWVFNS1nQ1FKWWhQWFBUYWd0cG1jdVg4QTE1V1BpQXp2TS04V0EwWDNiQlBFQ1RlZlpB?oc=5",
+        "fecha": "2026-11-04"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNb01uN084NTJnWWpELVNRekllV1I5LWxZTWllZ1VoZUlielgyV19qQS13LUM1ZEdVUEp2MUsyY1BwalA0ekFJWVdOdHJuS3hYOXY2QW5veDgtUkw4b2o5Tl9JSEcyMFc0dVdQWF9TaTZsaFg2WDJDbVN6R0I0RGRFU1ZPODlWN0wtbVF6Um9YRdIBjwFBVV95cUxOakREQ1l5S1AyYWYxTllEbG96am12cU15MVYtTC12bzRrYzdVVmZrb1JkN3JqdXFZTUJrazAtWHdUMzJiQW9BdG1xOGloWDNFOGJGTGRVQmg3bG5SNUY0T1R6WGJZMEl6MTBTR25aOXRkeXpVSVV1aWRiS1AxMkpVWmhFQkljNUx6U2hMZU1JZw?oc=5",
+        "fecha": "2026-11-04"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNb0twcHJXWFNXZ2IwR1AzZGdrdmViUGh0MkM2bDJNVUJVbE1PN09zT2F0eWZWSW0ta1NweE9IUW9UVmxoT2ZXQUF6T3ZlREFOdEZyMkhONGQtRkp4OUR6UFhGUFplUDVLM0NYelNfdzZ2cE1hbGhMeENORUh6S29HRVVWQXdUdDctSFgzYnFOSzZsc2h2V2lxSXM2XzlKbHJ6cDlabENTN0NWaldEZ2Z0b3duaVczUQ?oc=5",
+        "fecha": "2026-10-31"
+      }
+    ]
+  },
+  {
+    "id": "dengue-magdalena-2026-s45",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Magdalena",
+    "nivel": "alto",
+    "casos": 7458,
+    "esperado": 74,
+    "resumen": "2 fuente(s) reportan dengue en Magdalena esta semana. Lo normal para esta semana son unos 74 casos (INS).",
+    "fecha_deteccion": "2026-11-03",
+    "municipios": [
+      "Guamal"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTEI0dzZOYjZnNnRxMmRqaDBIcnROTVhiZlhpcWdwdUNnSVBLWlA2dDgwV3c1d0MzY203LVNGLXhvQjlrTW9FMkF0X0FQa3NsUEdNWmpiT0VJUGlKRUI4bnpjU0RFZnZseUE2NFZMRUZ4ZTJFZ19oMFJaVGpjSmlTTkFxVjRDR0NBYVY2VUxnRThzbW03dHBEcDJpZEhlSWZHTWpzbHlCZDN4QjFUSHA4OHpxaTJ1bEQtTWtRN2dwZS1NQVdYQ0VVM09RWk45V2M?oc=5",
+        "fecha": "2026-11-02"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRGNBR3FEV1FialAtVzY3SHJmbWY0OUFSTlFjS1VGeTVvdXZkWGhMMFpyYWJnenR5Y2NUbllPbG1YR3FJT0c2ay1heUZacDkwM2cteFo3YnpHeDZnSEJTdGFBenNOTlZGY1dwSTVJaEZIclVWcHNaTGhBcERLNmpMSXN4czdadjU5UXdxTEZubEZuZXl5V2VfN0FieGZwTFhiZW5fQXBnamc1a1o2MUZILdIBxAFBVV95cUxPMFpZOTRIcEpRV0ZXd1dnRUp2U2NCLUhMbVhkLUxIVmkzd21oekFPT1lMLVBQQVhSblJTZi0tbnFadE9GU0R0SFlweFZwYXJQazF5WW1SOXQzbnZxc3gyUEtXZHFPVC1hNGIzRDBEYkl2OHNzRW9HbVQ1VHJMLWhLRGpMOUNZVG1FdUVQSy04YWJvTXdGZ3FsY29CYXVLTUVZUzZjOGdqZ3VrVDIzU2dTT3ZfZmoyVGxMSklodFotam5ocVVZ?oc=5",
+        "fecha": "2026-11-05"
       }
     ]
   },
@@ -60,66 +106,6 @@
     ]
   },
   {
-    "id": "dengue-magdalena-2026-s45",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Magdalena",
-    "nivel": "bajo",
-    "casos": 53,
-    "esperado": 74,
-    "resumen": "1 fuente(s) reportan dengue en Magdalena esta semana. Lo normal para esta semana son unos 74 casos (INS).",
-    "fecha_deteccion": "2026-11-03",
-    "municipios": [
-      "Guamal"
-    ],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTEI0dzZOYjZnNnRxMmRqaDBIcnROTVhiZlhpcWdwdUNnSVBLWlA2dDgwV3c1d0MzY203LVNGLXhvQjlrTW9FMkF0X0FQa3NsUEdNWmpiT0VJUGlKRUI4bnpjU0RFZnZseUE2NFZMRUZ4ZTJFZ19oMFJaVGpjSmlTTkFxVjRDR0NBYVY2VUxnRThzbW03dHBEcDJpZEhlSWZHTWpzbHlCZDN4QjFUSHA4OHpxaTJ1bEQtTWtRN2dwZS1NQVdYQ0VVM09RWk45V2M?oc=5",
-        "fecha": "2026-11-02"
-      }
-    ]
-  },
-  {
-    "id": "malaria-cauca-2026-s45",
-    "patogeno": "Malaria",
-    "tipo": "parasito",
-    "departamento": "Cauca",
-    "nivel": "alto",
-    "casos": 2,
-    "esperado": 49,
-    "resumen": "4 fuente(s) reportan malaria en Cauca esta semana. Lo normal para esta semana son unos 49 casos (INS).",
-    "fecha_deteccion": "2026-11-02",
-    "municipios": [],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMkd0eUtHTWo1NnYyQmlqaENPOXRZSmJldkxZdTRmWUN4djM1NmxLcHNXc3ExN21IUmxFU2hYZ3lOMk5FZnl2cmZ2WS1XSEh3N3pPQ3pEZlNSRk5hWUNaOTJiME9wNUk3aDJwWUtoZU9ZR3Y5czBzRFBpbHpBSVN0U21VUWxkS0NSaFFudXFyaTZMbFYzZnhkTXNJeVhsb1BQdTlwTnBwbVdyMHFBRlh1Q3kzQ3FKYy1Ub2xOMEs1QkFiSF80b0E?oc=5",
-        "fecha": "2026-11-02"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORG1lbWtYekJiQ1VBeFo2NWNoR3ctS0VtbTdZUnVCRnctdmV2LW5QMVpZTkc5b1VTdUNob2ZNT2JNSllsVEMyTTJFd3Q0TzJJWHBUVFB6Nnl3c01pcE9xSktVMTFwa3VKdWRncEdzS1dlZzVIVVhfTnYzWVFqdVV6WllRYUwyLVBTNXk5MGV6YkxNSldfZDhrc2hnbkVya2ZwX3lJMFdCTE9kbzM5Smtz?oc=5",
-        "fecha": "2026-11-02"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcDFWblRGS05yaFZzV3J5d1ROQk1QQlFvSkU3SUZGQVNTYWpjQWFZa2xZMWF1Z0V3M1FUbjBEelJTYnNlSEtXVW43YUEtdTFNYWZBQ1Jha1AtV2R6dUREbnBqbU5DNnU5YnU2VHAyT2huTF84Z0o4YU14Wkd5b2VlM2I0dDE1MHVhUW4yaG1GVFAtUlMxMEtmdmd4ZmlrTnlKYmxNdmIyc0hKNUxuazhFQQ?oc=5",
-        "fecha": "2026-11-02"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVVBuRFhIYU02c0dmd0dRa2dSaEdGZE5MQ3RDOTh3c2wtMUNDMTk4ZzZZaFFLdm5QZjB3OHh0S1BxZjZLajRPU2NlMXlORmc0OGtLeXNjV2RfLVNJRUJ1UTJ6am9YcnRxcl9rVFptUEtKcVhXN0p0VFFnNmpja2hUNTg3TnlVeUFUN1NaWDZuVkN3Y0FqTjB2MjJEMmZiTjdWbUE?oc=5",
-        "fecha": "2026-11-03"
-      }
-    ]
-  },
-  {
     "id": "malaria-valle-del-cauca-2026-s45",
     "patogeno": "Malaria",
     "tipo": "parasito",
@@ -127,7 +113,7 @@
     "nivel": "alto",
     "casos": 4,
     "esperado": 20,
-    "resumen": "19 fuente(s) reportan malaria en Valle del Cauca esta semana. Lo normal para esta semana son unos 20 casos (INS).",
+    "resumen": "20 fuente(s) reportan malaria en Valle del Cauca esta semana. Lo normal para esta semana son unos 20 casos (INS).",
     "fecha_deteccion": "2026-11-02",
     "municipios": [
       "Cali",
@@ -247,6 +233,12 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQOXZReXdiWVBDb0xPeThVN2poWHVDeFBhMWNHWUtPd1lxa01hYmxSSEtMTU1SWVBlZHFxTHUyekZDdmY5MEtCNmRfMXE1djJEZGxUY3JSWk43cjlhbDdRMXV1eXZrcktyM0JwRWFhTHNtelNqVTExTjNmdXhkcG9VaG1QNy1YWXZYNEVxT05tNXE1MVJVRk50Uk85ZVdhanhPYkY0MjE5UXdxdTB0ckVZbzlVYjZXTmZHX3pOVDJOYmFiOEdETG1iUXJWVG9OZDN2bEo1WmJJemRzdUZmVTlfN1I2dzV3eDdUbVNsdWZWcmVQa0V4dHZ1b2huVWFOTmtfU0xjOVAwc1ZMcnJzbFpfbXY0SE93cUd6cVN6SlRVWk0tV195NWhudk9qVVdCNjIyb0lTc0VITQ?oc=5",
         "fecha": "2026-11-02"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TQUNjYlJUSktzR2ZhRHljYXNvZFZzOC0zYUdlNzQ0M3c1MjJfMzBMd29DdngwNzBPZ2daZ3hidHE4Z2l3WlBxTnpkaHhyWi1CYTdwS2N2eGJlR3RERnJJV21idl84MjVGbXB0bmlzSVJBU1Y2WkoyaW9MbDFMUQ?oc=5",
+        "fecha": "2026-11-04"
       }
     ]
   },
@@ -258,7 +250,7 @@
     "nivel": "alto",
     "casos": 6200,
     "esperado": 177,
-    "resumen": "9 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 177 casos (INS).",
+    "resumen": "13 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 177 casos (INS).",
     "fecha_deteccion": "2026-11-02",
     "municipios": [
       "Barranquilla"
@@ -317,6 +309,68 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDMtdUFiVHMzVmN3NGRJRk1HZW1UbVlXcjRNWVVfb2ZIZWRTOTZ0WVZjdUtLbDduMXljRXBvVHZWQVRQeVVLNzRrZmhkallYQmZsQmxESjlMR3F0T0ZrcFJkUk51Z0kxcS1MM3NJZnNqT1gzaDAwd28wYnVCNngyNXA2X2xDb3NoMFB4REZWU3JRMDdrNm9vcUw1N01acHUySVBJckZiMmZFZHhvelhFWVkyUkNQQjhJR0dhV2xaTdIBxwFBVV95cUxPUTZOT3FQbktUekpBY1VoZ3h0RFA5MmEwLUhtemJVVHg2V3Vkai1rNGVRT0VseVVTMV9JWTdaUVVaU2NPb0pVM3NKdUt4bUFVSmZTaGZSQVdBTENDVkpXYXJ4eXA1MUlxWEZ3bUdjdGIzazRKUUxTZnFMNDdEVmtsamhNNXM0TDZSR1JBSHZZY2ZBMnNycGRmeDZpYVRVbVN2cVQxQjBTRFJHTU55RF9URXdPNUpmX2tGc0Y3R1JiVWt4TU1pZ2hN?oc=5",
         "fecha": "2026-11-04"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM3cwWndBRVZwZFVDUmFNMVItcVVfZ2RHdGk5TTltUWNnbDhONE5Nd0JadEdIenRkQk9tYWxhZG0xQ3U1WW1uVHlUNkhPS3g1enZaQmp6YkRKc2FDeTdTeGFwSUpwenZTQjBEdTA2bTlNWXBWY3ViV3N3Ny05T293MmRYRkVPZHJFMG9WcHJGTXo4OFdZSDM2TjR5ZGEzMmFRdE1FV3FIRS1fZmRScFVZdTZnRlRKdmlQLTFIYVY5U1hqOWs3Q3V5NUJTMzY?oc=5",
+        "fecha": "2026-11-04"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdmRpMG5jcjVzeFR3N08wbUF5QTVWWlRwZ1JtWVN0RG9XTVJUQWtRdjlwa1VkMjBpSWhFUGU3QzZsWHlSRDlPMWwtUmRrZGM0WVE5RzQ2OV94SzdOS1B4RGctbm01MWVqbGM3Ykx6eE11QVVITXlwelpvVFMxYkVER1o2YUt1cGthRHJpWEF1Sy0wdzNtSklzdlpSeUFGdkRZTVg2U2o1SUhZWHJvZnVQVmY2eWE3NWJmWWk1WmhXWG5hRDlyRFhXa3U5MThONm5vU0HSAdoBQVVfeXFMUGdwSngwU1dFWUo2NGphSUdUVWtFTEtJN2t3bkVaMlEyMHBKWTZ2YVNhMVZHU1AzUHBaVXNiWjVKc20taWlxcVhDOWZpdHlNRkZHVGR2YW1PcWNObXdsTGNEWlk3amZMeC1nY2JYVjdramZpdUt3SEltcGZQUGU3TFNwVzladjJHbnZNdU81U291aFA3dmxJRVlLcHZnbFV2amJtQUduZzc3YzJoMWNtWlFaZVlBQzR0ZDBUTlMxWDhzMXliTzdNX3VTT0U1dmtib0lReEY1Wkl0QUE?oc=5",
+        "fecha": "2026-11-04"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOGlvdC1QQm1rS09PMkV5aUJHYnpZd3B2WWxEU2JWRHZEWGxuWXN1Qlo2elZTbGluZW5EQ0dKcjdXMXFDamlEcDBPTldmY01HXzM3ZGsxSUhhQWluSWNZMF9kd0JMUUJUblh4cXJGd3A5TXA1WGJsSUwza05Ia3VQakdLbFVoSXdHemp1eFRJbzRyVXpFS3FBT1BOSktNVlk1MUlFbVRnUENMTEtDX1hzNFJzeEJwbTNIZmlodjVYOTAyVkVDTmc?oc=5",
+        "fecha": "2026-11-04"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONHJFLWNaZU9JbzZrLWRhNGJUdmF5cUhzeFVGejhFQUN1amFUNDVCSW5FS2JEaDE4U1hCUEFoRjBfaDQ2a3haYThxenRINmJ6U0VQa25QMFFkMGhPUGNRSHE5cmh6bDdta3Z5a1hWZlcyOW41QVlvWlhvSl9fZEtKUWRpcENDOGtGeklWV3JGaUV0cUhVeEM0Qw?oc=5",
+        "fecha": "2026-11-04"
+      }
+    ]
+  },
+  {
+    "id": "malaria-cauca-2026-s45",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Cauca",
+    "nivel": "alto",
+    "casos": 2,
+    "esperado": 49,
+    "resumen": "4 fuente(s) reportan malaria en Cauca esta semana. Lo normal para esta semana son unos 49 casos (INS).",
+    "fecha_deteccion": "2026-11-02",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMkd0eUtHTWo1NnYyQmlqaENPOXRZSmJldkxZdTRmWUN4djM1NmxLcHNXc3ExN21IUmxFU2hYZ3lOMk5FZnl2cmZ2WS1XSEh3N3pPQ3pEZlNSRk5hWUNaOTJiME9wNUk3aDJwWUtoZU9ZR3Y5czBzRFBpbHpBSVN0U21VUWxkS0NSaFFudXFyaTZMbFYzZnhkTXNJeVhsb1BQdTlwTnBwbVdyMHFBRlh1Q3kzQ3FKYy1Ub2xOMEs1QkFiSF80b0E?oc=5",
+        "fecha": "2026-11-02"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORG1lbWtYekJiQ1VBeFo2NWNoR3ctS0VtbTdZUnVCRnctdmV2LW5QMVpZTkc5b1VTdUNob2ZNT2JNSllsVEMyTTJFd3Q0TzJJWHBUVFB6Nnl3c01pcE9xSktVMTFwa3VKdWRncEdzS1dlZzVIVVhfTnYzWVFqdVV6WllRYUwyLVBTNXk5MGV6YkxNSldfZDhrc2hnbkVya2ZwX3lJMFdCTE9kbzM5Smtz?oc=5",
+        "fecha": "2026-11-02"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcDFWblRGS05yaFZzV3J5d1ROQk1QQlFvSkU3SUZGQVNTYWpjQWFZa2xZMWF1Z0V3M1FUbjBEelJTYnNlSEtXVW43YUEtdTFNYWZBQ1Jha1AtV2R6dUREbnBqbU5DNnU5YnU2VHAyT2huTF84Z0o4YU14Wkd5b2VlM2I0dDE1MHVhUW4yaG1GVFAtUlMxMEtmdmd4ZmlrTnlKYmxNdmIyc0hKNUxuazhFQQ?oc=5",
+        "fecha": "2026-11-02"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVVBuRFhIYU02c0dmd0dRa2dSaEdGZE5MQ3RDOTh3c2wtMUNDMTk4ZzZZaFFLdm5QZjB3OHh0S1BxZjZLajRPU2NlMXlORmc0OGtLeXNjV2RfLVNJRUJ1UTJ6am9YcnRxcl9rVFptUEtKcVhXN0p0VFFnNmpja2hUNTg3TnlVeUFUN1NaWDZuVkN3Y0FqTjB2MjJEMmZiTjdWbUE?oc=5",
+        "fecha": "2026-11-03"
       }
     ]
   },
