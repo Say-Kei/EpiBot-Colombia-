@@ -1,5 +1,97 @@
 [
   {
+    "id": "dengue-meta-2026-s45",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Meta",
+    "nivel": "critico",
+    "casos": 942,
+    "esperado": 326,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 43). 942 casos en las últimas 4 semanas frente a 326 esperados; 14131 en lo que va del año.",
+    "fecha_deteccion": "2026-11-07",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 43",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-43.pdf",
+        "fecha": "2026-10-31"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNk9hMUNMWEZqYTl1ZW5sNWVJcENJbkFDS2lVYm1tcU5EZXAtSVpMeTRvZjdCcmdPS2FZQjB4cnZWeGdNb00xWXc4Mk9rU0hLQkJnaDY5RnI2Z0RVaHNZdktyT0J2eFl5UkZtWXNxQ2dabWZIUkhRUlBQVFl2NW5sYUZlMU1kNk1ZdkVGSzNNYXUwOXhQUnE0Z2JEdm0zLUlQUXRvMGlfc3NJR0lNbHcwTUxXNDVuSHNFSWpTTUM1UQ?oc=5",
+        "fecha": "2026-10-27"
+      }
+    ]
+  },
+  {
+    "id": "dengue-bolivar-2026-s45",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Bolívar",
+    "nivel": "critico",
+    "casos": 2275,
+    "esperado": 875,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 43). 2275 casos en las últimas 4 semanas frente a 875 esperados; 13254 en lo que va del año.",
+    "fecha_deteccion": "2026-11-07",
+    "municipios": [
+      "Cartagena"
+    ],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 43",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-43.pdf",
+        "fecha": "2026-10-31"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUEtHUVZDVFBJeTZ4cTNISndPUDdhX1JOZHFlSTItTlRYd2RELTFaR190NmN2YVlyRnRHeEs4UDc3VGpVZG92ajAwVF9zLWtvZ1FpLUNZS2ZJNVZzT3BKNzJoZGlMQ2E4UGVHX2M0ZU81QlJGNnNiY2tGV05Qb1F6UFlB0gGCAUFVX3lxTE9QS0dRVkNUUEl5NnhxM0hKd09QN2FfUk5kcWVJMi1OVFh3ZEQtMVpHX3Q2Y3ZhWXJGdEd4SzhQNzdUalVkb3ZqMDBUX3Mta29nUWktQ1lLZkk1VnNPcEo3MmhkaUxDYThQZUdfYzRlTzVCUkY2c2Jja0ZXTlBvUXpQWUE?oc=5",
+        "fecha": "2026-11-07"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM2NTaGkyR3RMOGVHazdIRjJDRURkV1g4VkV4MG42b01sMkNrVmxUVWstLWsxTXhKaEMtQ1ROaUtLNHdNM3RtTkc1cFJDR1lhRU5MS1ljVlpiNFJjdWFaLU1CNkQ5dUxnM3NqNXlQcHI0T1pLZTg5ZUdsVWlHQVJQLWZLdVd6ZmtJYzNmYWFyR2hUT0JWdnVGWHpLUGzSAZwBQVVfeXFMUDNjU2hpMkd0TDhlR2s3SEYyQ0VEZFdYOFZFeDBuNm9NbDJDa1ZsVFVrLS1rMU14SmhDLUNUTmlLSzR3TTN0bU5HNXBSQ0dZYUVOTEtZY1ZaYjRSY3VhWi1NQjZEOXVMZzNzajV5UHByNE9aS2U4OWVHbFVpR0FSUC1mS3VXemZrSWMzZmFhckdoVE9CVnZ1Rlh6S1Bs?oc=5",
+        "fecha": "2026-11-07"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdk5qY0lFUmpzUXV1LWoxcERRNDFuVDVIYXRrdDB3VXFyV0RnLUV4bGhjY3ZXNXU1ZEhUWGNsWUp2c0FISi1YUlFUcGU3RUpVSm9GNmYwWTFZSkg3eEQ2U2V1NVJRQzI5OVp3VWp6YmFBLXh1djVRVmRwS1QycXFwN3RfZ19IbGF1Y3hlbGlicmlhUm1VT3ZzTTQ1a0dERl9yN3owMXhRUlFlMkx3VjBrR9IBsAFBVV95cUxQdk5qY0lFUmpzUXV1LWoxcERRNDFuVDVIYXRrdDB3VXFyV0RnLUV4bGhjY3ZXNXU1ZEhUWGNsWUp2c0FISi1YUlFUcGU3RUpVSm9GNmYwWTFZSkg3eEQ2U2V1NVJRQzI5OVp3VWp6YmFBLXh1djVRVmRwS1QycXFwN3RfZ19IbGF1Y3hlbGlicmlhUm1VT3ZzTTQ1a0dERl9yN3owMXhRUlFlMkx3VjBrRw?oc=5",
+        "fecha": "2026-11-07"
+      }
+    ]
+  },
+  {
+    "id": "dengue-antioquia-2026-s45",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Antioquia",
+    "nivel": "critico",
+    "casos": 625,
+    "esperado": 258,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 43). 625 casos en las últimas 4 semanas frente a 258 esperados; 3854 en lo que va del año.",
+    "fecha_deteccion": "2026-11-07",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "INS · BES semana 43",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-43.pdf",
+        "fecha": "2026-10-31"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdkNpV1FjUUN4YXMwOXhBS3FKMmt4SU0tblpLSE5mdkJMeTZRQUhHa29tbmEwUXQ4WlNTWG1zdzJLOXlwSEMtRGxZai1jYWkyM2ZkcDZBUkdtb3B5OWF0WlZzYy0wV3A4VUxrcEhwVXZXV2h1YkEwNFBUQjFPS3BBVDVpT3JuZFBSSE02alc2UklsVV92UlhoQi1vUFpYSGFwM3ZSODNjMFpxQdIBqgFBVV95cUxOdkNpV1FjUUN4YXMwOXhBS3FKMmt4SU0tblpLSE5mdkJMeTZRQUhHa29tbmEwUXQ4WlNTWG1zdzJLOXlwSEMtRGxZai1jYWkyM2ZkcDZBUkdtb3B5OWF0WlZzYy0wV3A4VUxrcEhwVXZXV2h1YkEwNFBUQjFPS3BBVDVpT3JuZFBSSE02alc2UklsVV92UlhoQi1vUFpYSGFwM3ZSODNjMFpxQQ?oc=5",
+        "fecha": "2026-11-07"
+      }
+    ]
+  },
+  {
     "id": "dengue-huila-2026-s45",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -775,26 +867,6 @@
     ]
   },
   {
-    "id": "dengue-meta-2026-s45",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Meta",
-    "nivel": "critico",
-    "casos": 942,
-    "esperado": 326,
-    "resumen": "Confirmado por fuente oficial (INS · BES semana 43). 942 casos en las últimas 4 semanas frente a 326 esperados; 14131 en lo que va del año.",
-    "fecha_deteccion": "2026-11-07",
-    "municipios": [],
-    "fuentes": [
-      {
-        "nombre": "INS · BES semana 43",
-        "tipo": "oficial",
-        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-43.pdf",
-        "fecha": "2026-10-31"
-      }
-    ]
-  },
-  {
     "id": "dengue-la-guajira-2026-s45",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -1035,26 +1107,6 @@
     ]
   },
   {
-    "id": "dengue-bolivar-2026-s45",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Bolívar",
-    "nivel": "critico",
-    "casos": 2275,
-    "esperado": 875,
-    "resumen": "Confirmado por fuente oficial (INS · BES semana 43). 2275 casos en las últimas 4 semanas frente a 875 esperados; 13254 en lo que va del año.",
-    "fecha_deteccion": "2026-11-07",
-    "municipios": [],
-    "fuentes": [
-      {
-        "nombre": "INS · BES semana 43",
-        "tipo": "oficial",
-        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-43.pdf",
-        "fecha": "2026-10-31"
-      }
-    ]
-  },
-  {
     "id": "dengue-arauca-2026-s45",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -1063,26 +1115,6 @@
     "casos": 289,
     "esperado": 85,
     "resumen": "Confirmado por fuente oficial (INS · BES semana 43). 289 casos en las últimas 4 semanas frente a 85 esperados; 2637 en lo que va del año.",
-    "fecha_deteccion": "2026-11-07",
-    "municipios": [],
-    "fuentes": [
-      {
-        "nombre": "INS · BES semana 43",
-        "tipo": "oficial",
-        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-43.pdf",
-        "fecha": "2026-10-31"
-      }
-    ]
-  },
-  {
-    "id": "dengue-antioquia-2026-s45",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Antioquia",
-    "nivel": "critico",
-    "casos": 625,
-    "esperado": 258,
-    "resumen": "Confirmado por fuente oficial (INS · BES semana 43). 625 casos en las últimas 4 semanas frente a 258 esperados; 3854 en lo que va del año.",
     "fecha_deteccion": "2026-11-07",
     "municipios": [],
     "fuentes": [
@@ -1217,40 +1249,36 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbWxQTnU0c0NIZWhqZFhIdjdVWDRCeFM2b2xQWUhqc3FPcU1lazNoOExEbkRWcjYyT3N6N2huYXZYN05sSi1fVWlBSnp3NlNJMk81RjdfMmc1X2JLNkFjWHE2TWVOSWdNVXo5ZXcyczg1TERfMHJwaFNCakFPeVg5c3c2UGJNQ2pNZmtDanVickRFYXpGT3k0V3F1THVUZFhKelFsbUo2djbSAagBQVVfeXFMUG1sUE51NHNDSGVoamRYSHY3VVg0QnhTNm9sUFlIanNxT3FNZWszaDhMRG5EVnI2Mk9zejdobmF2WDdObEotX1VpQUp6dzZTSTJPNUY3XzJnNV9iSzZBY1hxNk1lTklnTVV6OWV3MnM4NUxEXzBycGhTQmpBT3lYOXN3NlBiTUNqTWZrQ2p1YnJERWF6Rk95NFdxdUx1VGRYSnpRbG1KNnY2?oc=5",
         "fecha": "2026-11-07"
-      }
-    ]
-  },
-  {
-    "id": "dengue-cesar-2026-s45",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Cesar",
-    "nivel": "alto",
-    "casos": 475,
-    "esperado": 258,
-    "resumen": "Confirmado por fuente oficial (INS · BES semana 43). 475 casos en las últimas 4 semanas frente a 258 esperados; 6745 en lo que va del año.",
-    "fecha_deteccion": "2026-11-03",
-    "municipios": [
-      "Valledupar"
-    ],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQW5IWkFVTW4yYzZUa3VCVENWRTJ6dWVpaGxsTVhRaXFaQTFVUHktRkRjdW9RazVkTHFhN2Q0c05KaWNaa2VBZ0pxNVY4My1IbnBEdC1xMEtTYXpKSG5WZk01ZFFVQWFieHJ4U09zNlFHbkFJSE5vUkRwNUdBX3BZV0NFVVZMWVZlcGFqeUd6dUtoZjRMR0p4V3kzQUIwZHlndE1KeGM2Q3ozblR4MDd2c1NNbVBoQ1RmSXhZ?oc=5",
-        "fecha": "2026-11-03"
-      },
-      {
-        "nombre": "INS · BES semana 43",
-        "tipo": "oficial",
-        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-43.pdf",
-        "fecha": "2026-10-31"
       },
       {
         "nombre": "Prensa",
         "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUDFCQThadXN6TTRzTjgtaWpPb08xUnBzT1RrSlIyeDJDdlRFRlJKeW1QbnE2U3lJdXhYbFFmZGxIaFV1aURTTk9HSG9vZmRWYlhyaWVpdm0yRlRWVjNYMnhPb2Nma2M5WVpJTzFfNUJnN0tubDRwcGJNOVE4THpVdURYRkpVS3JiQ2w4Z3Jlczgtd1BV?oc=5",
-        "fecha": "2026-11-06"
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTGs3QlJXb0lpRHRPTnVhZUpRRHp4c0xLdXM3TnpyUF9JWnJ1eDJVS0xKRlM2OXdqNElTMGxra0NFeHN5YmFUOFdTMG5BQzFnVFVpaFVtOC01bzRtX3JuOG9icDhqSHY1NndrcG94WlNMeXVvWkdKT3RTcjV2ZHJyc1YwdEhSbjNLQTNUWnBSbk5fR1dNM0HSAZYBQVVfeXFMTkxrN0JSV29JaUR0T051YWVKUUR6eHNMS3VzN056clBfSVpydXgyVUtMSkZTNjl3ajRJUzBsa2tDRXhzeWJhVDhXUzBuQUMxZ1RVaWhVbTgtNW80bV9ybjhvYnA4akh2NTZ3a3BveFpTTHl1b1pHSk90U3I1dmRycnNWMHRIUm4zS0EzVFpwUm5OX0dXTTNB?oc=5",
+        "fecha": "2026-11-07"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWHhoa1pNVURoa1V4bUs3WVRUcFJJajVqTUxwOTEydnZlT08wUU1ZUEFoX295cFM2aVNMQzFvS0daemVJZVFXRmhEbVRUMzR6UUp1Q21CbnJnRE5zOG45U0tJeHc4d1ZQSFFwc193RXplSGlqWl80U01mckd0WXk1YnhfYXFlYTk4dmhscWN6UzdJYzVsQ1hjeUlQSkZSU3FJYnFjV1BSdmx1d9IBqgFBVV95cUxQWHhoa1pNVURoa1V4bUs3WVRUcFJJajVqTUxwOTEydnZlT08wUU1ZUEFoX295cFM2aVNMQzFvS0daemVJZVFXRmhEbVRUMzR6UUp1Q21CbnJnRE5zOG45U0tJeHc4d1ZQSFFwc193RXplSGlqWl80U01mckd0WXk1YnhfYXFlYTk4dmhscWN6UzdJYzVsQ1hjeUlQSkZSU3FJYnFjV1BSdmx1dw?oc=5",
+        "fecha": "2026-11-07"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbXVaeHJTaElmc0M1NlFsNlRPV2pobjZ2MW9qWmoyTDRocm9PZVV6Sm9BeFpRWEpSd1gzS05nQ0lxRmx1Wk5iOHRKNmNxbTRINGEzeklVd0VGcVFTMVJuZEtybVBkTzk1dU9kWWlkRlhKTXpNRE5XUThRSUh3a0F3Zjl6Q0huUkQ5R2FWUDFTUlltc2prSmRaLUp0UmxuM0dMcGhGd1h5NVhKYzNIb3JOcFh6bnMxd9IBtgFBVV95cUxQbXVaeHJTaElmc0M1NlFsNlRPV2pobjZ2MW9qWmoyTDRocm9PZVV6Sm9BeFpRWEpSd1gzS05nQ0lxRmx1Wk5iOHRKNmNxbTRINGEzeklVd0VGcVFTMVJuZEtybVBkTzk1dU9kWWlkRlhKTXpNRE5XUThRSUh3a0F3Zjl6Q0huUkQ5R2FWUDFTUlltc2prSmRaLUp0UmxuM0dMcGhGd1h5NVhKYzNIb3JOcFh6bnMxdw?oc=5",
+        "fecha": "2026-11-07"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNc0pTM3NHakZvSC1FVGVoSmJfamF3MTZSQkpFcVNaR2pvVXN4d28yTTZLNVdEYWZpaUFBcHdjS0l1dkY1Y1B6VF9nS0NIb3BxX1hRd0wtaDV3YVh2cDVFYUlQWEZHWkh3THk4RHcxQ2JMcmlOcmFhVUxqbm5JMV9BOGtzcWQ1NzlYREZvbWdaTk16TG9xSUNMeTd1elF4Q0FaSlE5SVEtZzPSAagBQVVfeXFMTXNKUzNzR2pGb0gtRVRlaEpiX2phdzE2UkJKRXFTWkdqb1VzeHdvMk02SzVXRGFmaWlBQXB3Y0tJdXZGNWNQelRfZ0tDSG9wcV9YUXdMLWg1d2FYdnA1RWFJUFhGR1pId0x5OER3MUNiTHJpTnJhYVVMam5uSTFfQThrc3FkNTc5WERGb21nWk5NekxvcUlDTHk3dXpReENBWkpROUlRLWcz?oc=5",
+        "fecha": "2026-11-07"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQjFwV0x6MEIwblB5bWxrWV8yZ1NYVW5Hb3gyVll5X3Vhb2gzMXg4TlE5OFBPQkQ3Qk5oakd3Z2R5VGRlQldJTXZkODFONVo2NmIwWlluT0NXZkVaN3J2bloxOUptRS1wYmdHdUpnNndZenhnQTAzdnJBQU54V1hYbW1tQU85ek5TbUt0RXUxUUNYTklxVGtFSVZqYjN5bFVxTjNkVW1YMHrSAagBQVVfeXFMTUIxcFdMejBCMG5QeW1sa1lfMmdTWFVuR294MlZZeV91YW9oMzF4OE5ROThQT0JEN0JOaGpHd2dkeVRkZUJXSU12ZDgxTjVaNjZiMFpZbk9DV2ZFWjdydm5aMTlKbUUtcGJnR3VKZzZ3WXp4Z0EwM3ZyQUFOeFdYWG1tbUFPOXpOU21LdEV1MVFDWE5JcVRrRUlWamIzeWxVcU4zZFVtWDB6?oc=5",
+        "fecha": "2026-11-07"
       }
     ]
   },
@@ -1316,46 +1344,52 @@
         "tipo": "oficial",
         "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-43.pdf",
         "fecha": "2026-10-31"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRVBmSkVMT3VsSzRZY2NlbFFxZzQyeE43QVBfa3ViNU5hYVhqT0ZfdjVTeTVJTnNyb21BV2otWHItYjRjQ2dtTjBqVDB1U0V1UGxSbmN6OFFpMEJ5d2k3eUlxT2VkdVhuSUJITXE1b1NHaGR2ME5ZZnBxd3l0c2xZaUVaZWdaS3UteUY0amZ4WmxEWW8yR08zMGNFbFVjNFlJZDc0cENFZmJPeXNoYVlUQnJoZ19Wd0drSVVrUTg5bzRDWmF0WDlzbjVJenhSX0k?oc=5",
+        "fecha": "2026-11-07"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPR0JDRDgyS3NkSERIaTdPZTJGd05Bd2VyTTdGcHplc1BSN3dZNS1Ba1d6V01HdTd4VjZuZmNzaUZrTmFPbnVOME45eG1VUzV1eC1KdFFfd3RGQXhiUzhkRWE0R3pIek85dGtqR3htVUZxZTc3Y2JUNmNPRUFkZ01IdmZIZWQxS2M4aHJxamVsQk42b0xzRG0yamIzQ3JhYXY5SURqWmVR0gGmAUFVX3lxTE9HQkNEODJLc2RIREhpN09lMkZ3TkF3ZXJNN0ZwemVzUFI3d1k1LUFrV3pXTUd1N3hWNm5mY3NpRmtOYU9udU4wTjl4bVVTNXV4LUp0UV93dEZBeGJTOGRFYTRHekh6Tzl0a2pHeG1VRnFlNzdjYlQ2Y09FQWRnTUh2ZkhlZDFLYzhocnFqZWxCTjZvTHNEbTJqYjNDcmFhdjlJRGpaZVE?oc=5",
+        "fecha": "2026-11-07"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUmdYUGJqb1Y3LW5yYkRZM19yMVhaZ0dPTEx4REp6MXRKUjVnREhQM2pqMDdnUG9oSXpXX2liM0ktWGszYjZqU2JWaWFRdHdnLVAyeDN2NExYQV9PMHd1TzlRXzJoRlBhMkk3N19DdVo5cWlEczFOVDNPNmo2WGU2bzFUbmp4OElZRlUyVF9GUEc2M1g0SzZuZDJtVm1FVnM5Q1HSAaIBQVVfeXFMTVJnWFBiam9WNy1ucmJEWTNfcjFYWmdHT0xMeERKejF0SlI1Z0RIUDNqajA3Z1BvaEl6V19pYjNJLVhrM2I2alNiVmlhUXR3Zy1QMngzdjRMWEFfTzB3dU85UV8yaEZQYTJJNzdfQ3VaOXFpRHMxTlQzTzZqNlhlNm8xVG5qeDhJWUZVMlRfRlBHNjNYNEs2bmQybVZtRVZzOUNR?oc=5",
+        "fecha": "2026-11-07"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYU05UlVlNEJxSXY0cFQ4NVQ2ajRVNGotblJBNndtSkY0Y1dUSHJHYTJiRk5BN1F5UXZkbl9Zelg5N0ZDc1VBQ3k3TjJNOWxVZkotT0tmeF94Y0JnS1VwLWU4Sjc5UmxCOFpZTXVjMzNqcGViaW1BS1l5RDhQdkR2WTFseEhKZ0tYTWVUZjdxZzAyYnZUV0lFZ3RZS0k3d1ktN1Z1VFdmLWh3aUszMWhwUHRTNElPeGtIZGpBU0g4TXFrZw?oc=5",
+        "fecha": "2026-11-06"
       }
     ]
   },
   {
-    "id": "dengue-santander-2026-s45",
+    "id": "dengue-cesar-2026-s45",
     "patogeno": "Dengue",
     "tipo": "virus",
-    "departamento": "Santander",
-    "nivel": "critico",
-    "casos": 1337,
-    "esperado": 467,
-    "resumen": "Confirmado por fuente oficial (INS · BES semana 43). 1337 casos en las últimas 4 semanas frente a 467 esperados; 7488 en lo que va del año.",
-    "fecha_deteccion": "2026-11-02",
+    "departamento": "Cesar",
+    "nivel": "alto",
+    "casos": 475,
+    "esperado": 258,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 43). 475 casos en las últimas 4 semanas frente a 258 esperados; 6745 en lo que va del año.",
+    "fecha_deteccion": "2026-11-03",
     "municipios": [
-      "Bucaramanga"
+      "Valledupar"
     ],
     "fuentes": [
       {
         "nombre": "Prensa",
         "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTjdZY2N2ZGJDS3hjUHlacGpoSk1UMWFseHBBYTRpVEVqMmczZkdJZGVTS0xnVU1pMEt6TDhSU0dWRFVoOHJaRHE5cUNfYXVKZnk4WTk3X1EzMUFEbC1tcDJ5eTJSM0x3ZTBfRmhTVkwyVm9wVUhlaWtSMHcyV1RzX2JpcXQtQ0l2RmtnUVJnWTBWLXJEbjNuaW1mUzk2TWlNeVNRQUF4SjRrSE9ya1ZZU3Utb2JOV290dnFvVWJpOEtOVDExWXM4Mkw0U0h4NExBQjFPd1VB0gHjAUFVX3lxTE5lby1UbDZONGZLM3JoU0Flejd1ek1tZDFxZUt1RDZGWFRacWs4TE03eDN2cW1FUUhaVWJuT19zVDdEV08xTjE0RXg0UXF0bnRtSG1zN2o3ZTVyNDhYOUtpZ3Y2eW1vU3VGU0VWb1cwaGpYUHVCUmxUWnlUc19jLU5FRmEwRDc3bV9QaWU0Q0lLTzNLWHZTZHBuY0ZIZVVtMHhLT2NtQS0wTGpwNDBMWllmUEpxNkpZZjh4NE50bmRBZFVqa2hVZDBKeFAwcll3T05HNFAta1YtOXlYRTFubmJxQjd3?oc=5",
-        "fecha": "2026-11-01"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUU1EclVEbDNJWk5SU1doQ2hxRU1CT0VZTEVNNFV4cFNzb1RKdjctSzRMM0s4TEx2YXpZMkVRZ3hiU2I1Sm00bURINzNHaGVvMl9pY3Bld3hMdlktV1A0OC11Tnp4Mkg1ZE5mTmUxWXktR0JVLWNCb0FGemc3VUFOTXFWODJqN1E1dzVMUHp2ZjlMU1Z5cV9QMm9TRXfSAZwBQVVfeXFMT1FNRHJVRGwzSVpOUlNXaENocUVNQk9FWUxFTTRVeHBTc29USnY3LUs0TDNLOExMdmF6WTJFUWd4YlNiNUptNG1ESDczR2hlbzJfaWNwZXd4THZZLVdQNDgtdU56eDJINWROZk5lMVl5LUdCVS1jQm9BRnpnN1VBTk1xVjgyajdRNXc1TFB6dmY5TFNWeXFfUDJvU0V3?oc=5",
-        "fecha": "2026-11-05"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSFRjU1BtNERHQmVOeTQtS2FESW8yYjhFM2xZaTA2X3NZU19xNmNNdm40UWJsd3dBa3l5RlZwNF9OcUYzZi1xQWg0bDhLUjhJOGRRaWFnRmJhWG83ZVVtSGRoekpSOGZWU2RFNnQwa2x2d0Mxd3B6X1NVLUNGQVVMejNOUW5oanUwd2VwRUxJZzcyRUtFYmZqUEhJSmt3ZG1R0gGgAUFVX3lxTE9OLXBfWTI3bWFBYmFhZk9YTS1TRXF6Z0NmVHB3QmFmVWdkRF9IZEc3aE5lT1FreFM5N2NtNDM3WVRiWDR6N0ZxYk5SbkdQX3JTYzlHUGJiVnByYnNqbXdNNUF5SzBiUEdpYUlBbVpEcHAxZkRMS09HWkw5YW5TTnRfbU9UMXhNSUkzcFFFb0tLUVRBZHI4UnkyTWlOT051b1E?oc=5",
-        "fecha": "2026-11-01"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTi1wX1kyN21hQWJhYWZPWE0tU0VxemdDZlRwd0JhZlVnZERfSGRHN2hOZU9Ra3hTOTdjbTQzN1lUYlg0ejdGcWJOUm5HUF9yU2M5R1BiYlZwcmJzam13TTVBeUswYlBHaWFJQW1aRHBwMWZETEtPR1pMOWFuU050X21PVDF4TUlJM3BRRW9LS1FUQWRyOFJ5Mk1pTk9OdW9R0gGgAUFVX3lxTE9OLXBfWTI3bWFBYmFhZk9YTS1TRXF6Z0NmVHB3QmFmVWdkRF9IZEc3aE5lT1FreFM5N2NtNDM3WVRiWDR6N0ZxYk5SbkdQX3JTYzlHUGJiVnByYnNqbXdNNUF5SzBiUEdpYUlBbVpEcHAxZkRMS09HWkw5YW5TTnRfbU9UMXhNSUkzcFFFb0tLUVRBZHI4UnkyTWlOT051b1E?oc=5",
-        "fecha": "2026-11-01"
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQW5IWkFVTW4yYzZUa3VCVENWRTJ6dWVpaGxsTVhRaXFaQTFVUHktRkRjdW9RazVkTHFhN2Q0c05KaWNaa2VBZ0pxNVY4My1IbnBEdC1xMEtTYXpKSG5WZk01ZFFVQWFieHJ4U09zNlFHbkFJSE5vUkRwNUdBX3BZV0NFVVZMWVZlcGFqeUd6dUtoZjRMR0p4V3kzQUIwZHlndE1KeGM2Q3ozblR4MDd2c1NNbVBoQ1RmSXhZ?oc=5",
+        "fecha": "2026-11-03"
       },
       {
         "nombre": "INS · BES semana 43",
@@ -1366,14 +1400,8 @@
       {
         "nombre": "Prensa",
         "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaTA5MGlXRU0xT2N3UmNrU2s5TDBkLTJnQXNjRmVWV0dHRlp5ZTJyRnBGUlFmekJhYjA1NnlZT0FTQlhJMTNwWS1UeGNWWHhfZTAyZFJHLWlXQ1hKVzVGQ3pHVUYteFZnWW40elFVNzBYWGhHVmJuSlAtUFNhYnU4cjkzclJTQzU5eTI4dW5RU293ZGFkVTE3NVotWnZleGhlc2wwM0xubUgyT1BoT0xrencyckbSAbQBQVVfeXFMUGkwOTBpV0VNMU9jd1Jja1NrOUwwZC0yZ0FzY0ZlVldHR0ZaeWUyckZwRlJRZnpCYWIwNTZ5WU9BU0JYSTEzcFktVHhjVlh4X2UwMmRSRy1pV0NYSlc1RkN6R1VGLXhWZ1luNHpRVTcwWFhoR1ZibkpQLVBTYWJ1OHI5M3JSU0M1OXkyOHVuUVNvd2RhZFUxNzVaLVp2ZXhoZXNsMDNMbm1IMk9QaE9Ma3p3MnJG?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUDFCQThadXN6TTRzTjgtaWpPb08xUnBzT1RrSlIyeDJDdlRFRlJKeW1QbnE2U3lJdXhYbFFmZGxIaFV1aURTTk9HSG9vZmRWYlhyaWVpdm0yRlRWVjNYMnhPb2Nma2M5WVpJTzFfNUJnN0tubDRwcGJNOVE4THpVdURYRkpVS3JiQ2w4Z3Jlczgtd1BV?oc=5",
         "fecha": "2026-11-06"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS05wc1hHVDdQOF83M2tkTEtxZy1LUjZOQkQtZTFsR3BVcHBETF84clhVWTNIeUpSQ0RTb1pCNDdaUWtXaXJqS1JwUTdubnNnOTlNdzBqMVhrMW5qckpEU0dJcTg3WVhQcUNqaWhuUkRpNXctX3BWbWhYUGZNdXBLajRtTXljSHZRNEx0Ty1vSEpCVzVqaW8ydDIzUzdRdHgtXzVwcTlHZ3dMUHFSb1JJMDFB0gGyAUFVX3lxTFAzVFp6QnVsajhlOFRsVHFGd01jU003aEd3Y2RpVzdsT3ZhZjFIWjd1WkYyX0dtYVJXbWoxTFpPRTRLVWVWNUNiUkR3dUhfbHdWdnJweENIaS10ZlBybmlTcm83NDlodk5lMmsxakJOcVY0ZXVHN2pfV1c5QmdPMkNLNTM1dkhmamZFT2ppSjh3Z1lOV0NyQkQ2em5vMDZOME9IemNTY2ZVZjBWQlNGUWp3MHc?oc=5",
-        "fecha": "2026-10-26"
       }
     ]
   },
@@ -1493,6 +1521,70 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc20tZHlTM3RtUF9NUFpOZTUtSWZlN2QxSHc5SndMdFZXVWpreWxRUlhkdEV5cFZ3bmVuNmtVSkZBUmZ0cDJnMkhnMnZGNzJOWENLa0FXRmZCT1p4dnpmYXM5X2k3UllyRmZDbXhWT0x6R1FmWWlpeF9nazRZNTQxRER0alVwY28weGp3aE5qN1ZyZzcxMWthWDdFb2VqNV8wWlBvSWE5OUlEOHREekdn?oc=5",
         "fecha": "2026-11-06"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUG9mbDNjdUJrRUo3ZTVQcG9hblpoOEY0NjNKakxZNkJaLWZ2R0xMWjdoeC1TN2RHOEd2VjU5VHBzU2xxSTczU1lZZ0ZzSDJHZjJLSnk3TXR3T1dPY2x1eGppSTlmeVFKdVNHaVJrenkwYjRaME9hMDBLVUtpWkFPcjR4QmJFbTFKRTlSSlJrTHg2VHR6aFh2TFQtU3pfMVA0VVl1aVYwcnlFdC1rZUgxZ1p30gGyAUFVX3lxTE9Qb2ZsM2N1QmtFSjdlNVBwb2FuWmg4RjQ2M0pqTFk2QlotZnZHTExaN2h4LVM3ZEc4R3ZWNTlUcHNTbHFJNzNTWVlnRnNIMkdmMktKeTdNdHdPV09jbHV4amlJOWZ5UUp1U0dpUmt6eTBiNFowT2EwMEtVS2laQU9yNHhCYkVtMUpFOVJKUmtMeDZUdHpoWHZMVC1Tel8xUDRVWXVpVjByeUV0LWtlSDFnWnc?oc=5",
+        "fecha": "2026-11-07"
+      }
+    ]
+  },
+  {
+    "id": "dengue-santander-2026-s45",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Santander",
+    "nivel": "critico",
+    "casos": 1337,
+    "esperado": 467,
+    "resumen": "Confirmado por fuente oficial (INS · BES semana 43). 1337 casos en las últimas 4 semanas frente a 467 esperados; 7488 en lo que va del año.",
+    "fecha_deteccion": "2026-11-02",
+    "municipios": [
+      "Bucaramanga"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTjdZY2N2ZGJDS3hjUHlacGpoSk1UMWFseHBBYTRpVEVqMmczZkdJZGVTS0xnVU1pMEt6TDhSU0dWRFVoOHJaRHE5cUNfYXVKZnk4WTk3X1EzMUFEbC1tcDJ5eTJSM0x3ZTBfRmhTVkwyVm9wVUhlaWtSMHcyV1RzX2JpcXQtQ0l2RmtnUVJnWTBWLXJEbjNuaW1mUzk2TWlNeVNRQUF4SjRrSE9ya1ZZU3Utb2JOV290dnFvVWJpOEtOVDExWXM4Mkw0U0h4NExBQjFPd1VB0gHjAUFVX3lxTE5lby1UbDZONGZLM3JoU0Flejd1ek1tZDFxZUt1RDZGWFRacWs4TE03eDN2cW1FUUhaVWJuT19zVDdEV08xTjE0RXg0UXF0bnRtSG1zN2o3ZTVyNDhYOUtpZ3Y2eW1vU3VGU0VWb1cwaGpYUHVCUmxUWnlUc19jLU5FRmEwRDc3bV9QaWU0Q0lLTzNLWHZTZHBuY0ZIZVVtMHhLT2NtQS0wTGpwNDBMWllmUEpxNkpZZjh4NE50bmRBZFVqa2hVZDBKeFAwcll3T05HNFAta1YtOXlYRTFubmJxQjd3?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUU1EclVEbDNJWk5SU1doQ2hxRU1CT0VZTEVNNFV4cFNzb1RKdjctSzRMM0s4TEx2YXpZMkVRZ3hiU2I1Sm00bURINzNHaGVvMl9pY3Bld3hMdlktV1A0OC11Tnp4Mkg1ZE5mTmUxWXktR0JVLWNCb0FGemc3VUFOTXFWODJqN1E1dzVMUHp2ZjlMU1Z5cV9QMm9TRXfSAZwBQVVfeXFMT1FNRHJVRGwzSVpOUlNXaENocUVNQk9FWUxFTTRVeHBTc29USnY3LUs0TDNLOExMdmF6WTJFUWd4YlNiNUptNG1ESDczR2hlbzJfaWNwZXd4THZZLVdQNDgtdU56eDJINWROZk5lMVl5LUdCVS1jQm9BRnpnN1VBTk1xVjgyajdRNXc1TFB6dmY5TFNWeXFfUDJvU0V3?oc=5",
+        "fecha": "2026-11-05"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSFRjU1BtNERHQmVOeTQtS2FESW8yYjhFM2xZaTA2X3NZU19xNmNNdm40UWJsd3dBa3l5RlZwNF9OcUYzZi1xQWg0bDhLUjhJOGRRaWFnRmJhWG83ZVVtSGRoekpSOGZWU2RFNnQwa2x2d0Mxd3B6X1NVLUNGQVVMejNOUW5oanUwd2VwRUxJZzcyRUtFYmZqUEhJSmt3ZG1R0gGgAUFVX3lxTE9OLXBfWTI3bWFBYmFhZk9YTS1TRXF6Z0NmVHB3QmFmVWdkRF9IZEc3aE5lT1FreFM5N2NtNDM3WVRiWDR6N0ZxYk5SbkdQX3JTYzlHUGJiVnByYnNqbXdNNUF5SzBiUEdpYUlBbVpEcHAxZkRMS09HWkw5YW5TTnRfbU9UMXhNSUkzcFFFb0tLUVRBZHI4UnkyTWlOT051b1E?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTi1wX1kyN21hQWJhYWZPWE0tU0VxemdDZlRwd0JhZlVnZERfSGRHN2hOZU9Ra3hTOTdjbTQzN1lUYlg0ejdGcWJOUm5HUF9yU2M5R1BiYlZwcmJzam13TTVBeUswYlBHaWFJQW1aRHBwMWZETEtPR1pMOWFuU050X21PVDF4TUlJM3BRRW9LS1FUQWRyOFJ5Mk1pTk9OdW9R0gGgAUFVX3lxTE9OLXBfWTI3bWFBYmFhZk9YTS1TRXF6Z0NmVHB3QmFmVWdkRF9IZEc3aE5lT1FreFM5N2NtNDM3WVRiWDR6N0ZxYk5SbkdQX3JTYzlHUGJiVnByYnNqbXdNNUF5SzBiUEdpYUlBbVpEcHAxZkRMS09HWkw5YW5TTnRfbU9UMXhNSUkzcFFFb0tLUVRBZHI4UnkyTWlOT051b1E?oc=5",
+        "fecha": "2026-11-01"
+      },
+      {
+        "nombre": "INS · BES semana 43",
+        "tipo": "oficial",
+        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-43.pdf",
+        "fecha": "2026-10-31"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaTA5MGlXRU0xT2N3UmNrU2s5TDBkLTJnQXNjRmVWV0dHRlp5ZTJyRnBGUlFmekJhYjA1NnlZT0FTQlhJMTNwWS1UeGNWWHhfZTAyZFJHLWlXQ1hKVzVGQ3pHVUYteFZnWW40elFVNzBYWGhHVmJuSlAtUFNhYnU4cjkzclJTQzU5eTI4dW5RU293ZGFkVTE3NVotWnZleGhlc2wwM0xubUgyT1BoT0xrencyckbSAbQBQVVfeXFMUGkwOTBpV0VNMU9jd1Jja1NrOUwwZC0yZ0FzY0ZlVldHR0ZaeWUyckZwRlJRZnpCYWIwNTZ5WU9BU0JYSTEzcFktVHhjVlh4X2UwMmRSRy1pV0NYSlc1RkN6R1VGLXhWZ1luNHpRVTcwWFhoR1ZibkpQLVBTYWJ1OHI5M3JSU0M1OXkyOHVuUVNvd2RhZFUxNzVaLVp2ZXhoZXNsMDNMbm1IMk9QaE9Ma3p3MnJG?oc=5",
+        "fecha": "2026-11-06"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS05wc1hHVDdQOF83M2tkTEtxZy1LUjZOQkQtZTFsR3BVcHBETF84clhVWTNIeUpSQ0RTb1pCNDdaUWtXaXJqS1JwUTdubnNnOTlNdzBqMVhrMW5qckpEU0dJcTg3WVhQcUNqaWhuUkRpNXctX3BWbWhYUGZNdXBLajRtTXljSHZRNEx0Ty1vSEpCVzVqaW8ydDIzUzdRdHgtXzVwcTlHZ3dMUHFSb1JJMDFB0gGyAUFVX3lxTFAzVFp6QnVsajhlOFRsVHFGd01jU003aEd3Y2RpVzdsT3ZhZjFIWjd1WkYyX0dtYVJXbWoxTFpPRTRLVWVWNUNiUkR3dUhfbHdWdnJweENIaS10ZlBybmlTcm83NDlodk5lMmsxakJOcVY0ZXVHN2pfV1c5QmdPMkNLNTM1dkhmamZFT2ppSjh3Z1lOV0NyQkQ2em5vMDZOME9IemNTY2ZVZjBWQlNGUWp3MHc?oc=5",
+        "fecha": "2026-10-26"
       }
     ]
   },
