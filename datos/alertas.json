@@ -1,5 +1,27 @@
 [
   {
+    "id": "dengue-atlantico-2026-s46",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Atlántico",
+    "nivel": "bajo",
+    "casos": 10,
+    "esperado": 187,
+    "resumen": "1 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 187 casos (INS).",
+    "fecha_deteccion": "2026-11-09",
+    "municipios": [
+      "Barranquilla"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaDVmN2ZmR0VEZkJaT0Q5MU9PQkFCaXptNGYweERjTWd0NXZhUzlxWTJZdU5BVVlrSmw5UE9QVE4zYm85REVWNVhOcXRzTlU0Rm5YLXNIMGVGWUJqU19xUDlYQkZRMUxjX0ptZFFlWE4xRXB2LU1jeWcwZzVYbFItWTAzbjYyb28ycVZqejRhWkRnT1FwcWRqUF9kNUtBdTR6dVVVZkhod2lZbW9vOXfSAa4BQVVfeXFMTkszWEUyaEpqVFhENjIyd2ZGSVk3VkZ4RXNnaEdWbmxBV1hZRmRmTEZlQi03d0FqbVFuVVZvNmNCcndpejUyajRadDN6QjEtdmZBM09YVkhLZ3E3UjNvQ2xwRkZuV2dXM0VEQUNJTTJ5VWpwMk5WTldzQTNHLWZBZUtLRFRJNDIxdGRfVzJIVjhYUzdTa18tOGwwWUZldmpWS2tWTzN2QXdLb0NKQW13?oc=5",
+        "fecha": "2026-11-01"
+      }
+    ]
+  },
+  {
     "id": "dengue-bolivar-2026-s45",
     "patogeno": "Dengue",
     "tipo": "virus",
