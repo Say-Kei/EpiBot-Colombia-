@@ -1,5 +1,33 @@
 [
   {
+    "id": "dengue-tolima-2026-s46",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Tolima",
+    "nivel": "alto",
+    "casos": 1514,
+    "esperado": 221,
+    "resumen": "2 fuente(s) reportan dengue en Tolima esta semana. Lo normal para esta semana son unos 221 casos (INS).",
+    "fecha_deteccion": "2026-11-11",
+    "municipios": [
+      "Ibagué"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdVRUMG1lTGtQb2xxbGJySUd3QUxWSHBicDRoNkNPQmtNSmh3dXR3ZVBUQTFqSzU3aklmZG52Z1NPSDFJMk5INV9mSTNnX2plVF9Yc014bkVqc2dwUlRVaVFYd29pY3VCNXFzLWdFc0JodnpNSHZ3SE82S0tVZ0ZVV3lsZHk1Q3ZrV1dOYXk4Sm5Xd19Xa0JHZ0tQTHFnZGg0VzcwMktFN0FMOTNrMFc3MmszRTkyV2NuZktzYnBUREZHNFFDY2EzZm1wc0Q0UQ?oc=5",
+        "fecha": "2026-11-11"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZUdTX05jRkdkV2NCYlhkTnY4MlFBRGdWanNieldhcmJvckdsNGFOVXVfWDRYcE16R1JXMXlLeUkyNVlZZ2xpZDNEQ0ROeWZsaG5BY2R6OWV1eXZfOGdTY1A3ODliNmNWYXZneDBCbENUWEhxRzk2d3M4MG02bkprTVFYVldWSjhISHYzV2RWUmczT3Baam1YSjhsZ2I3dFNZUzhtajBLRUJYRkFTQVRzdXNscFVGWk4wdWg5b3Nva1A?oc=5",
+        "fecha": "2026-11-11"
+      }
+    ]
+  },
+  {
     "id": "malaria-valle-del-cauca-2026-s46",
     "patogeno": "Malaria",
     "tipo": "parasito",
@@ -16,6 +44,40 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLWZwZEg5Vm1XTTVtcUx6aGZucUdaM1pFVWlNd05EX2cyNnh4UDdoX3Z1Q0Q2S2JDb2VhQjJQYmx2bHNrVTM0dnhJSkxacG5zQ0wxd3VzdklJMkhZMmZ5dllGZFVkT2JsMWF6U3VnX2RGUGE3bkNGekhWekxLZGtBUUJNUFI1TFRwdHM3bGg5ckdWVGc?oc=5",
         "fecha": "2026-10-31"
+      }
+    ]
+  },
+  {
+    "id": "dengue-huila-2026-s46",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Huila",
+    "nivel": "alto",
+    "casos": null,
+    "esperado": 67,
+    "resumen": "3 fuente(s) reportan dengue en Huila esta semana. Lo normal para esta semana son unos 67 casos (INS).",
+    "fecha_deteccion": "2026-11-09",
+    "municipios": [
+      "Neiva"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa3EzaVp4WnZqVFV5X19IX0JuUEtZeE1mQkRHTDg1dDREbFJtbWVmYXFoZDBJX004S2pHWFpGb2VvbEtJdWtMZU1qZ0V3bTBHMzV4X0NsRzlVeXB0d1pBRkFQUGtfLV9mZnhmbEpWaEdQd3lIVlhRYmxaYTJneFcwSGtsUGxzdzg0X1U0bm14WmpuQWxKNHV5cFRhSGo1bWhBY1FHQ0FfeEh2UGcyT0NTZ01aTFBaaFU20gG4AUFVX3lxTE8ydUVqdS1Tc0pxWEt6TURKZy1rVjJKY3JJbm5zbnpLcHZRT0dJTzJxbE50ZWktZ0d0RF9URE5xSF9Odm81U3haeVRrc050RGwzc0UyZVRORDFvZHB5MVg3MGFDTjg0aGNyUzFQdWZrUXgxVjNBTkxEQWVaTUd6QXF2VDdzVFBCZGJOeE1KN3FWSzdKbjJJYTBrNGFkSU43Z0JzRFltZVJjWnNya2djUlYtM3FMQXlFSm4?oc=5",
+        "fecha": "2026-11-09"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNjJBZTJqQ05laEJ4TFF2aUxBcm4wRVJIc2dKdndvWUxySmxCUnQ5V2pxQ0V4R1RkLTNWb29TWW9wWjlqZjcyYUNfWkd4QTNJSXlwTVdRRjBJSE9YemtweEtNWDcxUzFyaVRMYlZEME9pUGVSSTU1cHlmcElwdTY0QkNxSXF4cmhIampNU2RZNA?oc=5",
+        "fecha": "2026-11-09"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYUJqSGJRaE1BNTBIMXhCWHZtV09PTXdWVDhSMWJpZ3lCd1RnbjJseFNDenlLSXpSMVdsQmVSV1pHcFFKVHNmaUU3ckFHMWplU2hvUDFpVUxWYmFXaXF1ZVZzY3RwTGhlRGROWXVUWTlwald6Y2hNTW5NMERvM2hXd1hHa1NMR196WjFPVTZfeE5IMjNUaUtBeTRWY0MtaXdfbkdSUXNmak1JQ3A1alpxUjdySjlsZmxzY3E3TC1vY0ZZbm5sVXg3WEtZSXFJU1cyc01PZkIwTjRHeUZTQkHSAd4BQVVfeXFMTWFCakhiUWhNQTUwSDF4Qlh2bVdPT013VlQ4UjFiaWd5QndUZ24ybHhTQ3p5S0l6UjFXbEJlUldaR3BRSlRzZmlFN3JBRzFqZVNob1AxaVVMVmJhV2lxdWVWc2N0cExoZURkTll1VFk5cGpXemNoTU1uTTBEbzNoV3dYR2tTTEdfeloxT1U2X3hOSDIzVGlLQXk0VmNDLWl3X25HUlFzZmpNSUNwNWpacVI3cko5bGZsc2NxN0wtb2NGWW5ubFV4N1hLWUlxSVNXMnNNT2ZCME40R3lGU0JB?oc=5",
+        "fecha": "2026-11-11"
       }
     ]
   },
@@ -44,34 +106,6 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNRG51cXZBVGFzY1h2NTRFS1hCSXpPX2p1N3E2bDJib2F3eVJvamVfWUtQN0JRbmlNN25URy0tMGVacFNieDdwcUU3SHVDZ3hvOGtwLXFXU1lKWlRPclZSTnFKYmhuUnZKNldYOThoVWdfN21ldDh1bjNFZ05fNDdsWjUwZVZiSFNRRWpBNEtHbHM5cUxOTE5XSHhZMDNSdFBLR3dsSnA5SFFCWWYyaGRtdGdwNUpiQk80bU9DbjdHc3dLM0pfYjVMUThyZzZiRzFHRm5ocXZ1QzVBdy1fdDhPQTFYNXI2TzA0TlhLcTZ6U01hUnRMdHVoQWhNNmE2bkpReGl5SXpyRHc1N3M?oc=5",
         "fecha": "2026-10-21"
-      }
-    ]
-  },
-  {
-    "id": "dengue-huila-2026-s46",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Huila",
-    "nivel": "alto",
-    "casos": null,
-    "esperado": 67,
-    "resumen": "2 fuente(s) reportan dengue en Huila esta semana. Lo normal para esta semana son unos 67 casos (INS).",
-    "fecha_deteccion": "2026-11-09",
-    "municipios": [
-      "Neiva"
-    ],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa3EzaVp4WnZqVFV5X19IX0JuUEtZeE1mQkRHTDg1dDREbFJtbWVmYXFoZDBJX004S2pHWFpGb2VvbEtJdWtMZU1qZ0V3bTBHMzV4X0NsRzlVeXB0d1pBRkFQUGtfLV9mZnhmbEpWaEdQd3lIVlhRYmxaYTJneFcwSGtsUGxzdzg0X1U0bm14WmpuQWxKNHV5cFRhSGo1bWhBY1FHQ0FfeEh2UGcyT0NTZ01aTFBaaFU20gG4AUFVX3lxTE8ydUVqdS1Tc0pxWEt6TURKZy1rVjJKY3JJbm5zbnpLcHZRT0dJTzJxbE50ZWktZ0d0RF9URE5xSF9Odm81U3haeVRrc050RGwzc0UyZVRORDFvZHB5MVg3MGFDTjg0aGNyUzFQdWZrUXgxVjNBTkxEQWVaTUd6QXF2VDdzVFBCZGJOeE1KN3FWSzdKbjJJYTBrNGFkSU43Z0JzRFltZVJjWnNya2djUlYtM3FMQXlFSm4?oc=5",
-        "fecha": "2026-11-09"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNjJBZTJqQ05laEJ4TFF2aUxBcm4wRVJIc2dKdndvWUxySmxCUnQ5V2pxQ0V4R1RkLTNWb29TWW9wWjlqZjcyYUNfWkd4QTNJSXlwTVdRRjBJSE9YemtweEtNWDcxUzFyaVRMYlZEME9pUGVSSTU1cHlmcElwdTY0QkNxSXF4cmhIampNU2RZNA?oc=5",
-        "fecha": "2026-11-09"
       }
     ]
   },
