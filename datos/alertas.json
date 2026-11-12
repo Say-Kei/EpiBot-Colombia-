@@ -55,7 +55,7 @@
     "nivel": "alto",
     "casos": null,
     "esperado": 67,
-    "resumen": "3 fuente(s) reportan dengue en Huila esta semana. Lo normal para esta semana son unos 67 casos (INS).",
+    "resumen": "4 fuente(s) reportan dengue en Huila esta semana. Lo normal para esta semana son unos 67 casos (INS).",
     "fecha_deteccion": "2026-11-09",
     "municipios": [
       "Neiva"
@@ -77,6 +77,50 @@
         "nombre": "Prensa",
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYUJqSGJRaE1BNTBIMXhCWHZtV09PTXdWVDhSMWJpZ3lCd1RnbjJseFNDenlLSXpSMVdsQmVSV1pHcFFKVHNmaUU3ckFHMWplU2hvUDFpVUxWYmFXaXF1ZVZzY3RwTGhlRGROWXVUWTlwald6Y2hNTW5NMERvM2hXd1hHa1NMR196WjFPVTZfeE5IMjNUaUtBeTRWY0MtaXdfbkdSUXNmak1JQ3A1alpxUjdySjlsZmxzY3E3TC1vY0ZZbm5sVXg3WEtZSXFJU1cyc01PZkIwTjRHeUZTQkHSAd4BQVVfeXFMTWFCakhiUWhNQTUwSDF4Qlh2bVdPT013VlQ4UjFiaWd5QndUZ24ybHhTQ3p5S0l6UjFXbEJlUldaR3BRSlRzZmlFN3JBRzFqZVNob1AxaVVMVmJhV2lxdWVWc2N0cExoZURkTll1VFk5cGpXemNoTU1uTTBEbzNoV3dYR2tTTEdfeloxT1U2X3hOSDIzVGlLQXk0VmNDLWl3X25HUlFzZmpNSUNwNWpacVI3cko5bGZsc2NxN0wtb2NGWW5ubFV4N1hLWUlxSVNXMnNNT2ZCME40R3lGU0JB?oc=5",
+        "fecha": "2026-11-11"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSVJDTF9kU1IzX2dNYzlESlNRUXJyUFZkbjdVMVQ1MmFKblYzQzlXUkxQdm1wbEpRS1gwaGpkMllia0FZaW9ERVFWLU9xcmdfTFpqYmNJbTVrdTdsMERRS1FZLUtuTEtJbUgzQzBYWDJwcVdOZUF5S0wzeWRaczVBdlo3Tzl1Sm90SW9HMUdmMExxZHdtMkRzb3lDTjhCaTdNWk9kRVlsMTViNWMzV001MkxKX2lQTUhHNFJSNmdlekZfUWt6VlI2ZTB30gHeAUFVX3lxTE1hQmpIYlFoTUE1MEgxeEJYdm1XT09Nd1ZUOFIxYmlneUJ3VGduMmx4U0N6eUtJelIxV2xCZVJXWkdwUUpUc2ZpRTdyQUcxamVTaG9QMWlVTFZiYVdpcXVlVnNjdHBMaGVEZE5ZdVRZOXBqV3pjaE1Nbk0wRG8zaFd3WEdrU0xHX3paMU9VNl94TkgyM1RpS0F5NFZjQy1pd19uR1JRc2ZqTUlDcDVqWnFSN3JKOWxmbHNjcTdMLW9jRllubmxVeDdYS1lJcUlTVzJzTU9mQjBONEd5RlNCQQ?oc=5",
+        "fecha": "2026-11-11"
+      }
+    ]
+  },
+  {
+    "id": "malaria-choco-2026-s46",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Chocó",
+    "nivel": "alto",
+    "casos": null,
+    "esperado": 428,
+    "resumen": "4 fuente(s) reportan malaria en Chocó esta semana. Lo normal para esta semana son unos 428 casos (INS).",
+    "fecha_deteccion": "2026-11-09",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5fWkplQkE0anNMM2xuRlZEUEh0b3lrY1JvcFRWRnFZQThuM2wwRnkteF9ESnplbWNPdmtoOVJwNUVZazE1UFRmbGZuWTExRVp0b1NObUVKdU5JNTZ0c3VCS3BLZ3FOaVhVdkMyd0NyWQ?oc=5",
+        "fecha": "2026-11-09"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeFh1eXpNeTczdlJOdm5GYlNFc0lyOVQyMm1HckJ1NDBOaWNsYVMxdFNMZ1QyZGxNbUZPQjJ6UkRWVW5IaURFajJLN0Nadnhfb2JrdHc0U1NmZV9jTjRJUDM3S2pld1N1MTNrOURYU3RBSmZITnliem5kOHB3d0hTZkdOaUxhR3dodVk2MDFCVElrdnNFelQ1SlJkMzNlSGVrQXY3blRvRHhlYUVlOVIxQXdGMk1JaDhpaEhHNzlOa3JCdDQ?oc=5",
+        "fecha": "2026-11-09"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNUFh2NGhPOWFVZHdpem91Vy1hUWlLUFNlVThXdVVrdXpXMEk2MHh0THJGUjJQSXJScEJQRWp3SmpkV1pMNXlJOXJlbkNDbmpyZzI0TGp1MDBBUGRYNnJfV19VXzFoU3c0ZkxoemdUcXU5QlcySVVQb013S1ptT3B0XzY2aGphUmgzU05jN0pyUlVFQVVyMHZlVnBPN0xKOXV0dzJydEZOTnNwemM4Vi1FY1NqajE2ZG1idUNJWEdUWXp6dXZHaEFwV2tUYXlVbWZNNmNtdTk5UUd0TXJLY2Yzd3F5aGlmY05YZGQ2WlMxVm5lRGl6V0I0dmhCOWs1UTJuNEtuMUtWU3N6WkhlR0dLcmVrSdIBrgJBVV95cUxQcHV6MW0yVmM2WG5sUmdGSnBFYnRkVmw3RENuS2ExZm1wRW9sT19fWVJSV19YS1pCWERSWG1SaUVmNzRKdFhnd2Yyb1JmMEE5MFlLZnA3RE5rcFZnQUV3aGFyV2d1a1hyQk5RNmZSSkhxNEluZURyQldLRXNkUHRPV244SV9GTXRDWjRGNUtPU05sOHZfMl9iOTNBZUxvOERjbWJvNWVfZnY0bmpmQXR0SDFnSGdvMU90RGFJaTZ0VVhSRy11a2dvdlNtVWIwSmpZTXpweExMVEtNY2dYVURLZkZKV3JqT3VETkxIUldqZEFJRjJKcWowaTNaZXVwa1dRdUxsYTB0Z3VyMC1HVzhTeTlKMnFkWXRGV0gtbWNxZjdXaWRZTXdEOFJvMDdMUQ?oc=5",
+        "fecha": "2026-11-11"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOaDBtb3RmYUlHOG1wTEF5aVlJV2lURXMyWGVrU3k4WUdvaWpHS01UQnRBal84U0NEdmgzNEFyODZWSWRNcWIxeUhVa1ZJUkxGNkIwSWNLUUZnOHp4UEQ3akxHb0RlVXlhSEp0T1J4dHg1enB0TEFDQkhZQ0F3WHU0RU5sOURGWlZEOV81MkJKVHBpOTFyNnFZdHFDSVdmQnRJbzVlNl9hRUN1TVJFVjVsNU43T2w4dkxoNThlX09HcHU5Z0d4VXcwdVloOVZhSmJYcjA2ajZNMl9mcUM1TUxtZ3cxQm9NX1lsa2tJTkNFV3NJVzZBX0IyZHI2SQ?oc=5",
         "fecha": "2026-11-11"
       }
     ]
@@ -127,32 +171,6 @@
         "nombre": "Prensa",
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1RQ1hYRTU2ZndwcXhfb2hIeVVodXdSUWpmU0drenNFa25IQlRWWmdHSjZJRHdqa0M1LXpmanhKOXBJbkstMFBnU3ZraERIZjQ1UTlGcmM0dms5eXFZd180dGl4OThUVUM2WTRzenln0gFuQVVfeXFMTVFDWFhFNTZmd3BxeF9vaEh5VWh1d1JRamZTR2t6c0VrbkhCVFZaZ0dKNklEd2prQzUtemZqeEo5cEluSy0wUGdTdmtoREhmNDVROUZyYzR2azl5cVl3XzR0aXg5OFRVQzZZNHN6eWc?oc=5",
-        "fecha": "2026-11-09"
-      }
-    ]
-  },
-  {
-    "id": "malaria-choco-2026-s46",
-    "patogeno": "Malaria",
-    "tipo": "parasito",
-    "departamento": "Chocó",
-    "nivel": "alto",
-    "casos": null,
-    "esperado": 428,
-    "resumen": "2 fuente(s) reportan malaria en Chocó esta semana. Lo normal para esta semana son unos 428 casos (INS).",
-    "fecha_deteccion": "2026-11-09",
-    "municipios": [],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5fWkplQkE0anNMM2xuRlZEUEh0b3lrY1JvcFRWRnFZQThuM2wwRnkteF9ESnplbWNPdmtoOVJwNUVZazE1UFRmbGZuWTExRVp0b1NObUVKdU5JNTZ0c3VCS3BLZ3FOaVhVdkMyd0NyWQ?oc=5",
-        "fecha": "2026-11-09"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeFh1eXpNeTczdlJOdm5GYlNFc0lyOVQyMm1HckJ1NDBOaWNsYVMxdFNMZ1QyZGxNbUZPQjJ6UkRWVW5IaURFajJLN0Nadnhfb2JrdHc0U1NmZV9jTjRJUDM3S2pld1N1MTNrOURYU3RBSmZITnliem5kOHB3d0hTZkdOaUxhR3dodVk2MDFCVElrdnNFelQ1SlJkMzNlSGVrQXY3blRvRHhlYUVlOVIxQXdGMk1JaDhpaEhHNzlOa3JCdDQ?oc=5",
         "fecha": "2026-11-09"
       }
     ]
