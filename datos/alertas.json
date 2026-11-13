@@ -22,6 +22,34 @@
     ]
   },
   {
+    "id": "malaria-valle-del-cauca-2026-s46",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Valle del Cauca",
+    "nivel": "alto",
+    "casos": null,
+    "esperado": 22,
+    "resumen": "2 fuente(s) reportan malaria en Valle del Cauca esta semana. Lo normal para esta semana son unos 22 casos (INS).",
+    "fecha_deteccion": "2026-11-11",
+    "municipios": [
+      "Cali"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLWZwZEg5Vm1XTTVtcUx6aGZucUdaM1pFVWlNd05EX2cyNnh4UDdoX3Z1Q0Q2S2JDb2VhQjJQYmx2bHNrVTM0dnhJSkxacG5zQ0wxd3VzdklJMkhZMmZ5dllGZFVkT2JsMWF6U3VnX2RGUGE3bkNGekhWekxLZGtBUUJNUFI1TFRwdHM3bGg5ckdWVGc?oc=5",
+        "fecha": "2026-10-31"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BeFVrVXlQV1dBTHdvREVTRy1keU5qV3Vhd1lyaXJieDZLNWdpa09wcU5Vc0Iwc1VoZUdYYktYUF9VMG1veExJRHliOHFHODFaMlNfMjBua3Y4dWcyc1kyQXNKZVlfV2xFUlQ5R1MyNDZ2cGd3VGdLR1hSZw?oc=5",
+        "fecha": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "dengue-tolima-2026-s46",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -50,26 +78,6 @@
     ]
   },
   {
-    "id": "malaria-valle-del-cauca-2026-s46",
-    "patogeno": "Malaria",
-    "tipo": "parasito",
-    "departamento": "Valle del Cauca",
-    "nivel": "bajo",
-    "casos": null,
-    "esperado": 22,
-    "resumen": "1 fuente(s) reportan malaria en Valle del Cauca esta semana. Lo normal para esta semana son unos 22 casos (INS).",
-    "fecha_deteccion": "2026-11-11",
-    "municipios": [],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLWZwZEg5Vm1XTTVtcUx6aGZucUdaM1pFVWlNd05EX2cyNnh4UDdoX3Z1Q0Q2S2JDb2VhQjJQYmx2bHNrVTM0dnhJSkxacG5zQ0wxd3VzdklJMkhZMmZ5dllGZFVkT2JsMWF6U3VnX2RGUGE3bkNGekhWekxLZGtBUUJNUFI1TFRwdHM3bGg5ckdWVGc?oc=5",
-        "fecha": "2026-10-31"
-      }
-    ]
-  },
-  {
     "id": "dengue-atlantico-2026-s46",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -77,7 +85,7 @@
     "nivel": "alto",
     "casos": 7671,
     "esperado": 187,
-    "resumen": "4 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 187 casos (INS).",
+    "resumen": "5 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 187 casos (INS).",
     "fecha_deteccion": "2026-11-09",
     "municipios": [
       "Barranquilla"
@@ -106,6 +114,12 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS2plZ3BWMktmNlB3Y3VOUlJQSEhTWGZDeFRndmlsUFNrRlhqcEVaUjFmTG90OGxDOTJFZFhER0FOUHZKM2xlYlh3RVVJRzUxM2o5SG1PRTB0R241akFQdWNYZnNhdEJIUWxveVNzVGtWVG5tWDctX1hEendGOXN2bnFfeXhrZURsNmlHZklFdFRVS1h5WGduVEU1cDk0d9IBngFBVV95cUxOS2plZ3BWMktmNlB3Y3VOUlJQSEhTWGZDeFRndmlsUFNrRlhqcEVaUjFmTG90OGxDOTJFZFhER0FOUHZKM2xlYlh3RVVJRzUxM2o5SG1PRTB0R241akFQdWNYZnNhdEJIUWxveVNzVGtWVG5tWDctX1hEendGOXN2bnFfeXhrZURsNmlHZklFdFRVS1h5WGduVEU1cDk0dw?oc=5",
         "fecha": "2026-11-13"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeXA2ZWktbjhTY3o5UUliOERpYjh3M2NMcU1ZOFZCWXBpZjJRLTlPNWpZRm9kRWdJZVA3aHF5X0ZEQVh5UWRUUHd0VjRYQ2FNZlp1MThGZVE1Mkx2UHJfRUtUMDBxemNYX0NkRkNlZm40NzlYVk1lU2lTNHlTVXUwVHpuTGVnc3BmNmtuQ2F4MWVlaW1YOFNaaWtEZWhYN3ZhaWxUSjF0Yw?oc=5",
+        "fecha": "2026-11-04"
       }
     ]
   },
