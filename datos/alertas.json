@@ -1,5 +1,27 @@
 [
   {
+    "id": "dengue-norte-de-santander-2026-s46",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Norte de Santander",
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": 131,
+    "resumen": "1 fuente(s) reportan dengue en Norte de Santander esta semana. Lo normal para esta semana son unos 131 casos (INS).",
+    "fecha_deteccion": "2026-11-13",
+    "municipios": [
+      "Cúcuta"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSWRBZlRqTC1mWnlzQmhaZjA0YlJFamhzSlp2eVZkWHZHWjJpR25kSmpHVENVVll2bkd1Z0NVTUd3TmZFa0VMRXhseXlVcjZScUJvdWt5YUJTeEFCbno3YmU2X3dib1F1TWZpQm1nY2o2cEd4WktUekdPbEUwR25vVUR0cXFaclpMVVNPd2xaN0JnbFJ2amNvSXI5UkFCRVlYNnJZcDFKOW5jdkZFMlNUX3MyM3p2cTh1N3k5SQ?oc=5",
+        "fecha": "2026-11-13"
+      }
+    ]
+  },
+  {
     "id": "dengue-tolima-2026-s46",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -55,7 +77,7 @@
     "nivel": "alto",
     "casos": 7671,
     "esperado": 187,
-    "resumen": "3 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 187 casos (INS).",
+    "resumen": "4 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 187 casos (INS).",
     "fecha_deteccion": "2026-11-09",
     "municipios": [
       "Barranquilla"
@@ -78,6 +100,12 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2k2Tk1rM2lPNUNtRnh0WE9kM2pFeEo1cF9oV05aMUxqYnAwQ05tR2ZwYi1BWHptSmxkMk8wRmhNOGZBNElWaEpQVzRtcUdkOGxjZ3hzZmJVVW5mT25wWWdXZmpNbE1DQTVZQnBvUjU2UXg2VmpwVzZ1N0VDR0ZXU3VHdTlOY2p6OXZlU2xJMGhybVVTRGctVGxERDhwTXMzcmd6aTRZT3BrWnY0WlNvY0xPMWVBUjZCeFZVQmQ0MNIB0wFBVV95cUxONHRmNXREaFNzeVUzSFFtRDdiWDE1UHBnLTB5V29UQ2FMSTZnX0dlak04Tm14WFI2WDFza1ZJM1ZVNWhaTFhTLTIwZHZIV3NGS2VCTUFhQm9VUE5CdEpLVXQtX3VsWWlnbFpENmI5aGhEaUZnMGdwWHRfeW9CWUFTYkl6Uzlqa3RIYS1EanFFY0ZVMmdUYnRod2prMG5UZEtsRUh0Mmtka25YREx3MlZhRFIwM1d2X3Qtdkw4RG1NZlhPb2NrQmJFelBLRDI4dnktQTZF?oc=5",
         "fecha": "2026-11-12"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS2plZ3BWMktmNlB3Y3VOUlJQSEhTWGZDeFRndmlsUFNrRlhqcEVaUjFmTG90OGxDOTJFZFhER0FOUHZKM2xlYlh3RVVJRzUxM2o5SG1PRTB0R241akFQdWNYZnNhdEJIUWxveVNzVGtWVG5tWDctX1hEendGOXN2bnFfeXhrZURsNmlHZklFdFRVS1h5WGduVEU1cDk0d9IBngFBVV95cUxOS2plZ3BWMktmNlB3Y3VOUlJQSEhTWGZDeFRndmlsUFNrRlhqcEVaUjFmTG90OGxDOTJFZFhER0FOUHZKM2xlYlh3RVVJRzUxM2o5SG1PRTB0R241akFQdWNYZnNhdEJIUWxveVNzVGtWVG5tWDctX1hEendGOXN2bnFfeXhrZURsNmlHZklFdFRVS1h5WGduVEU1cDk0dw?oc=5",
+        "fecha": "2026-11-13"
       }
     ]
   },
