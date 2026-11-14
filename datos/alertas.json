@@ -1,5 +1,27 @@
 [
   {
+    "id": "dengue-magdalena-2026-s46",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Magdalena",
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": 91,
+    "resumen": "1 fuente(s) reportan dengue en Magdalena esta semana. Lo normal para esta semana son unos 91 casos (INS).",
+    "fecha_deteccion": "2026-11-14",
+    "municipios": [
+      "Santa Marta"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOS0dDN0hNVG5LalJqTDd6Ul9ycjZxYjFWM0ZHQV9RNVRfS2plRWRTSnBwZFlJRU9ac2hheUVrSE5IbXRSWHQydnlnaG1SbjlQS09ScXpTdmVzQ0thSnY2enBjVGFpNEZBME9PTXRNOVl4SmlCR051X0hlX3RnUEhLTGRCMU84SUZhWG1LRzNfSEl0azZhNjFoVHdYX0Q4ZE8wSTFFZUZmTlNwZUM5eFlRTUFLR2Y1dVl2emxxQWcxWXZMWHpMYTdJZS1xcFd4SVFYM0RB?oc=5",
+        "fecha": "2026-11-05"
+      }
+    ]
+  },
+  {
     "id": "dengue-norte-de-santander-2026-s46",
     "patogeno": "Dengue",
     "tipo": "virus",
