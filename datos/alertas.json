@@ -1,5 +1,25 @@
 [
   {
+    "id": "malaria-cauca-2026-s46",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Cauca",
+    "nivel": "bajo",
+    "casos": 2,
+    "esperado": 44,
+    "resumen": "1 fuente(s) reportan malaria en Cauca esta semana. Lo normal para esta semana son unos 44 casos (INS).",
+    "fecha_deteccion": "2026-11-15",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNm1fcnNobHJhY1IzaUl6Skt1eHVFQ3A2UFFjVElpdGdndVJxMDVDcmVYLS1mU0h0ODhHNUFYNVFRM1E1NFRBRjVZTUdrNThCbDI0blhNN0NjWmJJRkFmblBQU0pXMTRiWFEwUkVkc1paYXJOUGRyc0doVEpCUFhmQjBIcktnLXowTjdfdjMxUXpidWotUVMtSmstV2J6ejdERm04?oc=5",
+        "fecha": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "dengue-magdalena-2026-s46",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -113,7 +133,7 @@
     "nivel": "alto",
     "casos": 7671,
     "esperado": 187,
-    "resumen": "5 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 187 casos (INS).",
+    "resumen": "6 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 187 casos (INS).",
     "fecha_deteccion": "2026-11-09",
     "municipios": [
       "Barranquilla"
@@ -148,6 +168,12 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeXA2ZWktbjhTY3o5UUliOERpYjh3M2NMcU1ZOFZCWXBpZjJRLTlPNWpZRm9kRWdJZVA3aHF5X0ZEQVh5UWRUUHd0VjRYQ2FNZlp1MThGZVE1Mkx2UHJfRUtUMDBxemNYX0NkRkNlZm40NzlYVk1lU2lTNHlTVXUwVHpuTGVnc3BmNmtuQ2F4MWVlaW1YOFNaaWtEZWhYN3ZhaWxUSjF0Yw?oc=5",
         "fecha": "2026-11-04"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeWliMHlBRDBlMjM0dHh1VTFseEJvbXdlckd6Vkwtck9sNmpRS2ZZN3NnOFdLV3NMRkRHU2Z4eFNhN1BEM19rTDNMZGlEVnJnV3A5ZmQ3YXFNMW5oeHA4cDlPa1dQcUpYV0xMM2loUjdJc1lMWXBzMWxxaHJvajlDSF9mZGtFZzFKSTNpVjh5eEZYcE8wWk4wctIBngFBVV95cUxOS2plZ3BWMktmNlB3Y3VOUlJQSEhTWGZDeFRndmlsUFNrRlhqcEVaUjFmTG90OGxDOTJFZFhER0FOUHZKM2xlYlh3RVVJRzUxM2o5SG1PRTB0R241akFQdWNYZnNhdEJIUWxveVNzVGtWVG5tWDctX1hEendGOXN2bnFfeXhrZURsNmlHZklFdFRVS1h5WGduVEU1cDk0dw?oc=5",
+        "fecha": "2026-11-13"
       }
     ]
   },
