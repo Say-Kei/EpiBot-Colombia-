@@ -4,10 +4,10 @@
     "patogeno": "Malaria",
     "tipo": "parasito",
     "departamento": "Cauca",
-    "nivel": "bajo",
+    "nivel": "alto",
     "casos": 2,
     "esperado": 36,
-    "resumen": "1 fuente(s) reportan malaria en Cauca esta semana. Lo normal para esta semana son unos 36 casos (INS).",
+    "resumen": "2 fuente(s) reportan malaria en Cauca esta semana. Lo normal para esta semana son unos 36 casos (INS).",
     "fecha_deteccion": "2026-11-16",
     "municipios": [],
     "fuentes": [
@@ -16,6 +16,12 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMndacTNoTnNXMFBLWGdORENRaGZVdGxNbzFuR3laOGNzZXNiNFhoVjVIX1JvVWNJa3RSdHhTaDlmazJDVUpDcVc2Ulh6YUFlU0pFaUw1VXJxMnVMVTg0WTJWbDhuTHFqZDJMaWlDdHFrQXg2ZDVGX2hCNko2VWJuUEN3aEhVdnFZRlppNFB4eEgxRW1NZlJZMjZTY19uamt4LVg1T2VLREo?oc=5",
         "fecha": "2026-11-03"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRGZBUUZiWG9yNmZfd2FtejY1ODRSWUpKbzF1SzVSQ3d2Sl9Xbl9FdU1XeF9PZTFrcDJKU1hiVE9sUTRacFhDenlBeVRwSlJkT01lRk1oUTFaUXRMcmtyMnI1X2QxdktRdmh3MHUxa3JTQzBVT2I3cWdlWnp1R3FURzNvLTB1VGtwTTFfM3FUU2QyZGZBS2pYZ1pjdEhhYmpidlFzelA1S2lZczE2RDk3QWEzMkZGQQ?oc=5",
+        "fecha": "2026-11-02"
       }
     ]
   },
