@@ -1,5 +1,47 @@
 [
   {
+    "id": "dengue-huila-2026-s47",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Huila",
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": 83,
+    "resumen": "1 fuente(s) reportan dengue en Huila esta semana. Lo normal para esta semana son unos 83 casos (INS).",
+    "fecha_deteccion": "2026-11-17",
+    "municipios": [
+      "Neiva"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOekZaakYzb0R6d2VhYTJCUFFROXBQV2RPcmVjQ1ptYkpReUVIeWpYWWVzZUNEQmc1Y29oZ2RVeDdaczh5dk5KSkUyREN3YVhYd3U4RXdzaVpadDNRVUNFY1g3R1pEcmg0bXphWVh6X3ZSWENMbzZhM3N4N0UtMXVNdFdRbUlFMlBLTkVyNmx3WkhFUmxHZGZJeU9Ec1RJSjBlUDk5bTgtYnA4cVNJbVdUakE5aUZhcVpYTmt1cE5ZQWtGNGkzREHSAcYBQVVfeXFMUENndWFGS1NIVklxZHlSUkd3T3c4R3JaX093cmxzdzdMNWpKVXFEc0ZWOUQtOFhkUUJ4Z0tYV3pWQjEtUUZjX1d5YjR1bk1XNHZQZkFuVjlTWWtRUDExZG1LM24wQjJsUzh5MVUxcVp6U0NOUHM5MTNWbUVkaVZBXzB6Yk1yXzVCT3FocUU4RXZOekhVSzBmTmFkNVRfZnRVN0VJMEhDUjZ3a3hmdlVRMFU2dmdSbzNGUTR0dFRNcnEwdXgwbzVR?oc=5",
+        "fecha": "2026-11-09"
+      }
+    ]
+  },
+  {
+    "id": "malaria-choco-2026-s47",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Chocó",
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": 435,
+    "resumen": "1 fuente(s) reportan malaria en Chocó esta semana. Lo normal para esta semana son unos 435 casos (INS).",
+    "fecha_deteccion": "2026-11-17",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOekdpOENYOExLUTBEZ19YdzB0VEtPMTRQd3luY0lqcjhpQUx6bUo5amNjZnhZUGRfbDlMeGU5M3E1UWRiQVBiZ0x4S3F6aFpwWlRMVy1kMFJWb29kTzYzam94YkRWSjNWLUd2eTQxSm5YVklOeVhaeE42Ry1CTC13bHNRaHd4QVJfMFpLUXNmdmppYTk0eFQyU3hLY2RhSmFtQ3g3Y3o4cU1TYWZpMWVQVzhUOWdBeGFpbUIyZlVB?oc=5",
+        "fecha": "2026-11-15"
+      }
+    ]
+  },
+  {
     "id": "malaria-cauca-2026-s47",
     "patogeno": "Malaria",
     "tipo": "parasito",
