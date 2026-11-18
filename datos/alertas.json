@@ -1,5 +1,79 @@
 [
   {
+    "id": "dengue-antioquia-2026-s47",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Antioquia",
+    "nivel": "alto",
+    "casos": 530,
+    "esperado": 170,
+    "resumen": "1 fuente(s) reportan dengue en Antioquia esta semana. Lo normal para esta semana son unos 170 casos (INS).",
+    "fecha_deteccion": "2026-11-18",
+    "municipios": [
+      "Medellín"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KLVVKVlMyZUZrMTBJVjZhbFhERkF6R3g5V1YzREVXSDU4S1JIbmstd0tBOXBMVi12bUY3NkNpSEdMV2FLdWV1OG5wNGNiMlZsWWJYaW04d3BIWUlCYTRqUE92SmYyZk1J0gFoQVVfeXFMTUotVUpWUzJlRmsxMElWNmFsWERGQXpHeDlXVjNERVdINThLUkhuay13S0E5cExWLXZtRjc2Q2lIR0xXYUt1ZXU4bnA0Y2IyVmxZYlhpbTh3cEhZSUJhNGpQT3ZKZjJmTUk?oc=5",
+        "fecha": "2026-11-09"
+      }
+    ]
+  },
+  {
+    "id": "dengue-casanare-2026-s47",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Casanare",
+    "nivel": "alto",
+    "casos": 53,
+    "esperado": 15,
+    "resumen": "1 fuente(s) reportan dengue en Casanare esta semana. Lo normal para esta semana son unos 15 casos (INS).",
+    "fecha_deteccion": "2026-11-18",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNR09USHV0RFJJYXhQSWNsRTBDYW9RdFY5UDQyaVlwcEFhMUZtOHpEYzNRZElKT1NKZ29RYUNHbjZ0WC02SmZfSWhOZHN0N3RTYzlhV29HVWRKbVdBUzg4cVBHVnB6UUFjNUk2RFRkRHlfbVVTOFZYQTJjZFV5cWVEUTk0VENIdkI2OExqYmljSWNzQjhMSy1hbnU0M05FOFg1bzRMRGR5RHZMSGRrSTNQS0V2Tk9ZUWJHdUtJNURtNHUxOEI2OGx5eFJUbUJpTFVlODJVYVlISy00QjRwU1EtSmczdFY?oc=5",
+        "fecha": "2026-11-18"
+      }
+    ]
+  },
+  {
+    "id": "malaria-choco-2026-s47",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Chocó",
+    "nivel": "alto",
+    "casos": null,
+    "esperado": 435,
+    "resumen": "3 fuente(s) reportan malaria en Chocó esta semana. Lo normal para esta semana son unos 435 casos (INS).",
+    "fecha_deteccion": "2026-11-17",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOekdpOENYOExLUTBEZ19YdzB0VEtPMTRQd3luY0lqcjhpQUx6bUo5amNjZnhZUGRfbDlMeGU5M3E1UWRiQVBiZ0x4S3F6aFpwWlRMVy1kMFJWb29kTzYzam94YkRWSjNWLUd2eTQxSm5YVklOeVhaeE42Ry1CTC13bHNRaHd4QVJfMFpLUXNmdmppYTk0eFQyU3hLY2RhSmFtQ3g3Y3o4cU1TYWZpMWVQVzhUOWdBeGFpbUIyZlVB?oc=5",
+        "fecha": "2026-11-15"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSmtvNzZLZkwxanU5Y19GQlAtU1c3UXZQeUpYYVFNcXVrcFZkaFVfOWFBSU9SNDFFYnVMd2pkU0dpMzlwSUpfQ1JvN0lnVjcwdHQ2Q0lEd1ZJODhXSTg0RTNoaGFHbjMtNGpaajVVT1ZGYmFNQUN3RjNVMW0yZGMxbGcyWWZZNTFxVWxtQ3JVaDNDQ3hWZFdIVnpfaVhYLXdCNGlEWmg3alBoaVdQcFoyaFpRMU56RFRlMnllSmpqb0Vfc2hPNDgwcHNpaEMwX3F6NDFqcFk2bmo5bjYx?oc=5",
+        "fecha": "2026-11-18"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPSWFSSHNNXzFUS1JMbXFPcmtuNDM2eTVQODlNbE4tV25jT3RFRUItOHRRVmdTRW9LcW9LZFJMMWNjTmZUSXNIYVB3WmQ0MEdzOGN4bzFqOVJvSHNCbU1USUVBX2EzVk13NzlteTM1Y01aeFJORjNRZGp6MzR5WEZ5b0Yta2c0RXBOU3hZcTVwYVZtRlMwSlBzWHRXX256TVcySkM2S21mTWoxcGtWWmpTbEk3Q0czSUNJUE9US2pFaXFzZWdEVHFTWUFRQ0xIQ0dQZmMtTGlQSUQtRFRSMTNDclp3NERNdWpjOE1rWEx2VlFLLS00WllV0gH8AUFVX3lxTFBBVlRqbjFEbkpjeGNUWFJDOTRmZTJaNWwtUVhucFZ3aktsMGVjb2tuSHFLM1FPNlBIVEhaVkFWXzlkdUJ2VmRnalZtVnRLZVYyUy1KcHBEVzZqaGlvcHhvU3Y2WmNxMkY4WWkzMUMxYmZYekdsMEZ0cEhBYlV5WEpxdURfX2RqazdqOGptRHJHTV90NHdOWXZlRmNDOXZibFFFdDc5Nnc0SHhXR3piNGNKeVNfQ3A3Y0N0RnM3UjhycWZkODBkWml2SjJXMHdJeEh6TU5VbEg4RUZyN2JYMkRhalM0OEp6R2RrV3cyal9lOW5Hdlo0bjRja2FXbQ?oc=5",
+        "fecha": "2026-11-18"
+      }
+    ]
+  },
+  {
     "id": "dengue-huila-2026-s47",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -18,26 +92,6 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOekZaakYzb0R6d2VhYTJCUFFROXBQV2RPcmVjQ1ptYkpReUVIeWpYWWVzZUNEQmc1Y29oZ2RVeDdaczh5dk5KSkUyREN3YVhYd3U4RXdzaVpadDNRVUNFY1g3R1pEcmg0bXphWVh6X3ZSWENMbzZhM3N4N0UtMXVNdFdRbUlFMlBLTkVyNmx3WkhFUmxHZGZJeU9Ec1RJSjBlUDk5bTgtYnA4cVNJbVdUakE5aUZhcVpYTmt1cE5ZQWtGNGkzREHSAcYBQVVfeXFMUENndWFGS1NIVklxZHlSUkd3T3c4R3JaX093cmxzdzdMNWpKVXFEc0ZWOUQtOFhkUUJ4Z0tYV3pWQjEtUUZjX1d5YjR1bk1XNHZQZkFuVjlTWWtRUDExZG1LM24wQjJsUzh5MVUxcVp6U0NOUHM5MTNWbUVkaVZBXzB6Yk1yXzVCT3FocUU4RXZOekhVSzBmTmFkNVRfZnRVN0VJMEhDUjZ3a3hmdlVRMFU2dmdSbzNGUTR0dFRNcnEwdXgwbzVR?oc=5",
         "fecha": "2026-11-09"
-      }
-    ]
-  },
-  {
-    "id": "malaria-choco-2026-s47",
-    "patogeno": "Malaria",
-    "tipo": "parasito",
-    "departamento": "Chocó",
-    "nivel": "bajo",
-    "casos": null,
-    "esperado": 435,
-    "resumen": "1 fuente(s) reportan malaria en Chocó esta semana. Lo normal para esta semana son unos 435 casos (INS).",
-    "fecha_deteccion": "2026-11-17",
-    "municipios": [],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOekdpOENYOExLUTBEZ19YdzB0VEtPMTRQd3luY0lqcjhpQUx6bUo5amNjZnhZUGRfbDlMeGU5M3E1UWRiQVBiZ0x4S3F6aFpwWlRMVy1kMFJWb29kTzYzam94YkRWSjNWLUd2eTQxSm5YVklOeVhaeE42Ry1CTC13bHNRaHd4QVJfMFpLUXNmdmppYTk0eFQyU3hLY2RhSmFtQ3g3Y3o4cU1TYWZpMWVQVzhUOWdBeGFpbUIyZlVB?oc=5",
-        "fecha": "2026-11-15"
       }
     ]
   },
