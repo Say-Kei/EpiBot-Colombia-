@@ -1,5 +1,51 @@
 [
   {
+    "id": "dengue-magdalena-2026-s47",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Magdalena",
+    "nivel": "alto",
+    "casos": 2161,
+    "esperado": 120,
+    "resumen": "5 fuente(s) reportan dengue en Magdalena esta semana. Lo normal para esta semana son unos 120 casos (INS).",
+    "fecha_deteccion": "2026-11-19",
+    "municipios": [
+      "Santa Marta"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT0ZUSjVETUlCY3VFMnhFbDc2eF9yelQ5b0RicVdwb2hTa256TWdzZElJemFvcHFiOUc4cjlGYzJjUHctOFg0Tld5c1RQWDBoSUFZTEhiMHJIdjJVZE8ydllhSmhrODBmUEcyTHZScWJ4TUVoTWRYbWxya25HYWxsTkZ1dkR6a1pjZ1RmMXpWMi1uUlNVV3BidW0tX0g1QTRGX2NkaUlQdUdhaWQxWkN6VEhET2pQUmRRZGE1YtIB0AFBVV95cUxOUHpTTkNIaVNKSVVqczN3d3pxUGs3YXkwbGtYQ3FuRlNWUHpKcmhXajlPdjllUjNMQ2pYSkJQLW5tMExMS2h2ZnpUT0FOVnBuemg5UHU2bHUxYmRJNmhVVGliYjlyZW03eFcyNUpkd2hSZHhsbzlEbWNOUUNOamxIT3pRY2tUZHJ0M1RyQ3dlcS0xMzhtSG9TTkIzOHNvNHU0ekhpYVk2Z25BWmJUUWtWQmJRSzhmOUlYY2FYSDNfblNWTVFNcWpRZTR6dDgzSWs3?oc=5",
+        "fecha": "2026-11-19"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSmRjdFZGem0yZU5xY3ZRTW92NzB2bkpWT0h4Smt0V29KSXJVYmxJei1jak1HWGg5TDU4WEhQOHFoYVMwRGdSaTF3OF8zdGVuUnp0dFB2ZXpWRHZjNlhPYlJUb3Vqc01sYzVFSldseEFOa2ZoNFBPWWw3dDA1Z0YxWER0ZGZUQVZFQ213WTZhbnNQQlp2QWM1S1Itc0VaSnBrSWxXMUZxdUtZNTVoT1NIRXNNc2tyLVFTZUltZUh1Yzd4UQ?oc=5",
+        "fecha": "2026-11-18"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOTBLUTdZQU1CRk9QSXpPMU1mc0JRdU54dzZ4VlBPQlFKeVhHZ3FfUDA1RkQxc3NhT2UzNUZfVlh6V0laeDRESkZzbXUwZGx3UkFfb2FqVjY1MVhPaWFwVVNodTg5Y0FpRURWRkNGQzNQaGd2LTJSMG5uZkR4UTU1N3ZXOFYtNGl5bHlhZzBvNkZmaHVSZHFDb1gteVlNakhRSFBZekJQOW5RWWltUHFB0gGvAUFVX3lxTE9KRU0yWG1IdTB1QTY2bnN2bmVKSC1yRmQ0UjNCYmc0VTVPaERBMi1BYlgwMnNPLUl0RDBlSTd2ckFOdk16Qk1mTVVPWTBYck9qRXhESU1NRkdqNWdBTVpaRllGd3VjTXZuOXVIMUZsR093SlBWcjNfN05SWE5XRlpPUlc0Wmx4b2JDbXdFM0dZSmZWX1lnY19TdE9scUh5RDZTSDJxdXdxOV82Y21zSFE?oc=5",
+        "fecha": "2026-11-19"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVJHUC12WFRxMkNEZ3M4U21HTEtPYUpQRllWUlJ2NWdYU01sYzZwUzh3amNPNmJTeWZNWDNwSHZQR2E0YVRIU2ZZQXY2Q2tkRElqLWtaVVEtbjhVVkxyRTRVYU5LU2hPNlh3QWF2TWVRZDRyaXdkQ2VSNXh2Z1lIRWtZZElpRWlxZ3hlYjBjekNGc1FwQlE1bDNzWQ?oc=5",
+        "fecha": "2026-11-19"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYlE5R0p3SHNkRmhoWEJYM05SNUlncnBYNzROS1NlQXQ4UEpGcUtPelhyNTNQOFNvNDdFZlFKMmF3WG5yMktuMnZKNlFUMFlTMjRhamtXSFdpdUtOQldOTnhWU1FZTXVER0pPTmlqSzZIT2cybF9oQk92bGdjX0ViRGZzZTR6bnJEZDBtcHp6T0EwY3c2R0xLc09XeFZyNmotSklIQ3dCdy0zOEVhVEl6NjFOYUpsdnpyOG5Jb0pmSVg1aFdfeFQ4WGFMZklhR0J6YnoyMm4tVFRsY0R4MUF3T3BfUE1BZmc?oc=5",
+        "fecha": "2026-11-19"
+      }
+    ]
+  },
+  {
     "id": "dengue-santander-2026-s47",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -22,30 +68,28 @@
     ]
   },
   {
-    "id": "dengue-magdalena-2026-s47",
+    "id": "dengue-casanare-2026-s47",
     "patogeno": "Dengue",
     "tipo": "virus",
-    "departamento": "Magdalena",
+    "departamento": "Casanare",
     "nivel": "alto",
-    "casos": null,
-    "esperado": 120,
-    "resumen": "2 fuente(s) reportan dengue en Magdalena esta semana. Lo normal para esta semana son unos 120 casos (INS).",
-    "fecha_deteccion": "2026-11-19",
-    "municipios": [
-      "Santa Marta"
-    ],
+    "casos": 53,
+    "esperado": 15,
+    "resumen": "2 fuente(s) reportan dengue en Casanare esta semana. Lo normal para esta semana son unos 15 casos (INS).",
+    "fecha_deteccion": "2026-11-18",
+    "municipios": [],
     "fuentes": [
       {
         "nombre": "Prensa",
         "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT0ZUSjVETUlCY3VFMnhFbDc2eF9yelQ5b0RicVdwb2hTa256TWdzZElJemFvcHFiOUc4cjlGYzJjUHctOFg0Tld5c1RQWDBoSUFZTEhiMHJIdjJVZE8ydllhSmhrODBmUEcyTHZScWJ4TUVoTWRYbWxya25HYWxsTkZ1dkR6a1pjZ1RmMXpWMi1uUlNVV3BidW0tX0g1QTRGX2NkaUlQdUdhaWQxWkN6VEhET2pQUmRRZGE1YtIB0AFBVV95cUxOUHpTTkNIaVNKSVVqczN3d3pxUGs3YXkwbGtYQ3FuRlNWUHpKcmhXajlPdjllUjNMQ2pYSkJQLW5tMExMS2h2ZnpUT0FOVnBuemg5UHU2bHUxYmRJNmhVVGliYjlyZW03eFcyNUpkd2hSZHhsbzlEbWNOUUNOamxIT3pRY2tUZHJ0M1RyQ3dlcS0xMzhtSG9TTkIzOHNvNHU0ekhpYVk2Z25BWmJUUWtWQmJRSzhmOUlYY2FYSDNfblNWTVFNcWpRZTR6dDgzSWs3?oc=5",
-        "fecha": "2026-11-19"
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNR09USHV0RFJJYXhQSWNsRTBDYW9RdFY5UDQyaVlwcEFhMUZtOHpEYzNRZElKT1NKZ29RYUNHbjZ0WC02SmZfSWhOZHN0N3RTYzlhV29HVWRKbVdBUzg4cVBHVnB6UUFjNUk2RFRkRHlfbVVTOFZYQTJjZFV5cWVEUTk0VENIdkI2OExqYmljSWNzQjhMSy1hbnU0M05FOFg1bzRMRGR5RHZMSGRrSTNQS0V2Tk9ZUWJHdUtJNURtNHUxOEI2OGx5eFJUbUJpTFVlODJVYVlISy00QjRwU1EtSmczdFY?oc=5",
+        "fecha": "2026-11-18"
       },
       {
         "nombre": "Prensa",
         "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSmRjdFZGem0yZU5xY3ZRTW92NzB2bkpWT0h4Smt0V29KSXJVYmxJei1jak1HWGg5TDU4WEhQOHFoYVMwRGdSaTF3OF8zdGVuUnp0dFB2ZXpWRHZjNlhPYlJUb3Vqc01sYzVFSldseEFOa2ZoNFBPWWw3dDA1Z0YxWER0ZGZUQVZFQ213WTZhbnNQQlp2QWM1S1Itc0VaSnBrSWxXMUZxdUtZNTVoT1NIRXNNc2tyLVFTZUltZUh1Yzd4UQ?oc=5",
-        "fecha": "2026-11-18"
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcjlSLUVUQWxkUnBZV0YxZ0piODBPQTdpVTZfZnpLM25MaHNKZ18zZnpKVzZiLTFoaDdhZXk4WGduNElTQ2tCY0hwWGFqNE4xR2hhTmMzYWMxMWFVSld5Tnp1VExJdEZMWWhXWUNmUldibGJYb0pLWnN4R3JuSVREOGNaeTdFeHgzWlVfd3ZkYXlFbDdfdGFMN05nNDRCQXBydzF5TEZWVVM5TjFabGpsTlh0RElDVDRwbDJtY20yZXJXYnowa1lBS3ZWczh3bHRyY1FXYXRBMzJMaGcwMFNFR1I2WkctWFhwY0ZR?oc=5",
+        "fecha": "2026-11-19"
       }
     ]
   },
@@ -68,26 +112,6 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KLVVKVlMyZUZrMTBJVjZhbFhERkF6R3g5V1YzREVXSDU4S1JIbmstd0tBOXBMVi12bUY3NkNpSEdMV2FLdWV1OG5wNGNiMlZsWWJYaW04d3BIWUlCYTRqUE92SmYyZk1J0gFoQVVfeXFMTUotVUpWUzJlRmsxMElWNmFsWERGQXpHeDlXVjNERVdINThLUkhuay13S0E5cExWLXZtRjc2Q2lIR0xXYUt1ZXU4bnA0Y2IyVmxZYlhpbTh3cEhZSUJhNGpQT3ZKZjJmTUk?oc=5",
         "fecha": "2026-11-09"
-      }
-    ]
-  },
-  {
-    "id": "dengue-casanare-2026-s47",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Casanare",
-    "nivel": "alto",
-    "casos": 53,
-    "esperado": 15,
-    "resumen": "1 fuente(s) reportan dengue en Casanare esta semana. Lo normal para esta semana son unos 15 casos (INS).",
-    "fecha_deteccion": "2026-11-18",
-    "municipios": [],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNR09USHV0RFJJYXhQSWNsRTBDYW9RdFY5UDQyaVlwcEFhMUZtOHpEYzNRZElKT1NKZ29RYUNHbjZ0WC02SmZfSWhOZHN0N3RTYzlhV29HVWRKbVdBUzg4cVBHVnB6UUFjNUk2RFRkRHlfbVVTOFZYQTJjZFV5cWVEUTk0VENIdkI2OExqYmljSWNzQjhMSy1hbnU0M05FOFg1bzRMRGR5RHZMSGRrSTNQS0V2Tk9ZUWJHdUtJNURtNHUxOEI2OGx5eFJUbUJpTFVlODJVYVlISy00QjRwU1EtSmczdFY?oc=5",
-        "fecha": "2026-11-18"
       }
     ]
   },
