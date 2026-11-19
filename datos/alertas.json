@@ -1,5 +1,55 @@
 [
   {
+    "id": "dengue-santander-2026-s47",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Santander",
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": 264,
+    "resumen": "1 fuente(s) reportan dengue en Santander esta semana. Lo normal para esta semana son unos 264 casos (INS).",
+    "fecha_deteccion": "2026-11-19",
+    "municipios": [
+      "Bucaramanga"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVVFDS3JpTlVDUTJDZGsxZG9XZDJRZDJiT1FmejIwQk9fNTVET0pQdlNlZ2pCdnJ1cnZJbjMzakdDTWxfbUNIWmJWVDR5cVRlVmh0bE11M085MlQxVEdHaVFTbHRiTnZJUU9Gdkpfa3BNSmR6TzdLQ0Z1MmE0R3RRXzZvRnY0VTg?oc=5",
+        "fecha": "2026-11-18"
+      }
+    ]
+  },
+  {
+    "id": "dengue-magdalena-2026-s47",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Magdalena",
+    "nivel": "alto",
+    "casos": null,
+    "esperado": 120,
+    "resumen": "2 fuente(s) reportan dengue en Magdalena esta semana. Lo normal para esta semana son unos 120 casos (INS).",
+    "fecha_deteccion": "2026-11-19",
+    "municipios": [
+      "Santa Marta"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT0ZUSjVETUlCY3VFMnhFbDc2eF9yelQ5b0RicVdwb2hTa256TWdzZElJemFvcHFiOUc4cjlGYzJjUHctOFg0Tld5c1RQWDBoSUFZTEhiMHJIdjJVZE8ydllhSmhrODBmUEcyTHZScWJ4TUVoTWRYbWxya25HYWxsTkZ1dkR6a1pjZ1RmMXpWMi1uUlNVV3BidW0tX0g1QTRGX2NkaUlQdUdhaWQxWkN6VEhET2pQUmRRZGE1YtIB0AFBVV95cUxOUHpTTkNIaVNKSVVqczN3d3pxUGs3YXkwbGtYQ3FuRlNWUHpKcmhXajlPdjllUjNMQ2pYSkJQLW5tMExMS2h2ZnpUT0FOVnBuemg5UHU2bHUxYmRJNmhVVGliYjlyZW03eFcyNUpkd2hSZHhsbzlEbWNOUUNOamxIT3pRY2tUZHJ0M1RyQ3dlcS0xMzhtSG9TTkIzOHNvNHU0ekhpYVk2Z25BWmJUUWtWQmJRSzhmOUlYY2FYSDNfblNWTVFNcWpRZTR6dDgzSWs3?oc=5",
+        "fecha": "2026-11-19"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSmRjdFZGem0yZU5xY3ZRTW92NzB2bkpWT0h4Smt0V29KSXJVYmxJei1jak1HWGg5TDU4WEhQOHFoYVMwRGdSaTF3OF8zdGVuUnp0dFB2ZXpWRHZjNlhPYlJUb3Vqc01sYzVFSldseEFOa2ZoNFBPWWw3dDA1Z0YxWER0ZGZUQVZFQ213WTZhbnNQQlp2QWM1S1Itc0VaSnBrSWxXMUZxdUtZNTVoT1NIRXNNc2tyLVFTZUltZUh1Yzd4UQ?oc=5",
+        "fecha": "2026-11-18"
+      }
+    ]
+  },
+  {
     "id": "dengue-antioquia-2026-s47",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -49,7 +99,7 @@
     "nivel": "alto",
     "casos": null,
     "esperado": 435,
-    "resumen": "3 fuente(s) reportan malaria en Chocó esta semana. Lo normal para esta semana son unos 435 casos (INS).",
+    "resumen": "4 fuente(s) reportan malaria en Chocó esta semana. Lo normal para esta semana son unos 435 casos (INS).",
     "fecha_deteccion": "2026-11-17",
     "municipios": [],
     "fuentes": [
@@ -70,6 +120,12 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPSWFSSHNNXzFUS1JMbXFPcmtuNDM2eTVQODlNbE4tV25jT3RFRUItOHRRVmdTRW9LcW9LZFJMMWNjTmZUSXNIYVB3WmQ0MEdzOGN4bzFqOVJvSHNCbU1USUVBX2EzVk13NzlteTM1Y01aeFJORjNRZGp6MzR5WEZ5b0Yta2c0RXBOU3hZcTVwYVZtRlMwSlBzWHRXX256TVcySkM2S21mTWoxcGtWWmpTbEk3Q0czSUNJUE9US2pFaXFzZWdEVHFTWUFRQ0xIQ0dQZmMtTGlQSUQtRFRSMTNDclp3NERNdWpjOE1rWEx2VlFLLS00WllV0gH8AUFVX3lxTFBBVlRqbjFEbkpjeGNUWFJDOTRmZTJaNWwtUVhucFZ3aktsMGVjb2tuSHFLM1FPNlBIVEhaVkFWXzlkdUJ2VmRnalZtVnRLZVYyUy1KcHBEVzZqaGlvcHhvU3Y2WmNxMkY4WWkzMUMxYmZYekdsMEZ0cEhBYlV5WEpxdURfX2RqazdqOGptRHJHTV90NHdOWXZlRmNDOXZibFFFdDc5Nnc0SHhXR3piNGNKeVNfQ3A3Y0N0RnM3UjhycWZkODBkWml2SjJXMHdJeEh6TU5VbEg4RUZyN2JYMkRhalM0OEp6R2RrV3cyal9lOW5Hdlo0bjRja2FXbQ?oc=5",
         "fecha": "2026-11-18"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWlo3NHM2Xy1wTjdhUS1LUzdTN1dsRjREUjlKZHlHR2tLUVpDWTBkWFdJMDhzcDk2Y1hkOUQ1NWVSd2Z6VndnQUQ5d1pBZjNSeXd2UXpULVNZOUFtN0E3aWJrT2JhQ2I0RlRRZ0k1UVY5ZHlZTThFTGRRcXVyajNEdnRId3JTNVdWdVZPSk5LT0VyYURzQ3ZoRjVQbE1vZWV4YWJqNzYyY3pkbHh6aER1X1RqY1Z6SE5ReDVtMGYzemZPckoxNFBNal9ocTYzNkHSAdQBQVVfeXFMTzZsenc3cl8tQUlGSjVCcjRKQ2kxSzNWQVhXUHdwYVIySVlZYklucXBkU1N5YUJNWjZMZDdSVkc3NF94dmxKb3JjT0ZPY3FrOEU2ZTlGTDlKT2J1ZXJJeVNKLWcxX3g3M2lmcEh5ZHU4emlzaGNTbk9ENkZETWczdk80eHJOUVJLdmhibW14UmE3b29HeXRoVko1bzI1MzdERUtVTFU0T253TnhUSDZWNUxQdnE1OWl0YzRoMWd1NXZhYlRySmhWYmRJT1E1TkRhdzBHNk4?oc=5",
+        "fecha": "2026-11-19"
       }
     ]
   },
