@@ -1,5 +1,27 @@
 [
   {
+    "id": "malaria-valle-del-cauca-2026-s47",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Valle del Cauca",
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": 20,
+    "resumen": "1 fuente(s) reportan malaria en Valle del Cauca esta semana. Lo normal para esta semana son unos 20 casos (INS).",
+    "fecha_deteccion": "2026-11-20",
+    "municipios": [
+      "Cali"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOcE5uUXdGS2NjR1hJekM4UzJMREVDczhyWjJCSWZZVEVkZjlQdHpQZzZ1ZUhiT1NzVkVDN25oUUwtTDB2NEpOSmNCZVljblJOR0FSV25IZlZUZmszZGlKb2xSRjhmOFZwZUR2a01NZEUyd2NncXg0c0Rqb1BVeU0zenJxMEExRWZOdldXRGF2UjFhRjZXXzFaSXhHR2dzaE4yWkVJYWFHQnhaNTFmQ2RxSTJhVTVTUk56ZjRfMW92am5xZlVpUklmSklNZEhLbGxnR3ItTXNuRW4zNjNBSTUxcmZxS2tKMHRvZ3NWcURnNlZqR240c0h1WEZzem1HTjI2VTdTcDZNVkwya25ka2lxX01McEFDa0NkRzFXanRuRnlLUTgxellMOFRB0gHEAkFVX3lxTE16eWRBbnA2VklRTzlUbEdocy0wVEtBZGo3dGhfcWtmRklxSkhaU0d6ZlBlWWtPY2tNUVNEOXM0TjNyUHRLNTM2SEt1UzBBOG9nUThZVDVZdlVqME5jVFg0VEVrYmNIMV9wejRaaWRaRlZyUVVxNU9ZR3dVbWo1eWJDRXJvMnV1ZTFJT3ZCVVlyWEhNUk12SVlHZXJxUjB4Um1xdjZmbHNKSjBfMl9HWk1LUWt3dS1BTXFZVTZxWV84ODRrS28wSUp0ZFh5ZzBkM01mX0FsaWlaZDhlMFRwTkVuYXVCRlFYc3dxTVFtYzM4cDJVMWExcUM1VUFRNXVNUzhYOGpVdXB2dk9DY1g5TU5pU1VHcjhCNUEtTmo1bk9BS183UjRsV0xRQXNXVl9WMHhxRXdJNUVoNEo5cjlvRENCems1Qg?oc=5",
+        "fecha": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "dengue-magdalena-2026-s47",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -123,7 +145,7 @@
     "nivel": "alto",
     "casos": null,
     "esperado": 435,
-    "resumen": "4 fuente(s) reportan malaria en Chocó esta semana. Lo normal para esta semana son unos 435 casos (INS).",
+    "resumen": "5 fuente(s) reportan malaria en Chocó esta semana. Lo normal para esta semana son unos 435 casos (INS).",
     "fecha_deteccion": "2026-11-17",
     "municipios": [],
     "fuentes": [
@@ -149,6 +171,12 @@
         "nombre": "Prensa",
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWlo3NHM2Xy1wTjdhUS1LUzdTN1dsRjREUjlKZHlHR2tLUVpDWTBkWFdJMDhzcDk2Y1hkOUQ1NWVSd2Z6VndnQUQ5d1pBZjNSeXd2UXpULVNZOUFtN0E3aWJrT2JhQ2I0RlRRZ0k1UVY5ZHlZTThFTGRRcXVyajNEdnRId3JTNVdWdVZPSk5LT0VyYURzQ3ZoRjVQbE1vZWV4YWJqNzYyY3pkbHh6aER1X1RqY1Z6SE5ReDVtMGYzemZPckoxNFBNal9ocTYzNkHSAdQBQVVfeXFMTzZsenc3cl8tQUlGSjVCcjRKQ2kxSzNWQVhXUHdwYVIySVlZYklucXBkU1N5YUJNWjZMZDdSVkc3NF94dmxKb3JjT0ZPY3FrOEU2ZTlGTDlKT2J1ZXJJeVNKLWcxX3g3M2lmcEh5ZHU4emlzaGNTbk9ENkZETWczdk80eHJOUVJLdmhibW14UmE3b29HeXRoVko1bzI1MzdERUtVTFU0T253TnhUSDZWNUxQdnE1OWl0YzRoMWd1NXZhYlRySmhWYmRJT1E1TkRhdzBHNk4?oc=5",
+        "fecha": "2026-11-19"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONHliZkNVLVA5aTRHU0RabEZ2QTVQYUpqaGY3MFJ2Vlo1U2JvdThJS05IaFV5dWFfS2NmRGY4QkhhWDhEMzhMRC13a0x5QjlBaDVPWEJ5WW5jMHJkLUF0ODRNdVJ6MDl2Z3FZcWN2MEk4WjRKRFFrN3FqMGk3eXR6cVMwdW9yRVZ4RlZvaEVNRVpfbUtBTzlHclpMZmpwTlpDZnc?oc=5",
         "fecha": "2026-11-19"
       }
     ]
