@@ -1,5 +1,25 @@
 [
   {
+    "id": "dengue-tolima-2026-s47",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Tolima",
+    "nivel": "alto",
+    "casos": 3800,
+    "esperado": 216,
+    "resumen": "1 fuente(s) reportan dengue en Tolima esta semana. Lo normal para esta semana son unos 216 casos (INS).",
+    "fecha_deteccion": "2026-11-21",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTjVFT1lRRW5qSTBNdlp2dl9nQ0lsTVQzdWctWVpvZHJRbGZ3aUpzbExSaUNCTzJicTE0WTJ5VXJ2dDQ3c2RSRzhHWTNXQnlaUm5OTGs0RjhMN203ZDdEVU1GR1FIN214QUlvbXVBSTdHb01sRjNoeUtJYlVuNVJ5NnBZWDBJQWpkYWl0QlRkME5uZnEyWVpIQ2ViMnROVEoxbThHMUxfQl9TYVZQYUh3V2txMlZPWGpNbEE1dEg3WQ?oc=5",
+        "fecha": "2026-11-21"
+      }
+    ]
+  },
+  {
     "id": "malaria-amazonas-2026-s47",
     "patogeno": "Malaria",
     "tipo": "parasito",
