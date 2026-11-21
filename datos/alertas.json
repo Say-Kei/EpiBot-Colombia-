@@ -1,5 +1,25 @@
 [
   {
+    "id": "malaria-amazonas-2026-s47",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Amazonas",
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": 39,
+    "resumen": "1 fuente(s) reportan malaria en Amazonas esta semana. Lo normal para esta semana son unos 39 casos (INS).",
+    "fecha_deteccion": "2026-11-21",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQN1lYLUM0QTFWMlVORWlROWlIRnhXQjl5aUpRS09pcmdxT2xBOVQxVDUzQ1QzcXFwRk1KTTVYMUxiY2ZYbHhBSm5pV3ZUb295Z0JYQWpDUjBBVmdfajktdVJaOEdfQ3dCV0NlQUxITG5GWS1DTmpUQUg1eS1ZbHBkZldHQldTODV2Vm1DUkYzMmMzTHpGZWNEWEVlVQ?oc=5",
+        "fecha": "2026-11-07"
+      }
+    ]
+  },
+  {
     "id": "dengue-atlantico-2026-s47",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -110,6 +130,34 @@
     ]
   },
   {
+    "id": "dengue-antioquia-2026-s47",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Antioquia",
+    "nivel": "alto",
+    "casos": 530,
+    "esperado": 170,
+    "resumen": "2 fuente(s) reportan dengue en Antioquia esta semana. Lo normal para esta semana son unos 170 casos (INS).",
+    "fecha_deteccion": "2026-11-18",
+    "municipios": [
+      "Medellín"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KLVVKVlMyZUZrMTBJVjZhbFhERkF6R3g5V1YzREVXSDU4S1JIbmstd0tBOXBMVi12bUY3NkNpSEdMV2FLdWV1OG5wNGNiMlZsWWJYaW04d3BIWUlCYTRqUE92SmYyZk1J0gFoQVVfeXFMTUotVUpWUzJlRmsxMElWNmFsWERGQXpHeDlXVjNERVdINThLUkhuay13S0E5cExWLXZtRjc2Q2lIR0xXYUt1ZXU4bnA0Y2IyVmxZYlhpbTh3cEhZSUJhNGpQT3ZKZjJmTUk?oc=5",
+        "fecha": "2026-11-09"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPLVJkbEZ2cmVQb3RlbVFFa19pQnU1eENmX3dWbDc0VnczNThBaGEwSVhONDNuRUZrZWpOVWdzS2JnQnEyT1JhZG5OTi10QUt2SC1hMC1jc3VsN19sNTdYd1oxVUxER2pOMWpFOXdjODk0czQtWk9ObGNiaTZhZER2VW9ORzlEc1BwVjVpWE56Z2NGRWNZWkNtLXBManRVU2ZMbmRCY04tc0VGaE9iSmhhanY0WVNvU1ZYeW5wangxaWxXRW4wR2djTW8tUkFkRlBMa2tiV9IB1AFBVV95cUxPLVJkbEZ2cmVQb3RlbVFFa19pQnU1eENmX3dWbDc0VnczNThBaGEwSVhONDNuRUZrZWpOVWdzS2JnQnEyT1JhZG5OTi10QUt2SC1hMC1jc3VsN19sNTdYd1oxVUxER2pOMWpFOXdjODk0czQtWk9ObGNiaTZhZER2VW9ORzlEc1BwVjVpWE56Z2NGRWNZWkNtLXBManRVU2ZMbmRCY04tc0VGaE9iSmhhanY0WVNvU1ZYeW5wangxaWxXRW4wR2djTW8tUkFkRlBMa2tiVw?oc=5",
+        "fecha": "2026-11-20"
+      }
+    ]
+  },
+  {
     "id": "dengue-casanare-2026-s47",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -132,28 +180,6 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcjlSLUVUQWxkUnBZV0YxZ0piODBPQTdpVTZfZnpLM25MaHNKZ18zZnpKVzZiLTFoaDdhZXk4WGduNElTQ2tCY0hwWGFqNE4xR2hhTmMzYWMxMWFVSld5Tnp1VExJdEZMWWhXWUNmUldibGJYb0pLWnN4R3JuSVREOGNaeTdFeHgzWlVfd3ZkYXlFbDdfdGFMN05nNDRCQXBydzF5TEZWVVM5TjFabGpsTlh0RElDVDRwbDJtY20yZXJXYnowa1lBS3ZWczh3bHRyY1FXYXRBMzJMaGcwMFNFR1I2WkctWFhwY0ZR?oc=5",
         "fecha": "2026-11-19"
-      }
-    ]
-  },
-  {
-    "id": "dengue-antioquia-2026-s47",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Antioquia",
-    "nivel": "alto",
-    "casos": 530,
-    "esperado": 170,
-    "resumen": "1 fuente(s) reportan dengue en Antioquia esta semana. Lo normal para esta semana son unos 170 casos (INS).",
-    "fecha_deteccion": "2026-11-18",
-    "municipios": [
-      "Medellín"
-    ],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KLVVKVlMyZUZrMTBJVjZhbFhERkF6R3g5V1YzREVXSDU4S1JIbmstd0tBOXBMVi12bUY3NkNpSEdMV2FLdWV1OG5wNGNiMlZsWWJYaW04d3BIWUlCYTRqUE92SmYyZk1J0gFoQVVfeXFMTUotVUpWUzJlRmsxMElWNmFsWERGQXpHeDlXVjNERVdINThLUkhuay13S0E5cExWLXZtRjc2Q2lIR0xXYUt1ZXU4bnA0Y2IyVmxZYlhpbTh3cEhZSUJhNGpQT3ZKZjJmTUk?oc=5",
-        "fecha": "2026-11-09"
       }
     ]
   },
