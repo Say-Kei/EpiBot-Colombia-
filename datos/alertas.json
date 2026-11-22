@@ -5778,39 +5778,5 @@
         "fecha": "2026-10-16"
       }
     ]
-  },
-  {
-    "id": "dengue-cordoba-2026-s43",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Córdoba",
-    "nivel": "bajo",
-    "casos": 285,
-    "esperado": 367,
-    "resumen": "Confirmado por fuente oficial (INS · BES semana 41). 285 casos en las últimas 4 semanas frente a 367 esperados; 2938 en lo que va del año.",
-    "fecha_deteccion": "2026-10-22",
-    "municipios": [
-      "Montería"
-    ],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbXI5U3BOTjRtM2pxUF85QmhTaTBLUHMzT29TcFJLNkhqLWw2VlU0a3M5N2NUVlNhYmZrSmtJMEwtR0kyc21HRUFHSGczaFhFQTkzTzB3X2VXVWtuRlN4MjRXTUN2T1ByMEptb0MzaVdvaGw5Uy1xcVhQdnY1eHJhMFE0czdfLTdBMDZLSnVQMU12Q216aEF2eFRXeElZYXFsXy1mTVJfb0swcmNPRVJOVEo4RWt6TWtLMWdYZVpTS1RHdlRQ0gHKAUFVX3lxTE1wVVllTGNITXYzajdNZGt4Z2ViYzE1ZGhJTVZDX1JXZzVMTVQ5ME1MZzYtbWgtZjc3eTBXa1VIcGtWRkJqRWFpU3phckRrVWJNUmduZTVSU0pKRkdTaEk3dFo4UERsclRFZ09xRWpyR0RyM3k0MkZ0Mi1vQ2FnNXFKVWtsbUlfVXdKT0pMSHZGM3l0LUd2RnRnQ3lHY3NHMncwSzU4cEpIN1dlZWs2Mzd2eWkzVVB0YjlGaXlaejV1U3VLREdhUG1aQlE?oc=5",
-        "fecha": "2026-10-21"
-      },
-      {
-        "nombre": "INS · BES semana 41",
-        "tipo": "oficial",
-        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-41.pdf",
-        "fecha": "2026-10-17"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOeTNBdVR3SDdvTFBUWktJTlI0U3JlaVkyU3djdzBNUFlKNDNjUHVKWGpMSDFTQlM2dUtFVE5yQjh3a2ZqdHI0NEJfZTBNVmpyV3p2bFFDM0JoNFhKZ0FVN0RRUmotLW1vc2lxZmt4MlptZlhWVS0zUXlYWkc5WXFOcHhZYlI5QUljbTlMQkY3a20xS1Y2bGZWVVpIWFllelNvTHNQekNtbzJZaTIxaG9lQTBQTVc3TUNQWU1jVW9iN0FxeVNDMUR0dUdjS1JJVE9zQU8xN3ZSeEZtd0pDbHpuMThBTmlVTGw0SVd4Ni1NMVZDNzVweDBkVU4xWHN4Tm9y?oc=5",
-        "fecha": "2026-09-28"
-      }
-    ]
   }
 ]
