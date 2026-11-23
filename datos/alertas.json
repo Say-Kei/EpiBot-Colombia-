@@ -1,5 +1,53 @@
 [
   {
+    "id": "dengue-sucre-2026-s48",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Sucre",
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": 80,
+    "resumen": "1 fuente(s) reportan dengue en Sucre esta semana. Lo normal para esta semana son unos 80 casos (INS).",
+    "fecha_deteccion": "2026-11-23",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWFVjU3A0UHBVcjJjbjk4bTZiYXZfRl9FcHBBaG5mck45RkRYaGU5Q3pwcl85SU9DRXpmWTlRTG9NMnJpMnRvQmVITUplZ0ZmT01TS0Zxc2JWWnprU3VmRW5DZy1qWEl4LWJpc0tQYkZGSkhqT1RZdzR6cEZTMTdGRlUtUVlPVG5oNzJkSkN3NUQtRVlKb0hXempLaHJkSzVSU21yTnpuRnFfc0w4RjJRbGs0S0g?oc=5",
+        "fecha": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "dengue-antioquia-2026-s48",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Antioquia",
+    "nivel": "alto",
+    "casos": 534,
+    "esperado": 171,
+    "resumen": "2 fuente(s) reportan dengue en Antioquia esta semana. Lo normal para esta semana son unos 171 casos (INS).",
+    "fecha_deteccion": "2026-11-23",
+    "municipios": [
+      "Medellín"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYWR6ZURpSFJhbkdqdUZfTFlZTTNjNWtiWndvRXl0bkVVQ09HaWdhemVic3JGSlcyRHp1cjlsc3pLQ0V0ZEJ1UkdoRlZNNFpZYThRUXBaYzFmaGlIZ0hZVjlXcDJzUFZld2s3MHl6LUFBWW1qY0VkSVdnT1gwbUowNFdrT21SNDRIa3lCWHNFTkNIa0txRmhPTFByWHUzcVN3bVczUFpnN1BzUjM0TFI0Zkt2TWpnUQ?oc=5",
+        "fecha": "2026-11-22"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMTBhUW5sUTRHX2xVSnI1YlAxdHBuR0hRZkpycEFpNVVMMUdSbEF3WWVDc3NLVUNfMy1DTHRhSkRDSFNMLXc5aUtyY3RMdEd6S1V5czZSUzBuMjNmamV2OHRJX0dUVnpHR19vbE91dHlxMG53YW9iZmM1eW0tUEozR1BZSkhaZ1VWS0EtbFdHOTJqbDZtcndYRVFTMnp6UVhCN19nY2xaa1lBaHhIWGxXSzlUNGhiNkpRUUhfS9IBvAFBVV95cUxPMTBhUW5sUTRHX2xVSnI1YlAxdHBuR0hRZkpycEFpNVVMMUdSbEF3WWVDc3NLVUNfMy1DTHRhSkRDSFNMLXc5aUtyY3RMdEd6S1V5czZSUzBuMjNmamV2OHRJX0dUVnpHR19vbE91dHlxMG53YW9iZmM1eW0tUEozR1BZSkhaZ1VWS0EtbFdHOTJqbDZtcndYRVFTMnp6UVhCN19nY2xaa1lBaHhIWGxXSzlUNGhiNkpRUUhfSw?oc=5",
+        "fecha": "2026-11-23"
+      }
+    ]
+  },
+  {
     "id": "dengue-magdalena-2026-s48",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -18,28 +66,6 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSkVNMlhtSHUwdUE2Nm5zdm5lSkgtckZkNFIzQmJnNFU1T2hEQTItQWJYMDJzTy1JdEQwZUk3dnJBTnZNekJNZk1VT1kwWHJPakV4RElNTUZHajVnQU1aWkZZRnd1Y012bjl1SDFGbEdPd0pQVnIzXzdOUlhOV0ZaT1JXNFpseG9iQ213RTNHWUpmVl9ZZ2NfU3RPbHFIeUQ2U0gycXV3cTlfNmNtc0hR0gGvAUFVX3lxTE9KRU0yWG1IdTB1QTY2bnN2bmVKSC1yRmQ0UjNCYmc0VTVPaERBMi1BYlgwMnNPLUl0RDBlSTd2ckFOdk16Qk1mTVVPWTBYck9qRXhESU1NRkdqNWdBTVpaRllGd3VjTXZuOXVIMUZsR093SlBWcjNfN05SWE5XRlpPUlc0Wmx4b2JDbXdFM0dZSmZWX1lnY19TdE9scUh5RDZTSDJxdXdxOV82Y21zSFE?oc=5",
         "fecha": "2026-11-19"
-      }
-    ]
-  },
-  {
-    "id": "dengue-antioquia-2026-s48",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Antioquia",
-    "nivel": "bajo",
-    "casos": 54,
-    "esperado": 171,
-    "resumen": "1 fuente(s) reportan dengue en Antioquia esta semana. Lo normal para esta semana son unos 171 casos (INS).",
-    "fecha_deteccion": "2026-11-23",
-    "municipios": [
-      "Medellín"
-    ],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYWR6ZURpSFJhbkdqdUZfTFlZTTNjNWtiWndvRXl0bkVVQ09HaWdhemVic3JGSlcyRHp1cjlsc3pLQ0V0ZEJ1UkdoRlZNNFpZYThRUXBaYzFmaGlIZ0hZVjlXcDJzUFZld2s3MHl6LUFBWW1qY0VkSVdnT1gwbUowNFdrT21SNDRIa3lCWHNFTkNIa0txRmhPTFByWHUzcVN3bVczUFpnN1BzUjM0TFI0Zkt2TWpnUQ?oc=5",
-        "fecha": "2026-11-22"
       }
     ]
   },
