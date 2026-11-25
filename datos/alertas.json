@@ -1,5 +1,25 @@
 [
   {
+    "id": "malaria-choco-2026-s48",
+    "patogeno": "Malaria",
+    "tipo": "parasito",
+    "departamento": "Chocó",
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": 463,
+    "resumen": "1 fuente(s) reportan malaria en Chocó esta semana. Lo normal para esta semana son unos 463 casos (INS).",
+    "fecha_deteccion": "2026-11-25",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVW8ycExCaHljTm1JV0ZrajhGMFo2N2g5dEpCNVZEc1FBa0ZCb29wX1JpNUtkbC1DUlR6UWxyZjVObzI5TUo2ZmlvSFRqRU5HZnU1TmZ3RW81T1I2V2hma0hzV1ZYYlVuenMtZENRNEg2Z1NKRFJYMVRlYzA5YnFkeDNPQi10aU5vVXpjdlMweVEtTUpGNl9wcGdLTnZUUno5b05fZTVXdkszNTM1MGlTZldBZWNiTl9PeDVIcUQ5eW1yaTZGRXV6OFRpMmxHOEtrT2hJZnlVRXBBTFlwaU0wblZ2ZThPZnJab2dQOUFB0gGCAkFVX3lxTE9tX2QwNUdVMUVya0dRREZ4eUJCRXJlaFFVbWE1Q0htSF8zQ0pjbE9pUTVqSElpZFJzUWoyWnhoeC1raVgxbFFQUmx6VHIycVpiZFNpamUwV2I1Z05fNDZtSzQtdXJPbnNWRjdyQ1ROR0k5V1EzcHVudW5jTUdncHZKSEVkcTROM010UVlrUi1EUW54NjZ0ejcwV2RVeHcyTDQwdUdQLUhYeHotU3BxVkNHQ2gzVmh1SmNHUEJQYVdmdllEUm1DdG00cmFiLTVBMExxUHRPS2NMbEtvVW1oWHQtczdodWZUNUpUZnQzRkRtMnRraHhjb2NsTEVyT3N2SVlkZw?oc=5",
+        "fecha": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "dengue-cundinamarca-2026-s48",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -27,7 +47,7 @@
     "nivel": "alto",
     "casos": 2,
     "esperado": 129,
-    "resumen": "6 fuente(s) reportan dengue en Córdoba esta semana. Lo normal para esta semana son unos 129 casos (INS).",
+    "resumen": "8 fuente(s) reportan dengue en Córdoba esta semana. Lo normal para esta semana son unos 129 casos (INS).",
     "fecha_deteccion": "2026-11-24",
     "municipios": [],
     "fuentes": [
@@ -66,6 +86,18 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQS01hejBYWkNsUVRKNmFTX25GY3BKdlYzcEo5ekh4bU1rcWM0bXpMdzdsUjUyUUliQnFzbWx6NmNLMFhqRHJJUU4zX0dBd3JGa3Rwa21yc1Q1a1JBOUs5MnFHaDQ2YW15WjNLSjJ4QWtTazVNZHhqOC1oeUg5QXNpaDRhdVUxNVpZTDVjZzNRVFFZYmZrTkwyOEVwOEsybWPSAZ8BQVVfeXFMUEtNYXowWFpDbFFUSjZhU19uRmNwSnZWM3BKOXpIeG1Na3FjNG16THc3bFI1MlFJYkJxc21sejZjSzBYakRySVFOM19HQXdyRmt0cGttcnNUNWtSQTlLOTJxR2g0NmFteVozS0oyeEFrU2s1TWR4ajgtaHlIOUFzaWg0YXVVMTVaWUw1Y2czUVRRWWJma05MMjhFcDhLMm1j?oc=5",
         "fecha": "2026-11-24"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaGl2ZHZESmtjT3lMNTlXYlFISkVuMEhuX25BR3liMjBFWHQ1RGU5RWJYR1llMDFtSVR5U28xZUh5THJVaU0xam5PSkJuU3M0U2VxQ082MGFNRVlzbUNmOGdQRmU2U1JBTkRwN2hzOGxHSzZ0VmFRT3ExWnFlYnpVSFZmczZCbms4dFRYa21iLTU2UkZ2Vy1ZM0dCaW1HUVkwRTR1NWlDUmpDZzN2d3fSAcgBQVVfeXFMT2QzQ0VGcDg2SURRVHpwbENMWEZFdUZjVWVGMkZNQmI3OEpuQllTVlhwcW54ZnhWODV4bXNWUm1MV1lUbFFKdHh3THYxeXljUC1Jak83U3NyZmFQRU14dWYxcExHWTdWbnh5UURPQ3VFaTB5cTFES3Z1SEkyQ0VEbzZJbEhVc2swWWxoQW1yamllbDZxOFBWNGxNMTBpWkx5LVE3djdPcXlRa0dlS1BEcjd2WFZ2c3FsMUJZbE93ajRHeHMwU3p2ZzU?oc=5",
+        "fecha": "2026-11-25"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTBySlliSXNGLVppRWh6SDZwdENHTVZKR3dUSWV3MXZlZWcweUFiTWRWZXp3YjRzRThZdmNFVmctTllnQ3Y2bHBHMmdRaENKU3I4TDlxWHdmZ3BabDllaTAxVW5HY2ZNSzZueEZfVzRYVHBneWNxZk1wQ25xMTc0QXE5WnZtRDZwRHNNaXN0YWthdw?oc=5",
+        "fecha": "2026-11-24"
       }
     ]
   },
@@ -92,38 +124,6 @@
     ]
   },
   {
-    "id": "dengue-sucre-2026-s48",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Sucre",
-    "nivel": "alto",
-    "casos": 2818,
-    "esperado": 80,
-    "resumen": "3 fuente(s) reportan dengue en Sucre esta semana. Lo normal para esta semana son unos 80 casos (INS).",
-    "fecha_deteccion": "2026-11-23",
-    "municipios": [],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWFVjU3A0UHBVcjJjbjk4bTZiYXZfRl9FcHBBaG5mck45RkRYaGU5Q3pwcl85SU9DRXpmWTlRTG9NMnJpMnRvQmVITUplZ0ZmT01TS0Zxc2JWWnprU3VmRW5DZy1qWEl4LWJpc0tQYkZGSkhqT1RZdzR6cEZTMTdGRlUtUVlPVG5oNzJkSkN3NUQtRVlKb0hXempLaHJkSzVSU21yTnpuRnFfc0w4RjJRbGs0S0g?oc=5",
-        "fecha": "2026-11-21"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNVnVzSVVyazlic1ZsRWxLc1BKanY3c0hZSGxMZW1OY2xxOGN5ZVFzQmNUZ19JTkJ0Q01QeDF0NlNqME9fT2FzYVFTOTNLdzdfV3JxN182N1hhYUpJLXJyaTBuNVRDOXRlY1ZsRzNra1JTd1ZIX0FKME1WUU1RU1VsbzJhcjFsbDlyUnVocThST3NyU3JEUFZ6aTBRX2RWNVBiOVNRSDJxVUdWX3VpdXJ4WkJjNWl0UXByc05TdGxMeHJJMjV3Ym5wMU1PWHdhUmptX2R1blU4VzZzNmpEMkFCcTBNcnR0OEVCVVBLamdTcUI0Mk5rZGxyZUdneDUxX3dkWWo40gGIAkFVX3lxTFBwRmtONVhhRjltek93bjVuQkpMTVlFekw3TVdIOWhIUDFWcGVaalZhQWljd1hibFlLMjlPOVhzMm4wUEJ6U0dhaWpaTm5kaDRya01uNmpFUFZjcVA5dUJraFN3YTF0dURxa3dCRmhuNG9mT3BwSHdVcTNEU0lSLTYtdmVwZndoUHc3RmNEV0ZTc04tVTA2LVZ4OTRUczFwRG41WTBhdlA1NE1kNXY5OTVaT1U2ajRQRkwwMnlOSTBIT2NJN2luUmdKN3Q4ZGxwSWlkNF9mOFlyczRfTkxlQnpvLU80QWpBaEV1dEFXaTVFT0RyX1RkakhucmdBUVFqSUJFWTFCRXd2Ug?oc=5",
-        "fecha": "2026-11-24"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZkxLX093MnZHNnRiTTl0X0F3cS12TFpfRXpOT05IY0ZYVlgtYV9FTGRfRlpZUEhwVFBvUC03M21PTHlPQUwwRHNIS3o2VE5GTFZsSGs1RF9ZRFhRWEVNdXNhTHNJdFB2bXR2TTctRWdpT0JidE9IenBRY1RIcEdfYXpLd1lMX3NiTmpReWxyRUgtLUhfTTk0cVdnNVhWZnppRVhHaVFrU2J4UXhVOWluZ0NjX2pEMEdXdDcxdmZvV0N1RFRSUFhzbW9TWG5LZw?oc=5",
-        "fecha": "2026-11-24"
-      }
-    ]
-  },
-  {
     "id": "dengue-antioquia-2026-s48",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -131,7 +131,7 @@
     "nivel": "alto",
     "casos": 534,
     "esperado": 171,
-    "resumen": "8 fuente(s) reportan dengue en Antioquia esta semana. Lo normal para esta semana son unos 171 casos (INS).",
+    "resumen": "9 fuente(s) reportan dengue en Antioquia esta semana. Lo normal para esta semana son unos 171 casos (INS).",
     "fecha_deteccion": "2026-11-23",
     "municipios": [
       "Medellín"
@@ -184,6 +184,44 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYk1aVXFEU0ZsSU1adjUtRWRtRUJSeEptQWxZT2dwUDJTZ1dmeld2X0FyQnBpSnN5NlFBWnB3bTJCN1JpZndsZnVrdkJnXzJndTZQS2k1OW8xdUk3bkw5Z09Tc2ZwQzU4aG9kekRqM3dQeThDWVFtQlVpNXdDN0o2UkItTUctVUk0ZWpVV096Ulc3QzFOeXFMbUFVbHAwRkZQckU3VHdKcWt2OGxFdkQ5WF9PS2FxdGfSAbwBQVVfeXFMTzEwYVFubFE0R19sVUpyNWJQMXRwbkdIUWZKcnBBaTVVTDFHUmxBd1llQ3NzS1VDXzMtQ0x0YUpEQ0hTTC13OWlLcmN0THRHektVeXM2UlMwbjIzZmpldjh0SV9HVFZ6R0dfb2xPdXR5cTBud2FvYmZjNXltLVBKM0dQWUpIWmdVVktBLWxXRzkyamw2bXJ3WEVRUzJ6elFYQjdfZ2NsWmtZQWh4SFhsV0s5VDRoYjZKUVFIX0s?oc=5",
         "fecha": "2026-11-23"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVEZCTHpCNHhhN1A1Y3NuTXlBUG1uWlRUVTFMMEFWZXhXTUlVdFNaX3JjbndBTHA3MElvTE1MdWw0R05XYWIxT0dUWXlCSWVSdlh6OF9xaDU2dHd5WTBvQ3JfVVY2SmZqaGRMUzlqT0ZHS3JWY1dEMWg5TEMwdmJ1bjU1OEplZFhDaHZDVjd4dGlmQXlfeFFUbXBQY0N3WTdja1pCNTlMTFhnanR2YjJ2alRHN2U2ZDB1SzRNQ0s2SHFqX2V6VXZVMtIB1gFBVV95cUxQaHRTWjMtMlhYekpKaTJiTjhHQms4cE1aZUtMajRUUTJTWEc4R0NaVlRBbm1BTW5ZSGhlaEUyRjBDZEVaTlhlMUhGQmI2MnRCN1Z0b1RibnRfT2dSQkFWeklMVXVtUkZOZWF3Tk1HcXY5SFBQWWVyVUV2ZEtwMFBKTHNYX3BEakZPVWZ5VlBIYXFDdTVSbFZELVY1YW4yWURRdnpZRFQ2TmZTdV9UcWpvbHVNUWRMRUhVYklfemY1NkwzMkdTdWVDVW0wdE9KTFZJNkhCWC1R?oc=5",
+        "fecha": "2026-11-24"
+      }
+    ]
+  },
+  {
+    "id": "dengue-sucre-2026-s48",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Sucre",
+    "nivel": "alto",
+    "casos": 2818,
+    "esperado": 80,
+    "resumen": "3 fuente(s) reportan dengue en Sucre esta semana. Lo normal para esta semana son unos 80 casos (INS).",
+    "fecha_deteccion": "2026-11-23",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWFVjU3A0UHBVcjJjbjk4bTZiYXZfRl9FcHBBaG5mck45RkRYaGU5Q3pwcl85SU9DRXpmWTlRTG9NMnJpMnRvQmVITUplZ0ZmT01TS0Zxc2JWWnprU3VmRW5DZy1qWEl4LWJpc0tQYkZGSkhqT1RZdzR6cEZTMTdGRlUtUVlPVG5oNzJkSkN3NUQtRVlKb0hXempLaHJkSzVSU21yTnpuRnFfc0w4RjJRbGs0S0g?oc=5",
+        "fecha": "2026-11-21"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNVnVzSVVyazlic1ZsRWxLc1BKanY3c0hZSGxMZW1OY2xxOGN5ZVFzQmNUZ19JTkJ0Q01QeDF0NlNqME9fT2FzYVFTOTNLdzdfV3JxN182N1hhYUpJLXJyaTBuNVRDOXRlY1ZsRzNra1JTd1ZIX0FKME1WUU1RU1VsbzJhcjFsbDlyUnVocThST3NyU3JEUFZ6aTBRX2RWNVBiOVNRSDJxVUdWX3VpdXJ4WkJjNWl0UXByc05TdGxMeHJJMjV3Ym5wMU1PWHdhUmptX2R1blU4VzZzNmpEMkFCcTBNcnR0OEVCVVBLamdTcUI0Mk5rZGxyZUdneDUxX3dkWWo40gGIAkFVX3lxTFBwRmtONVhhRjltek93bjVuQkpMTVlFekw3TVdIOWhIUDFWcGVaalZhQWljd1hibFlLMjlPOVhzMm4wUEJ6U0dhaWpaTm5kaDRya01uNmpFUFZjcVA5dUJraFN3YTF0dURxa3dCRmhuNG9mT3BwSHdVcTNEU0lSLTYtdmVwZndoUHc3RmNEV0ZTc04tVTA2LVZ4OTRUczFwRG41WTBhdlA1NE1kNXY5OTVaT1U2ajRQRkwwMnlOSTBIT2NJN2luUmdKN3Q4ZGxwSWlkNF9mOFlyczRfTkxlQnpvLU80QWpBaEV1dEFXaTVFT0RyX1RkakhucmdBUVFqSUJFWTFCRXd2Ug?oc=5",
+        "fecha": "2026-11-24"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZkxLX093MnZHNnRiTTl0X0F3cS12TFpfRXpOT05IY0ZYVlgtYV9FTGRfRlpZUEhwVFBvUC03M21PTHlPQUwwRHNIS3o2VE5GTFZsSGs1RF9ZRFhRWEVNdXNhTHNJdFB2bXR2TTctRWdpT0JidE9IenBRY1RIcEdfYXpLd1lMX3NiTmpReWxyRUgtLUhfTTk0cVdnNVhWZnppRVhHaVFrU2J4UXhVOWluZ0NjX2pEMEdXdDcxdmZvV0N1RFRSUFhzbW9TWG5LZw?oc=5",
+        "fecha": "2026-11-24"
       }
     ]
   },
