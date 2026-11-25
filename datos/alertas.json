@@ -1,5 +1,25 @@
 [
   {
+    "id": "dengue-cundinamarca-2026-s48",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Cundinamarca",
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": 98,
+    "resumen": "1 fuente(s) reportan dengue en Cundinamarca esta semana. Lo normal para esta semana son unos 98 casos (INS).",
+    "fecha_deteccion": "2026-11-25",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRTRzUWF4U1lYY0pja1gweUQ1WHFYd1lYajFhcnhyNmRxNy15NFhMd0s2YV9aQksyVHhfcndKeUNyTXRMbXlUNUgwV05Md25DOGltekdvazNyTjdLOGNQRnVYeF9TdWdzUWhSTGJvQi1aZ05JVDQ5VkVrZlZHQnFiRk94TkdqOWVMMm12LWE4RU5lbmZJeTItM2sxLWJIcHdB?oc=5",
+        "fecha": "2026-11-11"
+      }
+    ]
+  },
+  {
     "id": "dengue-cordoba-2026-s48",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -7,7 +27,7 @@
     "nivel": "alto",
     "casos": 2,
     "esperado": 129,
-    "resumen": "5 fuente(s) reportan dengue en Córdoba esta semana. Lo normal para esta semana son unos 129 casos (INS).",
+    "resumen": "6 fuente(s) reportan dengue en Córdoba esta semana. Lo normal para esta semana son unos 129 casos (INS).",
     "fecha_deteccion": "2026-11-24",
     "municipios": [],
     "fuentes": [
@@ -39,6 +59,12 @@
         "nombre": "Prensa",
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRFhSb3B3MjAwRTF4emlLb3RIdDgzZE94NnpueEc5NWJLWXU3N25uM21lc2pfakZ0ZWpBRmczU0pOVEMwa290eTRXc2pBSmNxRGhXU0hfMjVvMXlUSVk0LXR3Q041TVhuZW1kQnZLb0pObDRJcGhhM1gxLW1ncHZDbXFGeGhMQTBOUW5oLU1xcVdSNUd0LVdQeG0zNGZ0bHNmeV9JcGE5UTRjSVFKRlZ2bFNyYkpMbkN1eEhjenlIdFhESmdGYnNsYzBDTUpCa01ndmU2MXZ5bHc?oc=5",
+        "fecha": "2026-11-24"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQS01hejBYWkNsUVRKNmFTX25GY3BKdlYzcEo5ekh4bU1rcWM0bXpMdzdsUjUyUUliQnFzbWx6NmNLMFhqRHJJUU4zX0dBd3JGa3Rwa21yc1Q1a1JBOUs5MnFHaDQ2YW15WjNLSjJ4QWtTazVNZHhqOC1oeUg5QXNpaDRhdVUxNVpZTDVjZzNRVFFZYmZrTkwyOEVwOEsybWPSAZ8BQVVfeXFMUEtNYXowWFpDbFFUSjZhU19uRmNwSnZWM3BKOXpIeG1Na3FjNG16THc3bFI1MlFJYkJxc21sejZjSzBYakRySVFOM19HQXdyRmt0cGttcnNUNWtSQTlLOTJxR2g0NmFteVozS0oyeEFrU2s1TWR4ajgtaHlIOUFzaWg0YXVVMTVaWUw1Y2czUVRRWWJma05MMjhFcDhLMm1j?oc=5",
         "fecha": "2026-11-24"
       }
     ]
