@@ -1,5 +1,51 @@
 [
   {
+    "id": "dengue-cesar-2026-s48",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Cesar",
+    "nivel": "bajo",
+    "casos": 7046,
+    "esperado": 95,
+    "resumen": "1 fuente(s) reportan dengue en Cesar esta semana. Lo normal para esta semana son unos 95 casos (INS).",
+    "fecha_deteccion": "2026-11-26",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY0JEM0VZb18yNklVYld6QkdUb2x5blNKOFoxdzludGROSDg1clVYaWdzSTRJM00wcEJqQ056N25fbHZrN0xpeTItcnpmcEJBb1Rzb3J2OGFTa0hzY3ljeXQ0am5FQWZlUEdVX0RiNVo0MnNxNHZiMTVTZWRYUWJodTEzVkttb1l1MUNMV2xwUy04NlU?oc=5",
+        "fecha": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "dengue-cundinamarca-2026-s48",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Cundinamarca",
+    "nivel": "alto",
+    "casos": null,
+    "esperado": 98,
+    "resumen": "2 fuente(s) reportan dengue en Cundinamarca esta semana. Lo normal para esta semana son unos 98 casos (INS).",
+    "fecha_deteccion": "2026-11-25",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRTRzUWF4U1lYY0pja1gweUQ1WHFYd1lYajFhcnhyNmRxNy15NFhMd0s2YV9aQksyVHhfcndKeUNyTXRMbXlUNUgwV05Md25DOGltekdvazNyTjdLOGNQRnVYeF9TdWdzUWhSTGJvQi1aZ05JVDQ5VkVrZlZHQnFiRk94TkdqOWVMMm12LWE4RU5lbmZJeTItM2sxLWJIcHdB?oc=5",
+        "fecha": "2026-11-11"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTzU4YTdocjZDOEZqZFplSmZUZkZEZThiZmRUVDBKUUtEbzJWSS1yMjBRUFpHTkRacWxJZEJkNE9HdDhkOXd0dU56UEdrcTM3OVFLVkVUN3ZMTktFMDBhaVUtcGFmSEI3NUFoQ1V6MzVsUTZxUHVRaUFEYXRITDVnY2hmbFl2cklSVlh4bkp5X2pPWFZvMm1XM3phNkMyd1d5ME9FYkNMeGhKUXZKM2xoV09WQjluNWk4WV93dFlXVTV4NHF1b1dhOGkwak5sUQ?oc=5",
+        "fecha": "2026-11-19"
+      }
+    ]
+  },
+  {
     "id": "malaria-choco-2026-s48",
     "patogeno": "Malaria",
     "tipo": "parasito",
@@ -20,26 +66,6 @@
     ]
   },
   {
-    "id": "dengue-cundinamarca-2026-s48",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Cundinamarca",
-    "nivel": "bajo",
-    "casos": null,
-    "esperado": 98,
-    "resumen": "1 fuente(s) reportan dengue en Cundinamarca esta semana. Lo normal para esta semana son unos 98 casos (INS).",
-    "fecha_deteccion": "2026-11-25",
-    "municipios": [],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRTRzUWF4U1lYY0pja1gweUQ1WHFYd1lYajFhcnhyNmRxNy15NFhMd0s2YV9aQksyVHhfcndKeUNyTXRMbXlUNUgwV05Md25DOGltekdvazNyTjdLOGNQRnVYeF9TdWdzUWhSTGJvQi1aZ05JVDQ5VkVrZlZHQnFiRk94TkdqOWVMMm12LWE4RU5lbmZJeTItM2sxLWJIcHdB?oc=5",
-        "fecha": "2026-11-11"
-      }
-    ]
-  },
-  {
     "id": "dengue-cordoba-2026-s48",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -47,7 +73,7 @@
     "nivel": "alto",
     "casos": 2,
     "esperado": 129,
-    "resumen": "8 fuente(s) reportan dengue en Córdoba esta semana. Lo normal para esta semana son unos 129 casos (INS).",
+    "resumen": "9 fuente(s) reportan dengue en Córdoba esta semana. Lo normal para esta semana son unos 129 casos (INS).",
     "fecha_deteccion": "2026-11-24",
     "municipios": [],
     "fuentes": [
@@ -98,6 +124,12 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTBySlliSXNGLVppRWh6SDZwdENHTVZKR3dUSWV3MXZlZWcweUFiTWRWZXp3YjRzRThZdmNFVmctTllnQ3Y2bHBHMmdRaENKU3I4TDlxWHdmZ3BabDllaTAxVW5HY2ZNSzZueEZfVzRYVHBneWNxZk1wQ25xMTc0QXE5WnZtRDZwRHNNaXN0YWthdw?oc=5",
         "fecha": "2026-11-24"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQUZMOWFFUWpNQzB0aGhTWlVfWUk3dmZvbDVXRDlRSk1QOHNiTndheFpzcUhWU1NqVkhFTkFwbDNRRXBSNUdpLTJhTE80RnVVODc3VnhVaTNzbFpfVlZVRU9xRzBHMHZRN04wbEpDUTZwS2FRTHZkUXMwakM4UExFMUhMNA?oc=5",
+        "fecha": "2026-11-26"
       }
     ]
   },
