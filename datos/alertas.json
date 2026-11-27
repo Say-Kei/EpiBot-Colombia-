@@ -1,5 +1,54 @@
 [
   {
+    "id": "dengue-atlantico-2026-s48",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Atlántico",
+    "nivel": "alto",
+    "casos": 633,
+    "esperado": 200,
+    "resumen": "2 fuente(s) reportan dengue en Atlántico esta semana. Lo normal para esta semana son unos 200 casos (INS).",
+    "fecha_deteccion": "2026-11-27",
+    "municipios": [
+      "Barranquilla",
+      "Soledad"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeDQwNjd5RG1IMHJ2VlkwOXM4dkNzTFJBNGh6YmNzZ0gzbENhQks3OHBrSEVSNUs1QlI1Q0t0ZHFZSVVnU0hLRS1LRmZHQWkzdld5RkVnXzc0WDNBODA4WmZkMEJVVk94emprZHZVTnItQWFYLVRrRFBkSjg0bi12RGJuYVhFTXcta0MxWjU3VklvMlI3YVlVUVd4RURpbC1WS0c00gGrAUFVX3lxTE1pWnFxVTNXaWhNUUN0WDJWTng4WVcyYnVJQVlHRFpXeGx0Yk4xZlJvYUFGQ1d5VHFZbnJWQU92dmo3Y1IzN2EyYTJmSEZnVXVROGRmV3IzNE8tWVFWR3RndGM4dUZLdmhkdkt3MWRkcHhoUU5YRF84bWtCZHYtUm1nTW1SU2UzdmxXbENpcUQta1pnQmNYQVV1bF9KNkNNYUd0bGxGVGkwTTByZw?oc=5",
+        "fecha": "2026-11-05"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlRFlTNXRPTkZlc3VUQUIzLWUzMFhpVzgzM3dqMzlGbm1lc1NkMkxIZXE0VjZaWl9fWUpIZHZYeGJGODRHUDdNYmVZV1VyYXVlWlNyTGtFeVNraGVMTDViT0dfMnYyUQ?oc=5",
+        "fecha": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "id": "dengue-huila-2026-s48",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Huila",
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": 88,
+    "resumen": "1 fuente(s) reportan dengue en Huila esta semana. Lo normal para esta semana son unos 88 casos (INS).",
+    "fecha_deteccion": "2026-11-27",
+    "municipios": [],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjcXdqaE9kbFBzVXRLVy1oMDVQQUI4c2dQSlhOcnRnX3Y2YS0xY2t4eXhCRXpGUk9KVnNYdDlxX3VXQTNnbXUtVWNRU1dDZkVOWElQSHZmWFhJY3M3MkZhNmlNc0VpRTlHZWd1QmRB?oc=5",
+        "fecha": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "dengue-cesar-2026-s48",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -156,6 +205,34 @@
     ]
   },
   {
+    "id": "dengue-magdalena-2026-s48",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Magdalena",
+    "nivel": "alto",
+    "casos": 2161,
+    "esperado": 132,
+    "resumen": "2 fuente(s) reportan dengue en Magdalena esta semana. Lo normal para esta semana son unos 132 casos (INS).",
+    "fecha_deteccion": "2026-11-23",
+    "municipios": [
+      "Santa Marta"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSkVNMlhtSHUwdUE2Nm5zdm5lSkgtckZkNFIzQmJnNFU1T2hEQTItQWJYMDJzTy1JdEQwZUk3dnJBTnZNekJNZk1VT1kwWHJPakV4RElNTUZHajVnQU1aWkZZRnd1Y012bjl1SDFGbEdPd0pQVnIzXzdOUlhOV0ZaT1JXNFpseG9iQ213RTNHWUpmVl9ZZ2NfU3RPbHFIeUQ2U0gycXV3cTlfNmNtc0hR0gGvAUFVX3lxTE9KRU0yWG1IdTB1QTY2bnN2bmVKSC1yRmQ0UjNCYmc0VTVPaERBMi1BYlgwMnNPLUl0RDBlSTd2ckFOdk16Qk1mTVVPWTBYck9qRXhESU1NRkdqNWdBTVpaRllGd3VjTXZuOXVIMUZsR093SlBWcjNfN05SWE5XRlpPUlc0Wmx4b2JDbXdFM0dZSmZWX1lnY19TdE9scUh5RDZTSDJxdXdxOV82Y21zSFE?oc=5",
+        "fecha": "2026-11-19"
+      },
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOUZiLUc4eVQ5WWtTd0UybVh5N1djdWhSMzNJWUR0dkFKcm45ZkI3MXFybTZCVUxVWUN4U0JBMEg4SnFYOHVleUpSclVHOE1FYm0za1pYY0NoVXlralJXeXVKN3dGSEozekFCZUdYdkdMTW1qcVN5WTZUbDE4cVp4bnVDSkg5eXVRRlhsYmZWMTJzbnFrY19sb2JwUFA?oc=5",
+        "fecha": "2026-11-19"
+      }
+    ]
+  },
+  {
     "id": "dengue-antioquia-2026-s48",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -254,28 +331,6 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZkxLX093MnZHNnRiTTl0X0F3cS12TFpfRXpOT05IY0ZYVlgtYV9FTGRfRlpZUEhwVFBvUC03M21PTHlPQUwwRHNIS3o2VE5GTFZsSGs1RF9ZRFhRWEVNdXNhTHNJdFB2bXR2TTctRWdpT0JidE9IenBRY1RIcEdfYXpLd1lMX3NiTmpReWxyRUgtLUhfTTk0cVdnNVhWZnppRVhHaVFrU2J4UXhVOWluZ0NjX2pEMEdXdDcxdmZvV0N1RFRSUFhzbW9TWG5LZw?oc=5",
         "fecha": "2026-11-24"
-      }
-    ]
-  },
-  {
-    "id": "dengue-magdalena-2026-s48",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Magdalena",
-    "nivel": "bajo",
-    "casos": null,
-    "esperado": 132,
-    "resumen": "1 fuente(s) reportan dengue en Magdalena esta semana. Lo normal para esta semana son unos 132 casos (INS).",
-    "fecha_deteccion": "2026-11-23",
-    "municipios": [
-      "Santa Marta"
-    ],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSkVNMlhtSHUwdUE2Nm5zdm5lSkgtckZkNFIzQmJnNFU1T2hEQTItQWJYMDJzTy1JdEQwZUk3dnJBTnZNekJNZk1VT1kwWHJPakV4RElNTUZHajVnQU1aWkZZRnd1Y012bjl1SDFGbEdPd0pQVnIzXzdOUlhOV0ZaT1JXNFpseG9iQ213RTNHWUpmVl9ZZ2NfU3RPbHFIeUQ2U0gycXV3cTlfNmNtc0hR0gGvAUFVX3lxTE9KRU0yWG1IdTB1QTY2bnN2bmVKSC1yRmQ0UjNCYmc0VTVPaERBMi1BYlgwMnNPLUl0RDBlSTd2ckFOdk16Qk1mTVVPWTBYck9qRXhESU1NRkdqNWdBTVpaRllGd3VjTXZuOXVIMUZsR093SlBWcjNfN05SWE5XRlpPUlc0Wmx4b2JDbXdFM0dZSmZWX1lnY19TdE9scUh5RDZTSDJxdXdxOV82Y21zSFE?oc=5",
-        "fecha": "2026-11-19"
       }
     ]
   },
