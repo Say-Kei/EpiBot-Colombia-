@@ -1,5 +1,28 @@
 [
   {
+    "id": "dengue-bolivar-2026-s48",
+    "patogeno": "Dengue",
+    "tipo": "virus",
+    "departamento": "Bolívar",
+    "nivel": "bajo",
+    "casos": null,
+    "esperado": 340,
+    "resumen": "1 fuente(s) reportan dengue en Bolívar esta semana. Lo normal para esta semana son unos 340 casos (INS).",
+    "fecha_deteccion": "2026-11-28",
+    "municipios": [
+      "Libertad",
+      "San Pedro"
+    ],
+    "fuentes": [
+      {
+        "nombre": "Prensa",
+        "tipo": "temprana",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQd29pQktCR1FWNzZtZ19ITE1wN0xKbGxHVDZFY2RXZ0RWV2NkQlUyazlzMDFlSDVPc01Zd3JSOXdWZS1nQ24zU3F4LXJEcjUxNTBRdnp2QUJEaVlfYk16ekxiZXNqVjVtY3VBWWhzWThrUXE4LU9YTmNxZ0Z2RERRZU9ndnYwa3JTOEFqX1ZjRm9JMEM4REFLVURjbGc2azREZHpHOUQ2R0RVTEJRUlNhSWZVN0ZRTFE?oc=5",
+        "fecha": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "dengue-atlantico-2026-s48",
     "patogeno": "Dengue",
     "tipo": "virus",
@@ -3978,119 +4001,6 @@
         "tipo": "temprana",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYmVoZGI3cTgyUnZpNGx0b1ZtYWk2WmEyRXhvYy02Qi1TcmxHQ0NrOUlkb3JpS3ZoUVNDTlU0bFlIRHRNVWFmQVkzZ1ZCc2VPOHA0M2c5TXFNZ1pyaWF5VjdwMEtuX3dpUkVCbXdubHFLb3ZmWmJCejc0UXB3R3lIWi05WUxLSTY4MVIwQjhJWklRV1RNakJ1SDdqMDNtRFRNendCNFQzb1VrdGd5MnRydkdFSjZZX2prNkJ0VTl0c1A4aVQyLTBBeGZLSzlmcVNy?oc=5",
         "fecha": "2026-10-01"
-      },
-      {
-        "nombre": "INS · BES semana 42",
-        "tipo": "oficial",
-        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
-        "fecha": "2026-10-24"
-      }
-    ]
-  },
-  {
-    "id": "dengue-magdalena-2026-s44",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Magdalena",
-    "nivel": "critico",
-    "casos": 738,
-    "esperado": 192,
-    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 738 casos en las últimas 4 semanas frente a 192 esperados; 7808 en lo que va del año.",
-    "fecha_deteccion": "2026-10-28",
-    "municipios": [
-      "Guamal",
-      "Santa Marta"
-    ],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVEZmb2dRNGFsOXFFSGpRWXJIbnJaWERVYWFaa3Y0bXlyTTlBMXNvTkVKOEZrYWVHTUVoMGV6bF9OeEVjZ1dGeHNRcEtVRGFOYVNPeGZNNGVZVUVmN0Qyd1NXeWpETWk2NEt1Y09oT2UycmZCT1g0STF3SkdlYzlJQllueHNpdW5HVGNNRFdyZ2JobGw1SEdVUjRSSXBBaGExVXdoMWJKZF9aZFVEejhZSFZaemdwN2R3d2V6SllENDdXQVZwdDE3YWhZa2hMblRPOXE1N3dNWnAxRk9EWXdB?oc=5",
-        "fecha": "2026-10-28"
-      },
-      {
-        "nombre": "INS · BES semana 42",
-        "tipo": "oficial",
-        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
-        "fecha": "2026-10-24"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbUk1OXRkejNwX20xcUpCVnJCZ0JjSE9yM0xZN3hSZUJIeU96bHlMNHhzMHlGelFKSEJaSWNjam84TjRSX2dqcEQxN2dvaUZVN0FBd3J1bmNsLWlwRDBOVXZibGxpVGM2eHJPbFExNFhPVEx0Q1Rmbm5VeGIzSTNUc3pnZnU2cTZXeEhaT2xxRHZ5N0RidDNpYXo3SWpJalJSM3hKU0RYVTNrTU9jcnlGazZHcmd5MGhoYWVRWVItd2xuMHFCd3lEUzBodUxSS2VTY2dXVEl1OA?oc=5",
-        "fecha": "2026-10-30"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOM1Q4SzBCZGpRUF9pbVlWMEhRQmV1YTNiSTFSbWI3WmFlY3JfQktkY0ZoZTRLZzZkSjctRlNVLTk1ZlkwSVZEQWRVVWRBZFh1bHNWWUlkVFc1MUprMVZFQWJSMVIxcTZja0FDQVQ2SmxkZ00wbTBCWTl6QkpUMjNvT1o3eFRYRml0bm1KbTAxV2REU3dOUGhj?oc=5",
-        "fecha": "2026-11-01"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT2M2cERNQndPYVJ5XzJfZVQ4SXE5YzhaU2R4UmlRamNkTUFCQXZsWVZJLVdYb0F4MVR3WmtLU1pvMlRnczFUaDVfallUd281M1FJekoxdmZYWGZER3hnZ0dXZ192ZXlVRTdud2tSdDhDV0ZITGFSalpWWUtiUnZpanBhcDViWHFia2lzMUlMbkZZNmdqZ3lpeA?oc=5",
-        "fecha": "2026-11-01"
-      }
-    ]
-  },
-  {
-    "id": "dengue-meta-2026-s44",
-    "patogeno": "Dengue",
-    "tipo": "virus",
-    "departamento": "Meta",
-    "nivel": "critico",
-    "casos": 980,
-    "esperado": 323,
-    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 980 casos en las últimas 4 semanas frente a 323 esperados; 13904 en lo que va del año.",
-    "fecha_deteccion": "2026-10-28",
-    "municipios": [
-      "Villavicencio"
-    ],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNk9hMUNMWEZqYTl1ZW5sNWVJcENJbkFDS2lVYm1tcU5EZXAtSVpMeTRvZjdCcmdPS2FZQjB4cnZWeGdNb00xWXc4Mk9rU0hLQkJnaDY5RnI2Z0RVaHNZdktyT0J2eFl5UkZtWXNxQ2dabWZIUkhRUlBQVFl2NW5sYUZlMU1kNk1ZdkVGSzNNYXUwOXhQUnE0Z2JEdm0zLUlQUXRvMGlfc3NJR0lNbHcwTUxXNDVuSHNFSWpTTUM1UdIBxwFBVV95cUxQb3c0bDRvbTFjWWo3VnlZQzgxS1ZXRmUxOUhYckJINEN0QTZQclJJd3ZaVU1ScXNra0hkNnVxRWlHMkVfMGRwZjd2ZFBwVE80U2doNFV3MlM4RHdqYmtPYm04akFKRTNDS0xoaUNxVXM2d3h0UUZ2cG5KMkZDUkozc184Q3dRY3ptb3A1bi01cklUbG5sVVozWkd2OExwNU5pc241cTRzdXhLVExXMG1jZ1g1MDRETTdQd3R5OGFwQjlSQnJycnlj?oc=5",
-        "fecha": "2026-10-27"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWkt0alRfNzZvODZlSWF6TFJJaG94bmMwbzJCaUpiVE1KSEg4UmN0UlZtUHBZU3FoN2E2NmFlcE5yRWVnU3ZnRHR6ZER1MjdNMVJZY290aXBuNUdBbGtQYlFzT0MzNjJlaVozQkM4Tl9VcFpDWjJscERlbmFqUEVJYzd1THowLUlyT3NoUTFn?oc=5",
-        "fecha": "2026-10-23"
-      },
-      {
-        "nombre": "INS · BES semana 42",
-        "tipo": "oficial",
-        "url": "https://www.ins.gov.co/BibliotecaDigital/2026-boletin-epidemiologico-semana-42.pdf",
-        "fecha": "2026-10-24"
-      },
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV1BzZjhLTXJmMXgxZ1J6NlN1dnU3dlJfeE1odEZ1V0JUUnR6MHl4U0ljemNyM1BRLVRFMVJPTTZGTzd1MWdyNDF2Y0pVSVZYME9MTVBUcnVpMzF6ZVFjY2c3eXZvLV9PN2NnWlJhdE9lU2VQR0xPT1JMY3o1aWlCRmp2TmpyU2lyLUhMRHR5eERWczBKQVlUT3c4RTBrX0Z5djlvejdLZlJneXlPbHpOMzBMZzlsUQ?oc=5",
-        "fecha": "2026-10-30"
-      }
-    ]
-  },
-  {
-    "id": "malaria-amazonas-2026-s44",
-    "patogeno": "Malaria",
-    "tipo": "parasito",
-    "departamento": "Amazonas",
-    "nivel": "bajo",
-    "casos": 145,
-    "esperado": 290,
-    "resumen": "Confirmado por fuente oficial (INS · BES semana 42). 145 casos en las últimas 4 semanas frente a 290 esperados; 2033 en lo que va del año.",
-    "fecha_deteccion": "2026-10-28",
-    "municipios": [],
-    "fuentes": [
-      {
-        "nombre": "Prensa",
-        "tipo": "temprana",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQy1HdGpvanpOT2Z2TWQ0cVFXNDRZMFkzb2NvTWRYcDVQRjU1MFZLS0hOZlhaaUtWOWRCc21tQjFWcWVDTlg2LTE0eEhpUFlYSDViM0N4empJTExrSkdZcEh1WEFmM2xsZGR2aWY3V0psQkp4QzlBb1EzWWkxcXFxdDR3clFWd3NZbzFIOWg3b3ZQangxUXBTd3E1T2ZWek5hVnF4REFUa0UyVDZaTU5yZVRyWFJ6dUNKVlE?oc=5",
-        "fecha": "2026-10-27"
       },
       {
         "nombre": "INS · BES semana 42",
